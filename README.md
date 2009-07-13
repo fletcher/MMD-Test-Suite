@@ -38,15 +38,9 @@ scripts. They will look for MultiMarkdown in one of the "common" installation
 locations and run the tests automatically.
 
 I have also included the original `Tests` directory, which are the original
-versions created by John Gruber. Note that 7 of these tests will fail when run
-by MultiMarkdown. This is due to the metadata issue mentioned above, as well
-as the fact that the `Inline HTML (Advanced)` test contains input that is
-incorrectly arranged, and will correctly cause a failure when run against
-Markdown or MultiMarkdown. I do not know if John has plans to adjust the
-handling of HTML blocks within Markdown to correct for this failure, but I
-suspect not.
-
-Again, the `Inline HTML (Advanced)` test *should* fail.
+versions created by John Gruber. Note that some of these tests will fail when
+run by MultiMarkdown. This is due in part to some of the first lines being
+treated as metadata.
 
 Also, if you leave off the `--tidy` option, the `Tidyness` test will fail for
 both MultiMarkdown and Markdown.
