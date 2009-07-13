@@ -1,0 +1,3 @@
+#!/bin/tcsh
+
+./MarkdownTest.pl --script ~/bin/MultiMarkdown.pl --testdir MultiMarkdownTests 
