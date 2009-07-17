@@ -15,7 +15,7 @@ And more	  |			   And more			||
 
 Table with no headers
 
- ------------ | :-----------: | -----------: |
+ :------------ | :-----------: | -----------: |
 Content       |          *Long Cell*   		||
 Content       |   **Cell**    |         Cell |
 
