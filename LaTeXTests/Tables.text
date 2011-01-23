@@ -1,0 +1,36 @@
+latex input:		mmd-article-header
+Title:				MultiMarkdown Table Test  
+latex input:		mmd-article-begin-doc
+latex footer:		mmd-memoir-footer
+
+
+[Prototype table caption][Prototype table]
+|            |             Grouping             ||
+First Header |    Second Header   | Third Header |
+| ---------- | :----------------: | -----------: |
+Content      |           *Long Cell*            ||
+Content      |      **Cell**      |         Cell |
+
+New section  |        More        |         Data |
+And more     | With an escaped '\|'             ||
+[Prototype table caption][Prototype table]
+
+
+And this is a link to the [Prototype table].
+
+
+And now a table with only a caption.
+
+
+[Prototype table caption][Prototype table]
+|            |             Grouping             ||
+First Header |    Second Header   | Third Header |
+| ---------- | :----------------: | -----------: |
+Content      |           *Long Cell*            ||
+Content      |      **Cell**      |         Cell |
+
+New section  |        More        |         Data |
+And more     | With an escaped '\|'             ||
+[Caption but no label]
+
+And a link to the second [table][Caption but no label].

@@ -1,0 +1,7 @@
+Title:			This should be the title
+Author:			This should be the author
+latex input:	inputthisfile
+bibtex:			bibliographyfile
+date:			January 1, 2011
+
+And this should be the main text.

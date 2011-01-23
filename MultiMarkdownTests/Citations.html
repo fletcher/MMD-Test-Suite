@@ -1,41 +1,53 @@
-<p>Handle MultiMarkdown-style citations.</p>
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta name="latexinput" content="mmd-article-header"/>
+	<title>MultiMarkdown Citation Test  </title>
+	<link type="text/css" rel="stylesheet" href="http://fletcherpenney.net/css/document.css  "/>
+	<meta name="bibtex" content="fake"/>
+	<meta name="latexinput" content="mmd-article-begin-doc"/>
+	<meta name="latexfooter" content="mmd-memoir-footer"/>
+</head>
+<body>
+<p>This is a test of citations<a class="citation" href="#fn:1" title="Jump to citation">[1]</a> for<a href="#fn:2" id="fnref:2" title="see footnote" class="footnote">[2]</a> MultiMarkdown<a class="citation" href="#fn:3" title="Jump to citation">[3]</a>.</p>
 
-<p>This is a borrowed idea<span class="markdowncitation"> (<a href="#Doe:1996" title="see citation">1</a>, <span class="locator">p. 23</span>)</span>.</p>
+<p>And an unlisted citation[#Author:1988].</p>
 
-<blockquote>
-  <p>This is a cited blockquote without a page reference.<span class="markdowncitation"> (<a href="#Smith:2005" title="see citation">2</a>)</span>.</p>
-</blockquote>
+<p>And now some repeats&hellip;<a href="#fn:4" id="fnref:4" title="see footnote" class="footnote">[4]</a></p>
 
-<p>And a plain paragraph.</p>
+<p>This is a test of citations<a class="citation" href="#fn:1" title="Jump to citation">[p. 123, 1]</a> for MultiMarkdown<a class="citation" href="#fn:3" title="Jump to citation">[3]</a>.</p>
 
-<p>And a code block that is not a citation:</p>
+<p>And an unlisted citation[#Author:1988].</p>
 
-<pre><code>This is not a citation[p. 5][#Doe:1996].</code></pre>
+<p>Empty locator.<a class="citation" href="#fn:1" title="Jump to citation">[1]</a></p>
 
-<p>And a work by Johnson that is not cited, but should be included in bibliography:
-<span class="notcited" id="Johnson:1996"/></p>
+<p>Consecutive citations.<a class="citation" href="#fn:1" title="Jump to citation">[1]</a><a class="citation" href="#fn:3" title="Jump to citation">[3]</a></p>
 
-<p>And multiple citations.<span class="markdowncitation"> (<a href="#Doe:1996" title="see citation">1</a>, <span class="locator">p. 3</span>)</span><span class="markdowncitation"> (<a href="#Smith:2005" title="see citation">2</a>, <span class="locator">p. 10</span>)</span></p>
-
-<p>How about a citation within a footnote? <a href="#fn:footcite" id="fnref:footcite" title="see footnote" class="footnote">1</a></p>
+<p>Consecutive citations.<a class="citation" href="#fn:1" title="Jump to citation">[1]</a><a class="citation" href="#fn:3" title="Jump to citation">[3]</a></p>
 
 <div class="footnotes">
 <hr />
 <ol>
 
-<li id="fn:footcite"><p>As described previously. <span class="markdowncitation"> (<a href="#Smith:2005" title="see citation">2</a>, <span class="locator">p. 12</span>)</span><a href="#fnref:footcite" title="return to article" class="reversefootnote">&#160;&#8617;</a></p></li>
+<li id="fn:1">
+<p>John Doe. <em>A Totally Fake Book</em>. Vanity Press, 2006.</p>
+</li>
+
+<li id="fn:2">
+<p>A footnote for good measure.</p> <a href="#fnref:2" title="return to article" class="reversefootnote">&#160;&#8617;</a>
+</li>
+
+<li id="fn:3">
+<p>Jane Doe. <em>Another Totally Fake Book</em>. Vanity Press, 2008.</p>
+</li>
+
+<li id="fn:4">
+<p>And another footnote</p> <a href="#fnref:4" title="return to article" class="reversefootnote">&#160;&#8617;</a>
+</li>
 
 </ol>
 </div>
 
-<div class="bibliography">
-<hr />
-<p>Bibliography</p>
-
-<div id="Doe:1996"><p>[1] <span class="item">John Doe. <em>Some Book</em>. Blog Books, 1996.</span></p></div>
-
-<div id="Smith:2005"><p>[2] <span class="item">James Smith. Some interesting paper. <em>Some Journal</em>, 1(2): 101-123, 2005.</span></p></div>
-
-<div id="Johnson:1996"><p>[3] <span class="item">Bill Johnson. <em>Some Book</em>. Blog Books, 1996.</span></p></div>
-
-</div>
+</body>
+</html>

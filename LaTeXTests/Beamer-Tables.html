@@ -1,0 +1,72 @@
+\input{mmd-beamer-header}
+\def\mytitle{Test  }
+\def\latexmode{beamer}
+\def\theme{keynote-gradient}
+\input{mmd-beamer-begin-doc}
+\begin{frame}
+
+\frametitle{Tables}
+\label{tables}
+
+
+\begin{table}[htbp]
+\begin{minipage}{\linewidth}
+\setlength{\tymax}{0.5\linewidth}
+\centering
+\small
+\begin{tabular}{@{}lcc@{}} \\ \toprule
+Features &MultiMarkdown &Crayons  \\
+\midrule
+Melts in warm places &No &Yes  \\
+Mistakes can be easily fixed &Yes &No  \\
+Easy to copy documents for friends &Yes &No  \\
+Fun at parties &No &Why not?  \\
+
+\bottomrule
+Minimum markup for maximum quality? &Yes &No  \\
+
+\bottomrule
+
+\end{tabular}
+\end{minipage}
+\end{table}
+
+
+\end{frame}
+
+
+
+\begin{frame}[fragile]
+
+\frametitle{The old way was complicated}
+\label{theoldwaywascomplicated}
+
+
+\begin{verbatim}
+
+<p>In order to create valid 
+<a href="http://en.wikipedia.org/wiki/HTML">HTML</a>, you 
+need properly coded syntax that can be cumbersome for 
+&#8220;non-programmers&#8221; to write. Sometimes, you
+just want to easily make certain words <strong>bold
+</strong>, and certain words <em>italicized</em> without
+having to remember the syntax. Additionally, for example,
+creating lists:</p>
+
+<ul>
+<li>should be easy</li>
+<li>should not involve programming</li>
+</ul>
+
+\end{verbatim}
+
+
+\end{frame}
+
+\mode<all>
+
+
+\input{mmd-beamer-footer}
+
+\end{document}\mode*
+

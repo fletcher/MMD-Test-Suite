@@ -1,0 +1,62 @@
+\input{mmd-article-header}
+\def\mytitle{MultiMarkdown Table Test  }
+\input{mmd-article-begin-doc}
+\begin{table}[htbp]
+\begin{minipage}{\linewidth}
+\setlength{\tymax}{0.5\linewidth}
+\centering
+\small
+\caption{Prototype table caption}
+\label{prototypetable}
+\begin{tabular}{@{}lcr@{}} \\ \toprule
+&\multicolumn{2}{c}{Grouping } \\
+First Header &Second Header &Third Header  \\
+\midrule
+Content &\multicolumn{2}{c}{{\itshape Long Cell} } \\
+Content &\textbf{Cell} &Cell  \\
+
+\bottomrule
+New section &More &Data  \\
+And more &\multicolumn{2}{c}{With an escaped `\textbar{}' } \\
+
+\bottomrule
+
+\end{tabular}
+\end{minipage}
+\end{table}
+
+
+And this is a link to the Prototype table (\autoref{prototypetable}).
+
+And now a table with only a caption.
+
+\begin{table}[htbp]
+\begin{minipage}{\linewidth}
+\setlength{\tymax}{0.5\linewidth}
+\centering
+\small
+\caption{Caption but no label}
+\label{captionbutnolabel}
+\begin{tabular}{@{}lcr@{}} \\ \toprule
+&\multicolumn{2}{c}{Grouping } \\
+First Header &Second Header &Third Header  \\
+\midrule
+Content &\multicolumn{2}{c}{{\itshape Long Cell} } \\
+Content &\textbf{Cell} &Cell  \\
+
+\bottomrule
+New section &More &Data  \\
+And more &\multicolumn{2}{c}{With an escaped `\textbar{}' } \\
+
+\bottomrule
+
+\end{tabular}
+\end{minipage}
+\end{table}
+
+
+And a link to the second table (\autoref{captionbutnolabel}).
+
+\input{mmd-memoir-footer}
+
+\end{document}

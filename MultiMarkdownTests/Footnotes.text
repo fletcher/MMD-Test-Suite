@@ -1,3 +1,5 @@
+Title:	MultiMarkdown Footer Test
+
 Here is some text containing a footnote.[^somesamplefootnote]
 
 
@@ -8,6 +10,8 @@ And this is a codeblock, that should not be a footnote:
 	This is code.[^somesamplefootnote]
 
 And this is a short footnote for testing.[^shortnote]
+
+And now, reuse a footnote.[^shortnote]
 
 [^somesamplefootnote]: Here is the text of the footnote itself. It also has a [link][somesamplefootnote].
 

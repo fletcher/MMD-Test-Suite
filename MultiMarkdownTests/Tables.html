@@ -1,90 +1,95 @@
-<p>And this should be a link to the <a href="#prototype" title="Prototype table">Prototype</a>.</p>
 
-<p>Table with nested headers</p>
 
 <table>
-<caption id="prototype">Prototype table</caption>
-<col />
-<col align="center" />
-<col align="right" />
+<caption id="prototypetable">Prototype table caption</caption>
+<col align="left"/>
+<col align="center"/>
+<col align="right"/>
+
 <thead>
 <tr>
-	<th> </th>
-	<th colspan="2">Grouping</th>
+	<th align="left"></th>
+	<th align="center" colspan="2">Grouping </th>
 </tr>
 <tr>
-	<th>First Header</th>
-	<th>Second Header</th>
-	<th>Third Header</th>
+	<th align="left">First Header </th>
+	<th align="center">Second Header </th>
+	<th align="right">Third Header </th>
 </tr>
 </thead>
+
 <tbody>
 <tr>
-	<td>Content</td>
-	<td colspan="2" align="center"><em>Long Cell</em></td>
+	<td align="left">Content </td>
+	<td align="center" colspan="2"><em>Long Cell</em> </td>
 </tr>
 <tr>
-	<td>Content</td>
-	<td align="center"><strong>Cell</strong></td>
-	<td align="right">Cell</td>
+	<td align="left">Content </td>
+	<td align="center"><strong>Cell</strong> </td>
+	<td align="right">Cell </td>
 </tr>
 </tbody>
 
 <tbody>
 <tr>
-	<td>New section</td>
-	<td align="center">More</td>
-	<td align="right">Data</td>
+	<td align="left">New section </td>
+	<td align="center">More </td>
+	<td align="right">Data </td>
 </tr>
 <tr>
-	<td>And more</td>
-	<td colspan="2" align="center">And more</td>
+	<td align="left">And more </td>
+	<td align="center" colspan="2">With an escaped &#8216;|&#8217; </td>
 </tr>
 </tbody>
 </table>
 
-<p>Table with no headers</p>
+
+<p>And this is a link to the <a href="#prototypetable">Prototype table</a>.</p>
+
+<p>And now a table with only a caption.</p>
 
 <table>
-<caption id="headerlesstable">Headerless table</caption>
-<col align="left" />
-<col align="center" />
-<col align="right" />
-<tbody>
+<caption id="captionbutnolabel">Caption but no label</caption>
+<col align="left"/>
+<col align="center"/>
+<col align="right"/>
+
+<thead>
 <tr>
-	<th align="left">Content</th>
-	<td colspan="2" align="center"><em>Long Cell</em></td>
+	<th align="left"></th>
+	<th align="center" colspan="2">Grouping </th>
 </tr>
 <tr>
-	<th align="left">Content</th>
-	<td align="center"><strong>Cell</strong></td>
-	<td align="right">Cell</td>
+	<th align="left">First Header </th>
+	<th align="center">Second Header </th>
+	<th align="right">Third Header </th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+	<td align="left">Content </td>
+	<td align="center" colspan="2"><em>Long Cell</em> </td>
+</tr>
+<tr>
+	<td align="left">Content </td>
+	<td align="center"><strong>Cell</strong> </td>
+	<td align="right">Cell </td>
 </tr>
 </tbody>
 
 <tbody>
 <tr>
-	<th align="left">New section</th>
-	<td align="center">More</td>
-	<td align="right">Data</td>
+	<td align="left">New section </td>
+	<td align="center">More </td>
+	<td align="right">Data </td>
 </tr>
 <tr>
-	<th align="left">And more</th>
-	<td colspan="2" align="center">And more</td>
-</tr>
-<tr>
-	<th align="left">And a link</th>
-	<td colspan="2" align="center"><a href="http://some.place.comm/">test link</a></td>
-</tr>
-<tr>
-	<th align="left">Cross Reference</th>
-	<td colspan="2" align="center"><a href="#testheader" title="Test Header">Test Header</a></td>
+	<td align="left">And more </td>
+	<td align="center" colspan="2">With an escaped &#8216;|&#8217; </td>
 </tr>
 </tbody>
 </table>
 
-<p>And this should be a link to the <a href="#prototype" title="Prototype table">Prototype</a>.</p>
 
-<h1 id="testheader">Test Header</h1>
-
-<p>This is a separate section.</p>
+<p>And a link to the second <a href="#captionbutnolabel">table</a>.</p>

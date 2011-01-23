@@ -1,0 +1,36 @@
+\input{mmd-article-header}
+\def\mytitle{MultiMarkdown Citation Test  }
+\def\bibliocommand{\bibliography{fake}}
+\input{mmd-article-begin-doc}
+This is a test of citations~\cite{first} for\footnote{A footnote for good measure.} MultiMarkdown~\cite{second}.
+
+And an unlisted citation~\cite{Author:1988}.
+
+And now some repeats{\ldots}\footnote{And another footnote}
+
+This is a test of citations~\cite[p. 123]{first} for MultiMarkdown~\cite{second}.
+
+And an unlisted citation~\cite{Author:1988}.
+
+Empty locator.~\cite{first}
+
+Consecutive citations.~\cite{first}~\cite{second}
+
+Consecutive citations.~\cite{first}~\cite{second}
+
+\begin{thebibliography}{0}
+
+\bibitem{first}
+John Doe. {\itshape A Totally Fake Book}. Vanity Press, 2006.
+
+
+\bibitem{second}
+Jane Doe. {\itshape Another Totally Fake Book}. Vanity Press, 2008.
+
+
+\end{thebibliography}
+
+
+\input{mmd-memoir-footer}
+
+\end{document}
