@@ -57,6 +57,58 @@ And more &\multicolumn{2}{c}{With an escaped `\textbar{}' } \\
 
 And a link to the second table (\autoref{captionbutnolabel}).
 
+And two tables in close proximity:
+
+\begin{table}[htbp]
+\begin{minipage}{\linewidth}
+\setlength{\tymax}{0.5\linewidth}
+\centering
+\small
+\caption{MultiMarkdown vs. Crayons}
+\label{multimarkdownvs.crayons}
+\begin{tabular}{@{}lcc@{}} \\ \toprule
+Features &MultiMarkdown &Crayons  \\
+\midrule
+Melts in warm places &No &Yes  \\
+Mistakes can be easily fixed &Yes &No  \\
+Easy to copy documents for friends &Yes &No  \\
+Fun at parties &No &Why not?  \\
+
+\bottomrule
+Minimum markup1 for maximum quality? &Yes &No  \\
+
+\bottomrule
+
+\end{tabular}
+\end{minipage}
+\end{table}
+
+
+\begin{table}[htbp]
+\begin{minipage}{\linewidth}
+\setlength{\tymax}{0.5\linewidth}
+\centering
+\small
+\caption{MultiMarkdown vs. Crayons2}
+\label{multimarkdownvs.crayons2}
+\begin{tabular}{@{}lcc@{}} \\ \toprule
+Features &MultiMarkdown &Crayons  \\
+\midrule
+Melts in warm places &No &Yes  \\
+Mistakes can be easily fixed &Yes &No  \\
+Easy to copy documents for friends &Yes &No  \\
+Fun at parties &No &Why not?  \\
+
+\bottomrule
+Minimum markup2 for maximum quality? &Yes &No  \\
+
+\bottomrule
+
+\end{tabular}
+\end{minipage}
+\end{table}
+
+
 \input{mmd-memoir-footer}
 
 \end{document}
