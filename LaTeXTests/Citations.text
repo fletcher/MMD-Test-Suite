@@ -21,6 +21,10 @@ Consecutive citations.[#first][#second]
 
 Consecutive citations.[#first][][#second][]
 
+An "improperly" formed citation.[][#second]
+
+And an "improper" sequence.[][#first][][#second]
+
 
 [#first]: John Doe. *A Totally Fake Book*.  Vanity Press, 2006.
 
