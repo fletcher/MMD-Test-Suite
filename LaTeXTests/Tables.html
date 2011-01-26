@@ -15,7 +15,7 @@ First Header &Second Header &Third Header  \\
 Content &\multicolumn{2}{c}{{\itshape Long Cell} } \\
 Content &\textbf{Cell} &Cell  \\
 
-\bottomrule
+\midrule
 New section &More &Data  \\
 And more &\multicolumn{2}{c}{With an escaped `\textbar{}' } \\
 
@@ -44,7 +44,7 @@ First Header &Second Header &Third Header  \\
 Content &\multicolumn{2}{c}{{\itshape Long Cell} } \\
 Content &\textbf{Cell} &Cell  \\
 
-\bottomrule
+\midrule
 New section &More &Data  \\
 And more &\multicolumn{2}{c}{With an escaped `\textbar{}' } \\
 
@@ -74,7 +74,7 @@ Mistakes can be easily fixed &Yes &No  \\
 Easy to copy documents for friends &Yes &No  \\
 Fun at parties &No &Why not?  \\
 
-\bottomrule
+\midrule
 Minimum markup1 for maximum quality? &Yes &No  \\
 
 \bottomrule
@@ -99,8 +99,27 @@ Mistakes can be easily fixed &Yes &No  \\
 Easy to copy documents for friends &Yes &No  \\
 Fun at parties &No &Why not?  \\
 
-\bottomrule
+\midrule
 Minimum markup2 for maximum quality? &Yes &No  \\
+
+\bottomrule
+
+\end{tabular}
+\end{minipage}
+\end{table}
+
+
+\begin{table}[htbp]
+\begin{minipage}{\linewidth}
+\setlength{\tymax}{0.5\linewidth}
+\centering
+\small
+\caption{Caption only}
+\label{captiononly}
+\begin{tabular}{@{}ll@{}} \\ \toprule
+Col 1 &Col 2 \\
+\midrule
+One &Two \\
 
 \bottomrule
 

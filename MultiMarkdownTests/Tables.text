@@ -4,7 +4,6 @@ latex input:		mmd-article-begin-doc
 latex footer:		mmd-memoir-footer
 
 
-[Prototype table caption][Prototype table]
 |            |             Grouping             ||
 First Header |    Second Header   | Third Header |
 | ---------- | :----------------: | -----------: |
@@ -22,7 +21,6 @@ And this is a link to the [Prototype table].
 And now a table with only a caption.
 
 
-[Prototype table caption][Prototype table]
 |            |             Grouping             ||
 First Header |    Second Header   | Third Header |
 | ---------- | :----------------: | -----------: |
@@ -56,4 +54,10 @@ Easy to copy documents for friends  |      Yes      |    No    |
 Fun at parties                      |  No | Why not? |
 
 Minimum markup2 for maximum quality? |      Yes      |    No    |
+
+
+[Caption only]
+Col 1 | Col 2
+----- | -----
+One   | Two
 
