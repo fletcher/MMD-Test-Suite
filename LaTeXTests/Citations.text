@@ -26,9 +26,14 @@ An "improperly" formed citation.[][#second]
 And an "improper" sequence.[][#first][][#second]
 
 
+[not cited][#third]
+
+
 [#first]: John Doe. *A Totally Fake Book*.  Vanity Press, 2006.
 
 [#second]: Jane Doe. *Another Totally Fake Book*.  Vanity Press, 2008.
+
+[#third]: Jim Doe. *Yet Another Fake Book*. Vanity Press, 2010.
 
 [^note]: A footnote for good measure.
 
