@@ -7,13 +7,15 @@ latex footer:		mmd-memoir-footer
 
 This is a test of citations[#first] for[^note] MultiMarkdown[#second].
 
-And an unlisted citation[#Author:1988].
+And an unlisted citation.[#Author:1988]
 
 And now some repeats...[^note2]
 
 This is a test of citations[p. 123][#first] for MultiMarkdown[#second].
 
 And an unlisted citation[#Author:1988].
+
+Unlisted with locator.[test][#Author:1988]
 
 Empty locator.[#first][]
 
