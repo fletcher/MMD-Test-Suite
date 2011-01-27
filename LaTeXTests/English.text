@@ -1,6 +1,6 @@
 latex input:	mmd-article-header
 Title:			MultiMarkdown English Test  
-language:		english
+quoteslanguage:		english
 latex input:	mmd-article-begin-doc
 latex footer:	mmd-memoir-footer
 
