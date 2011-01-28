@@ -10,3 +10,22 @@ And [the link][link], [link] , and [][link] again.
 [link]: http://path.to/link.html "Some Link" class=external
         style="border: solid black 1px;"
 
+
+Test various identifiers:
+
+[link-a]
+
+[link-1]
+
+[link--2]
+
+[link--a]
+
+[link---1]
+
+
+[link-a]: http://path.to/link-a.html
+[link-1]: http://path.to/link-1.html
+[link--a]: http://path.to/link--a.html
+[link--2]: http://path.to/link--2.html
+[link---1]: http://path.to/link---1.html
