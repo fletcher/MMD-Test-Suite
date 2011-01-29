@@ -34,10 +34,10 @@ It's also linked to from within the source repository for MMD 3.0.
 
 # How To Use #
 
-To use this software, simply run:
+To use this software, simply run (for example):
 
-	./MarkdownTest.pl --script ~/path/to/MultiMarkdown.pl --tidy
-		--testdir MultiMarkdownTests
+	./MarkdownTest.pl --script=~/path/to/MultiMarkdown.pl --tidy
+		--testdir=MultiMarkdownTests --ext=".tex" --Flags="-t latex"
 
 
 I have modified the script to allow a `--Flags` extension that passes the flags to the script that is called.  This can be used to pass flags to the script to enable compatibility mode, or LaTeX output, or whatever.
