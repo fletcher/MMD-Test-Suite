@@ -1,4 +1,8 @@
 Title:			This should be a <title> element
+Author:			This should be the author
+latex input:	inputthisfile
+bibtex:			bibliographyfile
+date:			January 1, 2011
 CSS:			http://fletcherpenney.net/css/document.css
 empty metadata:	
 XHTML HEADER:	<meta name="testing" 

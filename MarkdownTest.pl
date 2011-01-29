@@ -21,13 +21,15 @@ my $script  = "./Markdown.pl";
 my $use_tidy = 0;
 my ($flag_version);
 my $flags = "";
+my $file_ext = "\.html";
 
 GetOptions (
 			"script=s"   => \$script,
 			"testdir=s"  => \$test_dir,
 			"tidy"       => \$use_tidy,
 			"version"    => \$flag_version,
-			"flags=s"	=> \$flags,
+			"flags=s"	 => \$flags,
+			"ext=s"		 => \$file_ext,
 			);
 
 if($flag_version) {
@@ -51,7 +53,7 @@ foreach my $testfile (glob "$test_dir/*.text") {
 
 	# Look for a corresponding .html file for each .text file:
 	my $resultfile = $testfile;
-	$resultfile =~ s{\.text$}{\.html}i;
+	$resultfile =~ s{\.text$}{$file_ext}i;
 	unless (-f $resultfile) {
 		print "'$resultfile' does not exist.\n\n";
 		next TEST;
