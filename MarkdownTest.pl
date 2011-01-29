@@ -22,6 +22,7 @@ my $use_tidy = 0;
 my ($flag_version);
 my $flags = "";
 my $file_ext = "\.html";
+my $trail = "";
 
 GetOptions (
 			"script=s"   => \$script,
@@ -30,6 +31,7 @@ GetOptions (
 			"version"    => \$flag_version,
 			"flags=s"	 => \$flags,
 			"ext=s"		 => \$file_ext,
+			"trailflags=s" => \$trail,
 			);
 
 if($flag_version) {
@@ -65,7 +67,7 @@ foreach my $testfile (glob "$test_dir/*.text") {
 	# my $t_input = <TEST>;
 	my $t_result = <RESULT>;
 
-	my $t_output = `'$script' $flags '$testfile'`;
+	my $t_output = `'$script' $flags '$testfile' $trail`;
 
 	# Normalize the output and expected result strings:
 	$t_result =~ s/\s+\z//; # trim trailing whitespace

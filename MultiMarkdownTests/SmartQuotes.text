@@ -1,3 +1,8 @@
+latex input:		mmd-article-header  
+Title:				SmartQuotes Test  
+latex input:		mmd-article-begin-doc  
+latex footer:		mmd-memoir-footer  
+
 Some rather complicated tests for smart quotes with non-ascii input.
 
 l'année l'année
