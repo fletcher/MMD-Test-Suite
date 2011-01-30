@@ -1,4 +1,7 @@
-Title:	MultiMarkdown Footer Test
+latex input:	mmd-article-header  
+Title:			MultiMarkdown Footer Test  
+latex input:	mmd-article-begin-doc  
+latex footer:	mmd-memoir-footer  
 
 Here is some text containing a footnote.[^somesamplefootnote]
 
