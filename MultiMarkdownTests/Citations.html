@@ -10,52 +10,49 @@
 	<meta name="latexfooter" content="mmd-memoir-footer"/>
 </head>
 <body>
-<p>This is a test of citations<a class="citation" href="#fn:1" title="Jump to citation">[1]</a> for<a href="#fn:2" id="fnref:2" title="see footnote" class="footnote">[2]</a> MultiMarkdown<a class="citation" href="#fn:3" title="Jump to citation">[3]</a>.</p>
+<p>This is a test of citations<a class="citation" href="#fn:1" title="Jump to citation">[1]<span class="citekey" style="display:none">first</span></a> for<a href="#fn:2" id="fnref:2" title="see footnote" class="footnote">[2]</a> MultiMarkdown<a class="citation" href="#fn:3" title="Jump to citation">[3]<span class="citekey" style="display:none">second</span></a>.</p>
 
 <p>And an unlisted citation.<span class="externalcitation">[#Author:1988]</span>.</p>
 
 <p>And now some repeats&#8230;<a href="#fn:4" id="fnref:4" title="see footnote" class="footnote">[4]</a></p>
 
-<p>This is a test of citations<a class="citation" href="#fn:1" title="Jump to citation">[p. 123, 1]</a> for MultiMarkdown<a class="citation" href="#fn:3" title="Jump to citation">[3]</a>.</p>
+<p>This is a test of citations<a class="citation" href="#fn:1" title="Jump to citation">[<span class="locator">p. 123</span>, 1]<span class="citekey" style="display:none">first</span></a> for MultiMarkdown<a class="citation" href="#fn:3" title="Jump to citation">[3]<span class="citekey" style="display:none">second</span></a>.</p>
 
 <p>And an unlisted citation<span class="externalcitation">[#Author:1988]</span>.</p>
 
 <p>Unlisted with locator.<span class="externalcitation">[test][#Author:1988]</span></p>
 
-<p>Empty locator.<a class="citation" href="#fn:1" title="Jump to citation">[1]</a></p>
+<p>Empty locator.<a class="citation" href="#fn:1" title="Jump to citation">[1]<span class="citekey" style="display:none">first</span></a></p>
 
-<p>Consecutive citations.<a class="citation" href="#fn:1" title="Jump to citation">[1]</a><a class="citation" href="#fn:3" title="Jump to citation">[3]</a></p>
+<p>Consecutive citations.<a class="citation" href="#fn:1" title="Jump to citation">[1]<span class="citekey" style="display:none">first</span></a><a class="citation" href="#fn:3" title="Jump to citation">[3]<span class="citekey" style="display:none">second</span></a></p>
 
-<p>Consecutive citations.<a class="citation" href="#fn:1" title="Jump to citation">[1]</a><a class="citation" href="#fn:3" title="Jump to citation">[3]</a></p>
+<p>Consecutive citations.<a class="citation" href="#fn:1" title="Jump to citation">[1]<span class="citekey" style="display:none">first</span></a><a class="citation" href="#fn:3" title="Jump to citation">[3]<span class="citekey" style="display:none">second</span></a></p>
 
-<p>An &#8220;improperly&#8221; formed citation.<a class="citation" href="#fn:3" title="Jump to citation">[3]</a></p>
+<p>An &#8220;improperly&#8221; formed citation.<a class="citation" href="#fn:3" title="Jump to citation">[3]<span class="citekey" style="display:none">second</span></a></p>
 
-<p>And an &#8220;improper&#8221; sequence.<a class="citation" href="#fn:1" title="Jump to citation">[1]</a><a class="citation" href="#fn:3" title="Jump to citation">[3]</a></p>
+<p>And an &#8220;improper&#8221; sequence.<a class="citation" href="#fn:1" title="Jump to citation">[1]<span class="citekey" style="display:none">first</span></a><a class="citation" href="#fn:3" title="Jump to citation">[3]<span class="citekey" style="display:none">second</span></a></p>
 
-<p><span class="notcited" id="5"/></p>
+<p><span class="notcited" id="5"><span class="citekey" style="display:none">third</span></span></p>
 
 <div class="footnotes">
 <hr />
 <ol>
 
-<li id="fn:1">
-<p>John Doe. <em>A Totally Fake Book</em>. Vanity Press, 2006.</p>
+<li id="fn:1" class="citation"><span class="citekey" style="display:none">first</span><p>John Doe. <em>A Totally Fake Book</em>. Vanity Press, 2006.</p>
 </li>
 
 <li id="fn:2">
 <p>A footnote for good measure.</p> <a href="#fnref:2" title="return to article" class="reversefootnote">&#160;&#8617;</a>
 </li>
 
-<li id="fn:3">
-<p>Jane Doe. <em>Another Totally Fake Book</em>. Vanity Press, 2008.</p>
+<li id="fn:3" class="citation"><span class="citekey" style="display:none">second</span><p>Jane Doe. <em>Another Totally Fake Book</em>. Vanity Press, 2008.</p>
 </li>
 
 <li id="fn:4">
 <p>And another footnote</p> <a href="#fnref:4" title="return to article" class="reversefootnote">&#160;&#8617;</a>
 </li>
 
-<li id="fn:5">
-<p>Jim Doe. <em>Yet Another Fake Book</em>. Vanity Press, 2010.</p>
+<li id="fn:5" class="citation"><span class="citekey" style="display:none">third</span><p>Jim Doe. <em>Yet Another Fake Book</em>. Vanity Press, 2010.</p>
 </li>
 
 </ol>
