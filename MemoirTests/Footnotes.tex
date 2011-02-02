@@ -1,0 +1,27 @@
+\input{mmd-article-header  }
+\def\mytitle{MultiMarkdown Footer Test  }
+\def\latexmode{memoir}
+\input{mmd-article-begin-doc  }
+Here is some text containing a footnote.\footnote{Here is the text of the footnote itself. It also has a \href{http://somelink.com}{link}\footnote{\href{http://somelink.com}{http:\slash \slash somelink.com}}.}
+
+\begin{quote}
+And here is a footnote within a blockquote, should be labelled \#2.\footnote{Note \# 2.}
+\end{quote}
+
+And this is a codeblock, that should not be a footnote:
+
+\begin{adjustwidth}{2.5em}{2.5em}
+\begin{verbatim}
+
+This is code.[^somesamplefootnote]
+
+\end{verbatim}
+\end{adjustwidth}
+
+And this is a short footnote for testing.\footnote{Finis}
+
+And now, reuse a footnote.\footnote{Finis}
+
+\input{mmd-memoir-footer  }
+
+\end{document}

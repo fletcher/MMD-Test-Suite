@@ -1,0 +1,30 @@
+\input{mmd-article-header}
+\def\mytitle{MultiMarkdown Glossary Test  }
+\def\latexmode{memoir}
+\input{mmd-article-begin-doc}
+MultiMarkdown has a special format for footnotes that should represent
+glossary terms. This doesn't make much difference in XHTML (because there is
+no such thing as a glossary in XHTML), but can be used to generate a glossary
+within LaTeX documents.
+
+For example, let's have an entry for \texttt{glossary}.\newglossaryentry{Glossary }{name={Glossary },description={A section at the end {\ldots}}}\glsadd{Glossary } And what about
+ampersands?\newglossaryentry{& }{sort={ampersand},name={\& },description={A punctuation mark {\ldots}}}\glsadd{& }
+
+Since we want the ampersand entry to be sorted with the a's, and not with
+symbols, we put in the optional sort key \texttt{ampersand} to control sorting.
+
+\begin{adjustwidth}{2.5em}{2.5em}
+\begin{verbatim}
+
+[^glossary]: glossary: Glossary 
+    A section at the end ...
+
+[^amp]: glossary: & (ampersand)
+    A punctuation mark ...
+
+\end{verbatim}
+\end{adjustwidth}
+
+\input{mmd-memoir-footer}
+
+\end{document}

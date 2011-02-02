@@ -1,0 +1,59 @@
+\input{mmd-article-header  }
+\def\mytitle{Email Test  }
+\def\latexmode{memoir}
+\input{mmd-article-begin-doc  }
+Link: \href{mailto:user67@example.com}{user67@example.com}.
+
+\begin{itemize}
+\item In a list?
+
+\item \href{mailto:user67@example.com}{user67@example.com}
+
+\item It should.
+
+\end{itemize}
+
+\begin{quote}
+Blockquoted: \href{mailto:user67@example.com}{user67@example.com}
+\end{quote}
+
+Auto-links should not occur here: \texttt{$<$user67@example.com$>$}
+
+\begin{adjustwidth}{2.5em}{2.5em}
+\begin{verbatim}
+
+or here: <user67@example.com>
+
+\end{verbatim}
+\end{adjustwidth}
+
+And with the mailto bit:
+
+Link: \href{mailto:user67@example.com}{user67@example.com}.
+
+\begin{itemize}
+\item In a list?
+
+\item \href{mailto:user67@example.com}{user67@example.com}
+
+\item It should.
+
+\end{itemize}
+
+\begin{quote}
+Blockquoted: \href{mailto:user67@example.com}{user67@example.com}
+\end{quote}
+
+Auto-links should not occur here: \texttt{$<$mailto:user67@example.com$>$}
+
+\begin{adjustwidth}{2.5em}{2.5em}
+\begin{verbatim}
+
+or here: <mailto:user67@example.com>
+
+\end{verbatim}
+\end{adjustwidth}
+
+\input{mmd-memoir-footer  }
+
+\end{document}

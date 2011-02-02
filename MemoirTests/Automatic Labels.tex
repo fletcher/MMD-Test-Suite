@@ -1,0 +1,48 @@
+\input{mmd-article-header}
+\def\mytitle{MultiMarkdown Autoreference Test  }
+\def\latexmode{memoir}
+\input{mmd-article-begin-doc}
+\chapter{109\&\^{}*\&\#\^{}() Must Start With Alpha}
+\label{muststartwithalpha}
+
+\chapter{Strip out \&\^{}\% characters \^{}\&*\^{}}
+\label{stripoutcharacters}
+
+\chapter{Special Cross Reference Cases}
+\label{specialcrossreferencecases}
+
+\section{1 Cross-References: Special Characters!@\#\$\%\^{}\&*()$<$$>$}
+\label{cross-references:specialcharacters}
+
+And now, link to 1 Cross-References: Special Characters!@\#\$\%\^{}\&*()$<$$>$ (\autoref{cross-references:specialcharacters})
+
+\chapter{Setext 1}
+\label{setext1}
+
+\section{Setext 2}
+\label{setext2}
+
+\chapter{Atx 1}
+\label{atx1}
+
+Link to Setext 1 (\autoref{setext1}).
+
+And Setext 2 (\autoref{setext2}).
+
+And Atx 1 (\autoref{atx1}).
+
+And [Atx 2] should fail.
+
+\chapter{Manual Header}
+\label{label}
+
+\chapter{Manual Header 2}
+\label{label2}
+
+\section{Manual Header 3}
+\label{label3}
+
+
+\input{mmd-memoir-footer}
+
+\end{document}

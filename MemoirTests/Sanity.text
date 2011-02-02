@@ -1,0 +1,78 @@
+latex input:	mmd-article-header  
+Title:			MultiMarkdown Sanity Test  
+quoteslanguage:	english  
+latex mode:		memoir
+latex input:	mmd-article-begin-doc  
+latex footer:	mmd-memoir-footer  
+
+# Section #
+
+Sanity check by Jonathan Coulombe
+
+Reference to [Section]
+Citation[#Citation]
+Figure [figure]
+Table [table]
+Link [link]
+Nowhere [Nowhere]
+
+Reference to [][Section]
+Citation[][#Citation]
+<!--Figure [][figure]-->
+Table [][table]
+<!--Link [][link]-->
+Nowhere [][Nowhere]
+
+Reference to [Section][]
+Citation[#Citation][]
+Figure [figure][]
+Table [table][]
+Link [link][]
+Nowhere [Nowhere][]
+
+Reference to [option][Section]
+Citation[option][#Citation]
+Figure [option][figure]
+Table [option][table]
+Link [option][link]
+Nowhere [option][Nowhere]
+
+Reference to [Section][option]
+Citation[#Citation][option]
+Figure [figure][option]
+Table [table][option]
+Link [link][option]
+Nowhere [Nowhere][option]
+
+Reference to [Section](Section)
+Citation[#Citation](Citation)
+Figure [figure](figure)
+Table [table](table)
+Link [link](link)
+Nowhere [Nowhere](nowhere)
+
+<!--Reference to [](Section)-->
+<!--Citation[](Citation)-->
+<!--Figure [](figure)-->
+<!--Table [](table)-->
+<!--Link [](link)-->
+<!--Nowhere [](nowhere)-->
+
+Reference to [](#Section)
+Citation[](#Citation)
+Figure [](#figure)
+Table [](#table)
+Link [](#link)
+Nowhere [](#nowhere)
+
+
+![figure][]
+
+[figure]: file.png
+
+[table]
+| a | b |
+|---|---|
+| x | y |
+
+[link]: www.com

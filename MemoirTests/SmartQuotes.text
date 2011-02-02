@@ -1,0 +1,19 @@
+latex input:		mmd-article-header  
+Title:				SmartQuotes Test  
+latex mode:			memoir
+latex input:		mmd-article-begin-doc  
+latex footer:		mmd-memoir-footer  
+
+Some rather complicated tests for smart quotes with non-ascii input.
+
+l'année l'année
+
+l'été l'année
+
+l'été l'été
+
+l'année l'été
+
+"Smart" 'quote'
+
+An escaped '|'

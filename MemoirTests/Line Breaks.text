@@ -1,0 +1,16 @@
+latex input:	mmd-article-header  
+Title:			Line Break Test  
+latex mode:		memoir
+latex input:	mmd-article-begin-doc  
+latex footer:	mmd-memoir-footer  
+
+
+This is a paragraph.
+This is the same paragraph.
+
+New paragraph.  
+Second line in same paragraph.
+
+New paragraph.  
+Second line in same paragraph with linebreak at end.  
+
