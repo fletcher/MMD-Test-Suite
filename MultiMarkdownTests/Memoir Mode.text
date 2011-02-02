@@ -1,5 +1,5 @@
 latex input:	mmd-article-header  
-Title:			Line Break Test  
+Title:			Memoir Output Test  
 latex mode:		memoir  
 latex input:	mmd-article-begin-doc  
 latex footer:	mmd-memoir-footer  
