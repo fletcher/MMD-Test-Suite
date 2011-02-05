@@ -1,0 +1,99 @@
+\input{mmd-article-header  }
+\def\mytitle{MultiMarkdown Sanity Test  }
+\input{mmd-article-begin-doc  }
+\section{Section}
+\label{section}
+
+
+Sanity check by Jonathan Coulombe
+
+Reference to Section (\autoref{section})
+Citation~\cite{Citation}
+Figure \href{file.png}{figure}\footnote{\href{file.png}{file.png}}
+Table table (\autoref{table})
+Link \href{www.com}{link}\footnote{\href{www.com}{www.com}}
+Nowhere [Nowhere]
+
+Reference to \autoref{section}
+Citation~\cite{Citation}
+Figure [][figure]
+Table \autoref{table}
+Link [][link]
+Nowhere [][Nowhere]
+
+Reference to Section (\autoref{section})
+Citation~\cite{Citation}
+Figure \href{file.png}{figure}\footnote{\href{file.png}{file.png}}
+Table table (\autoref{table})
+Link \href{www.com}{link}\footnote{\href{www.com}{www.com}}
+Nowhere [Nowhere][]
+
+Reference to option (\autoref{section})
+Citation~\cite[option]{Citation}
+Figure \href{file.png}{option}\footnote{\href{file.png}{file.png}}
+Table option (\autoref{table})
+Link \href{www.com}{option}\footnote{\href{www.com}{www.com}}
+Nowhere [option][Nowhere]
+
+Reference to [Section][option]
+Citation~\cite{Citation}[option]
+Figure [figure][option]
+Table [table][option]
+Link [link][option]
+Nowhere [Nowhere][option]
+
+Reference to \href{Section}{Section}
+Citation~\cite{Citation}(Citation)
+Figure \href{figure}{figure}
+Table \href{table}{table}
+Link \href{link}{link}
+Nowhere \href{nowhere}{Nowhere}\footnote{\href{nowhere}{nowhere}}
+
+Reference to [](Section)
+
+Citation[](Citation)
+
+Figure [](figure)
+
+Table [](table)
+
+Link [](link)
+
+Nowhere [](nowhere)
+
+Reference to \autoref{section}
+Citation\autoref{citation}
+Figure \autoref{figure}
+Table \autoref{table}
+Link \autoref{link}
+Nowhere \autoref{nowhere}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[keepaspectratio,width=\textwidth,height=0.75\textheight]{file.png}
+\label{figure}
+\end{figure}
+
+
+\begin{table}[htbp]
+\begin{minipage}{\linewidth}
+\setlength{\tymax}{0.5\linewidth}
+\centering
+\small
+\caption{table}
+\label{table}
+\begin{tabular}{@{}ll@{}} \toprule
+a&b\\
+\midrule
+x&y\\
+
+\bottomrule
+
+\end{tabular}
+\end{minipage}
+\end{table}
+
+
+\input{mmd-memoir-footer  }
+
+\end{document}
