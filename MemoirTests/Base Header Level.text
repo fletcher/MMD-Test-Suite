@@ -10,5 +10,7 @@ latex footer:		mmd-memoir-footer
 ## This should be h3 ##
 
 
-###### This should be h6 ######
+##### This should be h6 #####
+
+###### This should be h6 in HTML h7 in LaTeX ######
 

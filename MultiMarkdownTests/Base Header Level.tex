@@ -1,17 +1,18 @@
 \input{mmd-article-header}
 \def\mytitle{MultiMarkdown Base Header Level Test  }
+\def\latexmode{memoir}
 \input{mmd-article-begin-doc}
-\subsection{This should be h2}
+\chapter{This should be h2}
 \label{thisshouldbeh2}
 
-
-\subsubsection{This should be h3}
+\section{This should be h3}
 \label{thisshouldbeh3}
 
-
-\noindent\textbf{This should be h6}
+\paragraph{This should be h6}
 \label{thisshouldbeh6}
 
+\subparagraph{This should be h6 in HTML h7 in LaTeX}
+\label{thisshouldbeh6inhtmlh7inlatex}
 
 \input{mmd-memoir-footer}
 
