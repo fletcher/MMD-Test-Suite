@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta name="latexinput" content="mmd-article-header"/>
+	<title>MultiMarkdown Autoreference Test</title>
+	<meta name="latexmode" content="memoir"/>
+	<meta name="latexinput" content="mmd-article-begin-doc"/>
+	<meta name="latexfooter" content="mmd-memoir-footer"/>
+</head>
+<body>
+<h2 id="muststartwithalpha">109&amp;^*&amp;#^() Must Start With Alpha</h2>
+
+<h2 id="stripoutcharacters">Strip out &amp;^% characters ^&amp;*^</h2>
+
+<h2 id="specialcrossreferencecases">Special Cross Reference Cases</h2>
+
+<h3 id="cross-references:specialcharacters">1 Cross-References: Special Characters!@#$%^&amp;*()&lt;&gt;</h3>
+
+<p>And now, link to <a href="#cross-references:specialcharacters">1 Cross-References: Special Characters!@#$%^&amp;*()&lt;&gt;</a></p>
+
+<h2 id="setext1">Setext 1</h2>
+
+<h3 id="setext2">Setext 2</h3>
+
+<h2 id="atx1">Atx 1</h2>
+
+<p>Link to <a href="#setext1">Setext 1</a>.</p>
+
+<p>And <a href="#setext2">Setext 2</a>.</p>
+
+<p>And <a href="#atx1">Atx 1</a>.</p>
+
+<p>And [Atx 2] should fail.</p>
+
+<h2 id="label">Manual Header</h2>
+
+<h2 id="label2">Manual Header 2</h2>
+
+<h3 id="label3">Manual Header 3</h3>
+</body>
+</html>

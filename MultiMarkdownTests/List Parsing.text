@@ -1,3 +1,8 @@
+latex input:	mmd-article-header  
+Title:			MMD List Parsing Test  
+latex input:	mmd-article-begin-doc  
+latex footer:	mmd-memoir-footer  
+
 - Item 1
 
 	Second paragraph of item 1.

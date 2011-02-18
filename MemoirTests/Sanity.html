@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta name="latexinput" content="mmd-article-header"/>
+	<title>MultiMarkdown Sanity Test</title>
+	<meta name="latexmode" content="memoir"/>
+	<meta name="latexinput" content="mmd-article-begin-doc"/>
+	<meta name="latexfooter" content="mmd-memoir-footer"/>
+</head>
+<body>
+<h1 id="section">Section</h1>
+
+<p>Sanity check by Jonathan Coulombe</p>
+
+<p>Reference to <a href="#section">Section</a>
+Citation<span class="externalcitation">[#Citation]</span>
+Figure <a href="file.png">figure</a>
+Table <a href="#table">table</a>
+Link <a href="www.com">link</a>
+Nowhere [Nowhere]</p>
+
+<p>Reference to <a href="#section"></a>
+Citation<span class="externalcitation">[#Citation]</span>
+<!--Figure [][figure]-->
+Table <a href="#table"></a>
+<!--Link [][link]-->
+Nowhere [][Nowhere]</p>
+
+<p>Reference to <a href="#section">Section</a>
+Citation<span class="externalcitation">[#Citation]</span>
+Figure <a href="file.png">figure</a>
+Table <a href="#table">table</a>
+Link <a href="www.com">link</a>
+Nowhere [Nowhere][]</p>
+
+<p>Reference to <a href="#section">option</a>
+Citation<span class="externalcitation">[option][#Citation]</span>
+Figure <a href="file.png">option</a>
+Table <a href="#table">option</a>
+Link <a href="www.com">option</a>
+Nowhere [option][Nowhere]</p>
+
+<p>Reference to [Section][option]
+Citation<span class="externalcitation">[#Citation]</span>[option]
+Figure [figure][option]
+Table [table][option]
+Link [link][option]
+Nowhere [Nowhere][option]</p>
+
+<p>Reference to <a href="Section">Section</a>
+Citation<span class="externalcitation">[#Citation]</span>(Citation)
+Figure <a href="figure">figure</a>
+Table <a href="table">table</a>
+Link <a href="link">link</a>
+Nowhere <a href="nowhere">Nowhere</a></p>
+
+<!--Reference to [](Section)-->
+
+<!--Citation[](Citation)-->
+
+<!--Figure [](figure)-->
+
+<!--Table [](table)-->
+
+<!--Link [](link)-->
+
+<!--Nowhere [](nowhere)-->
+
+<p>Reference to <a href="#Section"></a>
+Citation<a href="#Citation"></a>
+Figure <a href="#figure"></a>
+Table <a href="#table"></a>
+Link <a href="#link"></a>
+Nowhere <a href="#nowhere"></a></p>
+
+<p><img src="file.png" id="figure" alt="figure" /></p>
+
+<table>
+<caption id="table">table</caption>
+<col align="left"/>
+<col align="left"/>
+
+<thead>
+<tr>
+	<th align="left">a</th>
+	<th align="left">b</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+	<td align="left">x</td>
+	<td align="left">y</td>
+</tr>
+</tbody>
+</table>
+
+</body>
+</html>
