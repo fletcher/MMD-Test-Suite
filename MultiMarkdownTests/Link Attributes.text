@@ -43,3 +43,8 @@ Test various identifiers:
 [link--a]: http://path.to/link--a.html
 [link--2]: http://path.to/link--2.html
 [link---1]: http://path.to/link---1.html
+
+
+Test link and markup ![and *this* but not **that**][image-attr]
+
+[image-attr]: http://path.to/image "Test *this* and **this**"
