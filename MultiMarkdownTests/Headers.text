@@ -1,0 +1,34 @@
+latex input:		mmd-article-header  
+Title:				MultiMarkdown Headers Test  
+latex mode:			memoir  
+Base Header Level:	2  
+latex input:		mmd-article-begin-doc  
+latex footer:		mmd-memoir-footer  
+
+## Normal Header ##
+
+
+plain text
+
+Normal Header with trailing space 
+---------------------------------
+
+Normal Header with trailing space 
+=================================
+
+plain text
+
+## Header with [Link](http://www.google.com) ##
+
+plain text
+
+
+Header with [Link](http://www.google.com)
+-----------------------------------------
+
+and more plain text
+
+Header with [Link](http://www.google.com) and space 
+---------------------------------------------------
+
+and more plain text

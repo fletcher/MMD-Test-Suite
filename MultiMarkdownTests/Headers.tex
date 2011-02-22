@@ -1,0 +1,35 @@
+\input{mmd-article-header}
+\def\mytitle{MultiMarkdown Headers Test}
+\def\latexmode{memoir}
+\input{mmd-article-begin-doc}
+\section{Normal Header}
+\label{normalheader}
+
+plain text
+
+\section{Normal Header with trailing space}
+\label{normalheaderwithtrailingspace}
+
+\chapter{Normal Header with trailing space}
+\label{normalheaderwithtrailingspace}
+
+plain text
+
+\section{Header with \href{http://www.google.com}{Link}\footnote{\href{http://www.google.com}{http:\slash \slash www.google.com}}}
+\label{headerwithlink}
+
+plain text
+
+\section{Header with \href{http://www.google.com}{Link}\footnote{\href{http://www.google.com}{http:\slash \slash www.google.com}}}
+\label{headerwithlink}
+
+and more plain text
+
+\section{Header with \href{http://www.google.com}{Link}\footnote{\href{http://www.google.com}{http:\slash \slash www.google.com}} and space}
+\label{headerwithlinkandspace}
+
+and more plain text
+
+\input{mmd-memoir-footer}
+
+\end{document}
