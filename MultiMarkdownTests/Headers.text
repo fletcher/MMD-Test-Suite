@@ -32,3 +32,20 @@ Header with [Link](http://www.google.com) and space
 ---------------------------------------------------
 
 and more plain text
+
+
+The following should still be detected as headers:
+
+# Broken label [ sdsd [ #
+
+## Test Header 2 and [label] ##
+
+## Two labels [label] [label2] ##
+
+So that was actually interpreted as unresolved reference link
+
+## Reference link not label [label] [label1] ##
+
+## Link [not label](http://example.net/) ##
+
+[label1]: http://example.com/

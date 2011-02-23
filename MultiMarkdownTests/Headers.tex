@@ -30,6 +30,22 @@ and more plain text
 
 and more plain text
 
+The following should still be detected as headers:
+
+\chapter{Broken label}
+\label{}
+
+\section{Two labels [label][label2]}
+\label{}
+
+So that was actually interpreted as unresolved reference link
+
+\section{Reference link not label \href{http://example.com/}{label}\footnote{\href{http://example.com/}{http:\slash \slash example.com\slash }}}
+\label{referencelinknotlabellabel}
+
+\section{Link \href{http://example.net/}{not label}\footnote{\href{http://example.net/}{http:\slash \slash example.net\slash }}}
+\label{linknotlabel}
+
 \input{mmd-memoir-footer}
 
 \end{document}
