@@ -15,17 +15,17 @@ plain text
 
 plain text
 
-\section{Header with \href{http://www.google.com}{Link}\footnote{\href{http://www.google.com}{http:\slash \slash www.google.com}}}
+\section{Header with \href{http://www.google.com}{Link}}
 \label{headerwithlink}
 
 plain text
 
-\section{Header with \href{http://www.google.com}{Link}\footnote{\href{http://www.google.com}{http:\slash \slash www.google.com}}}
+\section{Header with \href{http://www.google.com}{Link}}
 \label{headerwithlink}
 
 and more plain text
 
-\section{Header with \href{http://www.google.com}{Link}\footnote{\href{http://www.google.com}{http:\slash \slash www.google.com}} and space}
+\section{Header with \href{http://www.google.com}{Link} and space}
 \label{headerwithlinkandspace}
 
 and more plain text
@@ -36,14 +36,14 @@ The following should still be detected as headers:
 \label{}
 
 \section{Two labels [label][label2]}
-\label{}
+\label{0}
 
 So that was actually interpreted as unresolved reference link
 
-\section{Reference link not label \href{http://example.com/}{label}\footnote{\href{http://example.com/}{http:\slash \slash example.com\slash }}}
+\section{Reference link not label \href{http://example.com/}{label}}
 \label{referencelinknotlabellabel}
 
-\section{Link \href{http://example.net/}{not label}\footnote{\href{http://example.net/}{http:\slash \slash example.net\slash }}}
+\section{Link \href{http://example.net/}{not label}}
 \label{linknotlabel}
 
 \input{mmd-memoir-footer}
