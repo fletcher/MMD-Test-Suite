@@ -3,27 +3,27 @@
 \def\bibliocommand{\bibliography{fake}}
 \def\latexmode{memoir}
 \input{mmd-article-begin-doc}
-This is a test of citations~\cite{first} for\footnote{A footnote for good measure.} MultiMarkdown~\cite{second}.
+This is a test of citations~\citep{first} for\footnote{A footnote for good measure.} MultiMarkdown~\citep{second}.
 
-And an unlisted citation.~\cite{Author:1988}.
+And an unlisted citation.~\citep{Author:1988}.
 
 And now some repeats{\ldots}\footnote{And another footnote}
 
-This is a test of citations~\cite[p. 123]{first} for MultiMarkdown~\cite{second}.
+This is a test of citations~\citep[p. 123]{first} for MultiMarkdown~\citep{second}.
 
-And an unlisted citation~\cite{Author:1988}.
+And an unlisted citation~\citep{Author:1988}.
 
-Unlisted with locator.~\cite[test]{Author:1988}
+Unlisted with locator.~\citep[test]{Author:1988}
 
-Empty locator.~\cite{first}
+Empty locator.~\citep{first}
 
-Consecutive citations.~\cite{first}~\cite{second}
+Consecutive citations.~\citep{first}~\citep{second}
 
-Consecutive citations.~\cite{first}~\cite{second}
+Consecutive citations.~\citep{first}~\citep{second}
 
-An ``improperly'' formed citation.~\cite{second}
+An ``improperly'' formed citation.~\citep{second}
 
-And an ``improper'' sequence.~\cite{first}~\cite{second}
+And an ``improper'' sequence.~\citep{first}~\citep{second}
 
 ~\nocite{third}
 
