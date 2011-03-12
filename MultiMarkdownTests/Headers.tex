@@ -32,13 +32,14 @@ and more plain text
 
 The following should still be detected as headers:
 
-\chapter{Broken label}
-\label{}
+\chapter{Broken label [ text [}
+\label{brokenlabeltext}
 
-\section{Two labels [label][label2]}
-\label{0}
+\section{Test Header 2 and}
+\label{label}
 
-So that was actually interpreted as unresolved reference link
+\section{Broken Reference Link [label][label2]}
+\label{brokenreferencelinklabellabel2}
 
 \section{Reference link not label \href{http://example.com/}{label}}
 \label{referencelinknotlabellabel}

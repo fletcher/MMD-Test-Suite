@@ -36,13 +36,11 @@ and more plain text
 
 The following should still be detected as headers:
 
-# Broken label [ sdsd [ #
+# Broken label [ text [ #
 
 ## Test Header 2 and [label] ##
 
-## Two labels [label] [label2] ##
-
-So that was actually interpreted as unresolved reference link
+## Broken Reference Link [label] [label2] ##
 
 ## Reference link not label [label] [label1] ##
 
