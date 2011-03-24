@@ -13,13 +13,15 @@ The files in `Tests` are the original test suite. They require MultiMarkdown
 to be run in compatibility mode (`multimarkdown -c`) and verify that it can
 match the original Markdown output.
 
-The files in `MultiMarkdownTests` are designed to test XHTML output from
-MultiMarkdown.
+The files in `MultiMarkdownTests` are designed to test XHTML and LaTeX output
+from MultiMarkdown.
 
-The files in `LaTeXTests` are designed to test LaTeX output from
-MultiMarkdown. The output files have the `.html` extension, but that's a
-remnant of the way the `MarkdownTest.pl` script runs --- the output is LaTeX,
-not XHTML.
+The files in `BeamerTests` specifically test a few features related to the
+`beamer` output mode.
+
+The files in `MemoirTests` specifically test a few features related to the
+`memoir` output mode.
+
 
 
 # Where can you get it? #
@@ -40,9 +42,12 @@ To use this software, simply run (for example):
 		--testdir=MultiMarkdownTests --ext=".tex" --Flags="-t latex"
 
 
-I have modified the script to allow a `--Flags` extension that passes the flags to the script that is called.  This can be used to pass flags to the script to enable compatibility mode, or LaTeX output, or whatever.
+I have modified the script to allow a `--Flags` extension that passes the
+flags to the script that is called. This can be used to pass flags to the
+script to enable compatibility mode, or LaTeX output, or whatever.
 
-
+Also, see the MMD 3.0 (aka peg-multimarkdown) Makefile to see examples of how
+I use this.
 
 # For More Information #
 
