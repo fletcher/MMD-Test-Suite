@@ -1,0 +1,10 @@
+latex input:	mmd-article-header  
+Title:			MultiMarkdown Error Test  
+latex input:	mmd-article-begin-doc  
+latex footer:	mmd-memoir-footer  
+
+This document contains a lot of "errors" - the output shouldn't match what was intended, but it shouldn't crash MMD.
+
+
+This is a missing link reference [some text][missing] and ![missing image][missing2].
+
