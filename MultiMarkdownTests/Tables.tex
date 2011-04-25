@@ -8,7 +8,7 @@
 \small
 \caption{Prototype table caption}
 \label{prototypetable}
-\begin{tabular}{@{}lcr@{}} \toprule
+\begin{tabulary}{\textwidth}{@{}lcr@{}} \toprule
 &\multicolumn{2}{c}{Grouping}\\
 First Header&Second Header&Third Header\\
 \midrule
@@ -21,7 +21,7 @@ And more&\multicolumn{2}{c}{With an escaped `\textbar{}'}\\
 
 \bottomrule
 
-\end{tabular}
+\end{tabulary}
 \end{minipage}
 \end{table}
 
@@ -37,7 +37,7 @@ And now a table with only a caption.
 \small
 \caption{Caption but no label}
 \label{captionbutnolabel}
-\begin{tabular}{@{}lcr@{}} \toprule
+\begin{tabulary}{\textwidth}{@{}lcr@{}} \toprule
 &\multicolumn{2}{c}{Grouping}\\
 First Header&Second Header&Third Header\\
 \midrule
@@ -50,7 +50,7 @@ And more&\multicolumn{2}{c}{With an escaped `\textbar{}'}\\
 
 \bottomrule
 
-\end{tabular}
+\end{tabulary}
 \end{minipage}
 \end{table}
 
@@ -66,7 +66,7 @@ And two tables in close proximity:
 \small
 \caption{MultiMarkdown vs. Crayons}
 \label{multimarkdownvs.crayons}
-\begin{tabular}{@{}lcc@{}} \toprule
+\begin{tabulary}{\textwidth}{@{}lcc@{}} \toprule
 Features&MultiMarkdown&Crayons\\
 \midrule
 Melts in warm places&No&Yes\\
@@ -79,7 +79,7 @@ Minimum markup1 for maximum quality?&Yes&No\\
 
 \bottomrule
 
-\end{tabular}
+\end{tabulary}
 \end{minipage}
 \end{table}
 
@@ -91,7 +91,7 @@ Minimum markup1 for maximum quality?&Yes&No\\
 \small
 \caption{MultiMarkdown vs. Crayons2}
 \label{multimarkdownvs.crayons2}
-\begin{tabular}{@{}lcc@{}} \toprule
+\begin{tabulary}{\textwidth}{@{}lcc@{}} \toprule
 Features&MultiMarkdown&Crayons\\
 \midrule
 Melts in warm places&No&Yes\\
@@ -104,7 +104,7 @@ Minimum markup2 for maximum quality?&Yes&No\\
 
 \bottomrule
 
-\end{tabular}
+\end{tabulary}
 \end{minipage}
 \end{table}
 
@@ -116,14 +116,36 @@ Minimum markup2 for maximum quality?&Yes&No\\
 \small
 \caption{Caption only}
 \label{captiononly}
-\begin{tabular}{@{}ll@{}} \toprule
+\begin{tabulary}{\textwidth}{@{}ll@{}} \toprule
 Col 1&Col 2\\
 \midrule
 One&Two \\
 
 \bottomrule
 
-\end{tabular}
+\end{tabulary}
+\end{minipage}
+\end{table}
+
+
+\begin{table}[htbp]
+\begin{minipage}{\linewidth}
+\setlength{\tymax}{0.5\linewidth}
+\centering
+\small
+\caption{Line Wrapping Test}
+\label{linewrappingtest}
+\begin{tabulary}{\textwidth}{@{}Lcc@{}} \toprule
+Long Cell&MultiMarkdown&Crayons\\
+\midrule
+Melts in warm places&No&Yes\\
+Mistakes can be easily fixed&Yes&No\\
+Easy to copy documents for friends with some extra words to try and force a line break in every output format to test the wrapping feature&Yes&No\\
+Fun at parties&No&Why not?\\
+
+\bottomrule
+
+\end{tabulary}
 \end{minipage}
 \end{table}
 

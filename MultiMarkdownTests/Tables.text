@@ -61,3 +61,11 @@ Col 1 | Col 2
 ----- | -----  
 One   | Two   
 
+
+[Line Wrapping Test]  
+| Long Cell                         | MultiMarkdown |  Crayons |  
+----------------------------------+ | :-----------: | :------: |  
+Melts in warm places                |       No      |    Yes   |  
+Mistakes can be easily fixed        |      Yes      |    No    |  
+Easy to copy documents for friends with some extra words to try and force a line break in every output format to test the wrapping feature  |      Yes      |    No    |  
+Fun at parties                      |  No           | Why not? |  
