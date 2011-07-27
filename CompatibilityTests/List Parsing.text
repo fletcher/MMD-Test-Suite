@@ -1,0 +1,11 @@
+latex input:	mmd-article-header  
+Title:			MMD List Parsing Test  
+latex input:	mmd-article-begin-doc  
+latex footer:	mmd-memoir-footer  
+
+- Item 1
+
+	Second paragraph of item 1.
+	The following blank line has 4 spaces.
+    
+Paragraph following the list that shouldn't be part of the list item.

@@ -1,0 +1,51 @@
+latex input:		mmd-article-header  
+Title:				Link Attributes Test  
+latex input:		mmd-article-begin-doc  
+latex footer:		mmd-memoir-footer  
+
+This is a formatted ![image][] and a [link][] with attributes.
+
+![image2]
+
+![image3]
+
+![image4]
+
+And [the link][link], [link] , and [][link] again.
+
+[link]
+
+[the link][link]
+
+[image]: http://path.to/image "Image title" width="40px" height="400px"
+[image2]: http://path.to/image "Image title" height="400px"
+[image3]: http://path.to/image "Image title" width="40px"
+[image4]: http://path.to/image "Image title"
+[link]: http://path.to/link.html "Some Link" class=external
+        style="border: solid black 1px;"
+
+
+Test various identifiers:
+
+[link-a]
+
+[link-1]
+
+[link--2]
+
+[link--a]
+
+[link---1]
+
+
+[link-a]: http://path.to/link-a.html
+[link-1]: http://path.to/link-1.html
+[link--a]: http://path.to/link--a.html
+[link--2]: http://path.to/link--2.html
+[link---1]: http://path.to/link---1.html
+
+
+Test link and markup ![and *this* but not **that**][image-attr]
+
+[image-attr]: http://path.to/image "Test *this* and **this**"
+

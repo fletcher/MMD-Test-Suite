@@ -1,0 +1,51 @@
+latex input:		mmd-article-header  
+Title:				MultiMarkdown Headers Test  
+latex mode:			memoir  
+Base Header Level:	2  
+latex input:		mmd-article-begin-doc  
+latex footer:		mmd-memoir-footer  
+
+## Normal Header ##
+
+
+plain text
+
+Normal Header with trailing space 
+---------------------------------
+
+Normal Header with trailing space 
+=================================
+
+plain text
+
+## Header with [Link](http://www.google.com) ##
+
+plain text
+
+
+Header with [Link](http://www.google.com)
+-----------------------------------------
+
+and more plain text
+
+Header with [Link](http://www.google.com) and space 
+---------------------------------------------------
+
+and more plain text
+
+
+The following should still be detected as headers:
+
+# Broken label [ text [ #
+
+## Test Header 2 and [label] ##
+
+## Broken Reference Link [label] [label2] ##
+
+## Reference link not label [label] [label1] ##
+
+## Link [not label](http://example.net/) ##
+
+[label1]: http://example.com/
+
+And link to [label2] and [label1] and [label].

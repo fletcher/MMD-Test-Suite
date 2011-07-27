@@ -1,0 +1,40 @@
+<p>latex input: mmd-article-header
+Title: MultiMarkdown Citation Test<br/>
+CSS: http://fletcherpenney.net/css/document.css<br/>
+BibTex: fake
+latex input: mmd-article-begin-doc
+latex footer: mmd-memoir-footer</p>
+
+<p>This is a test of citations[#first] for[^note] MultiMarkdown[#second].</p>
+
+<p>And an unlisted citation.[#Author:1988].</p>
+
+<p>And now some repeats...[^note2]</p>
+
+<p>This is a test of citations[p. 123][#first] for MultiMarkdown[#second].</p>
+
+<p>And an unlisted citation[#Author:1988].</p>
+
+<p>Unlisted with locator.[test][#Author:1988]</p>
+
+<p>Empty locator.[#first][]</p>
+
+<p>Consecutive citations.[#first][#second]</p>
+
+<p>Consecutive citations.[#first][][#second][]</p>
+
+<p>An &quot;improperly&quot; formed citation.[][#second]</p>
+
+<p>And an &quot;improper&quot; sequence.[][#first][][#second]</p>
+
+<p>[not cited][#third]</p>
+
+<p>[#first]: John Doe. <em>A Totally Fake Book</em>. Vanity Press, 2006.</p>
+
+<p>[#second]: Jane Doe. <em>Another Totally Fake Book</em>. Vanity Press, 2008.</p>
+
+<p>[#third]: Jim Doe. <em>Yet Another Fake Book</em>. Vanity Press, 2010.</p>
+
+<p>[^note]: A footnote for good measure.</p>
+
+<p>[^note2]: And another footnote</p>

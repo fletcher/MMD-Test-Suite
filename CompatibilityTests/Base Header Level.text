@@ -1,0 +1,16 @@
+latex input:		mmd-article-header
+Title:				MultiMarkdown Base Header Level Test  
+latex mode:			memoir
+Base Header Level:	2
+latex input:		mmd-article-begin-doc
+latex footer:		mmd-memoir-footer
+
+# This should be h2 #
+
+## This should be h3 ##
+
+
+##### This should be h6 #####
+
+###### This should be h6 in HTML h7 in LaTeX ######
+

@@ -1,0 +1,77 @@
+<p>latex input: mmd-article-header<br/>
+Title: MultiMarkdown Sanity Test<br/>
+quoteslanguage: english<br/>
+latex input: mmd-article-begin-doc<br/>
+latex footer: mmd-memoir-footer </p>
+
+<h1>Section</h1>
+
+<p>Sanity check by Jonathan Coulombe</p>
+
+<p>Reference to [Section]
+Citation[#Citation]
+Figure <a href="file.png">figure</a>
+Table [table]
+Link <a href="www.com">link</a>
+Nowhere [Nowhere]</p>
+
+<p>Reference to [][Section]
+Citation[][#Citation]
+<!--Figure [][figure]-->
+Table [][table]
+<!--Link [][link]-->
+Nowhere [][Nowhere]</p>
+
+<p>Reference to [Section][]
+Citation[#Citation][]
+Figure <a href="file.png">figure</a>
+Table [table][]
+Link <a href="www.com">link</a>
+Nowhere [Nowhere][]</p>
+
+<p>Reference to [option][Section]
+Citation[option][#Citation]
+Figure <a href="file.png">option</a>
+Table [option][table]
+Link <a href="www.com">option</a>
+Nowhere [option][Nowhere]</p>
+
+<p>Reference to [Section][option]
+Citation[#Citation][option]
+Figure [figure][option]
+Table [table][option]
+Link [link][option]
+Nowhere [Nowhere][option]</p>
+
+<p>Reference to <a href="Section">Section</a>
+Citation<a href="Citation">#Citation</a>
+Figure <a href="figure">figure</a>
+Table <a href="table">table</a>
+Link <a href="link">link</a>
+Nowhere <a href="nowhere">Nowhere</a></p>
+
+<!--Reference to [](Section)-->
+
+<!--Citation[](Citation)-->
+
+<!--Figure [](figure)-->
+
+<!--Table [](table)-->
+
+<!--Link [](link)-->
+
+<!--Nowhere [](nowhere)-->
+
+<p>Reference to <a href="#Section"></a>
+Citation<a href="#Citation"></a>
+Figure <a href="#figure"></a>
+Table <a href="#table"></a>
+Link <a href="#link"></a>
+Nowhere <a href="#nowhere"></a></p>
+
+<p><img src="file.png" alt="figure" /></p>
+
+<p>[table]
+| a | b |
+|---|---|
+| x | y |</p>
