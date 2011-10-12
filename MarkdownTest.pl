@@ -58,6 +58,7 @@ foreach my $testfile (glob "$test_dir/*.text") {
 	$resultfile =~ s{\.text$}{$file_ext}i;
 	unless (-f $resultfile) {
 		print "'$resultfile' does not exist.\n\n";
+		$tests_failed++;
 		next TEST;
 	}
 	
