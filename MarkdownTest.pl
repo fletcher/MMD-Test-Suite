@@ -87,15 +87,15 @@ foreach my $testfile (glob "$test_dir/*.text") {
 	else {
 		print "FAILED\n\n";
 # This part added by JM to print diffs
-        open(OUT, '>tmp1') or die $!;
-        print OUT $t_output or die $!;
-        open(RES, '>tmp2') or die $!;
-        print RES $t_result or die $!;
-        close RES;
-        close OUT;
-        print `diff tmp1 tmp2`;
-        print "\n";
-        `rm tmp?`;
+		open(OUT, '>tmp1') or die $!;
+		print OUT $t_output or die $!;
+		open(RES, '>tmp2') or die $!;
+		print RES $t_result or die $!;
+		close RES;
+		close OUT;
+		print `diff tmp1 tmp2`;
+		print "\n";
+		`rm tmp?`;
 # End of added part
 		$tests_failed++;
 	}
