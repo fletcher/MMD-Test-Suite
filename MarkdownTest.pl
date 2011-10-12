@@ -91,9 +91,9 @@ foreach my $testfile (glob "$test_dir/*.text") {
         print OUT $t_output or die $!;
         open(RES, '>tmp2') or die $!;
         print RES $t_result or die $!;
-        print `diff tmp1 tmp2`;
         close RES;
         close OUT;
+        print `diff tmp1 tmp2`;
         print "\n";
         `rm tmp?`;
 # End of added part
