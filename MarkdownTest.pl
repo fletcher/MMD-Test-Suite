@@ -58,6 +58,7 @@ foreach my $testfile (glob "$test_dir/*.text") {
 	$resultfile =~ s{\.text$}{$file_ext}i;
 	unless (-f $resultfile) {
 		print "'$resultfile' does not exist.\n\n";
+		$tests_failed++;
 		next TEST;
 	}
 	
@@ -77,7 +78,17 @@ foreach my $testfile (glob "$test_dir/*.text") {
 		$t_result =~ s{'}{'\\''}g; # escape ' chars for shell
 		$t_output =~ s{'}{'\\''}g;
 		$t_result = `echo '$t_result' | tidy --show-body-only 1 --quiet 1 --show-warnings 0`;
+		if ($?) {
+			print "'$testfile' running tidy failed.\n\n";
+			$tests_failed++;
+			next TEST;
+		}
 		$t_output = `echo '$t_output' | tidy --show-body-only 1 --quiet 1 --show-warnings 0`;
+		if ($?) {
+			print "'$testfile' running tidy failed.\n\n";
+			$tests_failed++;
+			next TEST;
+		}
 	}
 
 	if ($t_output eq $t_result) {
@@ -87,15 +98,15 @@ foreach my $testfile (glob "$test_dir/*.text") {
 	else {
 		print "FAILED\n\n";
 # This part added by JM to print diffs
-        open(OUT, '>tmp1') or die $!;
-        print OUT $t_output or die $!;
-        open(RES, '>tmp2') or die $!;
-        print RES $t_result or die $!;
-        print `diff tmp1 tmp2`;
-        close RES;
-        close OUT;
-        print "\n";
-        `rm tmp?`;
+		open(OUT, '>tmp1') or die $!;
+		print OUT $t_output or die $!;
+		open(RES, '>tmp2') or die $!;
+		print RES $t_result or die $!;
+		close RES;
+		close OUT;
+		print `diff tmp1 tmp2`;
+		print "\n";
+		`rm tmp?`;
 # End of added part
 		$tests_failed++;
 	}
@@ -107,6 +118,9 @@ print "$tests_passed passed; $tests_failed failed.\n";
 my $time_end = new Benchmark;
 my $time_diff = timediff($time_end, $time_start);
 print "Benchmark: ", timestr($time_diff), "\n";
+
+# Exit with non-zero exit code on failure
+exit $tests_failed > 0 ? 1 : 0;
 
 
 __END__
