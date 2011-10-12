@@ -78,7 +78,17 @@ foreach my $testfile (glob "$test_dir/*.text") {
 		$t_result =~ s{'}{'\\''}g; # escape ' chars for shell
 		$t_output =~ s{'}{'\\''}g;
 		$t_result = `echo '$t_result' | tidy --show-body-only 1 --quiet 1 --show-warnings 0`;
+		if ($?) {
+			print "'$testfile' running tidy failed.\n\n";
+			$tests_failed++;
+			next TEST;
+		}
 		$t_output = `echo '$t_output' | tidy --show-body-only 1 --quiet 1 --show-warnings 0`;
+		if ($?) {
+			print "'$testfile' running tidy failed.\n\n";
+			$tests_failed++;
+			next TEST;
+		}
 	}
 
 	if ($t_output eq $t_result) {
