@@ -4,5 +4,5 @@
 <body>
 <outline text="BibTeX" _note="This is a test of BibTeX Support.[#Knuth:1968]&#10;&#10;And a locator.[p. 123][#Knuth:1981]&#10;"></outline>
 <outline text="Metadata">
-<outline text="latexinput" _note="mmd-article-header"/><outline text="title" _note="MultiMarkdown BibTeX Test"/><outline text="bibtex" _note="bibtex"/><outline text="latexinput" _note="mmd-article-begin-doc"/><outline text="latexfooter" _note="mmd-memoir-footer"/></outline></body>
+<outline text="latex input" _note="mmd-article-header  "/><outline text="Title" _note="MultiMarkdown BibTeX Test"/><outline text="bibtex" _note="bibtex"/><outline text="latex input" _note="mmd-article-begin-doc"/><outline text="latexfooter" _note="mmd-memoir-footer"/></outline></body>
 </opml>

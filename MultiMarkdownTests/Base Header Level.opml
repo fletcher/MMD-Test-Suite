@@ -5,5 +5,5 @@
 <outline text="This should be h2" _note=""><outline text="This should be h3" _note=""></outline>
 </outline>
 <outline text="Metadata">
-<outline text="latexinput" _note="mmd-article-header"/><outline text="title" _note="MultiMarkdown Base Header Level Test"/><outline text="latexmode" _note="memoir"/><outline text="baseheaderlevel" _note="2"/><outline text="latexinput" _note="mmd-article-begin-doc"/><outline text="latexfooter" _note="mmd-memoir-footer"/></outline></body>
+<outline text="latex input" _note="mmd-article-header  "/><outline text="Title" _note="MultiMarkdown Base Header Level Test"/><outline text="latexmode" _note="memoir"/><outline text="Base Header Level" _note="2"/><outline text="latex input" _note="mmd-article-begin-doc"/><outline text="latexfooter" _note="mmd-memoir-footer"/></outline></body>
 </opml>
