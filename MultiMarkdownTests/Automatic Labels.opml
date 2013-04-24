@@ -13,5 +13,5 @@
 <outline text="Manual Header 2 [label2]" _note=""><outline text="Manual Header 3 [label3]" _note=""></outline>
 </outline>
 <outline text="Metadata">
-<outline text="latex input" _note="mmd-article-header  "/><outline text="Title" _note="MultiMarkdown Autoreference Test"/><outline text="Base Header Level" _note="2"/><outline text="latex input" _note="mmd-article-begin-doc  "/><outline text="latex footer" _note="mmd-memoir-footer  "/></outline></body>
+<outline text="latex input" _note="mmd-article-header"/><outline text="Title" _note="MultiMarkdown Autoreference Test  "/><outline text="Base Header Level" _note="2"/><outline text="latex input" _note="mmd-article-begin-doc"/><outline text="latex footer" _note="mmd-memoir-footer"/></outline></body>
 </opml>
