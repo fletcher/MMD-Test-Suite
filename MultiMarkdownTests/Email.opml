@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <opml version="1.0">
-<head><title>Email Test</title></head><body>
+<head><title>Email Test</title></head>
+<body>
 <outline text="Email" _note="Link: &lt;user67@example.com&gt;.&#10;&#10;* In a list?&#10;* &lt;user67@example.com&gt;&#10;* It should.&#10;&#10;&gt; Blockquoted: &lt;user67@example.com&gt;&#10;&#10;Auto-links should not occur here: `&lt;user67@example.com&gt;`&#10;&#10;    or here: &lt;user67@example.com&gt;&#10;&#10;And with the mailto bit:&#10;&#10;Link: &lt;mailto:user67@example.com&gt;.&#10;&#10;* In a list?&#10;* &lt;mailto:user67@example.com&gt;&#10;* It should.&#10;&#10;&gt; Blockquoted: &lt;mailto:user67@example.com&gt;&#10;&#10;Auto-links should not occur here: `&lt;mailto:user67@example.com&gt;`&#10;&#10;    or here: &lt;mailto:user67@example.com&gt;&#10;"></outline>
 <outline text="Metadata">
 <outline text="latexinput" _note="mmd-article-header"/><outline text="title" _note="Email Test"/><outline text="latexinput" _note="mmd-article-begin-doc"/><outline text="latexfooter" _note="mmd-memoir-footer"/></outline></body>

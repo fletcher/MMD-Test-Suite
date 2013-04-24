@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <opml version="1.0">
-<head><title>MultiMarkdown Autoreference Test</title></head><body>
+<head><title>MultiMarkdown Autoreference Test</title></head>
+<body>
 <outline text="109&amp;^*&amp;#^() Must Start With Alpha" _note=""></outline>
 <outline text="Strip out &amp;^% characters ^&amp;*^" _note=""></outline>
 <outline text="Special Cross Reference Cases" _note=""><outline text="1 Cross-References: Special Characters!@#$%^&amp;*()&lt;&gt;" _note="And now, link to [1 Cross-References: Special Characters!@#$%^&amp;*()&lt;&gt;][]&#10;"></outline>

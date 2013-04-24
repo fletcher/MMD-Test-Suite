@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <opml version="1.0">
-<head><title>MultiMarkdown Dutch Test</title></head><body>
+<head><title>MultiMarkdown Dutch Test</title></head>
+<body>
 <outline text="Dutch" _note="'this is a single quote'&#10;&#10;&quot;this is a double quote&quot;&#10;&#10;this isn't an apostrophe.&#10;&#10;this is an em --- dash&#10;&#10;this is an en -- dash&#10;&#10;and an ellipsis...&#10;"></outline>
 <outline text="Metadata">
 <outline text="latexinput" _note="mmd-article-header"/><outline text="title" _note="MultiMarkdown Dutch Test"/><outline text="quoteslanguage" _note="dutch"/><outline text="latexinput" _note="mmd-article-begin-doc"/><outline text="latexfooter" _note="mmd-memoir-footer"/></outline></body>

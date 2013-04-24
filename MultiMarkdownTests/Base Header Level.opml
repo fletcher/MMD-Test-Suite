@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <opml version="1.0">
-<head><title>MultiMarkdown Base Header Level Test</title></head><body>
+<head><title>MultiMarkdown Base Header Level Test</title></head>
+<body>
 <outline text="This should be h2" _note=""><outline text="This should be h3" _note=""></outline>
 </outline>
 <outline text="Metadata">

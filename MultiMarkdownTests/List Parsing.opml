@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <opml version="1.0">
-<head><title>MMD List Parsing Test</title></head><body>
+<head><title>MMD List Parsing Test</title></head>
+<body>
 <outline text="List Parsing" _note="- Item 1&#10;&#10;    Second paragraph of item 1.&#10;    The following blank line has 4 spaces.&#10;&#10;Paragraph following the list that shouldn't be part of the list item.&#10;"></outline>
 <outline text="Metadata">
 <outline text="latexinput" _note="mmd-article-header"/><outline text="title" _note="MMD List Parsing Test"/><outline text="latexinput" _note="mmd-article-begin-doc"/><outline text="latexfooter" _note="mmd-memoir-footer"/></outline></body>

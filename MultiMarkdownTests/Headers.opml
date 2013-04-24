@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <opml version="1.0">
-<head><title>MultiMarkdown Headers Test</title></head><body>
+<head><title>MultiMarkdown Headers Test</title></head>
+<body>
 <outline text="Normal Header" _note="plain text&#10;"></outline>
 <outline text="Normal Header with trailing space " _note=""></outline>
 <outline text="Normal Header with trailing space " _note="plain text&#10;"><outline text="Header with [Link](http://www.google.com)" _note="plain text&#10;"></outline>

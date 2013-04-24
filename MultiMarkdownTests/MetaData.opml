@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <opml version="1.0">
-<head><title>This should be a <title> element</title></head><body>
+<head><title>This should be a <title> element</title></head>
+<body>
 <outline text="MetaData" _note="And this should be the main text.&#10;"></outline>
 <outline text="Metadata">
 <outline text="latexinput" _note="mmd-article-header"/><outline text="title" _note="This should be a &lt;title&gt; element"/><outline text="author" _note="This should be the author"/><outline text="latexinput" _note="inputthisfile"/><outline text="bibtex" _note="bibliographyfile"/><outline text="date" _note="January 1, 2011"/><outline text="css" _note="http://fletcherpenney.net/css/document.css"/><outline text="emptymetadata" _note=""/><outline text="xhtmlheader" _note="&lt;meta name=&quot;testing&quot; &#10;content=&quot;This test should fail in LaTeX from XSLT&quot;/&gt;"/><outline text="latexinput" _note="mmd-article-begin-doc"/><outline text="latexfooter" _note="mmd-memoir-footer"/></outline></body>

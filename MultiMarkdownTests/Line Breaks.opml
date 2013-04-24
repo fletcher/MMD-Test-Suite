@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <opml version="1.0">
-<head><title>Line Break Test</title></head><body>
+<head><title>Line Break Test</title></head>
+<body>
 <outline text="Line Breaks" _note="This is a paragraph.&#10;This is the same paragraph.&#10;&#10;New paragraph.  &#10;Second line in same paragraph.&#10;&#10;New paragraph.  &#10;Second line in same paragraph with linebreak at end.  &#10;"></outline>
 <outline text="Metadata">
 <outline text="latexinput" _note="mmd-article-header"/><outline text="title" _note="Line Break Test"/><outline text="latexinput" _note="mmd-article-begin-doc"/><outline text="latexfooter" _note="mmd-memoir-footer"/></outline></body>
