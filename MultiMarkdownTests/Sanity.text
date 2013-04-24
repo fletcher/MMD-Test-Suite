@@ -1,5 +1,5 @@
 latex input:	mmd-article-header  
-Title:			MultiMarkdown Sanity Test  
+Title:	MultiMarkdown Sanity Test  
 quoteslanguage:	english  
 latex input:	mmd-article-begin-doc  
 latex footer:	mmd-memoir-footer  

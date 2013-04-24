@@ -1,6 +1,8 @@
 \input{mmd-article-header}
 \def\mytitle{MultiMarkdown Footer Test}
 \input{mmd-article-begin-doc}
+\part{Footnotes}
+\label{footnotes}
 
 Here is some text containing a footnote.\footnote{Here is the text of the footnote itself. It also has a \href{http://somelink.com}{link}\footnote{\href{http://somelink.com}{http:/\slash somelink.com}}.}
 
@@ -14,6 +16,7 @@ And this is a codeblock, that should not be a footnote:
 \begin{verbatim}
 This is code.[^somesamplefootnote]
 \end{verbatim}
+
 
 And this is a short footnote for testing.\footnote{Finis}
 

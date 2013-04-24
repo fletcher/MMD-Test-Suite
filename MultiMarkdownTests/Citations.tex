@@ -2,6 +2,8 @@
 \def\mytitle{MultiMarkdown Citation Test}
 \def\bibliocommand{\bibliography{fake}}
 \input{mmd-article-begin-doc}
+\part{Citations}
+\label{citations}
 
 This is a test of citations~\citep{first} for\footnote{A footnote for good measure.} MultiMarkdown~\citep{second}.
 
@@ -32,11 +34,14 @@ And an ``improper'' sequence.~\citep{first}~\citep{second}
 \bibitem{first}
 John Doe. \emph{A Totally Fake Book}. Vanity Press, 2006.
 
+
 \bibitem{second}
 Jane Doe. \emph{Another Totally Fake Book}. Vanity Press, 2008.
 
+
 \bibitem{third}
 Jim Doe. \emph{Yet Another Fake Book}. Vanity Press, 2010.
+
 
 \end{thebibliography}
 

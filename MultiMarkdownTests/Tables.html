@@ -9,6 +9,8 @@
 </head>
 <body>
 
+<h1 id="tables">Tables</h1>
+
 <table>
 <caption id="prototypetable">Prototype table caption</caption>
 <colgroup>
@@ -53,7 +55,6 @@
 </tr>
 </tbody>
 </table>
-
 <p>And this is a link to the <a href="#prototypetable">Prototype table</a>.</p>
 
 <p>And now a table with only a caption.</p>
@@ -69,7 +70,8 @@
 <thead>
 <tr>
 	<th style="text-align:left;"></th>
-	<th style="text-align:center;" colspan="2">Grouping</th>
+	<th style="text-align:center;">Grouping</th>
+	<th style="text-align:right;"></th>
 </tr>
 <tr>
 	<th style="text-align:left;">First Header</th>
@@ -81,7 +83,8 @@
 <tbody>
 <tr>
 	<td style="text-align:left;">Content</td>
-	<td style="text-align:center;" colspan="2"><em>Long Cell</em></td>
+	<td style="text-align:center;"><em>Long Cell</em></td>
+	<td style="text-align:right;"></td>
 </tr>
 <tr>
 	<td style="text-align:left;">Content</td>
@@ -98,11 +101,11 @@
 </tr>
 <tr>
 	<td style="text-align:left;">And more</td>
-	<td style="text-align:center;" colspan="2">With an escaped &#8216;|&#8217;</td>
+	<td style="text-align:center;">With an escaped &#8216;|&#8217;</td>
+	<td style="text-align:right;"></td>
 </tr>
 </tbody>
 </table>
-
 <p>And a link to the second <a href="#captionbutnolabel">table</a>.</p>
 
 <p>And two tables in close proximity:</p>
@@ -155,6 +158,7 @@
 </tbody>
 </table>
 
+
 <table>
 <caption id="multimarkdownvs.crayons2">MultiMarkdown vs. Crayons2</caption>
 <colgroup>
@@ -203,6 +207,7 @@
 </tbody>
 </table>
 
+
 <table>
 <caption id="captiononly">Caption only</caption>
 <colgroup>
@@ -224,6 +229,7 @@
 </tr>
 </tbody>
 </table>
+
 
 <table>
 <caption id="linewrappingtest">Line Wrapping Test</caption>
@@ -264,6 +270,7 @@
 </tr>
 </tbody>
 </table>
+
 
 </body>
 </html>

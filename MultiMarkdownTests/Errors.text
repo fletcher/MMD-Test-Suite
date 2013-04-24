@@ -1,7 +1,9 @@
 latex input:	mmd-article-header  
-Title:			MultiMarkdown Error Test  
+Title:	MultiMarkdown Error Test  
 latex input:	mmd-article-begin-doc  
 latex footer:	mmd-memoir-footer  
+
+# Errors #
 
 This document contains "errors" - the output shouldn't match what was
 intended, but it shouldn't crash MMD.

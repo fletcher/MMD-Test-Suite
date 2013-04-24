@@ -1,7 +1,9 @@
 latex input:	mmd-article-header
-Title:			MultiMarkdown Definition List Test  
+Title:	MultiMarkdown Definition List Test  
 latex input:	mmd-article-begin-doc
 latex footer:	mmd-memoir-footer
+
+# Definition Lists #
 
 Term 1
 Term 2

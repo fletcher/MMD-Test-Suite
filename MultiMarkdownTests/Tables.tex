@@ -1,6 +1,8 @@
 \input{mmd-article-header}
 \def\mytitle{MultiMarkdown Table Test}
 \input{mmd-article-begin-doc}
+\part{Tables}
+\label{tables}
 
 \begin{table}[htbp]
 \begin{minipage}{\linewidth}
@@ -26,6 +28,7 @@ And more&\multicolumn{2}{c}{With an escaped `\textbar{}'}\\
 \end{minipage}
 \end{table}
 
+
 And this is a link to the Prototype table (\autoref{prototypetable}).
 
 And now a table with only a caption.
@@ -38,21 +41,22 @@ And now a table with only a caption.
 \caption{Caption but no label}
 \label{captionbutnolabel}
 \begin{tabulary}{\textwidth}{@{}LCR@{}} \toprule
-&\multicolumn{2}{c}{Grouping}\\
+&Grouping&\\
 First Header&Second Header&Third Header\\
 \midrule
-Content&\multicolumn{2}{c}{\emph{Long Cell}}\\
+Content&\emph{Long Cell}&\\
 Content&\textbf{Cell}&Cell\\
 
 \midrule
 New section&More&Data\\
-And more&\multicolumn{2}{c}{With an escaped `\textbar{}'}\\
+And more&With an escaped `\textbar{}'&\\
 
 \bottomrule
 
 \end{tabulary}
 \end{minipage}
 \end{table}
+
 
 And a link to the second table (\autoref{captionbutnolabel}).
 
@@ -82,6 +86,7 @@ Minimum markup1 for maximum quality?&Yes&No\\
 \end{minipage}
 \end{table}
 
+
 \begin{table}[htbp]
 \begin{minipage}{\linewidth}
 \setlength{\tymax}{0.5\linewidth}
@@ -106,6 +111,7 @@ Minimum markup2 for maximum quality?&Yes&No\\
 \end{minipage}
 \end{table}
 
+
 \begin{table}[htbp]
 \begin{minipage}{\linewidth}
 \setlength{\tymax}{0.5\linewidth}
@@ -123,6 +129,7 @@ One&Two \\
 \end{tabulary}
 \end{minipage}
 \end{table}
+
 
 \begin{table}[htbp]
 \begin{minipage}{\linewidth}
@@ -144,6 +151,7 @@ Fun at parties&No&Why not?\\
 \end{tabulary}
 \end{minipage}
 \end{table}
+
 
 \input{mmd-memoir-footer}
 

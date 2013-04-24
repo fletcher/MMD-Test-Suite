@@ -1,8 +1,10 @@
 latex input:	mmd-article-header
-Title:			MultiMarkdown BibTeX Test  
-BibTeX:			bibtex
+Title:	MultiMarkdown BibTeX Test  
+BibTeX:	bibtex
 latex input:	mmd-article-begin-doc
 latex footer:	mmd-memoir-footer
+
+# BibTeX #
 
 This is a test of BibTeX Support.[#Knuth:1968]
 

@@ -1,9 +1,9 @@
-latex input:		mmd-article-header
-Title:				MultiMarkdown Base Header Level Test  
-latex mode:			memoir
+latex input:	mmd-article-header
+Title:	MultiMarkdown Base Header Level Test  
+latex mode:	memoir
 Base Header Level:	2
-latex input:		mmd-article-begin-doc
-latex footer:		mmd-memoir-footer
+latex input:	mmd-article-begin-doc
+latex footer:	mmd-memoir-footer
 
 # This should be h2 #
 

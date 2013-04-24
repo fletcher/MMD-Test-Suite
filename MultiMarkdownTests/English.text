@@ -1,8 +1,10 @@
 latex input:	mmd-article-header  
-Title:			MultiMarkdown English Test  
-quoteslanguage:		english  
+Title:	MultiMarkdown English Test  
+quoteslanguage:	english  
 latex input:	mmd-article-begin-doc  
 latex footer:	mmd-memoir-footer  
+
+# English #
 
 'this is a single quote'
 

@@ -1,8 +1,10 @@
 latex input:	mmd-article-header  
-Title:			MultiMarkdown Dutch Test  
+Title:	MultiMarkdown Dutch Test  
 quoteslanguage:	dutch  
 latex input:	mmd-article-begin-doc  
 latex footer:	mmd-memoir-footer  
+
+# Dutch #
 
 'this is a single quote'
 

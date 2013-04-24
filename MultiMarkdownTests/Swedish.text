@@ -1,8 +1,10 @@
 latex input:	mmd-article-header  
-Title:			MultiMarkdown Swedish Test  
+Title:	MultiMarkdown Swedish Test  
 quoteslanguage:	swedish  
 latex input:	mmd-article-begin-doc  
 latex footer:	mmd-memoir-footer  
+
+# Swedish #
 
 'this is a single quote'
 

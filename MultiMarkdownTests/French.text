@@ -1,8 +1,10 @@
 latex input:	mmd-article-header  
-Title:			MultiMarkdown French Test  
+Title:	MultiMarkdown French Test  
 quoteslanguage:	french  
 latex input:	mmd-article-begin-doc  
 latex footer:	mmd-memoir-footer  
+
+# French #
 
 'this is a single quote'
 

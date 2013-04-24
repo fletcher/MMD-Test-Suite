@@ -1,8 +1,10 @@
-latex input:		mmd-article-header
-Title:				MultiMarkdown Glossary Test  
-CSS:				http://fletcherpenney.net/css/document.css  
-latex input:		mmd-article-begin-doc
-latex footer:		mmd-memoir-footer
+latex input:	mmd-article-header
+Title:	MultiMarkdown Glossary Test  
+CSS:	http://fletcherpenney.net/css/document.css  
+latex input:	mmd-article-begin-doc
+latex footer:	mmd-memoir-footer
+
+# Glossary #
 
 MultiMarkdown has a special format for footnotes that should represent
 glossary terms. This doesn't make much difference in XHTML (because there is

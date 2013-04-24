@@ -1,8 +1,10 @@
 latex input:	mmd-article-header  
-Title:			MultiMarkdown German Guillemets Test  
+Title:	MultiMarkdown German Guillemets Test  
 quoteslanguage:	germanguillemets  
 latex input:	mmd-article-begin-doc  
 latex footer:	mmd-memoir-footer  
+
+# German Guillemets #
 
 'this is a single quote'
 

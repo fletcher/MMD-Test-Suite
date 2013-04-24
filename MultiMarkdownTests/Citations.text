@@ -1,9 +1,11 @@
-latex input:		mmd-article-header
-Title:				MultiMarkdown Citation Test  
-CSS:				http://fletcherpenney.net/css/document.css  
-BibTex:				fake
-latex input:		mmd-article-begin-doc
-latex footer:		mmd-memoir-footer
+latex input:	mmd-article-header
+Title:	MultiMarkdown Citation Test  
+CSS:	http://fletcherpenney.net/css/document.css  
+BibTex:	fake
+latex input:	mmd-article-begin-doc
+latex footer:	mmd-memoir-footer
+
+# Citations #
 
 This is a test of citations[#first] for[^note] MultiMarkdown[#second].
 
