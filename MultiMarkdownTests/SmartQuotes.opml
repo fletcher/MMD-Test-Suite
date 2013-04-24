@@ -4,5 +4,5 @@
 <body>
 <outline text="SmartQuotes" _note="Some rather complicated tests for smart quotes with non-ascii input.&#10;&#10;l'année l'année&#10;&#10;l'été l'année&#10;&#10;l'été l'été&#10;&#10;l'année l'été&#10;&#10;&quot;Smart&quot; 'quote'&#10;&#10;An escaped '|'&#10;&#10;Another test of smart '.quotes'&#10;&#10;And again &quot;.quotes&quot;&#10;"></outline>
 <outline text="Metadata">
-<outline text="latexinput" _note="mmd-article-header"/><outline text="title" _note="SmartQuotes Test"/><outline text="latexinput" _note="mmd-article-begin-doc"/><outline text="latexfooter" _note="mmd-memoir-footer"/></outline></body>
+<outline text="latex input" _note="mmd-article-header  "/><outline text="Title" _note="SmartQuotes Test  "/><outline text="latex input" _note="mmd-article-begin-doc  "/><outline text="latex footer" _note="mmd-memoir-footer  "/></outline></body>
 </opml>
