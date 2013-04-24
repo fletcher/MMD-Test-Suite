@@ -4,5 +4,5 @@
 <body>
 <outline text="Markdown Inside HTML" _note="&lt;div&gt;This is *not* Markdown **encoded**.&lt;/div&gt;&#10;&#10;&lt;div markdown=1&gt;This *is* Markdown **encoded**.&lt;/div&gt;&#10;&#10;&lt;div markdown=&quot;1&quot;&gt;This *is* Markdown **encoded**.&lt;/div&gt;&#10;&#10;&lt;div markdown = 1&gt;This *is* Markdown **encoded**.&lt;/div&gt;&#10;&#10;&lt;div markdown = &quot;1&quot;&gt;This *is* Markdown **encoded**.&lt;/div&gt;&#10;&#10;&lt;div markdown = &quot; 1 &quot; &gt;This *is* Markdown **encoded**.&lt;/div&gt;&#10;"></outline>
 <outline text="Metadata">
-<outline text="latex input" _note="mmd-article-header  "/><outline text="Title" _note="Markdown in HTML Test"/><outline text="latexmode" _note="memoir"/><outline text="Base Header Level" _note="2"/><outline text="latex input" _note="mmd-article-begin-doc"/><outline text="latexfooter" _note="mmd-memoir-footer"/></outline></body>
+<outline text="latex input" _note="mmd-article-header  "/><outline text="Title" _note="Markdown in HTML Test"/><outline text="latex mode" _note="memoir  "/><outline text="Base Header Level" _note="2"/><outline text="latex input" _note="mmd-article-begin-doc  "/><outline text="latex footer" _note="mmd-memoir-footer  "/></outline></body>
 </opml>

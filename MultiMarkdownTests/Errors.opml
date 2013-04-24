@@ -4,5 +4,5 @@
 <body>
 <outline text="Errors" _note="This document contains &quot;errors&quot; - the output shouldn't match what was&#10;intended, but it shouldn't crash MMD.&#10;&#10;This is a missing link reference [some text][missing] and ![missing image][missing2].&#10;"></outline>
 <outline text="Metadata">
-<outline text="latex input" _note="mmd-article-header  "/><outline text="Title" _note="MultiMarkdown Error Test"/><outline text="latex input" _note="mmd-article-begin-doc"/><outline text="latexfooter" _note="mmd-memoir-footer"/></outline></body>
+<outline text="latex input" _note="mmd-article-header  "/><outline text="Title" _note="MultiMarkdown Error Test"/><outline text="latex input" _note="mmd-article-begin-doc  "/><outline text="latex footer" _note="mmd-memoir-footer  "/></outline></body>
 </opml>

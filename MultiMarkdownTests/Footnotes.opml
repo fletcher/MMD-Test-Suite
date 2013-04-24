@@ -4,5 +4,5 @@
 <body>
 <outline text="Footnotes" _note="Here is some text containing a footnote.[^somesamplefootnote]&#10;&#10;&gt; And here is a footnote within a blockquote, should be labelled #2.[^secondnote]&#10;&#10;And this is a codeblock, that should not be a footnote:&#10;&#10;    This is code.[^somesamplefootnote]&#10;&#10;And this is a short footnote for testing.[^shortnote]&#10;&#10;And now, reuse a footnote.[^shortnote]&#10;&#10;[^somesamplefootnote]: Here is the text of the footnote itself. It also has a [link][somesamplefootnote].&#10;&#10;[somesamplefootnote]:http://somelink.com&#10;&#10;[^secondnote]: Note # 2.&#10;&#10;[^shortnote]: Finis&#10;"></outline>
 <outline text="Metadata">
-<outline text="latex input" _note="mmd-article-header  "/><outline text="Title" _note="MultiMarkdown Footer Test"/><outline text="latex input" _note="mmd-article-begin-doc"/><outline text="latexfooter" _note="mmd-memoir-footer"/></outline></body>
+<outline text="latex input" _note="mmd-article-header  "/><outline text="Title" _note="MultiMarkdown Footer Test"/><outline text="latex input" _note="mmd-article-begin-doc  "/><outline text="latex footer" _note="mmd-memoir-footer  "/></outline></body>
 </opml>
