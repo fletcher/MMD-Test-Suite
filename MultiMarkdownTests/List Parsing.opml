@@ -4,5 +4,5 @@
 <body>
 <outline text="List Parsing" _note="- Item 1&#10;&#10;    Second paragraph of item 1.&#10;    The following blank line has 4 spaces.&#10;&#10;Paragraph following the list that shouldn't be part of the list item.&#10;"></outline>
 <outline text="Metadata">
-<outline text="latex input" _note="mmd-article-header  "/><outline text="Title" _note="MMD List Parsing Test"/><outline text="latex input" _note="mmd-article-begin-doc  "/><outline text="latex footer" _note="mmd-memoir-footer  "/></outline></body>
+<outline text="latex input" _note="mmd-article-header  "/><outline text="Title" _note="MMD List Parsing Test  "/><outline text="latex input" _note="mmd-article-begin-doc  "/><outline text="latex footer" _note="mmd-memoir-footer  "/></outline></body>
 </opml>
