@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<opml version="1.0">
+<head><title>MultiMarkdown Autoreference Test</title></head><body>
+<outline text="109&amp;^*&amp;#^() Must Start With Alpha" _note=""></outline>
+<outline text="Strip out &amp;^% characters ^&amp;*^" _note=""></outline>
+<outline text="Special Cross Reference Cases" _note=""><outline text="1 Cross-References: Special Characters!@#$%^&amp;*()&lt;&gt;" _note="And now, link to [1 Cross-References: Special Characters!@#$%^&amp;*()&lt;&gt;][]&#10;"></outline>
+</outline>
+<outline text="Setext 1" _note=""><outline text="Setext 2" _note=""></outline>
+</outline>
+<outline text="Atx 1" _note="Link to [Setext 1].&#10;&#10;And [Setext 2].&#10;&#10;And [Atx 1].&#10;&#10;And [Atx 2] should fail.&#10;"></outline>
+<outline text="Manual Header [label]" _note=""></outline>
+<outline text="Manual Header 2 [label2]" _note=""><outline text="Manual Header 3 [label3]" _note=""></outline>
+</outline>
+<outline text="Metadata">
+<outline text="latexinput" _note="mmd-article-header"/><outline text="title" _note="MultiMarkdown Autoreference Test"/><outline text="baseheaderlevel" _note="2"/><outline text="latexinput" _note="mmd-article-begin-doc"/><outline text="latexfooter" _note="mmd-memoir-footer"/></outline></body>
+</opml>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<opml version="1.0">
+<head><title>MultiMarkdown Headers Test</title></head><body>
+<outline text="Normal Header" _note="plain text&#10;"></outline>
+<outline text="Normal Header with trailing space " _note=""></outline>
+<outline text="Normal Header with trailing space " _note="plain text&#10;"><outline text="Header with [Link](http://www.google.com)" _note="plain text&#10;"></outline>
+<outline text="Header with [Link](http://www.google.com)" _note="and more plain text&#10;"></outline>
+<outline text="Header with [Link](http://www.google.com) and space " _note="and more plain text&#10;&#10;The following should still be detected as headers:&#10;"></outline>
+</outline>
+<outline text="Broken label [ text [" _note=""><outline text="Test Header 2 and [label]" _note=""></outline>
+<outline text="Broken Reference Link [label] [label2]" _note=""></outline>
+<outline text="Reference link not label [label] [label1]" _note=""></outline>
+<outline text="Link [not label](http://example.net/)" _note="[label1]: http://example.com/&#10;&#10;And link to [label2] and [label1] and [label].&#10;"></outline>
+</outline>
+<outline text="Metadata">
+<outline text="latexinput" _note="mmd-article-header"/><outline text="title" _note="MultiMarkdown Headers Test"/><outline text="latexmode" _note="memoir"/><outline text="baseheaderlevel" _note="2"/><outline text="latexinput" _note="mmd-article-begin-doc"/><outline text="latexfooter" _note="mmd-memoir-footer"/></outline></body>
+</opml>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<opml version="1.0">
+<body>
+http://www.example.net/&#10;<outline text="Not MetaData" _note="This should not be treated as metadata.&#10;"></outline>
+</body>
+</opml>
