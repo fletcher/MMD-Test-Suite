@@ -142,15 +142,11 @@
 </text:list-style>
 <office:meta>
 <dc:title>This should be a &lt;title&gt; element</dc:title>
-<meta:user-defined meta:name="author">This should be the author</meta:user-defined>
+<meta:user-defined meta:name="Author">This should be the author</meta:user-defined>
 <meta:user-defined meta:name="bibtex">bibliographyfile</meta:user-defined>
 <meta:user-defined meta:name="date">January 1, 2011</meta:user-defined>
-<meta:user-defined meta:name="emptymetadata"></meta:user-defined>
+<meta:user-defined meta:name="empty metadata"></meta:user-defined>
 </office:meta>
 <office:body>
 <office:text>
 <text:h text:outline-level="1"><text:bookmark text:name="metadata"/>MetaData<text:bookmark-end text:name="metadata"/></text:h>
-<text:p text:style-name="Standard">And this should be the main text.</text:p>
-</office:text>
-</office:body>
-</office:document>

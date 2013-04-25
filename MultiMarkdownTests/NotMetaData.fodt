@@ -143,7 +143,9 @@
 <office:body>
 <office:text>
 <text:p text:style-name="Standard">http://www.example.net/</text:p>
+
 <text:h text:outline-level="1"><text:bookmark text:name="notmetadata"/>Not MetaData<text:bookmark-end text:name="notmetadata"/></text:h>
+
 <text:p text:style-name="Standard">This should not be treated as metadata.</text:p>
 </office:text>
 </office:body>

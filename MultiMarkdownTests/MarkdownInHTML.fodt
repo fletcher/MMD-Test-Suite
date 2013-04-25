@@ -146,6 +146,7 @@
 <office:body>
 <office:text>
 <text:h text:outline-level="2"><text:bookmark text:name="markdowninsidehtml"/>Markdown Inside HTML<text:bookmark-end text:name="markdowninsidehtml"/></text:h>
-This <text:span text:style-name="MMD-Italic">is</text:span> Markdown <text:span text:style-name="MMD-Bold">encoded</text:span>.This <text:span text:style-name="MMD-Italic">is</text:span> Markdown <text:span text:style-name="MMD-Bold">encoded</text:span>.This <text:span text:style-name="MMD-Italic">is</text:span> Markdown <text:span text:style-name="MMD-Bold">encoded</text:span>.This <text:span text:style-name="MMD-Italic">is</text:span> Markdown <text:span text:style-name="MMD-Bold">encoded</text:span>.This <text:span text:style-name="MMD-Italic">is</text:span> Markdown <text:span text:style-name="MMD-Bold">encoded</text:span>.</office:text>
-</office:body>
-</office:document>
+This <text:span text:style-name="MMD-Italic">is</text:span> Markdown <text:span text:style-name="MMD-Bold">encoded</text:span>.
+This <text:span text:style-name="MMD-Italic">is</text:span> Markdown <text:span text:style-name="MMD-Bold">encoded</text:span>.
+This <text:span text:style-name="MMD-Italic">is</text:span> Markdown <text:span text:style-name="MMD-Bold">encoded</text:span>.
+This <text:span text:style-name="MMD-Italic">is</text:span> Markdown <text:span text:style-name="MMD-Bold">encoded</text:span>.
