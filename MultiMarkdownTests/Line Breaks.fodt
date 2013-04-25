@@ -137,7 +137,7 @@
 </office:automatic-styles>
  <office:master-styles>
   <style:master-page style:name="Endnote" >
-    <style:header><text:p text:style-name="Heading 2"><text:span text:style-name="T1">Bibliography</text:span></text:p></style:header></style:master-page>
+    <style:header><text:h text:outline-level="2">Bibliography</text:h></style:header></style:master-page>
   <style:master-page style:name="Footnote" style:page-layout-name="pm2"/>
  </office:master-styles>
 <style:style style:name="P1" style:family="paragraph" style:parent-style-name="Standard"
