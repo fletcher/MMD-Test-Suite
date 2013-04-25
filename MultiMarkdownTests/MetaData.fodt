@@ -150,3 +150,8 @@
 <office:body>
 <office:text>
 <text:h text:outline-level="1"><text:bookmark text:name="metadata"/>MetaData<text:bookmark-end text:name="metadata"/></text:h>
+
+<text:p text:style-name="Standard">And this should be the main text.</text:p>
+</office:text>
+</office:body>
+</office:document>
