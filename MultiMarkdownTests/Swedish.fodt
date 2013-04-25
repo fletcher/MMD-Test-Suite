@@ -141,28 +141,23 @@
    <text:list-level-style-number />
 </text:list-style>
 <office:meta>
-<dc:title>SmartQuotes Test</dc:title>
+<dc:title>MultiMarkdown Swedish Test</dc:title>
 </office:meta>
 <office:body>
 <office:text>
-<text:h text:outline-level="1"><text:bookmark text:name="smartquotes"/>SmartQuotes<text:bookmark-end text:name="smartquotes"/></text:h>
+<text:h text:outline-level="1"><text:bookmark text:name="swedish"/>Swedish<text:bookmark-end text:name="swedish"/></text:h>
 
-<text:p text:style-name="Standard">Some rather complicated tests for smart quotes with non-ascii input.</text:p>
+<text:p text:style-name="Standard">&#8217;this is a single quote&#8217;</text:p>
 
-<text:p text:style-name="Standard">l&#8217;année l&#8217;année</text:p>
+<text:p text:style-name="Standard">&#8221;this is a double quote&#8221;</text:p>
 
-<text:p text:style-name="Standard">l&#8217;été l&#8217;année</text:p>
+<text:p text:style-name="Standard">this isn&#8217;t an apostrophe.</text:p>
 
-<text:p text:style-name="Standard">l&#8217;été l&#8217;été</text:p>
+<text:p text:style-name="Standard">this is an em &#8212; dash</text:p>
 
-<text:p text:style-name="Standard">l&#8217;année l&#8217;été</text:p>
+<text:p text:style-name="Standard">this is an en &#8211; dash</text:p>
 
-<text:p text:style-name="Standard">&#8220;Smart&#8221; &#8216;quote&#8217;</text:p>
-
-<text:p text:style-name="Standard">An escaped &#8216;|&#8217;</text:p>
-
-<text:p text:style-name="Standard">Another test of smart &#8216;.quotes&#8217;</text:p>
-
-<text:p text:style-name="Standard">And again &#8220;.quotes&#8221;</text:p></office:text>
+<text:p text:style-name="Standard">and an ellipsis&#8230;</text:p>
+</office:text>
 </office:body>
 </office:document>
