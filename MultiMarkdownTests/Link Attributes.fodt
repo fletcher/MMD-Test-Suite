@@ -146,6 +146,7 @@
 <office:body>
 <office:text>
 <text:h text:outline-level="1"><text:bookmark text:name="linkattributes"/>Link Attributes<text:bookmark-end text:name="linkattributes"/></text:h>
+
 <text:p text:style-name="Standard">This is a formatted <draw:frame text:anchor-type="as-char"
 draw:z-index="0" draw:style-name="fr1" svg:width="40pt"
 >
@@ -154,6 +155,7 @@ svg:width="40pt"
 ><draw:image xlink:href="http://path.to/image" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad" draw:filter-name="&lt;All formats&gt;"/>
 </draw:frame></text:p></draw:text-box></draw:frame>
  and a <text:a xlink:type="simple" xlink:href="http://path.to/link.html" office:name="Some Link">link</text:a> with attributes.</text:p>
+
 <text:p>
 <draw:frame text:anchor-type="as-char"
 draw:z-index="0" draw:style-name="fr1" svg:width="95%"
@@ -161,6 +163,7 @@ draw:z-index="0" draw:style-name="fr1" svg:width="95%"
 <draw:text-box><text:p><draw:frame text:anchor-type="as-char" draw:z-index="1" ><draw:image xlink:href="http://path.to/image" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad" draw:filter-name="&lt;All formats&gt;"/>
 </draw:frame></text:p><text:p>Figure <text:sequence text:name="Figure" text:formula="ooow:Figure+1" style:num-format="1"> Update Fields to calculate numbers</text:sequence>: image2</text:p></draw:text-box></draw:frame>
 </text:p>
+
 <text:p>
 <draw:frame text:anchor-type="as-char"
 draw:z-index="0" draw:style-name="fr1" svg:width="40pt"
@@ -168,6 +171,7 @@ draw:z-index="0" draw:style-name="fr1" svg:width="40pt"
 <draw:text-box><text:p><draw:frame text:anchor-type="as-char" draw:z-index="1" ><draw:image xlink:href="http://path.to/image" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad" draw:filter-name="&lt;All formats&gt;"/>
 </draw:frame></text:p><text:p>Figure <text:sequence text:name="Figure" text:formula="ooow:Figure+1" style:num-format="1"> Update Fields to calculate numbers</text:sequence>: image3</text:p></draw:text-box></draw:frame>
 </text:p>
+
 <text:p>
 <draw:frame text:anchor-type="as-char"
 draw:z-index="0" draw:style-name="fr1" svg:width="95%"
@@ -175,15 +179,25 @@ draw:z-index="0" draw:style-name="fr1" svg:width="95%"
 <draw:text-box><text:p><draw:frame text:anchor-type="as-char" draw:z-index="1" ><draw:image xlink:href="http://path.to/image" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad" draw:filter-name="&lt;All formats&gt;"/>
 </draw:frame></text:p><text:p>Figure <text:sequence text:name="Figure" text:formula="ooow:Figure+1" style:num-format="1"> Update Fields to calculate numbers</text:sequence>: image4</text:p></draw:text-box></draw:frame>
 </text:p>
+
 <text:p text:style-name="Standard">And <text:a xlink:type="simple" xlink:href="http://path.to/link.html" office:name="Some Link">the link</text:a>, <text:a xlink:type="simple" xlink:href="http://path.to/link.html" office:name="Some Link">link</text:a> , and <text:a xlink:type="simple" xlink:href="http://path.to/link.html" office:name="Some Link"></text:a> again.</text:p>
+
 <text:p text:style-name="Standard"><text:a xlink:type="simple" xlink:href="http://path.to/link.html" office:name="Some Link">link</text:a></text:p>
+
 <text:p text:style-name="Standard"><text:a xlink:type="simple" xlink:href="http://path.to/link.html" office:name="Some Link">the link</text:a></text:p>
+
 <text:p text:style-name="Standard">Test various identifiers:</text:p>
+
 <text:p text:style-name="Standard"><text:a xlink:type="simple" xlink:href="http://path.to/link-a.html">link-a</text:a></text:p>
+
 <text:p text:style-name="Standard"><text:a xlink:type="simple" xlink:href="http://path.to/link-1.html">link&#8211;1</text:a></text:p>
+
 <text:p text:style-name="Standard"><text:a xlink:type="simple" xlink:href="http://path.to/link--2.html">link&#8211;2</text:a></text:p>
+
 <text:p text:style-name="Standard"><text:a xlink:type="simple" xlink:href="http://path.to/link--a.html">link&#8211;a</text:a></text:p>
+
 <text:p text:style-name="Standard"><text:a xlink:type="simple" xlink:href="http://path.to/link---1.html">link&#8212;1</text:a></text:p>
+
 <text:p text:style-name="Standard">Test link and markup <draw:frame text:anchor-type="as-char"
 draw:z-index="0" draw:style-name="fr1" svg:width="95%"
 >

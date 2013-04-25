@@ -146,9 +146,12 @@
 <office:body>
 <office:text>
 <text:h text:outline-level="1"><text:bookmark text:name="linebreaks"/>Line Breaks<text:bookmark-end text:name="linebreaks"/></text:h>
+
 <text:p text:style-name="Standard">This is a paragraph.
 This is the same paragraph.</text:p>
+
 <text:p text:style-name="Standard">New paragraph.<text:line-break/>Second line in same paragraph.</text:p>
+
 <text:p text:style-name="Standard">New paragraph.<text:line-break/>Second line in same paragraph with linebreak at end. </text:p>
 </office:text>
 </office:body>

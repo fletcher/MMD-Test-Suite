@@ -146,12 +146,16 @@
 <office:body>
 <office:text>
 <text:h text:outline-level="1"><text:bookmark text:name="listparsing"/>List Parsing<text:bookmark-end text:name="listparsing"/></text:h>
+
 <text:list><text:list-item>
 <text:p text:style-name="P2">Item 1</text:p>
+
 <text:p text:style-name="P2">Second paragraph of item 1.
 The following blank line has 4 spaces.</text:p>
 </text:list-item>
-</text:list><text:p text:style-name="Standard">Paragraph following the list that shouldn&#8217;t be part of the list item.</text:p>
+</text:list>
+
+<text:p text:style-name="Standard">Paragraph following the list that shouldn&#8217;t be part of the list item.</text:p>
 </office:text>
 </office:body>
 </office:document>
