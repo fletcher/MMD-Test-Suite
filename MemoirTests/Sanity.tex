@@ -14,19 +14,19 @@ A Table table (\autoref{table})
 A Link \href{www.com}{link}\footnote{\href{www.com}{www.com}}
 A Nowhere [Nowhere]
 
-B Reference to \autoref{section}
-B Citation~\citep{Citation}
-B Figure [][figure]
-B Table \autoref{table}
-B Link [][link]
-B Nowhere [][Nowhere]
-
 C Reference to Section (\autoref{section})
 C Citation~\citep{Citation}
 C Figure \href{file.png}{figure}\footnote{\href{file.png}{file.png}}
 C Table table (\autoref{table})
 C Link \href{www.com}{link}\footnote{\href{www.com}{www.com}}
 C Nowhere [Nowhere][]
+
+B Reference to \autoref{section}
+B Citation~\citep{Citation}
+B Figure [][figure]
+B Table \autoref{table}
+B Link [][link]
+B Nowhere [][Nowhere]
 
 D Reference to option (\autoref{section})
 D Citation~\citep[option]{Citation}
@@ -61,12 +61,12 @@ G Link [](link)
 
 G Nowhere [](nowhere)
 
-H Reference to \autoref{section}
-H Citation\autoref{citation}
-H Figure \autoref{figure}
-H Table \autoref{table}
-H Link \autoref{link}
-H Nowhere \autoref{nowhere}
+H Reference to \href{#Section}{}
+H Citation\href{#Citation}{}
+H Figure \href{#figure}{}
+H Table \href{#table}{}
+H Link \href{#link}{}
+H Nowhere \href{#nowhere}{}
 
 \begin{figure}[htbp]
 \centering
