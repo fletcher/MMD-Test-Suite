@@ -150,12 +150,12 @@
 </text:list-style>
 <office:meta>
 <dc:title>MultiMarkdown Citation Test</dc:title>
-<meta:user-defined meta:name="bibtex">fake</meta:user-defined>
+<meta:user-defined meta:name="BibTex">fake</meta:user-defined>
 </office:meta>
 <office:body>
 <office:text>
 <text:h text:outline-level="1"><text:bookmark text:name="citations"/>Citations<text:bookmark-end text:name="citations"/></text:h>
-<text:p text:style-name="Standard">This is a test of citations<text:note text:id="cite1" text:note-class="footnote"><text:note-body>
+<text:p text:style-name="Standard">This is a test of citations<text:note text:id="cite1" text:note-class="endnote"><text:note-body>
 <text:p text:style-name="Footnote">John Doe. <text:span text:style-name="MMD-Italic">A Totally Fake Book</text:span>. Vanity Press, 2006.</text:p>
 </text:note-body>
 </text:note>
@@ -163,7 +163,7 @@
 <text:p text:style-name="Footnote">A footnote for good measure.</text:p>
 </text:note-body>
 </text:note>
- MultiMarkdown<text:note text:id="cite2" text:note-class="footnote"><text:note-body>
+ MultiMarkdown<text:note text:id="cite3" text:note-class="endnote"><text:note-body>
 <text:p text:style-name="Footnote">Jane Doe. <text:span text:style-name="MMD-Italic">Another Totally Fake Book</text:span>. Vanity Press, 2008.</text:p>
 </text:note-body>
 </text:note>
@@ -174,7 +174,7 @@
 </text:note-body>
 </text:note>
 </text:p>
-<text:p text:style-name="Standard">This is a test of citations<text:note text:id="cite3" text:note-class="footnote"><text:note-body>
+<text:p text:style-name="Standard">This is a test of citations<text:note text:id="cite3" text:note-class="endnote"><text:note-body>
 p. 123<text:note text:id="cite4" text:note-class="footnote"><text:note-body>
 <text:p text:style-name="Footnote">John Doe. <text:span text:style-name="MMD-Italic">A Totally Fake Book</text:span>. Vanity Press, 2006.</text:p>
 </text:note-body>
