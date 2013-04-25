@@ -163,6 +163,7 @@
 
 <text:p text:style-name="Standard">Another test of smart &#8216;.quotes&#8217;</text:p>
 
-<text:p text:style-name="Standard">And again &#8220;.quotes&#8221;</text:p></office:text>
+<text:p text:style-name="Standard">And again &#8220;.quotes&#8221;</text:p>
+</office:text>
 </office:body>
 </office:document>
