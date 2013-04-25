@@ -146,8 +146,10 @@
 <office:body>
 <office:text>
 <text:h text:outline-level="1"><text:bookmark text:name="errors"/>Errors<text:bookmark-end text:name="errors"/></text:h>
+
 <text:p text:style-name="Standard">This document contains &#8220;errors&#8221; - the output shouldn&#8217;t match what was
 intended, but it shouldn&#8217;t crash MMD.</text:p>
+
 <text:p text:style-name="Standard">This is a missing link reference [some text][missing] and ![missing image][missing2].</text:p>
 </office:text>
 </office:body>

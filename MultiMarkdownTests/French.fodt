@@ -146,11 +146,17 @@
 <office:body>
 <office:text>
 <text:h text:outline-level="1"><text:bookmark text:name="french"/>French<text:bookmark-end text:name="french"/></text:h>
+
 <text:p text:style-name="Standard">&#39;this is a single quote&#8217;</text:p>
+
 <text:p text:style-name="Standard">&#171;this is a double quote&#187;</text:p>
+
 <text:p text:style-name="Standard">this isn&#8217;t an apostrophe.</text:p>
+
 <text:p text:style-name="Standard">this is an em &#8212; dash</text:p>
+
 <text:p text:style-name="Standard">this is an en &#8211; dash</text:p>
+
 <text:p text:style-name="Standard">and an ellipsis&#8230;</text:p>
 </office:text>
 </office:body>

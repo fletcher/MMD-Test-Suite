@@ -146,26 +146,40 @@
 <office:body>
 <office:text>
 <text:h text:outline-level="1"><text:bookmark text:name="email"/>Email<text:bookmark-end text:name="email"/></text:h>
+
 <text:p text:style-name="Standard">Link: <text:a xlink:type="simple" xlink:href="mailto:user67@example.com">user67@example.com</text:a>.</text:p>
+
 <text:list><text:list-item>
 <text:p text:style-name="P2">In a list?</text:p></text:list-item>
 <text:list-item>
 <text:p text:style-name="P2"><text:a xlink:type="simple" xlink:href="mailto:user67@example.com">user67@example.com</text:a></text:p></text:list-item>
 <text:list-item>
 <text:p text:style-name="P2">It should.</text:p></text:list-item>
-</text:list><text:p text:style-name="Quotations">Blockquoted: <text:a xlink:type="simple" xlink:href="mailto:user67@example.com">user67@example.com</text:a></text:p>
+</text:list>
+
+<text:p text:style-name="Quotations">Blockquoted: <text:a xlink:type="simple" xlink:href="mailto:user67@example.com">user67@example.com</text:a></text:p>
+
 <text:p text:style-name="Standard">Auto-links should not occur here: <text:span text:style-name="Source_20_Text">&lt;user67@example.com&gt;</text:span></text:p>
+
 <text:p text:style-name="Preformatted Text">or here: &lt;user67@example.com&gt;<text:line-break/></text:p>
+
+
 <text:p text:style-name="Standard">And with the mailto bit:</text:p>
+
 <text:p text:style-name="Standard">Link: <text:a xlink:type="simple" xlink:href="mailto:user67@example.com">user67@example.com</text:a>.</text:p>
+
 <text:list><text:list-item>
 <text:p text:style-name="P2">In a list?</text:p></text:list-item>
 <text:list-item>
 <text:p text:style-name="P2"><text:a xlink:type="simple" xlink:href="mailto:user67@example.com">user67@example.com</text:a></text:p></text:list-item>
 <text:list-item>
 <text:p text:style-name="P2">It should.</text:p></text:list-item>
-</text:list><text:p text:style-name="Quotations">Blockquoted: <text:a xlink:type="simple" xlink:href="mailto:user67@example.com">user67@example.com</text:a></text:p>
+</text:list>
+
+<text:p text:style-name="Quotations">Blockquoted: <text:a xlink:type="simple" xlink:href="mailto:user67@example.com">user67@example.com</text:a></text:p>
+
 <text:p text:style-name="Standard">Auto-links should not occur here: <text:span text:style-name="Source_20_Text">&lt;mailto:user67@example.com&gt;</text:span></text:p>
+
 <text:p text:style-name="Preformatted Text">or here: &lt;mailto:user67@example.com&gt;<text:line-break/></text:p>
 </office:text>
 </office:body>
