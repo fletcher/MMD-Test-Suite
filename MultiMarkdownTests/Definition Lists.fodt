@@ -146,24 +146,48 @@
 <office:body>
 <office:text>
 <text:h text:outline-level="1"><text:bookmark text:name="definitionlists"/>Definition Lists<text:bookmark-end text:name="definitionlists"/></text:h>
-<text:p><text:span text:style-name="MMD-Bold">Term 1</text:span></text:p><text:p><text:span text:style-name="MMD-Bold">Term 2</text:span></text:p><text:p text:style-name="Quotations">Definition a</text:p><text:p><text:span text:style-name="MMD-Bold">Term 3</text:span></text:p><text:p text:style-name="Quotations">Definition b</text:p><text:p text:style-name="Quotations">Definition c</text:p><text:p><text:span text:style-name="MMD-Bold">Term 1</text:span></text:p><text:p text:style-name="Quotations"><text:p text:style-name="Quotations">This is a definition with two paragraphs. Lorem ipsum
+<text:p><text:span text:style-name="MMD-Bold">Term 1</text:span></text:p>
+<text:p><text:span text:style-name="MMD-Bold">Term 2</text:span></text:p>
+<text:p text:style-name="Quotations">Definition a</text:p>
+
+<text:p><text:span text:style-name="MMD-Bold">Term 3</text:span></text:p>
+<text:p text:style-name="Quotations">Definition b</text:p>
+
+<text:p text:style-name="Quotations">Definition c</text:p>
+
+<text:p><text:span text:style-name="MMD-Bold">Term 1</text:span></text:p>
+<text:p text:style-name="Quotations">
+<text:p text:style-name="Quotations">This is a definition with two paragraphs. Lorem ipsum
  dolor sit amet, consectetuer adipiscing elit. Aliquam
  hendrerit mi posuere lectus.</text:p>
+
 <text:p text:style-name="Quotations">Vestibulum enim wisi, viverra nec, fringilla in, laoreet
 vitae, risus.</text:p>
-</text:p><text:p text:style-name="Quotations"><text:p text:style-name="Quotations">Second definition for term 1, also wrapped in a paragraph
+</text:p>
+
+<text:p text:style-name="Quotations">
+<text:p text:style-name="Quotations">Second definition for term 1, also wrapped in a paragraph
  because of the blank line preceding it.</text:p>
-</text:p><text:p><text:span text:style-name="MMD-Bold">Term 2</text:span></text:p><text:p text:style-name="Quotations"><text:p text:style-name="Quotations">This definition has a code block, a blockquote and a list.</text:p>
+</text:p>
+
+<text:p><text:span text:style-name="MMD-Bold">Term 2</text:span></text:p>
+<text:p text:style-name="Quotations">
+<text:p text:style-name="Quotations">This definition has a code block, a blockquote and a list.</text:p>
+
 <text:p text:style-name="Preformatted Text">code block.<text:line-break/></text:p>
+
+
 <text:p text:style-name="Quotations">block quote
 on two lines.</text:p>
-<text:list>
-<text:list-item>
+
+<text:list><text:list-item>
 <text:p text:style-name="P2">first list item</text:p></text:list-item>
 <text:list-item>
 <text:p text:style-name="P2">second list item</text:p></text:list-item>
-</text:list>
-</text:p><text:p text:style-name="Standard">And this is a regular paragraph.</text:p>
+</text:list></text:p>
+
+
+<text:p text:style-name="Standard">And this is a regular paragraph.</text:p>
 </office:text>
 </office:body>
 </office:document>

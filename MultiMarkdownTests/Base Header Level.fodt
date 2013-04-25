@@ -146,9 +146,11 @@
 <office:body>
 <office:text>
 <text:h text:outline-level="2"><text:bookmark text:name="thisshouldbeh2"/>This should be h2<text:bookmark-end text:name="thisshouldbeh2"/></text:h>
+
 <text:h text:outline-level="3"><text:bookmark text:name="thisshouldbeh3"/>This should be h3<text:bookmark-end text:name="thisshouldbeh3"/></text:h>
+
 <text:h text:outline-level="6"><text:bookmark text:name="thisshouldbeh6"/>This should be h6<text:bookmark-end text:name="thisshouldbeh6"/></text:h>
-<text:h text:outline-level="7"><text:bookmark text:name="thisshouldbeh6inhtmlh7inlatex"/>This should be h6 in HTML h7 in LaTeX<text:bookmark-end text:name="thisshouldbeh6inhtmlh7inlatex"/></text:h>
-</office:text>
+
+<text:h text:outline-level="7"><text:bookmark text:name="thisshouldbeh6inhtmlh7inlatex"/>This should be h6 in HTML h7 in LaTeX<text:bookmark-end text:name="thisshouldbeh6inhtmlh7inlatex"/></text:h></office:text>
 </office:body>
 </office:document>
