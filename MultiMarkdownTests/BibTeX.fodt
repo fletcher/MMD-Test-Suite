@@ -142,13 +142,15 @@
 </text:list-style>
 <office:meta>
 <dc:title>MultiMarkdown BibTeX Test</dc:title>
-<meta:user-defined meta:name="bibtex">bibtex</meta:user-defined>
+<meta:user-defined meta:name="BibTeX">bibtex</meta:user-defined>
 </office:meta>
 <office:body>
 <office:text>
 <text:h text:outline-level="1"><text:bookmark text:name="bibtex"/>BibTeX<text:bookmark-end text:name="bibtex"/></text:h>
+
 <text:p text:style-name="Standard">This is a test of BibTeX Support.[#Knuth:1968]</text:p>
-<text:p text:style-name="Standard">And a locator.[#Knuth:1981]</text:p>
+
+<text:p text:style-name="Standard">And a locator.[p. 123][#Knuth:1981]</text:p>
 </office:text>
 </office:body>
 </office:document>
