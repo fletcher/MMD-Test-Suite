@@ -154,49 +154,70 @@
 <office:body>
 <office:text>
 <text:h text:outline-level="1"><text:bookmark text:name="section"/>Section<text:bookmark-end text:name="section"/></text:h>
+
 <text:p text:style-name="Standard">Sanity check by Jonathan Coulombe</text:p>
-<text:p text:style-name="Standard">Reference to <text:a xlink:type="simple" xlink:href="#section">Section</text:a>
-Citation[#Citation]
-Figure <text:a xlink:type="simple" xlink:href="file.png">figure</text:a>
-Table <text:a xlink:type="simple" xlink:href="#table">table</text:a>
-Link <text:a xlink:type="simple" xlink:href="www.com">link</text:a>
-Nowhere [Nowhere]</text:p>
-<text:p text:style-name="Standard">Reference to 
-Citation[#Citation]
-Figure [][figure]
-Table 
-Link [][link]
-Nowhere [][Nowhere]</text:p>
-<text:p text:style-name="Standard">Reference to <text:a xlink:type="simple" xlink:href="#section">Section</text:a>
-Citation[#Citation]
-Figure <text:a xlink:type="simple" xlink:href="file.png">figure</text:a>
-Table <text:a xlink:type="simple" xlink:href="#table">table</text:a>
-Link <text:a xlink:type="simple" xlink:href="www.com">link</text:a>
-Nowhere [Nowhere][]</text:p>
-<text:p text:style-name="Standard">Reference to <text:a xlink:type="simple" xlink:href="#section">option</text:a>
-Citation[#Citation]
-Figure <text:a xlink:type="simple" xlink:href="file.png">option</text:a>
-Table <text:a xlink:type="simple" xlink:href="#table">option</text:a>
-Link <text:a xlink:type="simple" xlink:href="www.com">option</text:a>
-Nowhere [option][Nowhere]</text:p>
-<text:p text:style-name="Standard">Reference to [Section][option]
-Citation[#Citation][option]
-Figure [figure][option]
-Table [table][option]
-Link [link][option]
-Nowhere [Nowhere][option]</text:p>
-<text:p text:style-name="Standard">Reference to <text:a xlink:type="simple" xlink:href="Section">Section</text:a>
-Citation[#Citation](Citation)
-Figure <text:a xlink:type="simple" xlink:href="figure">figure</text:a>
-Table <text:a xlink:type="simple" xlink:href="table">table</text:a>
-Link <text:a xlink:type="simple" xlink:href="link">link</text:a>
-Nowhere <text:a xlink:type="simple" xlink:href="nowhere">Nowhere</text:a></text:p>
-<text:p text:style-name="Standard">Reference to [](Section)</text:p><text:p text:style-name="Standard">Citation[](Citation)</text:p><text:p text:style-name="Standard">Figure [](figure)</text:p><text:p text:style-name="Standard">Table [](table)</text:p><text:p text:style-name="Standard">Link [](link)</text:p><text:p text:style-name="Standard">Nowhere [](nowhere)</text:p><text:p text:style-name="Standard">Reference to 
-Citation
-Figure 
-Table 
-Link 
-Nowhere </text:p>
+
+<text:p text:style-name="Standard">A Reference to <text:a xlink:type="simple" xlink:href="#section">Section</text:a>
+A Citation[#Citation]
+A Figure <text:a xlink:type="simple" xlink:href="file.png">figure</text:a>
+A Table <text:a xlink:type="simple" xlink:href="#table">table</text:a>
+A Link <text:a xlink:type="simple" xlink:href="www.com">link</text:a>
+A Nowhere [Nowhere]</text:p>
+
+<text:p text:style-name="Standard">B Reference to <text:a xlink:type="simple" xlink:href="#section"></text:a>
+B Citation[#Citation]
+B Figure [][figure]
+B Table <text:a xlink:type="simple" xlink:href="#table"></text:a>
+B Link [][link]
+B Nowhere [][Nowhere]</text:p>
+
+<text:p text:style-name="Standard">C Reference to <text:a xlink:type="simple" xlink:href="#section">Section</text:a>
+C Citation[#Citation]
+C Figure <text:a xlink:type="simple" xlink:href="file.png">figure</text:a>
+C Table <text:a xlink:type="simple" xlink:href="#table">table</text:a>
+C Link <text:a xlink:type="simple" xlink:href="www.com">link</text:a>
+C Nowhere [Nowhere][]</text:p>
+
+<text:p text:style-name="Standard">D Reference to <text:a xlink:type="simple" xlink:href="#section">option</text:a>
+D Citation[#Citation]
+D Figure <text:a xlink:type="simple" xlink:href="file.png">option</text:a>
+D Table <text:a xlink:type="simple" xlink:href="#table">option</text:a>
+D Link <text:a xlink:type="simple" xlink:href="www.com">option</text:a>
+D Nowhere [option][Nowhere]</text:p>
+
+<text:p text:style-name="Standard">E Reference to [Section][option]
+E Citation[#Citation][option]
+E Figure [figure][option]
+E Table [table][option]
+E Link [link][option]
+E Nowhere [Nowhere][option]</text:p>
+
+<text:p text:style-name="Standard">F Reference to <text:a xlink:type="simple" xlink:href="Section">Section</text:a>
+F Citation[#Citation](Citation)
+F Figure <text:a xlink:type="simple" xlink:href="figure">figure</text:a>
+F Table <text:a xlink:type="simple" xlink:href="table">table</text:a>
+F Link <text:a xlink:type="simple" xlink:href="link">link</text:a>
+F Nowhere <text:a xlink:type="simple" xlink:href="nowhere">Nowhere</text:a></text:p>
+
+<text:p text:style-name="Standard">G Reference to [](Section)</text:p>
+
+<text:p text:style-name="Standard">G Citation[](Citation)</text:p>
+
+<text:p text:style-name="Standard">G Figure [](figure)</text:p>
+
+<text:p text:style-name="Standard">G Table [](table)</text:p>
+
+<text:p text:style-name="Standard">G Link [](link)</text:p>
+
+<text:p text:style-name="Standard">G Nowhere [](nowhere)</text:p>
+
+<text:p text:style-name="Standard">H Reference to 
+H Citation
+H Figure 
+H Table 
+H Link 
+H Nowhere </text:p>
+
 <text:p>
 <draw:frame text:anchor-type="as-char"
 draw:z-index="0" draw:style-name="fr1" svg:width="95%"
@@ -224,7 +245,8 @@ draw:z-index="0" draw:style-name="fr1" svg:width="95%"
 <text:p text:style-name="MMD-Table">y</text:p>
 </table:table-cell>
 </table:table-row>
-</table:table><text:p><text:bookmark text:name="table"/>Table <text:sequence text:name="Table" text:formula="ooow:Table+1" style:num-format="1"> Update Fields to calculate numbers</text:sequence>:table<text:bookmark-end text:name="table"/></text:p>
+</table:table>
+<text:p><text:bookmark text:name="table"/>Table <text:sequence text:name="Table" text:formula="ooow:Table+1" style:num-format="1"> Update Fields to calculate numbers</text:sequence>:table<text:bookmark-end text:name="table"/></text:p>
 </office:text>
 </office:body>
 </office:document>
