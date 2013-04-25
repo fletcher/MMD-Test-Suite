@@ -15,19 +15,19 @@ A Table [table]
 A Link [link]
 A Nowhere [Nowhere]
 
-B Reference to [][Section]
-B Citation[][#Citation]
-<!--B Figure [][figure]-->
-B Table [][table]
-<!--B Link [][link]-->
-B Nowhere [][Nowhere]
-
 C Reference to [Section][]
 C Citation[#Citation][]
 C Figure [figure][]
 C Table [table][]
 C Link [link][]
 C Nowhere [Nowhere][]
+
+B Reference to [][Section]
+B Citation[][#Citation]
+<!--B Figure [][figure]-->
+B Table [][table]
+<!--B Link [][link]-->
+B Nowhere [][Nowhere]
 
 D Reference to [option][Section]
 D Citation[option][#Citation]
