@@ -146,22 +146,39 @@
 <office:body>
 <office:text>
 <text:h text:outline-level="3"><text:bookmark text:name="normalheader"/>Normal Header<text:bookmark-end text:name="normalheader"/></text:h>
+
 <text:p text:style-name="Standard">plain text</text:p>
+
 <text:h text:outline-level="3"><text:bookmark text:name="normalheaderwithtrailingspace"/>Normal Header with trailing space<text:bookmark-end text:name="normalheaderwithtrailingspace"/></text:h>
+
 <text:h text:outline-level="2"><text:bookmark text:name="normalheaderwithtrailingspace"/>Normal Header with trailing space<text:bookmark-end text:name="normalheaderwithtrailingspace"/></text:h>
+
 <text:p text:style-name="Standard">plain text</text:p>
+
 <text:h text:outline-level="3"><text:bookmark text:name="headerwithlink"/>Header with <text:a xlink:type="simple" xlink:href="http://www.google.com">Link</text:a><text:bookmark-end text:name="headerwithlink"/></text:h>
+
 <text:p text:style-name="Standard">plain text</text:p>
+
 <text:h text:outline-level="3"><text:bookmark text:name="headerwithlink"/>Header with <text:a xlink:type="simple" xlink:href="http://www.google.com">Link</text:a><text:bookmark-end text:name="headerwithlink"/></text:h>
+
 <text:p text:style-name="Standard">and more plain text</text:p>
+
 <text:h text:outline-level="3"><text:bookmark text:name="headerwithlinkandspace"/>Header with <text:a xlink:type="simple" xlink:href="http://www.google.com">Link</text:a> and space<text:bookmark-end text:name="headerwithlinkandspace"/></text:h>
+
 <text:p text:style-name="Standard">and more plain text</text:p>
+
 <text:p text:style-name="Standard">The following should still be detected as headers:</text:p>
+
 <text:h text:outline-level="2"><text:bookmark text:name="brokenlabeltext"/>Broken label [ text [<text:bookmark-end text:name="brokenlabeltext"/></text:h>
+
 <text:h text:outline-level="3"><text:bookmark text:name="label"/>Test Header 2 and<text:bookmark-end text:name="label"/></text:h>
+
 <text:h text:outline-level="3"><text:bookmark text:name="brokenreferencelinklabellabel2"/>Broken Reference Link [label][label2]<text:bookmark-end text:name="brokenreferencelinklabellabel2"/></text:h>
-<text:h text:outline-level="3"><text:bookmark text:name="referencelinknotlabellabel"/>Reference link not label <text:a xlink:type="simple" xlink:href="http://example.com/">label</text:a><text:bookmark-end text:name="referencelinknotlabellabel"/></text:h>
+
+<text:h text:outline-level="3"><text:bookmark text:name="referencelinknotlabellabellabel1"/>Reference link not label <text:a xlink:type="simple" xlink:href="http://example.com/">label</text:a><text:bookmark-end text:name="referencelinknotlabellabellabel1"/></text:h>
+
 <text:h text:outline-level="3"><text:bookmark text:name="linknotlabel"/>Link <text:a xlink:type="simple" xlink:href="http://example.net/">not label</text:a><text:bookmark-end text:name="linknotlabel"/></text:h>
+
 <text:p text:style-name="Standard">And link to [label2] and <text:a xlink:type="simple" xlink:href="http://example.com/">label1</text:a> and <text:a xlink:type="simple" xlink:href="#label">label</text:a>.</text:p>
 </office:text>
 </office:body>
