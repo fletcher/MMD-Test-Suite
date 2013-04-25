@@ -1,7 +1,6 @@
 latex input:	mmd-article-header  
-Title:			MultiMarkdown Sanity Test  
+Title:	MultiMarkdown Sanity Test  
 quoteslanguage:	english  
-latex mode:		memoir
 latex input:	mmd-article-begin-doc  
 latex footer:	mmd-memoir-footer  
 
@@ -9,61 +8,61 @@ latex footer:	mmd-memoir-footer
 
 Sanity check by Jonathan Coulombe
 
-Reference to [Section]
-Citation[#Citation]
-Figure [figure]
-Table [table]
-Link [link]
-Nowhere [Nowhere]
+A Reference to [Section]
+A Citation[#Citation]
+A Figure [figure]
+A Table [table]
+A Link [link]
+A Nowhere [Nowhere]
 
-Reference to [][Section]
-Citation[][#Citation]
-<!--Figure [][figure]-->
-Table [][table]
-<!--Link [][link]-->
-Nowhere [][Nowhere]
+B Reference to [][Section]
+B Citation[][#Citation]
+<!--B Figure [][figure]-->
+B Table [][table]
+<!--B Link [][link]-->
+B Nowhere [][Nowhere]
 
-Reference to [Section][]
-Citation[#Citation][]
-Figure [figure][]
-Table [table][]
-Link [link][]
-Nowhere [Nowhere][]
+C Reference to [Section][]
+C Citation[#Citation][]
+C Figure [figure][]
+C Table [table][]
+C Link [link][]
+C Nowhere [Nowhere][]
 
-Reference to [option][Section]
-Citation[option][#Citation]
-Figure [option][figure]
-Table [option][table]
-Link [option][link]
-Nowhere [option][Nowhere]
+D Reference to [option][Section]
+D Citation[option][#Citation]
+D Figure [option][figure]
+D Table [option][table]
+D Link [option][link]
+D Nowhere [option][Nowhere]
 
-Reference to [Section][option]
-Citation[#Citation][option]
-Figure [figure][option]
-Table [table][option]
-Link [link][option]
-Nowhere [Nowhere][option]
+E Reference to [Section][option]
+E Citation[#Citation][option]
+E Figure [figure][option]
+E Table [table][option]
+E Link [link][option]
+E Nowhere [Nowhere][option]
 
-Reference to [Section](Section)
-Citation[#Citation](Citation)
-Figure [figure](figure)
-Table [table](table)
-Link [link](link)
-Nowhere [Nowhere](nowhere)
+F Reference to [Section](Section)
+F Citation[#Citation](Citation)
+F Figure [figure](figure)
+F Table [table](table)
+F Link [link](link)
+F Nowhere [Nowhere](nowhere)
 
-<!--Reference to [](Section)-->
-<!--Citation[](Citation)-->
-<!--Figure [](figure)-->
-<!--Table [](table)-->
-<!--Link [](link)-->
-<!--Nowhere [](nowhere)-->
+<!--G Reference to [](Section)-->
+<!--G Citation[](Citation)-->
+<!--G Figure [](figure)-->
+<!--G Table [](table)-->
+<!--G Link [](link)-->
+<!--G Nowhere [](nowhere)-->
 
-Reference to [](#Section)
-Citation[](#Citation)
-Figure [](#figure)
-Table [](#table)
-Link [](#link)
-Nowhere [](#nowhere)
+H Reference to [](#Section)
+H Citation[](#Citation)
+H Figure [](#figure)
+H Table [](#table)
+H Link [](#link)
+H Nowhere [](#nowhere)
 
 
 ![figure][]
