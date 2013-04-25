@@ -102,7 +102,10 @@
                                style:join-border="false"/>
    <style:text-properties fo:font-size="6pt" style:font-size-asian="6pt" style:font-size-complex="6pt"/>
 </style:style>
-<style:style style:name="Footnote_20_anchor" style:display-name="Footnote anchor"              style:family="text">    <style:text-properties style:text-position="super 58"/> </style:style></office:styles>
+<style:style style:name="Footnote_20_anchor" style:display-name="Footnote anchor"              style:family="text">    <style:text-properties style:text-position="super 58"/> </style:style>
+  <text:notes-configuration text:note-class="footnote" text:default-style-name="Footnote" text:citation-style-name="Footnote_20_Symbol" text:citation-body-style-name="Footnote_20_anchor" text:master-page-name="Footnote" style:num-format="a" text:start-value="0" text:footnotes-position="page" text:start-numbering-at="chapter"/>
+  <text:notes-configuration text:note-class="endnote" text:default-style-name="Endnote" text:citation-style-name="Endnote_20_Symbol" text:citation-body-style-name="Endnote_20_anchor" text:master-page-name="Endnote" style:num-format="1" text:start-value="0"/>
+</office:styles>
 <office:automatic-styles>   <style:style style:name="MMD-Italic" style:family="text">
       <style:text-properties fo:font-style="italic" style:font-style-asian="italic"
                              style:font-style-complex="italic"/>
@@ -132,6 +135,11 @@
                              style:shadow="none"/>
 </style:style>
 </office:automatic-styles>
+ <office:master-styles>
+  <style:master-page style:name="Endnote" >
+    <style:header><text:p text:style-name="Heading 2"><text:span text:style-name="T1">Bibliography</text:span></text:p></style:header></style:master-page>
+  <style:master-page style:name="Footnote" style:page-layout-name="pm2"/>
+ </office:master-styles>
 <style:style style:name="P1" style:family="paragraph" style:parent-style-name="Standard"
              style:list-style-name="L1"/>
 <text:list-style style:name="L1">
