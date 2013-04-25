@@ -188,7 +188,7 @@
 
 <text:p text:style-name="Standard">Consecutive citations.<text:span text:style-name="Footnote_20_anchor"><text:note-ref text:note-class="endnote" text:reference-format="text" text:ref-name="cite1">1</text:note-ref></text:span> <text:span text:style-name="Footnote_20_anchor"><text:note-ref text:note-class="endnote" text:reference-format="text" text:ref-name="cite2">2</text:note-ref></text:span></text:p>
 
-<text:p text:style-name="Standard">Consecutive citations.<text:span text:style-name="Footnote_20_anchor"><text:note-ref text:note-class="endnote" text:reference-format="text" text:ref-name="cite1">1</text:note-ref></text:span>  <text:span text:style-name="Footnote_20_anchor"><text:note-ref text:note-class="endnote" text:reference-format="text" text:ref-name="cite2">2</text:note-ref></text:span></text:p>
+<text:p text:style-name="Standard">Consecutive citations.<text:span text:style-name="Footnote_20_anchor"><text:note-ref text:note-class="endnote" text:reference-format="text" text:ref-name="cite1">1</text:note-ref></text:span> <text:span text:style-name="Footnote_20_anchor"><text:note-ref text:note-class="endnote" text:reference-format="text" text:ref-name="cite2">2</text:note-ref></text:span></text:p>
 
 <text:p text:style-name="Standard">An &#8220;improperly&#8221; formed citation.<text:span text:style-name="Footnote_20_anchor"><text:note-ref text:note-class="endnote" text:reference-format="text" text:ref-name="cite2">2</text:note-ref></text:span></text:p>
 
