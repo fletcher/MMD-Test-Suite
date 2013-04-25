@@ -146,20 +146,33 @@
 <office:body>
 <office:text>
 <text:h text:outline-level="2"><text:bookmark text:name="muststartwithalpha"/>109&amp;^*&amp;#^() Must Start With Alpha<text:bookmark-end text:name="muststartwithalpha"/></text:h>
+
 <text:h text:outline-level="2"><text:bookmark text:name="stripoutcharacters"/>Strip out &amp;^% characters ^&amp;*^<text:bookmark-end text:name="stripoutcharacters"/></text:h>
+
 <text:h text:outline-level="2"><text:bookmark text:name="specialcrossreferencecases"/>Special Cross Reference Cases<text:bookmark-end text:name="specialcrossreferencecases"/></text:h>
+
 <text:h text:outline-level="3"><text:bookmark text:name="cross-references:specialcharacters"/>1 Cross-References: Special Characters!@#$%^&amp;*()&lt;&gt;<text:bookmark-end text:name="cross-references:specialcharacters"/></text:h>
-<text:p text:style-name="Standard">And now, link to <text:a xlink:type="simple" xlink:href="#cross-references:specialcharacters">1 Cross-References: Special Characters!@\#\$\%\^{}\&*()$<$$>$</text:a></text:p>
+
+<text:p text:style-name="Standard">And now, link to <text:a xlink:type="simple" xlink:href="#cross-references:specialcharacters">1 Cross-References: Special Characters!@#$%^&amp;*()&lt;&gt;</text:a></text:p>
+
 <text:h text:outline-level="2"><text:bookmark text:name="setext1"/>Setext 1<text:bookmark-end text:name="setext1"/></text:h>
+
 <text:h text:outline-level="3"><text:bookmark text:name="setext2"/>Setext 2<text:bookmark-end text:name="setext2"/></text:h>
+
 <text:h text:outline-level="2"><text:bookmark text:name="atx1"/>Atx 1<text:bookmark-end text:name="atx1"/></text:h>
+
 <text:p text:style-name="Standard">Link to <text:a xlink:type="simple" xlink:href="#setext1">Setext 1</text:a>.</text:p>
+
 <text:p text:style-name="Standard">And <text:a xlink:type="simple" xlink:href="#setext2">Setext 2</text:a>.</text:p>
+
 <text:p text:style-name="Standard">And <text:a xlink:type="simple" xlink:href="#atx1">Atx 1</text:a>.</text:p>
+
 <text:p text:style-name="Standard">And [Atx 2] should fail.</text:p>
+
 <text:h text:outline-level="2"><text:bookmark text:name="label"/>Manual Header<text:bookmark-end text:name="label"/></text:h>
+
 <text:h text:outline-level="2"><text:bookmark text:name="label2"/>Manual Header 2<text:bookmark-end text:name="label2"/></text:h>
-<text:h text:outline-level="3"><text:bookmark text:name="label3"/>Manual Header 3<text:bookmark-end text:name="label3"/></text:h>
-</office:text>
+
+<text:h text:outline-level="3"><text:bookmark text:name="label3"/>Manual Header 3<text:bookmark-end text:name="label3"/></text:h></office:text>
 </office:body>
 </office:document>
