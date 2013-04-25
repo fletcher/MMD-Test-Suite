@@ -208,8 +208,11 @@
 <text:p text:style-name="MMD-Table-Center">With an escaped &#8216;|&#8217;</text:p>
 </table:table-cell>
 </table:table-row>
-</table:table><text:p><text:bookmark text:name="prototypetable"/>Table <text:sequence text:name="Table" text:formula="ooow:Table+1" style:num-format="1"> Update Fields to calculate numbers</text:sequence>:Prototype table caption<text:bookmark-end text:name="prototypetable"/></text:p>
+</table:table>
+<text:p><text:bookmark text:name="prototypetable"/>Table <text:sequence text:name="Table" text:formula="ooow:Table+1" style:num-format="1"> Update Fields to calculate numbers</text:sequence>:Prototype table caption<text:bookmark-end text:name="prototypetable"/></text:p>
+
 <text:p text:style-name="Standard">And this is a link to the <text:a xlink:type="simple" xlink:href="#prototypetable">Prototype table</text:a>.</text:p>
+
 <text:p text:style-name="Standard">And now a table with only a caption.</text:p>
 
 <table:table>
@@ -282,8 +285,11 @@
 <text:p text:style-name="MMD-Table-Right"></text:p>
 </table:table-cell>
 </table:table-row>
-</table:table><text:p><text:bookmark text:name="captionbutnolabel"/>Table <text:sequence text:name="Table" text:formula="ooow:Table+1" style:num-format="1"> Update Fields to calculate numbers</text:sequence>:Caption but no label<text:bookmark-end text:name="captionbutnolabel"/></text:p>
+</table:table>
+<text:p><text:bookmark text:name="captionbutnolabel"/>Table <text:sequence text:name="Table" text:formula="ooow:Table+1" style:num-format="1"> Update Fields to calculate numbers</text:sequence>:Caption but no label<text:bookmark-end text:name="captionbutnolabel"/></text:p>
+
 <text:p text:style-name="Standard">And a link to the second <text:a xlink:type="simple" xlink:href="#captionbutnolabel">table</text:a>.</text:p>
+
 <text:p text:style-name="Standard">And two tables in close proximity:</text:p>
 
 <table:table>
@@ -356,7 +362,8 @@
 <text:p text:style-name="MMD-Table-Center">No</text:p>
 </table:table-cell>
 </table:table-row>
-</table:table><text:p><text:bookmark text:name="multimarkdownvs.crayons"/>Table <text:sequence text:name="Table" text:formula="ooow:Table+1" style:num-format="1"> Update Fields to calculate numbers</text:sequence>:MultiMarkdown vs. Crayons<text:bookmark-end text:name="multimarkdownvs.crayons"/></text:p>
+</table:table>
+<text:p><text:bookmark text:name="multimarkdownvs.crayons"/>Table <text:sequence text:name="Table" text:formula="ooow:Table+1" style:num-format="1"> Update Fields to calculate numbers</text:sequence>:MultiMarkdown vs. Crayons<text:bookmark-end text:name="multimarkdownvs.crayons"/></text:p>
 
 <table:table>
 <table:table-column/>
@@ -428,7 +435,8 @@
 <text:p text:style-name="MMD-Table-Center">No</text:p>
 </table:table-cell>
 </table:table-row>
-</table:table><text:p><text:bookmark text:name="multimarkdownvs.crayons2"/>Table <text:sequence text:name="Table" text:formula="ooow:Table+1" style:num-format="1"> Update Fields to calculate numbers</text:sequence>:MultiMarkdown vs. Crayons2<text:bookmark-end text:name="multimarkdownvs.crayons2"/></text:p>
+</table:table>
+<text:p><text:bookmark text:name="multimarkdownvs.crayons2"/>Table <text:sequence text:name="Table" text:formula="ooow:Table+1" style:num-format="1"> Update Fields to calculate numbers</text:sequence>:MultiMarkdown vs. Crayons2<text:bookmark-end text:name="multimarkdownvs.crayons2"/></text:p>
 
 <table:table>
 <table:table-column/>
@@ -449,7 +457,8 @@
 <text:p text:style-name="MMD-Table">Two </text:p>
 </table:table-cell>
 </table:table-row>
-</table:table><text:p><text:bookmark text:name="captiononly"/>Table <text:sequence text:name="Table" text:formula="ooow:Table+1" style:num-format="1"> Update Fields to calculate numbers</text:sequence>:Caption only<text:bookmark-end text:name="captiononly"/></text:p>
+</table:table>
+<text:p><text:bookmark text:name="captiononly"/>Table <text:sequence text:name="Table" text:formula="ooow:Table+1" style:num-format="1"> Update Fields to calculate numbers</text:sequence>:Caption only<text:bookmark-end text:name="captiononly"/></text:p>
 
 <table:table>
 <table:table-column/>
@@ -510,7 +519,8 @@
 <text:p text:style-name="MMD-Table-Center">Why not?</text:p>
 </table:table-cell>
 </table:table-row>
-</table:table><text:p><text:bookmark text:name="linewrappingtest"/>Table <text:sequence text:name="Table" text:formula="ooow:Table+1" style:num-format="1"> Update Fields to calculate numbers</text:sequence>:Line Wrapping Test<text:bookmark-end text:name="linewrappingtest"/></text:p>
+</table:table>
+<text:p><text:bookmark text:name="linewrappingtest"/>Table <text:sequence text:name="Table" text:formula="ooow:Table+1" style:num-format="1"> Update Fields to calculate numbers</text:sequence>:Line Wrapping Test<text:bookmark-end text:name="linewrappingtest"/></text:p>
 </office:text>
 </office:body>
 </office:document>
