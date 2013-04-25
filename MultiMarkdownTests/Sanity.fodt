@@ -164,13 +164,6 @@ A Table <text:a xlink:type="simple" xlink:href="#table">table</text:a>
 A Link <text:a xlink:type="simple" xlink:href="www.com">link</text:a>
 A Nowhere [Nowhere]</text:p>
 
-<text:p text:style-name="Standard">B Reference to <text:a xlink:type="simple" xlink:href="#section"></text:a>
-B Citation[#Citation]
-B Figure [][figure]
-B Table <text:a xlink:type="simple" xlink:href="#table"></text:a>
-B Link [][link]
-B Nowhere [][Nowhere]</text:p>
-
 <text:p text:style-name="Standard">C Reference to <text:a xlink:type="simple" xlink:href="#section">Section</text:a>
 C Citation[#Citation]
 C Figure <text:a xlink:type="simple" xlink:href="file.png">figure</text:a>
@@ -178,8 +171,15 @@ C Table <text:a xlink:type="simple" xlink:href="#table">table</text:a>
 C Link <text:a xlink:type="simple" xlink:href="www.com">link</text:a>
 C Nowhere [Nowhere][]</text:p>
 
+<text:p text:style-name="Standard">B Reference to <text:a xlink:type="simple" xlink:href="#section"></text:a>
+B Citation[#Citation]
+B Figure [][figure]
+B Table <text:a xlink:type="simple" xlink:href="#table"></text:a>
+B Link [][link]
+B Nowhere [][Nowhere]</text:p>
+
 <text:p text:style-name="Standard">D Reference to <text:a xlink:type="simple" xlink:href="#section">option</text:a>
-D Citation[#Citation]
+D Citation[option][#Citation]
 D Figure <text:a xlink:type="simple" xlink:href="file.png">option</text:a>
 D Table <text:a xlink:type="simple" xlink:href="#table">option</text:a>
 D Link <text:a xlink:type="simple" xlink:href="www.com">option</text:a>
@@ -211,12 +211,12 @@ F Nowhere <text:a xlink:type="simple" xlink:href="nowhere">Nowhere</text:a></tex
 
 <text:p text:style-name="Standard">G Nowhere [](nowhere)</text:p>
 
-<text:p text:style-name="Standard">H Reference to 
-H Citation
-H Figure 
-H Table 
-H Link 
-H Nowhere </text:p>
+<text:p text:style-name="Standard">H Reference to <text:a xlink:type="simple" xlink:href="#Section"></text:a>
+H Citation<text:a xlink:type="simple" xlink:href="#Citation"></text:a>
+H Figure <text:a xlink:type="simple" xlink:href="#figure"></text:a>
+H Table <text:a xlink:type="simple" xlink:href="#table"></text:a>
+H Link <text:a xlink:type="simple" xlink:href="#link"></text:a>
+H Nowhere <text:a xlink:type="simple" xlink:href="#nowhere"></text:a></text:p>
 
 <text:p>
 <draw:frame text:anchor-type="as-char"
