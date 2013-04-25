@@ -150,3 +150,6 @@ This <text:span text:style-name="MMD-Italic">is</text:span> Markdown <text:span 
 This <text:span text:style-name="MMD-Italic">is</text:span> Markdown <text:span text:style-name="MMD-Bold">encoded</text:span>.
 This <text:span text:style-name="MMD-Italic">is</text:span> Markdown <text:span text:style-name="MMD-Bold">encoded</text:span>.
 This <text:span text:style-name="MMD-Italic">is</text:span> Markdown <text:span text:style-name="MMD-Bold">encoded</text:span>.
+This <text:span text:style-name="MMD-Italic">is</text:span> Markdown <text:span text:style-name="MMD-Bold">encoded</text:span>.</office:text>
+</office:body>
+</office:document>
