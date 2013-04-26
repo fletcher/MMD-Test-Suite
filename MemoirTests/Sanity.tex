@@ -1,72 +1,72 @@
 \input{mmd-article-header}
 \def\mytitle{MultiMarkdown Sanity Test}
-\def\latexmode{memoir}
 \input{mmd-article-begin-doc}
+
 \part{Section}
 \label{section}
 
 Sanity check by Jonathan Coulombe
 
-Reference to Section (\autoref{section})
-Citation~\citep{Citation}
-Figure \href{file.png}{figure}\footnote{\href{file.png}{file.png}}
-Table table (\autoref{table})
-Link \href{www.com}{link}\footnote{\href{www.com}{www.com}}
-Nowhere [Nowhere]
+A Reference to Section (\autoref{section})
+A Citation~\citep{Citation}
+A Figure \href{file.png}{figure}\footnote{\href{file.png}{file.png}}
+A Table table (\autoref{table})
+A Link \href{www.com}{link}\footnote{\href{www.com}{www.com}}
+A Nowhere [Nowhere]
 
-Reference to \autoref{section}
-Citation~\citep{Citation}
-Figure [][figure]
-Table \autoref{table}
-Link [][link]
-Nowhere [][Nowhere]
+C Reference to Section (\autoref{section})
+C Citation~\citep{Citation}
+C Figure \href{file.png}{figure}\footnote{\href{file.png}{file.png}}
+C Table table (\autoref{table})
+C Link \href{www.com}{link}\footnote{\href{www.com}{www.com}}
+C Nowhere [Nowhere][]
 
-Reference to Section (\autoref{section})
-Citation~\citep{Citation}
-Figure \href{file.png}{figure}\footnote{\href{file.png}{file.png}}
-Table table (\autoref{table})
-Link \href{www.com}{link}\footnote{\href{www.com}{www.com}}
-Nowhere [Nowhere][]
+B Reference to \autoref{section}
+B Citation~\citep{Citation}
+B Figure [][figure]
+B Table \autoref{table}
+B Link [][link]
+B Nowhere [][Nowhere]
 
-Reference to option (\autoref{section})
-Citation~\citep[option]{Citation}
-Figure \href{file.png}{option}\footnote{\href{file.png}{file.png}}
-Table option (\autoref{table})
-Link \href{www.com}{option}\footnote{\href{www.com}{www.com}}
-Nowhere [option][Nowhere]
+D Reference to option (\autoref{section})
+D Citation~\citep[option]{Citation}
+D Figure \href{file.png}{option}\footnote{\href{file.png}{file.png}}
+D Table option (\autoref{table})
+D Link \href{www.com}{option}\footnote{\href{www.com}{www.com}}
+D Nowhere [option][Nowhere]
 
-Reference to [Section][option]
-Citation~\citep{Citation}[option]
-Figure [figure][option]
-Table [table][option]
-Link [link][option]
-Nowhere [Nowhere][option]
+E Reference to [Section][option]
+E Citation~\citep{Citation}[option]
+E Figure [figure][option]
+E Table [table][option]
+E Link [link][option]
+E Nowhere [Nowhere][option]
 
-Reference to \href{Section}{Section}
-Citation~\citep{Citation}(Citation)
-Figure \href{figure}{figure}
-Table \href{table}{table}
-Link \href{link}{link}
-Nowhere \href{nowhere}{Nowhere}\footnote{\href{nowhere}{nowhere}}
+F Reference to \href{Section}{Section}\footnote{\href{Section}{Section}}
+F Citation~\citep{Citation}(Citation)
+F Figure \href{figure}{figure}\footnote{\href{figure}{figure}}
+F Table \href{table}{table}\footnote{\href{table}{table}}
+F Link \href{link}{link}\footnote{\href{link}{link}}
+F Nowhere \href{nowhere}{Nowhere}\footnote{\href{nowhere}{nowhere}}
 
-Reference to [](Section)
+G Reference to [](Section)
 
-Citation[](Citation)
+G Citation[](Citation)
 
-Figure [](figure)
+G Figure [](figure)
 
-Table [](table)
+G Table [](table)
 
-Link [](link)
+G Link [](link)
 
-Nowhere [](nowhere)
+G Nowhere [](nowhere)
 
-Reference to \autoref{section}
-Citation\autoref{citation}
-Figure \autoref{figure}
-Table \autoref{table}
-Link \autoref{link}
-Nowhere \autoref{nowhere}
+H Reference to \href{#Section}{}
+H Citation\href{#Citation}{}
+H Figure \href{#figure}{}
+H Table \href{#table}{}
+H Link \href{#link}{}
+H Nowhere \href{#nowhere}{}
 
 \begin{figure}[htbp]
 \centering

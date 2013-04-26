@@ -102,7 +102,10 @@
                                style:join-border="false"/>
    <style:text-properties fo:font-size="6pt" style:font-size-asian="6pt" style:font-size-complex="6pt"/>
 </style:style>
-<style:style style:name="Footnote_20_anchor" style:display-name="Footnote anchor"              style:family="text">    <style:text-properties style:text-position="super 58%"/> </style:style></office:styles>
+<style:style style:name="Footnote_20_anchor" style:display-name="Footnote anchor"              style:family="text">    <style:text-properties style:text-position="super 58%"/> </style:style>
+  <text:notes-configuration text:note-class="footnote" text:default-style-name="Footnote" text:citation-style-name="Footnote_20_Symbol" text:citation-body-style-name="Footnote_20_anchor" text:master-page-name="Footnote" style:num-format="a" text:start-value="0" text:footnotes-position="page" text:start-numbering-at="page"/>
+  <text:notes-configuration text:note-class="endnote" text:default-style-name="Endnote" text:citation-style-name="Endnote_20_Symbol" text:citation-body-style-name="Endnote_20_anchor" text:master-page-name="Endnote" style:num-format="1" text:start-value="0"/>
+</office:styles>
 <office:automatic-styles>   <style:style style:name="MMD-Italic" style:family="text">
       <style:text-properties fo:font-style="italic" style:font-style-asian="italic"
                              style:font-style-complex="italic"/>
@@ -132,6 +135,11 @@
                              style:shadow="none"/>
 </style:style>
 </office:automatic-styles>
+ <office:master-styles>
+  <style:master-page style:name="Endnote" >
+    <style:header><text:h text:outline-level="2">Bibliography</text:h></style:header></style:master-page>
+  <style:master-page style:name="Footnote" style:page-layout-name="pm2"/>
+ </office:master-styles>
 <style:style style:name="P1" style:family="paragraph" style:parent-style-name="Standard"
              style:list-style-name="L1"/>
 <text:list-style style:name="L1">
@@ -142,12 +150,13 @@
 </text:list-style>
 <office:meta>
 <dc:title>MultiMarkdown Citation Test</dc:title>
-<meta:user-defined meta:name="bibtex">fake</meta:user-defined>
+<meta:user-defined meta:name="BibTex">fake</meta:user-defined>
 </office:meta>
 <office:body>
 <office:text>
 <text:h text:outline-level="1"><text:bookmark text:name="citations"/>Citations<text:bookmark-end text:name="citations"/></text:h>
-<text:p text:style-name="Standard">This is a test of citations<text:note text:id="cite1" text:note-class="footnote"><text:note-body>
+
+<text:p text:style-name="Standard">This is a test of citations<text:note text:id="cite1" text:note-class="endnote"><text:note-body>
 <text:p text:style-name="Footnote">John Doe. <text:span text:style-name="MMD-Italic">A Totally Fake Book</text:span>. Vanity Press, 2006.</text:p>
 </text:note-body>
 </text:note>
@@ -155,34 +164,38 @@
 <text:p text:style-name="Footnote">A footnote for good measure.</text:p>
 </text:note-body>
 </text:note>
- MultiMarkdown<text:note text:id="cite2" text:note-class="footnote"><text:note-body>
+ MultiMarkdown<text:note text:id="cite2" text:note-class="endnote"><text:note-body>
 <text:p text:style-name="Footnote">Jane Doe. <text:span text:style-name="MMD-Italic">Another Totally Fake Book</text:span>. Vanity Press, 2008.</text:p>
 </text:note-body>
 </text:note>
 .</text:p>
+
 <text:p text:style-name="Standard">And an unlisted citation.[#Author:1988].</text:p>
+
 <text:p text:style-name="Standard">And now some repeats&#8230;<text:note text:id="" text:note-class="footnote"><text:note-body>
 <text:p text:style-name="Footnote">And another footnote</text:p>
 </text:note-body>
 </text:note>
 </text:p>
-<text:p text:style-name="Standard">This is a test of citations<text:note text:id="cite3" text:note-class="footnote"><text:note-body>
-p. 123<text:note text:id="cite4" text:note-class="footnote"><text:note-body>
-<text:p text:style-name="Footnote">John Doe. <text:span text:style-name="MMD-Italic">A Totally Fake Book</text:span>. Vanity Press, 2006.</text:p>
-</text:note-body>
-</text:note>
-</text:note-body>
-</text:note>
- for MultiMarkdown<text:span text:style-name="Footnote_20_anchor"><text:note-ref text:note-class="footnote" text:reference-format="text" text:ref-name="cite2">2</text:note-ref></text:span>.</text:p>
+
+<text:p text:style-name="Standard">This is a test of citations<text:span text:style-name="Footnote_20_anchor"><text:note-ref text:note-class="endnote" text:reference-format="text" text:ref-name="cite1">1</text:note-ref></text:span> for MultiMarkdown<text:span text:style-name="Footnote_20_anchor"><text:note-ref text:note-class="endnote" text:reference-format="text" text:ref-name="cite2">2</text:note-ref></text:span>.</text:p>
+
 <text:p text:style-name="Standard">And an unlisted citation[#Author:1988].</text:p>
-<text:p text:style-name="Standard">Unlisted with locator.[#Author:1988]</text:p>
-<text:p text:style-name="Standard">Empty locator.<text:span text:style-name="Footnote_20_anchor"><text:note-ref text:note-class="footnote" text:reference-format="text" text:ref-name="cite1">1</text:note-ref></text:span></text:p>
-<text:p text:style-name="Standard">Consecutive citations.<text:span text:style-name="Footnote_20_anchor"><text:note-ref text:note-class="footnote" text:reference-format="text" text:ref-name="cite1">1</text:note-ref></text:span><text:span text:style-name="Footnote_20_anchor"><text:note-ref text:note-class="footnote" text:reference-format="text" text:ref-name="cite2">2</text:note-ref></text:span></text:p>
-<text:p text:style-name="Standard">Consecutive citations.<text:span text:style-name="Footnote_20_anchor"><text:note-ref text:note-class="footnote" text:reference-format="text" text:ref-name="cite1">1</text:note-ref></text:span><text:span text:style-name="Footnote_20_anchor"><text:note-ref text:note-class="footnote" text:reference-format="text" text:ref-name="cite2">2</text:note-ref></text:span></text:p>
-<text:p text:style-name="Standard">An &#8220;improperly&#8221; formed citation.<text:span text:style-name="Footnote_20_anchor"><text:note-ref text:note-class="footnote" text:reference-format="text" text:ref-name="cite2">2</text:note-ref></text:span></text:p>
-<text:p text:style-name="Standard">And an &#8220;improper&#8221; sequence.<text:span text:style-name="Footnote_20_anchor"><text:note-ref text:note-class="footnote" text:reference-format="text" text:ref-name="cite1">1</text:note-ref></text:span><text:span text:style-name="Footnote_20_anchor"><text:note-ref text:note-class="footnote" text:reference-format="text" text:ref-name="cite2">2</text:note-ref></text:span></text:p>
-<text:p text:style-name="Standard"><text:note text:id="cite5" text:note-class="footnote"><text:note-body>
-not cited<text:p text:style-name="Footnote">Jim Doe. <text:span text:style-name="MMD-Italic">Yet Another Fake Book</text:span>. Vanity Press, 2010.</text:p>
+
+<text:p text:style-name="Standard">Unlisted with locator.[test][#Author:1988]</text:p>
+
+<text:p text:style-name="Standard">Empty locator.<text:span text:style-name="Footnote_20_anchor"><text:note-ref text:note-class="endnote" text:reference-format="text" text:ref-name="cite1">1</text:note-ref></text:span></text:p>
+
+<text:p text:style-name="Standard">Consecutive citations.<text:span text:style-name="Footnote_20_anchor"><text:note-ref text:note-class="endnote" text:reference-format="text" text:ref-name="cite1">1</text:note-ref></text:span> <text:span text:style-name="Footnote_20_anchor"><text:note-ref text:note-class="endnote" text:reference-format="text" text:ref-name="cite2">2</text:note-ref></text:span></text:p>
+
+<text:p text:style-name="Standard">Consecutive citations.<text:span text:style-name="Footnote_20_anchor"><text:note-ref text:note-class="endnote" text:reference-format="text" text:ref-name="cite1">1</text:note-ref></text:span> <text:span text:style-name="Footnote_20_anchor"><text:note-ref text:note-class="endnote" text:reference-format="text" text:ref-name="cite2">2</text:note-ref></text:span></text:p>
+
+<text:p text:style-name="Standard">An &#8220;improperly&#8221; formed citation.<text:span text:style-name="Footnote_20_anchor"><text:note-ref text:note-class="endnote" text:reference-format="text" text:ref-name="cite2">2</text:note-ref></text:span></text:p>
+
+<text:p text:style-name="Standard">And an &#8220;improper&#8221; sequence.<text:span text:style-name="Footnote_20_anchor"><text:note-ref text:note-class="endnote" text:reference-format="text" text:ref-name="cite1">1</text:note-ref></text:span> <text:span text:style-name="Footnote_20_anchor"><text:note-ref text:note-class="endnote" text:reference-format="text" text:ref-name="cite2">2</text:note-ref></text:span></text:p>
+
+<text:p text:style-name="Standard"><text:note text:id="cite3" text:note-class="endnote"><text:note-body>
+<text:p text:style-name="Footnote">Jim Doe. <text:span text:style-name="MMD-Italic">Yet Another Fake Book</text:span>. Vanity Press, 2010.</text:p>
 </text:note-body>
 </text:note>
 </text:p>
