@@ -102,7 +102,7 @@
                                style:join-border="false"/>
    <style:text-properties fo:font-size="6pt" style:font-size-asian="6pt" style:font-size-complex="6pt"/>
 </style:style>
-<style:style style:name="Footnote_20_anchor" style:display-name="Footnote anchor"              style:family="text">    <style:text-properties style:text-position="super 58"/> </style:style></office:styles>
+<style:style style:name="Footnote_20_anchor" style:display-name="Footnote anchor"              style:family="text">    <style:text-properties style:text-position="super 58%"/> </style:style></office:styles>
 <office:automatic-styles>   <style:style style:name="MMD-Italic" style:family="text">
       <style:text-properties fo:font-style="italic" style:font-style-asian="italic"
                              style:font-style-complex="italic"/>
