@@ -22,3 +22,7 @@ An escaped '|'
 Another test of smart '.quotes'
 
 And again ".quotes"
+
+Not \"smart\".
+
+Not \'smart\'.
