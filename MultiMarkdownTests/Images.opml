@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<opml version="1.0">
+<head><title>Link Attributes Test</title></head>
+<body>
+<outline text="Images" _note="This is an image with an ampersand in the alt text.  ![foo &amp; bar](http://foo.net/bar.png).&#10;"></outline>
+<outline text="Metadata">
+<outline text="latex input" _note="mmd-article-header  "/><outline text="Title" _note="Link Attributes Test  "/><outline text="latex input" _note="mmd-article-begin-doc  "/><outline text="latex footer" _note="mmd-memoir-footer  "/></outline></body>
+</opml>
