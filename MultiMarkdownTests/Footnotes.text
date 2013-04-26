@@ -23,5 +23,8 @@ And now, reuse a footnote.[^shortnote]
 [somesamplefootnote]:http://somelink.com
 
 [^secondnote]: Note # 2.
-
 [^shortnote]: Finis
+
+Repeat previous footnote marker:
+
+[^shortnote]: Finis 2

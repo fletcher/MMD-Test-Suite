@@ -102,7 +102,7 @@
                                style:join-border="false"/>
    <style:text-properties fo:font-size="6pt" style:font-size-asian="6pt" style:font-size-complex="6pt"/>
 </style:style>
-<style:style style:name="Footnote_20_anchor" style:display-name="Footnote anchor"              style:family="text">    <style:text-properties style:text-position="super 58"/> </style:style>
+<style:style style:name="Footnote_20_anchor" style:display-name="Footnote anchor"              style:family="text">    <style:text-properties style:text-position="super 58%"/> </style:style>
   <text:notes-configuration text:note-class="footnote" text:default-style-name="Footnote" text:citation-style-name="Footnote_20_Symbol" text:citation-body-style-name="Footnote_20_anchor" text:master-page-name="Footnote" style:num-format="a" text:start-value="0" text:footnotes-position="page" text:start-numbering-at="page"/>
   <text:notes-configuration text:note-class="endnote" text:default-style-name="Endnote" text:citation-style-name="Endnote_20_Symbol" text:citation-body-style-name="Endnote_20_anchor" text:master-page-name="Endnote" style:num-format="1" text:start-value="0"/>
 </office:styles>
@@ -173,16 +173,18 @@
 
 
 <text:p text:style-name="Standard">And this is a short footnote for testing.<text:note text:id="" text:note-class="footnote"><text:note-body>
-<text:p text:style-name="Footnote">Finis</text:p>
+<text:p text:style-name="Footnote">Finis 2</text:p>
 </text:note-body>
 </text:note>
 </text:p>
 
 <text:p text:style-name="Standard">And now, reuse a footnote.<text:note text:id="" text:note-class="footnote"><text:note-body>
-<text:p text:style-name="Footnote">Finis</text:p>
+<text:p text:style-name="Footnote">Finis 2</text:p>
 </text:note-body>
 </text:note>
 </text:p>
+
+<text:p text:style-name="Standard">Repeat previous footnote marker:</text:p>
 </office:text>
 </office:body>
 </office:document>
