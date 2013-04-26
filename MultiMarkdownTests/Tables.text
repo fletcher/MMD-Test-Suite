@@ -70,3 +70,16 @@ Melts in warm places                |       No      |    Yes   |
 Mistakes can be easily fixed        |      Yes      |    No    |  
 Easy to copy documents for friends with some extra words to try and force a line break in every output format to test the wrapping feature  |      Yes      |    No    |  
 Fun at parties                      |  No           | Why not? |  
+
+|            |             Grouping             ||  
+First Header |    Second Header   | Third Header |  
+| ---------- | :----------------: | -----------: |  
+Content      |           *Long Cell*            ||  
+Content      |      **Cell**      |         Cell |  
+
+New section  |        More        |         Data |  
+And more     | With an escaped '\|'             ||  
+[Caption with footnote [^foot]][Prototype table]  
+
+
+[^foot]: Test footnote.
