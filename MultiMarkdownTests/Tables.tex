@@ -148,6 +148,30 @@ Fun at parties&No&Why not?\\
 \end{minipage}
 \end{table}
 
+\begin{table}[htbp]
+\begin{minipage}{\linewidth}
+\setlength{\tymax}{0.5\linewidth}
+\centering
+\small
+\caption{Caption with footnote \footnote{Test footnote.}}
+\label{prototypetable}
+\begin{tabulary}{\textwidth}{@{}LCR@{}} \toprule
+&\multicolumn{2}{c}{Grouping}\\
+First Header&Second Header&Third Header\\
+\midrule
+Content&\multicolumn{2}{c}{\emph{Long Cell}}\\
+Content&\textbf{Cell}&Cell\\
+
+\midrule
+New section&More&Data\\
+And more&\multicolumn{2}{c}{With an escaped `\textbar{}'}\\
+
+\bottomrule
+
+\end{tabulary}
+\end{minipage}
+\end{table}
+
 \input{mmd-memoir-footer}
 
 \end{document}

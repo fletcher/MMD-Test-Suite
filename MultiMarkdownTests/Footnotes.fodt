@@ -173,16 +173,18 @@
 
 
 <text:p text:style-name="Standard">And this is a short footnote for testing.<text:note text:id="" text:note-class="footnote"><text:note-body>
-<text:p text:style-name="Footnote">Finis</text:p>
+<text:p text:style-name="Footnote">Finis 2</text:p>
 </text:note-body>
 </text:note>
 </text:p>
 
 <text:p text:style-name="Standard">And now, reuse a footnote.<text:note text:id="" text:note-class="footnote"><text:note-body>
-<text:p text:style-name="Footnote">Finis</text:p>
+<text:p text:style-name="Footnote">Finis 2</text:p>
 </text:note-body>
 </text:note>
 </text:p>
+
+<text:p text:style-name="Standard">Repeat previous footnote marker:</text:p>
 </office:text>
 </office:body>
 </office:document>
