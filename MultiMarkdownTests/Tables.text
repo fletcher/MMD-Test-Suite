@@ -83,3 +83,15 @@ And more     | With an escaped '\|'             ||
 
 
 [^foot]: Test footnote.
+
+
+Table with headers in first column
+
+|            |             Grouping             ||  
+First Header |    Second Header   | Third Header |  
+| ========== | :----------------: | -----------: |  
+Content      |           *Long Cell*            ||  
+Content      |      **Cell**      |         Cell |  
+
+New section  |        More        |         Data |  
+And more     | With an escaped '\|'             ||  
