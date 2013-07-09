@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<opml version="1.0">
+<head><title>MultiMarkdown Fenced Code Blocks Test</title></head>
+<body>
+<outline text="Fenced Code Blocks" _note="Plain text.&#10;&#10;```&#10;This is a code block&#10;```&#10;&#10;```perl&#10;This is a code block using perl.&#10;```&#10;"></outline>
+<outline text="Metadata">
+<outline text="latex input" _note="mmd-article-header  "/><outline text="Title" _note="MultiMarkdown Fenced Code Blocks Test  "/><outline text="latex mode" _note="memoir  "/><outline text="Base Header Level" _note="2  "/><outline text="latex input" _note="mmd-article-begin-doc  "/><outline text="latex footer" _note="mmd-memoir-footer  "/></outline></body>
+</opml>

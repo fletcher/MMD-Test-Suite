@@ -155,59 +155,21 @@
    <text:list-level-style-number />
 </text:list-style>
 <office:meta>
-<dc:title>MultiMarkdown Math Example</dc:title>
+<dc:title>MultiMarkdown Superscript Test</dc:title>
 </office:meta>
 <office:body>
 <office:text>
-<text:h text:outline-level="1"><text:bookmark text:name="math"/>Math<text:bookmark-end text:name="math"/></text:h>
+<text:h text:outline-level="2"><text:bookmark text:name="superscript"/>Superscript<text:bookmark-end text:name="superscript"/></text:h>
 
-<text:p text:style-name="Standard">An example of math within a paragraph &#8212; <text:span text:style-name="math">\({e}^{i\pi }+1=0\)</text:span> &#8212; easy
-enough.</text:p>
+<text:p text:style-name="Standard">x<text:span text:style-name="MMD-Superscript">2</text:span>.</text:p>
 
-<text:p text:style-name="Standard">And an equation on it&#8217;s own:</text:p>
+<text:p text:style-name="Standard">x<text:span text:style-name="MMD-Superscript">2.</text:span></text:p>
 
-<text:p text:style-name="Standard"><text:span text:style-name="math">\[ {x}_{1,2}=\frac{-b\pm \sqrt{{b}^{2}-4ac}}{2a} \]</text:span></text:p>
+<text:h text:outline-level="2"><text:bookmark text:name="subscripts"/>Subscripts<text:bookmark-end text:name="subscripts"/></text:h>
 
-<text:p text:style-name="Standard">That&#8217;s it.</text:p>
+<text:p text:style-name="Standard">x<text:span text:style-name="MMD-Subscript">z</text:span>.</text:p>
 
-<text:h text:outline-level="2"><text:bookmark text:name="dollarmath"/>&#8220;DollarMath&#8221;<text:bookmark-end text:name="dollarmath"/></text:h>
-
-<text:p text:style-name="Standard">An example of math within a paragraph &#8212; <text:span text:style-name="math">${e}^{i\pi }+1=0$</text:span> &#8212; easy
-enough.</text:p>
-
-<text:p text:style-name="Standard">And an equation on it&#8217;s own:</text:p>
-
-<text:p text:style-name="Standard"><text:span text:style-name="math">$${x}_{1,2}=\frac{-b\pm \sqrt{{b}^{2}-4ac}}{2a}$$</text:span></text:p>
-
-<text:h text:outline-level="2"><text:bookmark text:name="notmath"/>Not Math<text:bookmark-end text:name="notmath"/></text:h>
-
-<text:p text:style-name="Standard">An example of math within a paragraph &#8212; $ {e}<text:span text:style-name="MMD-Superscript">{i</text:span>\pi }+1=0$ &#8212; easy
-enough.</text:p>
-
-<text:p text:style-name="Standard">And an equation on it&#8217;s own:</text:p>
-
-<text:p text:style-name="Standard">$$ {x}_{1,2}=\frac{-b\pm \sqrt{{b}<text:span text:style-name="MMD-Superscript">{2}</text:span>&#8211;4ac}}{2a}$$</text:p>
-
-<text:p text:style-name="Standard">An example of math within a paragraph &#8212; ${e}<text:span text:style-name="MMD-Superscript">{i</text:span>\pi }+1=0 $ &#8212; easy
-enough.</text:p>
-
-<text:p text:style-name="Standard">And an equation on it&#8217;s own:</text:p>
-
-<text:p text:style-name="Standard">$${x}_{1,2}=\frac{-b\pm \sqrt{{b}<text:span text:style-name="MMD-Superscript">{2}</text:span>&#8211;4ac}}{2a} $$</text:p>
-
-<text:p text:style-name="Standard">An example of math within a paragraph &#8212; a${e}<text:span text:style-name="MMD-Superscript">{i</text:span>\pi }+1=0$ &#8212; easy
-enough.</text:p>
-
-<text:p text:style-name="Standard">And an equation on it&#8217;s own:</text:p>
-
-<text:p text:style-name="Standard">a$${x}_{1,2}=\frac{-b\pm \sqrt{{b}<text:span text:style-name="MMD-Superscript">{2}</text:span>&#8211;4ac}}{2a}$$</text:p>
-
-<text:p text:style-name="Standard">An example of math within a paragraph &#8212; ${e}<text:span text:style-name="MMD-Superscript">{i</text:span>\pi }+1=0$b &#8212; easy
-enough.</text:p>
-
-<text:p text:style-name="Standard">And an equation on it&#8217;s own:</text:p>
-
-<text:p text:style-name="Standard">$${x}_{1,2}=\frac{-b\pm \sqrt{{b}<text:span text:style-name="MMD-Superscript">{2}</text:span>&#8211;4ac}}{2a}$$b</text:p>
+<text:p text:style-name="Standard">z<text:span text:style-name="MMD-Subscript">z.</text:span></text:p>
 </office:text>
 </office:body>
 </office:document>
