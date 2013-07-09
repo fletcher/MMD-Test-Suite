@@ -114,6 +114,12 @@
       <style:text-properties fo:font-weight="bold" style:font-weight-asian="bold"
                              style:font-weight-complex="bold"/>
    </style:style>
+   <style:style style:name="MMD-Superscript" style:family="text">
+      <style:text-properties style:text-position="super 58"/>
+   </style:style>
+   <style:style style:name="MMD-Subscript" style:family="text">
+      <style:text-properties style:text-position="sub 58"/>
+   </style:style>
 <style:style style:name="MMD-Table" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.05in"/>
 </style:style>

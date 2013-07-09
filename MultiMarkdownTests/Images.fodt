@@ -155,34 +155,18 @@
    <text:list-level-style-number />
 </text:list-style>
 <office:meta>
-<dc:title>MultiMarkdown Glossary Test</dc:title>
+<dc:title>Link Attributes Test</dc:title>
 </office:meta>
 <office:body>
 <office:text>
-<text:h text:outline-level="1"><text:bookmark text:name="glossary"/>Glossary<text:bookmark-end text:name="glossary"/></text:h>
+<text:h text:outline-level="1"><text:bookmark text:name="images"/>Images<text:bookmark-end text:name="images"/></text:h>
 
-<text:p text:style-name="Standard">MultiMarkdown has a special format for footnotes that should represent
-glossary terms. This doesn&#8217;t make much difference in XHTML (because there is
-no such thing as a glossary in XHTML), but can be used to generate a glossary
-within LaTeX documents.</text:p>
-
-<text:p text:style-name="Standard">For example, let&#8217;s have an entry for <text:span text:style-name="Source_20_Text">glossary</text:span>.<text:note text:id="" text:note-class="glossary"><text:note-body>
-<text:p text:style-name="Glossary">Glossary :</text:p>
-<text:p text:style-name="Footnote">A section at the end &#8230;</text:p>
-</text:note-body>
-</text:note>
- And what about
-ampersands?<text:note text:id="" text:note-class="glossary"><text:note-body>
-<text:p text:style-name="Glossary">&amp; :</text:p>
-<text:p text:style-name="Footnote">A punctuation mark &#8230;</text:p>
-</text:note-body>
-</text:note>
-</text:p>
-
-<text:p text:style-name="Standard">Since we want the ampersand entry to be sorted with the a&#8217;s, and not with
-symbols, we put in the optional sort key <text:span text:style-name="Source_20_Text">ampersand</text:span> to control sorting.</text:p>
-
-<text:p text:style-name="Preformatted Text">[^glossary]: glossary: Glossary <text:line-break/><text:tab/>A section at the end ...<text:line-break/><text:line-break/>[^amp]: glossary: &amp; (ampersand)<text:line-break/><text:tab/>A punctuation mark ...<text:line-break/></text:p>
+<text:p text:style-name="Standard">This is an image with an ampersand in the alt text. <draw:frame text:anchor-type="as-char"
+draw:z-index="0" draw:style-name="fr1" svg:width="95%"
+>
+<draw:text-box><text:p><draw:frame text:anchor-type="as-char" draw:z-index="1" ><draw:image xlink:href="http://foo.net/bar.png" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad" draw:filter-name="&lt;All formats&gt;"/>
+</draw:frame></text:p></draw:text-box></draw:frame>
+.</text:p>
 </office:text>
 </office:body>
 </office:document>
