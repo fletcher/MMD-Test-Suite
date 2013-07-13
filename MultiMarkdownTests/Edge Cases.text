@@ -15,6 +15,10 @@ The ***quick** brown fox* jumped
 
 The ***quick* brown fox** jumped
 
+The ***quick* brown *fox*** jumped
+
+The ***quick** brown **fox*** jumped
+
 
 # Can fail to process quickly #
 
