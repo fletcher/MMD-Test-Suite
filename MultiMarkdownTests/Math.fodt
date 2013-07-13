@@ -114,6 +114,12 @@
       <style:text-properties fo:font-weight="bold" style:font-weight-asian="bold"
                              style:font-weight-complex="bold"/>
    </style:style>
+   <style:style style:name="MMD-Superscript" style:family="text">
+      <style:text-properties style:text-position="super 58"/>
+   </style:style>
+   <style:style style:name="MMD-Subscript" style:family="text">
+      <style:text-properties style:text-position="sub 58"/>
+   </style:style>
 <style:style style:name="MMD-Table" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.05in"/>
 </style:style>
@@ -175,33 +181,33 @@ enough.</text:p>
 
 <text:h text:outline-level="2"><text:bookmark text:name="notmath"/>Not Math<text:bookmark-end text:name="notmath"/></text:h>
 
-<text:p text:style-name="Standard">An example of math within a paragraph &#8212; $ {e}^{i\pi }+1=0$ &#8212; easy
+<text:p text:style-name="Standard">An example of math within a paragraph &#8212; $ {e}<text:span text:style-name="MMD-Superscript">{i</text:span>\pi }+1=0$ &#8212; easy
 enough.</text:p>
 
 <text:p text:style-name="Standard">And an equation on it&#8217;s own:</text:p>
 
-<text:p text:style-name="Standard">$$ {x}_{1,2}=\frac{-b\pm \sqrt{{b}^{2}&#8211;4ac}}{2a}$$</text:p>
+<text:p text:style-name="Standard">$$ {x}_{1,2}=\frac{-b\pm \sqrt{{b}<text:span text:style-name="MMD-Superscript">{2}</text:span>&#8211;4ac}}{2a}$$</text:p>
 
-<text:p text:style-name="Standard">An example of math within a paragraph &#8212; ${e}^{i\pi }+1=0 $ &#8212; easy
+<text:p text:style-name="Standard">An example of math within a paragraph &#8212; ${e}<text:span text:style-name="MMD-Superscript">{i</text:span>\pi }+1=0 $ &#8212; easy
 enough.</text:p>
 
 <text:p text:style-name="Standard">And an equation on it&#8217;s own:</text:p>
 
-<text:p text:style-name="Standard">$${x}_{1,2}=\frac{-b\pm \sqrt{{b}^{2}&#8211;4ac}}{2a} $$</text:p>
+<text:p text:style-name="Standard">$${x}_{1,2}=\frac{-b\pm \sqrt{{b}<text:span text:style-name="MMD-Superscript">{2}</text:span>&#8211;4ac}}{2a} $$</text:p>
 
-<text:p text:style-name="Standard">An example of math within a paragraph &#8212; a${e}^{i\pi }+1=0$ &#8212; easy
+<text:p text:style-name="Standard">An example of math within a paragraph &#8212; a${e}<text:span text:style-name="MMD-Superscript">{i</text:span>\pi }+1=0$ &#8212; easy
 enough.</text:p>
 
 <text:p text:style-name="Standard">And an equation on it&#8217;s own:</text:p>
 
-<text:p text:style-name="Standard">a$${x}_{1,2}=\frac{-b\pm \sqrt{{b}^{2}&#8211;4ac}}{2a}$$</text:p>
+<text:p text:style-name="Standard">a$${x}_{1,2}=\frac{-b\pm \sqrt{{b}<text:span text:style-name="MMD-Superscript">{2}</text:span>&#8211;4ac}}{2a}$$</text:p>
 
-<text:p text:style-name="Standard">An example of math within a paragraph &#8212; ${e}^{i\pi }+1=0$b &#8212; easy
+<text:p text:style-name="Standard">An example of math within a paragraph &#8212; ${e}<text:span text:style-name="MMD-Superscript">{i</text:span>\pi }+1=0$b &#8212; easy
 enough.</text:p>
 
 <text:p text:style-name="Standard">And an equation on it&#8217;s own:</text:p>
 
-<text:p text:style-name="Standard">$${x}_{1,2}=\frac{-b\pm \sqrt{{b}^{2}&#8211;4ac}}{2a}$$b</text:p>
+<text:p text:style-name="Standard">$${x}_{1,2}=\frac{-b\pm \sqrt{{b}<text:span text:style-name="MMD-Superscript">{2}</text:span>&#8211;4ac}}{2a}$$b</text:p>
 </office:text>
 </office:body>
 </office:document>

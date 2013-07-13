@@ -2,19 +2,19 @@
 \def\mytitle{MultiMarkdown Autoreference Test}
 \input{mmd-article-begin-doc}
 
-\chapter{109\&\^{}*\&\#\^{}() Must Start With Alpha}
+\chapter{109\&*\&\#()\^{} Must Start With Alpha}
 \label{muststartwithalpha}
 
-\chapter{Strip out \&\^{}\% characters \^{}\&*\^{}}
+\chapter{Strip out \&\%\^{} characters \&*\^{}}
 \label{stripoutcharacters}
 
 \chapter{Special Cross Reference Cases}
 \label{specialcrossreferencecases}
 
-\section{1 Cross-References: Special Characters!@\#\$\%\^{}\&*()$<$$>$}
+\section{1 Cross-References: Special Characters!@\#\$\%\&*()$<$$>$\^{}}
 \label{cross-references:specialcharacters}
 
-And now, link to 1 Cross-References: Special Characters!@\#\$\%\^{}\&*()$<$$>$ (\autoref{cross-references:specialcharacters})
+And now, link to 1 Cross-References: Special Characters!@\#\$\%\&*()$<$$>$\^{} (\autoref{cross-references:specialcharacters})
 
 \chapter{Setext 1}
 \label{setext1}
@@ -41,6 +41,9 @@ And [Atx 2] should fail.
 
 \section{Manual Header 3}
 \label{label3}
+
+\chapter{Test Case}
+\label{test}
 
 \input{mmd-memoir-footer}
 

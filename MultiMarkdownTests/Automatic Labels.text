@@ -4,16 +4,16 @@ base header level:	2
 latex input:	mmd-article-begin-doc
 latex footer:	mmd-memoir-footer
 
-# 109&^*&#^() Must Start With Alpha #
+# 109&*&#()^ Must Start With Alpha #
 
-# Strip out &^% characters ^&*^ #
+# Strip out &%^ characters &*^ #
 
 
-# Special Cross Reference Cases#
+# Special Cross Reference Cases #
 
-## 1 Cross-References: Special Characters!@#$%^&*()<>##
+## 1 Cross-References: Special Characters!@#$%&*()<>^ ##
 
-And now, link to [1 Cross-References: Special Characters!@#$%^&*()<>][]
+And now, link to [1 Cross-References: Special Characters!@#$%&*()<>^][]
 
 
 Setext 1
@@ -43,3 +43,6 @@ Manual Header 2 [label2]
 
 Manual Header 3 [label3]
 ------------------------
+
+
+# Test Case [TeSt] #

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<opml version="1.0">
+<head><title>MultiMarkdown Superscript Test</title></head>
+<body>
+<outline text="Superscript" _note="x^2.&#10;&#10;x^2.^&#10;"></outline>
+<outline text="Subscripts" _note="x~z.&#10;&#10;z~z.~&#10;"></outline>
+<outline text="Metadata">
+<outline text="latex input" _note="mmd-article-header  "/><outline text="Title" _note="MultiMarkdown Superscript Test  "/><outline text="latex mode" _note="memoir  "/><outline text="Base Header Level" _note="2  "/><outline text="latex input" _note="mmd-article-begin-doc  "/><outline text="latex footer" _note="mmd-memoir-footer  "/></outline></body>
+</opml>

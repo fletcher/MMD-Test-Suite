@@ -114,6 +114,12 @@
       <style:text-properties fo:font-weight="bold" style:font-weight-asian="bold"
                              style:font-weight-complex="bold"/>
    </style:style>
+   <style:style style:name="MMD-Superscript" style:family="text">
+      <style:text-properties style:text-position="super 58"/>
+   </style:style>
+   <style:style style:name="MMD-Subscript" style:family="text">
+      <style:text-properties style:text-position="sub 58"/>
+   </style:style>
 <style:style style:name="MMD-Table" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.05in"/>
 </style:style>
@@ -153,15 +159,15 @@
 </office:meta>
 <office:body>
 <office:text>
-<text:h text:outline-level="2"><text:bookmark text:name="muststartwithalpha"/>109&amp;^*&amp;#^() Must Start With Alpha<text:bookmark-end text:name="muststartwithalpha"/></text:h>
+<text:h text:outline-level="2"><text:bookmark text:name="muststartwithalpha"/>109&amp;*&amp;#()^ Must Start With Alpha<text:bookmark-end text:name="muststartwithalpha"/></text:h>
 
-<text:h text:outline-level="2"><text:bookmark text:name="stripoutcharacters"/>Strip out &amp;^% characters ^&amp;*^<text:bookmark-end text:name="stripoutcharacters"/></text:h>
+<text:h text:outline-level="2"><text:bookmark text:name="stripoutcharacters"/>Strip out &amp;%^ characters &amp;*^<text:bookmark-end text:name="stripoutcharacters"/></text:h>
 
 <text:h text:outline-level="2"><text:bookmark text:name="specialcrossreferencecases"/>Special Cross Reference Cases<text:bookmark-end text:name="specialcrossreferencecases"/></text:h>
 
-<text:h text:outline-level="3"><text:bookmark text:name="cross-references:specialcharacters"/>1 Cross-References: Special Characters!@#$%^&amp;*()&lt;&gt;<text:bookmark-end text:name="cross-references:specialcharacters"/></text:h>
+<text:h text:outline-level="3"><text:bookmark text:name="cross-references:specialcharacters"/>1 Cross-References: Special Characters!@#$%&amp;*()&lt;&gt;^<text:bookmark-end text:name="cross-references:specialcharacters"/></text:h>
 
-<text:p text:style-name="Standard">And now, link to <text:a xlink:type="simple" xlink:href="#cross-references:specialcharacters">1 Cross-References: Special Characters!@#$%^&amp;*()&lt;&gt;</text:a></text:p>
+<text:p text:style-name="Standard">And now, link to <text:a xlink:type="simple" xlink:href="#cross-references:specialcharacters">1 Cross-References: Special Characters!@#$%&amp;*()&lt;&gt;^</text:a></text:p>
 
 <text:h text:outline-level="2"><text:bookmark text:name="setext1"/>Setext 1<text:bookmark-end text:name="setext1"/></text:h>
 
@@ -181,6 +187,8 @@
 
 <text:h text:outline-level="2"><text:bookmark text:name="label2"/>Manual Header 2<text:bookmark-end text:name="label2"/></text:h>
 
-<text:h text:outline-level="3"><text:bookmark text:name="label3"/>Manual Header 3<text:bookmark-end text:name="label3"/></text:h></office:text>
+<text:h text:outline-level="3"><text:bookmark text:name="label3"/>Manual Header 3<text:bookmark-end text:name="label3"/></text:h>
+
+<text:h text:outline-level="2"><text:bookmark text:name="test"/>Test Case<text:bookmark-end text:name="test"/></text:h></office:text>
 </office:body>
 </office:document>
