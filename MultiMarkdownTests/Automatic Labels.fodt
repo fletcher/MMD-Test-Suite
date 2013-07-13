@@ -187,6 +187,8 @@
 
 <text:h text:outline-level="2"><text:bookmark text:name="label2"/>Manual Header 2<text:bookmark-end text:name="label2"/></text:h>
 
-<text:h text:outline-level="3"><text:bookmark text:name="label3"/>Manual Header 3<text:bookmark-end text:name="label3"/></text:h></office:text>
+<text:h text:outline-level="3"><text:bookmark text:name="label3"/>Manual Header 3<text:bookmark-end text:name="label3"/></text:h>
+
+<text:h text:outline-level="2"><text:bookmark text:name="test"/>Test Case<text:bookmark-end text:name="test"/></text:h></office:text>
 </office:body>
 </office:document>
