@@ -1,0 +1,48 @@
+\input{mmd-article-header}
+\def\mytitle{Edge Cases}
+\input{mmd-article-begin-doc}
+
+\part{Strong and Emph}
+\label{strongandemph}
+
+The \textbf{\emph{quick}} brown \textbf{\emph{fox}} jumped
+
+The \textbf{\emph{quick}} brown fox jumped
+
+The \emph{\textbf{quick} brown fox} jumped
+
+The \textbf{\emph{quick} brown fox} jumped
+
+The \textbf{\emph{quick} brown \emph{fox}} jumped
+
+The \emph{\strong{quick} brown \strong{fox}} jumped
+
+\part{Can fail to process quickly}
+\label{canfailtoprocessquickly}
+
+\emph{a
+}a
+\emph{a
+}a
+\emph{a
+}a
+\emph{a
+}a
+\emph{a
+}a
+\emph{a
+}a
+\emph{a
+}a
+\emph{a
+}a
+\emph{a
+}a
+\emph{a
+}a
+*a
+aaaaa
+
+\input{mmd-memoir-footer}
+
+\end{document}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<opml version="1.0">
+<head><title>Edge Cases</title></head>
+<body>
+<outline text="Strong and Emph" _note="The ***quick*** brown ***fox*** jumped&#10;&#10;The ***quick*** brown fox jumped&#10;&#10;The ***quick** brown fox* jumped&#10;&#10;The ***quick* brown fox** jumped&#10;&#10;The ***quick* brown *fox*** jumped&#10;&#10;The ***quick** brown **fox*** jumped&#10;"></outline>
+<outline text="Can fail to process quickly" _note="*a&#10;*a&#10;*a&#10;*a&#10;*a&#10;*a&#10;*a&#10;*a&#10;*a&#10;*a&#10;*a&#10;*a&#10;*a&#10;*a&#10;*a&#10;*a&#10;*a&#10;*a&#10;*a&#10;*a&#10;*a&#10;aaaaa&#10;"></outline>
+<outline text="Metadata">
+<outline text="latex input" _note="mmd-article-header  "/><outline text="Title" _note="Edge Cases  "/><outline text="latex input" _note="mmd-article-begin-doc  "/><outline text="latex footer" _note="mmd-memoir-footer  "/></outline></body>
+</opml>
