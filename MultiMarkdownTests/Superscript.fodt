@@ -170,6 +170,12 @@
 <text:p text:style-name="Standard">x<text:span text:style-name="MMD-Subscript">z</text:span>.</text:p>
 
 <text:p text:style-name="Standard">z<text:span text:style-name="MMD-Subscript">z.</text:span></text:p>
+
+<text:h text:outline-level="2"><text:bookmark text:name="neither"/>Neither<text:bookmark-end text:name="neither"/></text:h>
+
+<text:p text:style-name="Standard">~/Library/MultiMarkdown</text:p>
+
+<text:p text:style-name="Standard">^test</text:p>
 </office:text>
 </office:body>
 </office:document>
