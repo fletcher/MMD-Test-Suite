@@ -115,10 +115,10 @@
                              style:font-weight-complex="bold"/>
    </style:style>
    <style:style style:name="MMD-Superscript" style:family="text">
-      <style:text-properties style:text-position="super 58"/>
+      <style:text-properties style:text-position="super 58%"/>
    </style:style>
    <style:style style:name="MMD-Subscript" style:family="text">
-      <style:text-properties style:text-position="sub 58"/>
+      <style:text-properties style:text-position="sub 58%"/>
    </style:style>
 <style:style style:name="MMD-Table" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.05in"/>
@@ -170,6 +170,12 @@
 <text:p text:style-name="Standard">x<text:span text:style-name="MMD-Subscript">z</text:span>.</text:p>
 
 <text:p text:style-name="Standard">z<text:span text:style-name="MMD-Subscript">z.</text:span></text:p>
+
+<text:h text:outline-level="2"><text:bookmark text:name="neither"/>Neither<text:bookmark-end text:name="neither"/></text:h>
+
+<text:p text:style-name="Standard">~/Library/MultiMarkdown</text:p>
+
+<text:p text:style-name="Standard">^test</text:p>
 </office:text>
 </office:body>
 </office:document>

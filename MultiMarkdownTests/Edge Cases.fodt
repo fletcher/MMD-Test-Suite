@@ -115,10 +115,10 @@
                              style:font-weight-complex="bold"/>
    </style:style>
    <style:style style:name="MMD-Superscript" style:family="text">
-      <style:text-properties style:text-position="super 58"/>
+      <style:text-properties style:text-position="super 58%"/>
    </style:style>
    <style:style style:name="MMD-Subscript" style:family="text">
-      <style:text-properties style:text-position="sub 58"/>
+      <style:text-properties style:text-position="sub 58%"/>
    </style:style>
 <style:style style:name="MMD-Table" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.05in"/>
@@ -161,7 +161,7 @@
 <office:text>
 <text:h text:outline-level="1"><text:bookmark text:name="strongandemph"/>Strong and Emph<text:bookmark-end text:name="strongandemph"/></text:h>
 
-<text:p text:style-name="Standard">The <text:span text:style-name="MMD-Bold"><text:span text:style-name="MMD-Italic">quick<text:span text:style-name="MMD-Bold">* brown </text:span></text:span>fox</text:span>* jumped</text:p>
+<text:p text:style-name="Standard">The <text:span text:style-name="MMD-Bold"><text:span text:style-name="MMD-Italic">quick</text:span></text:span> brown <text:span text:style-name="MMD-Bold"><text:span text:style-name="MMD-Italic">fox</text:span></text:span> jumped</text:p>
 
 <text:p text:style-name="Standard">The <text:span text:style-name="MMD-Bold"><text:span text:style-name="MMD-Italic">quick</text:span></text:span> brown fox jumped</text:p>
 
