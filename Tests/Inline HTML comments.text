@@ -8,6 +8,8 @@ Paragraph one.
 
 Paragraph two.
 
+The following is not a valid HTML comment:
+
 <!-- one comment block -- -- with two comments -->
 
 The end.
