@@ -191,6 +191,12 @@
 </text:p>
 
 <text:p text:style-name="Standard">Repeat previous footnote marker:</text:p>
+
+<text:p text:style-name="Standard">This is an inline footnote.<text:note text:id="" text:note-class="footnote"><text:note-body>
+<text:p text:style-name="Footnote">This is the <text:span text:style-name="MMD-Italic">actual</text:span> text of the footnote itself.</text:p>
+</text:note-body>
+</text:note>
+</text:p>
 </office:text>
 </office:body>
 </office:document>

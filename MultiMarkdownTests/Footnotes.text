@@ -28,3 +28,6 @@ And now, reuse a footnote.[^shortnote]
 Repeat previous footnote marker:
 
 [^shortnote]: Finis 2
+
+
+This is an inline footnote.[^This is the *actual* text of the footnote itself.]
