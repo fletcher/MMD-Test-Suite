@@ -298,6 +298,14 @@
 </text:note-body>
 </text:note>
 </text:p>
+
+<text:p text:style-name="Standard">This is a footnote with 2 paragraphs.<text:note text:id="" text:note-class="footnote"><text:note-body>
+<text:p text:style-name="Footnote">First paragraph</text:p>
+
+<text:p text:style-name="Footnote">Second paragraph</text:p>
+</text:note-body>
+</text:note>
+</text:p>
 </office:text>
 </office:body>
 </office:document>
