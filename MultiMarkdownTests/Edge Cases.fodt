@@ -272,7 +272,7 @@
 
 <text:p text:style-name="Standard">The <text:span text:style-name="MMD-Bold"><text:span text:style-name="MMD-Italic">quick</text:span> brown <text:span text:style-name="MMD-Italic">fox</text:span></text:span> jumped</text:p>
 
-<text:p text:style-name="Standard">The <text:span text:style-name="MMD-Bold"><text:span text:style-name="MMD-Italic">quick</text:span>* brown </text:span>fox*** jumped</text:p>
+<text:p text:style-name="Standard">The <text:span text:style-name="MMD-Italic"><text:span text:style-name="MMD-Bold">quick</text:span> brown <text:span text:style-name="MMD-Bold">fox</text:span></text:span> jumped</text:p>
 
 <text:h text:outline-level="1"><text:bookmark text:name="canfailtoprocessquickly"/>Can fail to process quickly<text:bookmark-end text:name="canfailtoprocessquickly"/></text:h>
 
