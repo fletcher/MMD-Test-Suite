@@ -31,3 +31,9 @@ Repeat previous footnote marker:
 
 
 This is an inline footnote.[^This is the *actual* text of the footnote itself.]
+
+This is a footnote with 2 paragraphs.[^double]
+
+[^double]: First paragraph
+
+	Second paragraph
