@@ -319,6 +319,10 @@ draw:z-index="0" draw:style-name="fr1" svg:width="95%"
 <draw:text-box><text:p><draw:frame text:anchor-type="as-char" draw:z-index="1" ><draw:image xlink:href="http://path.to/image" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad" draw:filter-name="&lt;All formats&gt;"/>
 </draw:frame></text:p></draw:text-box></draw:frame>
 </text:p>
+
+<text:h text:outline-level="1"><text:bookmark text:name="basiclinks"/>Basic Links<text:bookmark-end text:name="basiclinks"/></text:h>
+
+<text:p text:style-name="Standard">An explicit <text:a xlink:type="simple" xlink:href="http://foo.com/">link</text:a> with whitespace.</text:p>
 </office:text>
 </office:body>
 </office:document>

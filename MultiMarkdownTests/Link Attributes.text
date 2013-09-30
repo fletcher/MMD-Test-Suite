@@ -50,3 +50,9 @@ Test various identifiers:
 Test link and markup ![and *this* but not **that**][image-attr]
 
 [image-attr]: http://path.to/image "Test *this* and **this**"
+
+
+# Basic Links
+
+An explicit [link] 
+ (http://foo.com/) with whitespace.
