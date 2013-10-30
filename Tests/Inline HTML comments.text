@@ -8,7 +8,7 @@ Paragraph one.
 
 Paragraph two.
 
-The following is not a valid HTML comment:
+The following is not a valid HTML comment, but we still parse it:
 
 <!-- one comment block -- -- with two comments -->
 

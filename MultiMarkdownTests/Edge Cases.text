@@ -19,6 +19,8 @@ The ***quick* brown *fox*** jumped
 
 The ***quick** brown **fox*** jumped
 
+This *should* be parsed --  fo***o
+
 
 # Can fail to process quickly #
 
