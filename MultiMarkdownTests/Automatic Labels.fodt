@@ -260,7 +260,7 @@
 </office:meta>
 <office:body>
 <office:text>
-<text:h text:outline-level="2"><text:bookmark text:name="109muststartwithalpha"/>109&amp;*&amp;#()^ Must Start With Alpha<text:bookmark-end text:name="109muststartwithalpha"/></text:h>
+<text:h text:outline-level="2"><text:bookmark text:name="109canstartwithdigit"/>109&amp;*&amp;#()^ Can Start With Digit<text:bookmark-end text:name="109canstartwithdigit"/></text:h>
 
 <text:h text:outline-level="2"><text:bookmark text:name="stripoutcharacters"/>Strip out &amp;%^ characters &amp;*^<text:bookmark-end text:name="stripoutcharacters"/></text:h>
 
