@@ -15,6 +15,9 @@ latex footer:	mmd-memoir-footer
 
 And now, link to [1 Cross-References: Special Characters!@#$%&*()<>^][]
 
+# Заголовок по-русски #
+
+И ссылка на [Заголовок по-русски].
 
 Setext 1
 ========
