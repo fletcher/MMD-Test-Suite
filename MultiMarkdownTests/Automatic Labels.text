@@ -4,7 +4,7 @@ base header level:	2
 latex input:	mmd-article-begin-doc
 latex footer:	mmd-memoir-footer
 
-# 109&*&#()^ Must Start With Alpha #
+# 109&*&#()^ Can Start With Digit #
 
 # Strip out &%^ characters &*^ #
 
@@ -15,6 +15,9 @@ latex footer:	mmd-memoir-footer
 
 And now, link to [1 Cross-References: Special Characters!@#$%&*()<>^][]
 
+# Заголовок по-русски #
+
+И ссылка на [Заголовок по-русски].
 
 Setext 1
 ========
