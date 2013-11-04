@@ -11,3 +11,12 @@ latex footer:	mmd-memoir-footer
 	The following blank line has 4 spaces.
     
 Paragraph following the list that shouldn't be part of the list item.
+
+
+# Empty List item
+
+(note space after second '*')
+
+* first
+* 
+* third

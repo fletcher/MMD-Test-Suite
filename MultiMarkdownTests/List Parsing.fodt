@@ -271,6 +271,17 @@ The following blank line has 4 spaces.</text:p>
 </text:list>
 
 <text:p text:style-name="Standard">Paragraph following the list that shouldn&#8217;t be part of the list item.</text:p>
-</office:text>
+
+<text:h text:outline-level="1"><text:bookmark text:name="emptylistitem"/>Empty List item<text:bookmark-end text:name="emptylistitem"/></text:h>
+
+<text:p text:style-name="Standard">(note space after second &#8216;*&#8217;)</text:p>
+
+<text:list text:style-name="L1"><text:list-item>
+<text:p text:style-name="P1">first</text:p></text:list-item>
+<text:list-item>
+</text:list-item>
+<text:list-item>
+<text:p text:style-name="P1">third</text:p></text:list-item>
+</text:list></office:text>
 </office:body>
 </office:document>
