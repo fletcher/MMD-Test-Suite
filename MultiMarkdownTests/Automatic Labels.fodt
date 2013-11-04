@@ -260,7 +260,7 @@
 </office:meta>
 <office:body>
 <office:text>
-<text:h text:outline-level="2"><text:bookmark text:name="109muststartwithalpha"/>109&amp;*&amp;#()^ Must Start With Alpha<text:bookmark-end text:name="109muststartwithalpha"/></text:h>
+<text:h text:outline-level="2"><text:bookmark text:name="109canstartwithdigit"/>109&amp;*&amp;#()^ Can Start With Digit<text:bookmark-end text:name="109canstartwithdigit"/></text:h>
 
 <text:h text:outline-level="2"><text:bookmark text:name="stripoutcharacters"/>Strip out &amp;%^ characters &amp;*^<text:bookmark-end text:name="stripoutcharacters"/></text:h>
 
@@ -269,6 +269,10 @@
 <text:h text:outline-level="3"><text:bookmark text:name="1cross-references:specialcharacters"/>1 Cross-References: Special Characters!@#$%&amp;*()&lt;&gt;^<text:bookmark-end text:name="1cross-references:specialcharacters"/></text:h>
 
 <text:p text:style-name="Standard">And now, link to <text:a xlink:type="simple" xlink:href="#1cross-references:specialcharacters">1 Cross-References: Special Characters!@#$%&amp;*()&lt;&gt;^</text:a></text:p>
+
+<text:h text:outline-level="2"><text:bookmark text:name="Заголовокпо-русски"/>Заголовок по-русски<text:bookmark-end text:name="Заголовокпо-русски"/></text:h>
+
+<text:p text:style-name="Standard">И ссылка на <text:a xlink:type="simple" xlink:href="#Заголовокпо-русски">Заголовок по-русски</text:a>.</text:p>
 
 <text:h text:outline-level="2"><text:bookmark text:name="setext1"/>Setext 1<text:bookmark-end text:name="setext1"/></text:h>
 
