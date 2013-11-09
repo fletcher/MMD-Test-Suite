@@ -294,6 +294,8 @@
 
 <text:h text:outline-level="3"><text:bookmark text:name="label3"/>Manual Header 3<text:bookmark-end text:name="label3"/></text:h>
 
-<text:h text:outline-level="2"><text:bookmark text:name="test"/>Test Case<text:bookmark-end text:name="test"/></text:h></office:text>
+<text:h text:outline-level="2"><text:bookmark text:name="test"/>Test Case<text:bookmark-end text:name="test"/></text:h>
+
+<text:h text:outline-level="2"><text:bookmark text:name="test的multibyte"/>Test 的 Multibyte<text:bookmark-end text:name="test的multibyte"/></text:h></office:text>
 </office:body>
 </office:document>
