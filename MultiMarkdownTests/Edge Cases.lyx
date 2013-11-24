@@ -1,0 +1,221 @@
+#LyX File created by multimarkdown
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass memoir
+\begin_preamble
+\usepackage{listings}
+\usepackage{natbib}
+\usepackage{nomencl}
+\usepackage{booktabs}
+\usepackage{refstyle}
+\usepackage{varioref}
+\bibpunct{(}{)}{,}{a}{,}{,}
+\newref{part}{refcmd={Part \ref{#1} \vpageref{#1}}}
+\newref{chapt}{refcmd={Chapter \ref{#1} \vpageref{#1}}}
+\newref{secti}{refcmd={Section \ref{#1} \vpageref{#1}}}
+\newref{subse}{refcmd={Subsection \ref{#1} \vpageref{#1}}}
+\newref{subsu}{refcmd={Subsubsection \ref{#1} \vpageref{#1}}}
+\newref{parag}{refcmd={Paragraph \ref{#1} \vpageref{#1}}}
+\newref{subpa}{refcmd={Subparagraph \ref{#1} \vpageref{#1}}}
+\newref{tab}{refcmd={Table \ref{#1} \vpageref{#1}}}
+\newref{fig}{refcmd={Figure \ref{#1} \vpageref{#1}}}
+\end_preamble
+\options refpage
+\begin_modules
+\end_modules
+\bibtex_command default
+\cite_engine natbib_authoryear
+\end_header
+\begin_body
+
+\begin_layout Title
+Edge Cases
+\end_layout
+
+\begin_layout Part
+Strong and Emph
+\begin_inset CommandInset label
+LatexCommand label
+name "part:strongandemph"
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+The 
+\series bold
+
+\emph on
+quick
+\emph default
+
+\series default
+ brown 
+\series bold
+
+\emph on
+fox
+\emph default
+
+\series default
+ jumped
+\end_layout
+
+\begin_layout Standard
+The 
+\series bold
+
+\emph on
+quick
+\emph default
+
+\series default
+ brown fox jumped
+\end_layout
+
+\begin_layout Standard
+The 
+\emph on
+
+\series bold
+quick
+\series default
+ brown fox
+\emph default
+ jumped
+\end_layout
+
+\begin_layout Standard
+The 
+\series bold
+
+\emph on
+quick
+\emph default
+ brown fox
+\series default
+ jumped
+\end_layout
+
+\begin_layout Standard
+The 
+\series bold
+
+\emph on
+quick
+\emph default
+ brown 
+\emph on
+fox
+\emph default
+
+\series default
+ jumped
+\end_layout
+
+\begin_layout Standard
+The 
+\emph on
+
+\series bold
+quick
+\series default
+ brown 
+\series bold
+fox
+\series default
+
+\emph default
+ jumped
+\end_layout
+
+\begin_layout Standard
+This 
+\emph on
+should
+\emph default
+ be parsed -- fo
+\emph on
+*
+\emph default
+o
+\end_layout
+
+\begin_layout Part
+Can fail to process quickly
+\begin_inset CommandInset label
+LatexCommand label
+name "part:canfailtoprocessquickly"
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+a
+ 
+\emph default
+a
+ 
+\emph on
+a
+ 
+\emph default
+a
+ 
+\emph on
+a
+ 
+\emph default
+a
+ 
+\emph on
+a
+ 
+\emph default
+a
+ 
+\emph on
+a
+ 
+\emph default
+a
+ 
+\emph on
+a
+ 
+\emph default
+a
+ 
+\emph on
+a
+ 
+\emph default
+a
+ 
+\emph on
+a
+ 
+\emph default
+a
+ 
+\emph on
+a
+ 
+\emph default
+a
+ 
+\emph on
+a
+ 
+\emph default
+a
+ *a
+ aaaaa
+\end_layout
+
+\end_body
+\end_document
+

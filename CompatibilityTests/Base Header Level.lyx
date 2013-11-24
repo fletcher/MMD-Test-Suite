@@ -1,0 +1,74 @@
+#LyX File created by multimarkdown
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass memoir
+\begin_preamble
+\usepackage{listings}
+\usepackage{natbib}
+\usepackage{nomencl}
+\usepackage{booktabs}
+\usepackage{refstyle}
+\usepackage{varioref}
+\bibpunct{(}{)}{,}{a}{,}{,}
+\newref{part}{refcmd={Part \ref{#1} \vpageref{#1}}}
+\newref{chapt}{refcmd={Chapter \ref{#1} \vpageref{#1}}}
+\newref{secti}{refcmd={Section \ref{#1} \vpageref{#1}}}
+\newref{subse}{refcmd={Subsection \ref{#1} \vpageref{#1}}}
+\newref{subsu}{refcmd={Subsubsection \ref{#1} \vpageref{#1}}}
+\newref{parag}{refcmd={Paragraph \ref{#1} \vpageref{#1}}}
+\newref{subpa}{refcmd={Subparagraph \ref{#1} \vpageref{#1}}}
+\newref{tab}{refcmd={Table \ref{#1} \vpageref{#1}}}
+\newref{fig}{refcmd={Figure \ref{#1} \vpageref{#1}}}
+\end_preamble
+\options refpage
+\begin_modules
+\end_modules
+\bibtex_command default
+\cite_engine natbib_authoryear
+\end_header
+\begin_body
+
+\begin_layout Title
+MultiMarkdown Base Header Level Test
+\end_layout
+
+\begin_layout Chapter
+This should be h2
+\begin_inset CommandInset label
+LatexCommand label
+name "chapt:thisshouldbeh2"
+\end_inset
+
+\end_layout
+
+\begin_layout Section
+This should be h3
+\begin_inset CommandInset label
+LatexCommand label
+name "secti:thisshouldbeh3"
+\end_inset
+
+\end_layout
+
+\begin_layout Paragraph
+This should be h6
+\begin_inset CommandInset label
+LatexCommand label
+name "parag:thisshouldbeh6"
+\end_inset
+
+\end_layout
+
+\begin_layout Subparagraph
+This should be h6 in HTML h7 in LaTeX
+\begin_inset CommandInset label
+LatexCommand label
+name "subpa:thisshouldbeh6inhtmlh7inlatex"
+\end_inset
+
+\end_layout
+
+\end_body
+\end_document
+

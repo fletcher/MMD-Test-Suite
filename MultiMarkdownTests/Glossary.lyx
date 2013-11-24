@@ -1,0 +1,129 @@
+#LyX File created by multimarkdown
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass memoir
+\begin_preamble
+\usepackage{listings}
+\usepackage{natbib}
+\usepackage{nomencl}
+\usepackage{booktabs}
+\usepackage{refstyle}
+\usepackage{varioref}
+\bibpunct{(}{)}{,}{a}{,}{,}
+\newref{part}{refcmd={Part \ref{#1} \vpageref{#1}}}
+\newref{chapt}{refcmd={Chapter \ref{#1} \vpageref{#1}}}
+\newref{secti}{refcmd={Section \ref{#1} \vpageref{#1}}}
+\newref{subse}{refcmd={Subsection \ref{#1} \vpageref{#1}}}
+\newref{subsu}{refcmd={Subsubsection \ref{#1} \vpageref{#1}}}
+\newref{parag}{refcmd={Paragraph \ref{#1} \vpageref{#1}}}
+\newref{subpa}{refcmd={Subparagraph \ref{#1} \vpageref{#1}}}
+\newref{tab}{refcmd={Table \ref{#1} \vpageref{#1}}}
+\newref{fig}{refcmd={Figure \ref{#1} \vpageref{#1}}}
+\end_preamble
+\options refpage
+\begin_modules
+\end_modules
+\bibtex_command default
+\cite_engine natbib_authoryear
+\end_header
+\begin_body
+
+\begin_layout Title
+MultiMarkdown Glossary Test
+\end_layout
+
+\begin_layout Part
+Glossary
+\begin_inset CommandInset label
+LatexCommand label
+name "part:glossary"
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+MultiMarkdown has a special format for footnotes that should represent
+ glossary terms. This doesn't make much difference in XHTML (because there is
+ no such thing as a glossary in XHTML), but can be used to generate a glossary
+ within LaTeX documents.
+\end_layout
+
+\begin_layout Standard
+For example, let's have an entry for 
+\family typewriter
+glossary
+\family default
+.
+\begin_inset CommandInset nomenclature
+LatexCommand nomenclature
+symbol "Glossary "
+description "A section at the end ..."
+
+\end_inset
+ And what about
+ ampersands?
+\begin_inset CommandInset nomenclature
+LatexCommand nomenclature
+prefix "ampersand"
+symbol "\& "
+description "A punctuation mark ..."
+
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+Since we want the ampersand entry to be sorted with the a's, and not with
+ symbols, we put in the optional sort key 
+\family typewriter
+ampersand
+\family default
+ to control sorting.
+\end_layout
+\begin_layout Standard
+\begin_inset listings
+lstparams "basicstyle={\footnotesize\ttfamily}="
+inline false
+status collapsed
+
+\begin_layout Plain Layout
+
+[^glossary]: glossary: Glossary 
+\end_layout
+
+\begin_layout Plain Layout
+
+    A section at the end ...
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+[^amp]: glossary: & (ampersand)
+\end_layout
+
+\begin_layout Plain Layout
+
+    A punctuation mark ...
+\end_layout
+
+\end_inset
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset nomencl_print
+LatexCommand printnomenclature
+set_width "auto"
+
+\end_inset
+
+\end_layout
+
+\end_body
+\end_document
+
