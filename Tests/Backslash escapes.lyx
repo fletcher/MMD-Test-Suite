@@ -1,0 +1,542 @@
+#LyX File created by multimarkdown
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass memoir
+\begin_preamble
+\usepackage{listings}
+\usepackage{natbib}
+\usepackage{nomencl}
+\usepackage{booktabs}
+\usepackage{refstyle}
+\usepackage{varioref}
+\bibpunct{(}{)}{,}{a}{,}{,}
+\newref{part}{refcmd={Part \ref{#1} \vpageref{#1}}}
+\newref{chapt}{refcmd={Chapter \ref{#1} \vpageref{#1}}}
+\newref{secti}{refcmd={Section \ref{#1} \vpageref{#1}}}
+\newref{subse}{refcmd={Subsection \ref{#1} \vpageref{#1}}}
+\newref{subsu}{refcmd={Subsubsection \ref{#1} \vpageref{#1}}}
+\newref{parag}{refcmd={Paragraph \ref{#1} \vpageref{#1}}}
+\newref{subpa}{refcmd={Subparagraph \ref{#1} \vpageref{#1}}}
+\newref{tab}{refcmd={Table \ref{#1} \vpageref{#1}}}
+\newref{fig}{refcmd={Figure \ref{#1} \vpageref{#1}}}
+\end_preamble
+\options refpage
+\begin_modules
+\end_modules
+\bibtex_command default
+\cite_engine natbib_authoryear
+\end_header
+\begin_body
+
+\begin_layout Standard
+These should all get escaped:
+\end_layout
+
+\begin_layout Standard
+Backslash: 
+\backslash
+
+
+\end_layout
+
+\begin_layout Standard
+Backtick: `
+\end_layout
+
+\begin_layout Standard
+Asterisk: *
+\end_layout
+
+\begin_layout Standard
+Underscore: _
+\end_layout
+
+\begin_layout Standard
+Left brace: {
+\end_layout
+
+\begin_layout Standard
+Right brace: }
+\end_layout
+
+\begin_layout Standard
+Left bracket: [
+\end_layout
+
+\begin_layout Standard
+Right bracket: ]
+\end_layout
+
+\begin_layout Standard
+Left paren: (
+\end_layout
+
+\begin_layout Standard
+Right paren: )
+\end_layout
+
+\begin_layout Standard
+Greater-than: >
+\end_layout
+
+\begin_layout Standard
+Hash: #
+\end_layout
+
+\begin_layout Standard
+Period: .
+\end_layout
+
+\begin_layout Standard
+Bang: !
+\end_layout
+
+\begin_layout Standard
+Plus: +
+\end_layout
+
+\begin_layout Standard
+Minus: -
+\end_layout
+
+\begin_layout Standard
+These should not, because they occur within a code block:
+\end_layout
+\begin_layout Standard
+\begin_inset listings
+lstparams "basicstyle={\footnotesize\ttfamily}="
+inline false
+status collapsed
+
+\begin_layout Plain Layout
+
+Backslash: 
+\backslash
+
+
+\backslash
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Backtick: 
+\backslash
+
+`
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Asterisk: 
+\backslash
+
+*
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Underscore: 
+\backslash
+
+_
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Left brace: 
+\backslash
+
+{
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Right brace: 
+\backslash
+
+}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Left bracket: 
+\backslash
+
+[
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Right bracket: 
+\backslash
+
+]
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Left paren: 
+\backslash
+
+(
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Right paren: 
+\backslash
+
+)
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Greater-than: 
+\backslash
+
+>
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Hash: 
+\backslash
+
+#
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Period: 
+\backslash
+
+.
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Bang: 
+\backslash
+
+!
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Plus: 
+\backslash
+
++
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Minus: 
+\backslash
+
+-
+\end_layout
+
+\end_inset
+\end_layout
+
+\begin_layout Standard
+Nor should these, which occur in code spans:
+\end_layout
+
+\begin_layout Standard
+Backslash: 
+\family typewriter
+
+\backslash
+
+
+\backslash
+
+
+\family default
+
+\end_layout
+
+\begin_layout Standard
+Backtick: 
+\family typewriter
+
+\backslash
+
+`
+\family default
+
+\end_layout
+
+\begin_layout Standard
+Asterisk: 
+\family typewriter
+
+\backslash
+
+*
+\family default
+
+\end_layout
+
+\begin_layout Standard
+Underscore: 
+\family typewriter
+
+\backslash
+
+_
+\family default
+
+\end_layout
+
+\begin_layout Standard
+Left brace: 
+\family typewriter
+
+\backslash
+
+{
+\family default
+
+\end_layout
+
+\begin_layout Standard
+Right brace: 
+\family typewriter
+
+\backslash
+
+}
+\family default
+
+\end_layout
+
+\begin_layout Standard
+Left bracket: 
+\family typewriter
+
+\backslash
+
+[
+\family default
+
+\end_layout
+
+\begin_layout Standard
+Right bracket: 
+\family typewriter
+
+\backslash
+
+]
+\family default
+
+\end_layout
+
+\begin_layout Standard
+Left paren: 
+\family typewriter
+
+\backslash
+
+(
+\family default
+
+\end_layout
+
+\begin_layout Standard
+Right paren: 
+\family typewriter
+
+\backslash
+
+)
+\family default
+
+\end_layout
+
+\begin_layout Standard
+Greater-than: 
+\family typewriter
+
+\backslash
+
+>
+\family default
+
+\end_layout
+
+\begin_layout Standard
+Hash: 
+\family typewriter
+
+\backslash
+
+#
+\family default
+
+\end_layout
+
+\begin_layout Standard
+Period: 
+\family typewriter
+
+\backslash
+
+.
+\family default
+
+\end_layout
+
+\begin_layout Standard
+Bang: 
+\family typewriter
+
+\backslash
+
+!
+\family default
+
+\end_layout
+
+\begin_layout Standard
+Plus: 
+\family typewriter
+
+\backslash
+
++
+\family default
+
+\end_layout
+
+\begin_layout Standard
+Minus: 
+\family typewriter
+
+\backslash
+
+-
+\family default
+
+\end_layout
+
+\begin_layout Standard
+These should get escaped, even though they're matching pairs for
+ other Markdown constructs:
+\end_layout
+
+\begin_layout Standard
+*asterisks*
+\end_layout
+
+\begin_layout Standard
+_underscores_
+\end_layout
+
+\begin_layout Standard
+`backticks`
+\end_layout
+
+\begin_layout Standard
+This is a code span with a literal backslash-backtick sequence: 
+\family typewriter
+
+\backslash
+
+`
+\family default
+
+\end_layout
+
+\begin_layout Standard
+This is a tag with unescaped backticks bar.
+\end_layout
+
+\begin_layout Standard
+This is a tag with backslashes bar.
+\end_layout
+
+\end_body
+\end_document
+

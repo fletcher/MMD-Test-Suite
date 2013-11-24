@@ -1,0 +1,104 @@
+#LyX File created by multimarkdown
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass memoir
+\begin_preamble
+\usepackage{listings}
+\usepackage{natbib}
+\usepackage{nomencl}
+\usepackage{booktabs}
+\usepackage{refstyle}
+\usepackage{varioref}
+\bibpunct{(}{)}{,}{a}{,}{,}
+\newref{part}{refcmd={Part \ref{#1} \vpageref{#1}}}
+\newref{chapt}{refcmd={Chapter \ref{#1} \vpageref{#1}}}
+\newref{secti}{refcmd={Section \ref{#1} \vpageref{#1}}}
+\newref{subse}{refcmd={Subsection \ref{#1} \vpageref{#1}}}
+\newref{subsu}{refcmd={Subsubsection \ref{#1} \vpageref{#1}}}
+\newref{parag}{refcmd={Paragraph \ref{#1} \vpageref{#1}}}
+\newref{subpa}{refcmd={Subparagraph \ref{#1} \vpageref{#1}}}
+\newref{tab}{refcmd={Table \ref{#1} \vpageref{#1}}}
+\newref{fig}{refcmd={Figure \ref{#1} \vpageref{#1}}}
+\end_preamble
+\options refpage
+\begin_modules
+\end_modules
+\bibtex_command default
+\cite_engine natbib_authoryear
+\end_header
+\begin_body
+
+\begin_layout Title
+SmartQuotes Test
+\end_layout
+
+\begin_layout Standard
+Some rather complicated tests for smart quotes with non-ascii input.
+\end_layout
+
+\begin_layout Standard
+l'année l'année
+\end_layout
+
+\begin_layout Standard
+l'été l'année
+\end_layout
+
+\begin_layout Standard
+l'été l'été
+\end_layout
+
+\begin_layout Standard
+l'année l'été
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset Quotes eld
+\end_inset
+Smart
+\begin_inset Quotes erd
+\end_inset
+ 
+\begin_inset Quotes els
+\end_inset
+quote
+\begin_inset Quotes ers
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+An escaped 
+\begin_inset Quotes els
+\end_inset
+|
+\begin_inset Quotes ers
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+Another test of smart 
+\begin_inset Quotes els
+\end_inset
+.quotes
+\begin_inset Quotes ers
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+And again 
+\begin_inset Quotes eld
+\end_inset
+.quotes
+\begin_inset Quotes erd
+\end_inset
+
+\end_layout
+
+\end_body
+\end_document
+

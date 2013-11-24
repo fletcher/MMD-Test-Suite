@@ -1,0 +1,162 @@
+#LyX File created by multimarkdown
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass memoir
+\begin_preamble
+\usepackage{listings}
+\usepackage{natbib}
+\usepackage{nomencl}
+\usepackage{booktabs}
+\usepackage{refstyle}
+\usepackage{varioref}
+\bibpunct{(}{)}{,}{a}{,}{,}
+\newref{part}{refcmd={Part \ref{#1} \vpageref{#1}}}
+\newref{chapt}{refcmd={Chapter \ref{#1} \vpageref{#1}}}
+\newref{secti}{refcmd={Section \ref{#1} \vpageref{#1}}}
+\newref{subse}{refcmd={Subsection \ref{#1} \vpageref{#1}}}
+\newref{subsu}{refcmd={Subsubsection \ref{#1} \vpageref{#1}}}
+\newref{parag}{refcmd={Paragraph \ref{#1} \vpageref{#1}}}
+\newref{subpa}{refcmd={Subparagraph \ref{#1} \vpageref{#1}}}
+\newref{tab}{refcmd={Table \ref{#1} \vpageref{#1}}}
+\newref{fig}{refcmd={Figure \ref{#1} \vpageref{#1}}}
+\end_preamble
+\options refpage
+\begin_modules
+\end_modules
+\bibtex_command default
+\cite_engine natbib_authoryear
+\end_header
+\begin_body
+
+\begin_layout Standard
+AT&T has an ampersand in their name.
+\end_layout
+
+\begin_layout Standard
+AT&T is another way to write it.
+\end_layout
+
+\begin_layout Standard
+This & that.
+\end_layout
+
+\begin_layout Standard
+4 < 5.
+\end_layout
+
+\begin_layout Standard
+6 > 5.
+\end_layout
+
+\begin_layout Standard
+Here's a 
+\begin_inset CommandInset href
+LatexCommand href
+target "http://example.com/?foo=1&bar=2"
+name "link"
+
+\end_inset
+
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+
+\begin_inset CommandInset href
+LatexCommand href
+
+name "http://example.com/?foo=1&bar=2"
+target "http://example.com/?foo=1&bar=2"
+
+\end_inset
+\end_layout
+
+\end_inset
+ with an ampersand in the URL.
+\end_layout
+
+\begin_layout Standard
+Here's a link with an amersand in the link text: 
+\begin_inset CommandInset href
+LatexCommand href
+target "http://att.com/"
+name "AT&T"
+
+\end_inset
+
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+
+\begin_inset CommandInset href
+LatexCommand href
+
+name "http://att.com/"
+target "http://att.com/"
+
+\end_inset
+\end_layout
+
+\end_inset
+.
+\end_layout
+
+\begin_layout Standard
+Here's an inline 
+\begin_inset CommandInset href
+LatexCommand href
+target "/script?foo=1&bar=2"
+name "link"
+
+\end_inset
+
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+
+\begin_inset CommandInset href
+LatexCommand href
+
+name "/script?foo=1&bar=2"
+target "/script?foo=1&bar=2"
+
+\end_inset
+\end_layout
+
+\end_inset
+.
+\end_layout
+
+\begin_layout Standard
+Here's an inline 
+\begin_inset CommandInset href
+LatexCommand href
+target "/script?foo=1&bar=2"
+name "link"
+
+\end_inset
+
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+
+\begin_inset CommandInset href
+LatexCommand href
+
+name "/script?foo=1&bar=2"
+target "/script?foo=1&bar=2"
+
+\end_inset
+\end_layout
+
+\end_inset
+.
+\end_layout
+
+\end_body
+\end_document
+

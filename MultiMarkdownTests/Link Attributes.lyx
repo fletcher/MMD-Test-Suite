@@ -1,0 +1,487 @@
+#LyX File created by multimarkdown
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass memoir
+\begin_preamble
+\usepackage{listings}
+\usepackage{natbib}
+\usepackage{nomencl}
+\usepackage{booktabs}
+\usepackage{refstyle}
+\usepackage{varioref}
+\bibpunct{(}{)}{,}{a}{,}{,}
+\newref{part}{refcmd={Part \ref{#1} \vpageref{#1}}}
+\newref{chapt}{refcmd={Chapter \ref{#1} \vpageref{#1}}}
+\newref{secti}{refcmd={Section \ref{#1} \vpageref{#1}}}
+\newref{subse}{refcmd={Subsection \ref{#1} \vpageref{#1}}}
+\newref{subsu}{refcmd={Subsubsection \ref{#1} \vpageref{#1}}}
+\newref{parag}{refcmd={Paragraph \ref{#1} \vpageref{#1}}}
+\newref{subpa}{refcmd={Subparagraph \ref{#1} \vpageref{#1}}}
+\newref{tab}{refcmd={Table \ref{#1} \vpageref{#1}}}
+\newref{fig}{refcmd={Figure \ref{#1} \vpageref{#1}}}
+\end_preamble
+\options refpage
+\begin_modules
+\end_modules
+\bibtex_command default
+\cite_engine natbib_authoryear
+\end_header
+\begin_body
+
+\begin_layout Title
+Link Attributes Test
+\end_layout
+
+\begin_layout Part
+Link Attributes
+\begin_inset CommandInset label
+LatexCommand label
+name "part:linkattributes"
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+This is a formatted 
+\begin_inset Graphics
+	 filename http://path.to/image
+	width 40pt
+	height 400pt
+
+\end_inset
+ and a 
+\begin_inset CommandInset href
+LatexCommand href
+target "http://path.to/link.html"
+name "link"
+
+\end_inset
+
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+
+\begin_inset CommandInset href
+LatexCommand href
+
+name "http://path.to/link.html"
+target "http://path.to/link.html"
+
+\end_inset
+\end_layout
+
+\end_inset
+ with attributes.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	 filename http://path.to/image
+	height 400pt
+
+\end_inset
+
+
+\end_layout
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+image2
+\end_layout
+\end_inset
+
+\begin_inset CommandInset label
+LatexCommand label
+
+name "fig:image2"
+\end_inset
+\end_layout
+\end_inset
+
+\end_layout
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	 filename http://path.to/image
+	width 40pt
+
+\end_inset
+
+
+\end_layout
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+image3
+\end_layout
+\end_inset
+
+\begin_inset CommandInset label
+LatexCommand label
+
+name "fig:image3"
+\end_inset
+\end_layout
+\end_inset
+
+\end_layout
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	 filename http://path.to/image
+
+\end_inset
+
+
+\end_layout
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+image4
+\end_layout
+\end_inset
+
+\begin_inset CommandInset label
+LatexCommand label
+
+name "fig:image4"
+\end_inset
+\end_layout
+\end_inset
+
+\end_layout
+\begin_layout Standard
+And 
+\begin_inset CommandInset href
+LatexCommand href
+target "http://path.to/link.html"
+name "the link"
+
+\end_inset
+
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+
+\begin_inset CommandInset href
+LatexCommand href
+
+name "http://path.to/link.html"
+target "http://path.to/link.html"
+
+\end_inset
+\end_layout
+
+\end_inset
+, 
+\begin_inset CommandInset href
+LatexCommand href
+target "http://path.to/link.html"
+name "link"
+
+\end_inset
+
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+
+\begin_inset CommandInset href
+LatexCommand href
+
+name "http://path.to/link.html"
+target "http://path.to/link.html"
+
+\end_inset
+\end_layout
+
+\end_inset
+ , and 
+\begin_inset CommandInset href
+LatexCommand href
+target "http://path.to/link.html"
+name ""
+
+\end_inset
+
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+
+\begin_inset CommandInset href
+LatexCommand href
+
+name "http://path.to/link.html"
+target "http://path.to/link.html"
+
+\end_inset
+\end_layout
+
+\end_inset
+ again.
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset CommandInset href
+LatexCommand href
+target "http://path.to/link.html"
+name "link"
+
+\end_inset
+
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+
+\begin_inset CommandInset href
+LatexCommand href
+
+name "http://path.to/link.html"
+target "http://path.to/link.html"
+
+\end_inset
+\end_layout
+
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset CommandInset href
+LatexCommand href
+target "http://path.to/link.html"
+name "the link"
+
+\end_inset
+
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+
+\begin_inset CommandInset href
+LatexCommand href
+
+name "http://path.to/link.html"
+target "http://path.to/link.html"
+
+\end_inset
+\end_layout
+
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+Test various identifiers:
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset CommandInset href
+LatexCommand href
+target "http://path.to/link-a.html"
+name "link-a"
+
+\end_inset
+
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+
+\begin_inset CommandInset href
+LatexCommand href
+
+name "http://path.to/link-a.html"
+target "http://path.to/link-a.html"
+
+\end_inset
+\end_layout
+
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset CommandInset href
+LatexCommand href
+target "http://path.to/link-1.html"
+name "link--1"
+
+\end_inset
+
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+
+\begin_inset CommandInset href
+LatexCommand href
+
+name "http://path.to/link-1.html"
+target "http://path.to/link-1.html"
+
+\end_inset
+\end_layout
+
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset CommandInset href
+LatexCommand href
+target "http://path.to/link--2.html"
+name "link--2"
+
+\end_inset
+
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+
+\begin_inset CommandInset href
+LatexCommand href
+
+name "http://path.to/link--2.html"
+target "http://path.to/link--2.html"
+
+\end_inset
+\end_layout
+
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset CommandInset href
+LatexCommand href
+target "http://path.to/link--a.html"
+name "link--a"
+
+\end_inset
+
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+
+\begin_inset CommandInset href
+LatexCommand href
+
+name "http://path.to/link--a.html"
+target "http://path.to/link--a.html"
+
+\end_inset
+\end_layout
+
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset CommandInset href
+LatexCommand href
+target "http://path.to/link---1.html"
+name "link---1"
+
+\end_inset
+
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+
+\begin_inset CommandInset href
+LatexCommand href
+
+name "http://path.to/link---1.html"
+target "http://path.to/link---1.html"
+
+\end_inset
+\end_layout
+
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+Test link and markup 
+\begin_inset Graphics
+	 filename http://path.to/image
+
+\end_inset
+
+\end_layout
+
+\begin_layout Part
+Basic Links
+\begin_inset CommandInset label
+LatexCommand label
+name "part:basiclinks"
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+An explicit 
+\begin_inset CommandInset href
+LatexCommand href
+target "http://foo.com/"
+name "link"
+
+\end_inset
+
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+
+\begin_inset CommandInset href
+LatexCommand href
+
+name "http://foo.com/"
+target "http://foo.com/"
+
+\end_inset
+\end_layout
+
+\end_inset
+ with whitespace.
+\end_layout
+
+\end_body
+\end_document
+
