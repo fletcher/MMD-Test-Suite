@@ -1,0 +1,19 @@
+foo:	foo-test
+bar:	bar-test
+
+
+# test heading [%foo] #
+
+# test heading [foo] #
+
+# Tables #
+
+|            |             Grouping             ||  
+First Header |    Second Header   | Third Header |  
+| ---------- | :----------------: | -----------: |  
+Content      |           *Long Cell*            ||  
+Content      |      **Cell**      |         Cell |  
+
+New section  |        More        |         Data |  
+And more     | With an escaped '\|'             ||  
+[Prototype table caption [%foo]] 

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<opml version="1.0">
+<body>
+<outline text="test heading [%foo]" _note=""></outline>
+<outline text="test heading [foo]" _note=""></outline>
+<outline text="Tables" _note="|            |             Grouping             ||  &#10;First Header |    Second Header   | Third Header |  &#10;| ---------- | :----------------: | -----------: |  &#10;Content      |           *Long Cell*            ||  &#10;Content      |      **Cell**      |         Cell |  &#10;&#10;New section  |        More        |         Data |  &#10;And more     | With an escaped '\|'             ||  &#10;[Prototype table caption [%foo]] &#10;"></outline>
+<outline text="Metadata">
+<outline text="foo" _note="foo-test"/><outline text="bar" _note="bar-test"/></outline></body>
+</opml>

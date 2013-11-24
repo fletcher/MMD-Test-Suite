@@ -1,0 +1,36 @@
+\def\foo{foo-test}
+\def\bar{bar-test}
+
+\part{test heading}
+\label{foo}
+
+\part{test heading}
+\label{foo}
+
+\part{Tables}
+\label{tables}
+
+\begin{table}[htbp]
+\begin{minipage}{\linewidth}
+\setlength{\tymax}{0.5\linewidth}
+\centering
+\small
+\caption{Prototype table caption foo-test}
+\label{prototypetablecaptionfoo}
+\begin{tabulary}{\textwidth}{@{}LCR@{}} \toprule
+&\multicolumn{2}{c}{Grouping}\\
+First Header&Second Header&Third Header\\
+\midrule
+Content&\multicolumn{2}{c}{\emph{Long Cell}}\\
+Content&\textbf{Cell}&Cell\\
+
+\midrule
+New section&More&Data\\
+And more&\multicolumn{2}{c}{With an escaped `\textbar{}'}\\
+
+\bottomrule
+
+\end{tabulary}
+\end{minipage}
+\end{table}
+\end{document}
