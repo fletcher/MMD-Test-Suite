@@ -261,7 +261,7 @@
 </office:meta>
 <office:body>
 <office:text>
-<text:h text:outline-level="1"><text:bookmark text:name="foo"/>test heading<text:bookmark-end text:name="foo"/></text:h>
+<text:h text:outline-level="1"><text:bookmark text:name="testheadingfoo"/>test heading foo-test<text:bookmark-end text:name="testheadingfoo"/></text:h>
 
 <text:h text:outline-level="1"><text:bookmark text:name="foo"/>test heading<text:bookmark-end text:name="foo"/></text:h>
 
