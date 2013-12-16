@@ -99,6 +99,7 @@ name "tab:prototypetable"
 
 \end_layout
 
+
 \end_inset
 </cell>
 <cell multicolumn="1" alignment="center" valignment="top" topline="true" usebox="none">
@@ -108,6 +109,7 @@ name "tab:prototypetable"
 Grouping
 \end_layout
 
+
 \end_inset
 </cell>
 <cell multicolumn="2" alignment="center" valignment="top" topline="true" usebox="none">
@@ -116,6 +118,7 @@ Grouping
 \begin_layout Plain Layout
 Grouping
 \end_layout
+
 
 \end_inset
 </cell>
@@ -128,6 +131,7 @@ Grouping
 First Header
 \end_layout
 
+
 \end_inset
 </cell>
 <cell alignment="center" valignment="top" usebox="none">
@@ -137,6 +141,7 @@ First Header
 Second Header
 \end_layout
 
+
 \end_inset
 </cell>
 <cell alignment="right" valignment="top" usebox="none">
@@ -145,6 +150,7 @@ Second Header
 \begin_layout Plain Layout
 Third Header
 \end_layout
+
 
 \end_inset
 </cell>
@@ -156,6 +162,7 @@ Third Header
 \begin_layout Plain Layout
 Content
 \end_layout
+
 
 \end_inset
 </cell>
@@ -170,6 +177,7 @@ Long Cell
 
 \end_layout
 
+
 \end_inset
 </cell>
 <cell multicolumn="2" alignment="center" valignment="top" topline="true" usebox="none">
@@ -183,6 +191,7 @@ Long Cell
 
 \end_layout
 
+
 \end_inset
 </cell>
 </row>
@@ -193,6 +202,7 @@ Long Cell
 \begin_layout Plain Layout
 Content
 \end_layout
+
 
 \end_inset
 </cell>
@@ -207,6 +217,7 @@ Cell
 
 \end_layout
 
+
 \end_inset
 </cell>
 <cell alignment="right" valignment="top" usebox="none">
@@ -215,6 +226,7 @@ Cell
 \begin_layout Plain Layout
 Cell
 \end_layout
+
 
 \end_inset
 </cell>
@@ -227,6 +239,7 @@ Cell
 New section
 \end_layout
 
+
 \end_inset
 </cell>
 <cell alignment="center" valignment="top" topline="true" usebox="none">
@@ -236,6 +249,7 @@ New section
 More
 \end_layout
 
+
 \end_inset
 </cell>
 <cell alignment="right" valignment="top" topline="true" usebox="none">
@@ -244,6 +258,7 @@ More
 \begin_layout Plain Layout
 Data
 \end_layout
+
 
 \end_inset
 </cell>
@@ -255,6 +270,7 @@ Data
 \begin_layout Plain Layout
 And more
 \end_layout
+
 
 \end_inset
 </cell>
@@ -271,6 +287,7 @@ With an escaped
 
 \end_layout
 
+
 \end_inset
 </cell>
 <cell multicolumn="2" alignment="center" valignment="top" bottomline="true" usebox="none">
@@ -286,12 +303,14 @@ With an escaped
 
 \end_layout
 
+
 \end_inset
 </cell>
 </row>
 </lyxtabular>
 \end_inset
 \end_layout
+
 \begin_layout Standard
 And this is a link to the Prototype table (
 \begin_inset CommandInset ref
@@ -363,6 +382,7 @@ name "tab:captionbutnolabel"
 
 \end_layout
 
+
 \end_inset
 </cell>
 <cell alignment="center" valignment="top" topline="true" usebox="none">
@@ -372,6 +392,7 @@ name "tab:captionbutnolabel"
 Grouping
 \end_layout
 
+
 \end_inset
 </cell>
 <cell alignment="right" valignment="top" topline="true" usebox="none">
@@ -380,6 +401,7 @@ Grouping
 \begin_layout Plain Layout
 
 \end_layout
+
 
 \end_inset
 </cell>
@@ -392,6 +414,7 @@ Grouping
 First Header
 \end_layout
 
+
 \end_inset
 </cell>
 <cell alignment="center" valignment="top" usebox="none">
@@ -401,6 +424,7 @@ First Header
 Second Header
 \end_layout
 
+
 \end_inset
 </cell>
 <cell alignment="right" valignment="top" usebox="none">
@@ -409,6 +433,7 @@ Second Header
 \begin_layout Plain Layout
 Third Header
 \end_layout
+
 
 \end_inset
 </cell>
@@ -420,6 +445,7 @@ Third Header
 \begin_layout Plain Layout
 Content
 \end_layout
+
 
 \end_inset
 </cell>
@@ -434,6 +460,7 @@ Long Cell
 
 \end_layout
 
+
 \end_inset
 </cell>
 <cell alignment="right" valignment="top" topline="true" usebox="none">
@@ -442,6 +469,7 @@ Long Cell
 \begin_layout Plain Layout
 
 \end_layout
+
 
 \end_inset
 </cell>
@@ -453,6 +481,7 @@ Long Cell
 \begin_layout Plain Layout
 Content
 \end_layout
+
 
 \end_inset
 </cell>
@@ -467,6 +496,7 @@ Cell
 
 \end_layout
 
+
 \end_inset
 </cell>
 <cell alignment="right" valignment="top" usebox="none">
@@ -475,6 +505,7 @@ Cell
 \begin_layout Plain Layout
 Cell
 \end_layout
+
 
 \end_inset
 </cell>
@@ -487,6 +518,7 @@ Cell
 New section
 \end_layout
 
+
 \end_inset
 </cell>
 <cell alignment="center" valignment="top" topline="true" usebox="none">
@@ -496,6 +528,7 @@ New section
 More
 \end_layout
 
+
 \end_inset
 </cell>
 <cell alignment="right" valignment="top" topline="true" usebox="none">
@@ -504,6 +537,7 @@ More
 \begin_layout Plain Layout
 Data
 \end_layout
+
 
 \end_inset
 </cell>
@@ -515,6 +549,7 @@ Data
 \begin_layout Plain Layout
 And more
 \end_layout
+
 
 \end_inset
 </cell>
@@ -531,6 +566,7 @@ With an escaped
 
 \end_layout
 
+
 \end_inset
 </cell>
 <cell alignment="right" valignment="top" bottomline="true" usebox="none">
@@ -540,12 +576,14 @@ With an escaped
 
 \end_layout
 
+
 \end_inset
 </cell>
 </row>
 </lyxtabular>
 \end_inset
 \end_layout
+
 \begin_layout Standard
 And a link to the second table (
 \begin_inset CommandInset ref
@@ -617,6 +655,7 @@ name "tab:multimarkdownvs.crayons"
 Features
 \end_layout
 
+
 \end_inset
 </cell>
 <cell alignment="center" valignment="top" topline="true" usebox="none">
@@ -626,6 +665,7 @@ Features
 MultiMarkdown
 \end_layout
 
+
 \end_inset
 </cell>
 <cell alignment="center" valignment="top" topline="true" usebox="none">
@@ -634,6 +674,7 @@ MultiMarkdown
 \begin_layout Plain Layout
 Crayons
 \end_layout
+
 
 \end_inset
 </cell>
@@ -646,6 +687,7 @@ Crayons
 Melts in warm places
 \end_layout
 
+
 \end_inset
 </cell>
 <cell alignment="center" valignment="top" topline="true" usebox="none">
@@ -655,6 +697,7 @@ Melts in warm places
 No
 \end_layout
 
+
 \end_inset
 </cell>
 <cell alignment="center" valignment="top" topline="true" usebox="none">
@@ -663,6 +706,7 @@ No
 \begin_layout Plain Layout
 Yes
 \end_layout
+
 
 \end_inset
 </cell>
@@ -675,6 +719,7 @@ Yes
 Mistakes can be easily fixed
 \end_layout
 
+
 \end_inset
 </cell>
 <cell alignment="center" valignment="top" usebox="none">
@@ -684,6 +729,7 @@ Mistakes can be easily fixed
 Yes
 \end_layout
 
+
 \end_inset
 </cell>
 <cell alignment="center" valignment="top" usebox="none">
@@ -692,6 +738,7 @@ Yes
 \begin_layout Plain Layout
 No
 \end_layout
+
 
 \end_inset
 </cell>
@@ -704,6 +751,7 @@ No
 Easy to copy documents for friends
 \end_layout
 
+
 \end_inset
 </cell>
 <cell alignment="center" valignment="top" usebox="none">
@@ -713,6 +761,7 @@ Easy to copy documents for friends
 Yes
 \end_layout
 
+
 \end_inset
 </cell>
 <cell alignment="center" valignment="top" usebox="none">
@@ -721,6 +770,7 @@ Yes
 \begin_layout Plain Layout
 No
 \end_layout
+
 
 \end_inset
 </cell>
@@ -733,6 +783,7 @@ No
 Fun at parties
 \end_layout
 
+
 \end_inset
 </cell>
 <cell alignment="center" valignment="top" usebox="none">
@@ -742,6 +793,7 @@ Fun at parties
 No
 \end_layout
 
+
 \end_inset
 </cell>
 <cell alignment="center" valignment="top" usebox="none">
@@ -750,6 +802,7 @@ No
 \begin_layout Plain Layout
 Why not?
 \end_layout
+
 
 \end_inset
 </cell>
@@ -762,6 +815,7 @@ Why not?
 Minimum markup1 for maximum quality?
 \end_layout
 
+
 \end_inset
 </cell>
 <cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
@@ -770,6 +824,7 @@ Minimum markup1 for maximum quality?
 \begin_layout Plain Layout
 Yes
 \end_layout
+
 
 \end_inset
 </cell>
@@ -780,12 +835,14 @@ Yes
 No
 \end_layout
 
+
 \end_inset
 </cell>
 </row>
 </lyxtabular>
 \end_inset
 \end_layout
+
 \begin_layout Standard
 \begin_inset Tabular
 <lyxtabular version="3" rows="7" columns="3">
@@ -843,6 +900,7 @@ name "tab:multimarkdownvs.crayons2"
 Features
 \end_layout
 
+
 \end_inset
 </cell>
 <cell alignment="center" valignment="top" topline="true" usebox="none">
@@ -852,6 +910,7 @@ Features
 MultiMarkdown
 \end_layout
 
+
 \end_inset
 </cell>
 <cell alignment="center" valignment="top" topline="true" usebox="none">
@@ -860,6 +919,7 @@ MultiMarkdown
 \begin_layout Plain Layout
 Crayons
 \end_layout
+
 
 \end_inset
 </cell>
@@ -872,6 +932,7 @@ Crayons
 Melts in warm places
 \end_layout
 
+
 \end_inset
 </cell>
 <cell alignment="center" valignment="top" topline="true" usebox="none">
@@ -881,6 +942,7 @@ Melts in warm places
 No
 \end_layout
 
+
 \end_inset
 </cell>
 <cell alignment="center" valignment="top" topline="true" usebox="none">
@@ -889,6 +951,7 @@ No
 \begin_layout Plain Layout
 Yes
 \end_layout
+
 
 \end_inset
 </cell>
@@ -901,6 +964,7 @@ Yes
 Mistakes can be easily fixed
 \end_layout
 
+
 \end_inset
 </cell>
 <cell alignment="center" valignment="top" usebox="none">
@@ -910,6 +974,7 @@ Mistakes can be easily fixed
 Yes
 \end_layout
 
+
 \end_inset
 </cell>
 <cell alignment="center" valignment="top" usebox="none">
@@ -918,6 +983,7 @@ Yes
 \begin_layout Plain Layout
 No
 \end_layout
+
 
 \end_inset
 </cell>
@@ -930,6 +996,7 @@ No
 Easy to copy documents for friends
 \end_layout
 
+
 \end_inset
 </cell>
 <cell alignment="center" valignment="top" usebox="none">
@@ -939,6 +1006,7 @@ Easy to copy documents for friends
 Yes
 \end_layout
 
+
 \end_inset
 </cell>
 <cell alignment="center" valignment="top" usebox="none">
@@ -947,6 +1015,7 @@ Yes
 \begin_layout Plain Layout
 No
 \end_layout
+
 
 \end_inset
 </cell>
@@ -959,6 +1028,7 @@ No
 Fun at parties
 \end_layout
 
+
 \end_inset
 </cell>
 <cell alignment="center" valignment="top" usebox="none">
@@ -968,6 +1038,7 @@ Fun at parties
 No
 \end_layout
 
+
 \end_inset
 </cell>
 <cell alignment="center" valignment="top" usebox="none">
@@ -976,6 +1047,7 @@ No
 \begin_layout Plain Layout
 Why not?
 \end_layout
+
 
 \end_inset
 </cell>
@@ -988,6 +1060,7 @@ Why not?
 Minimum markup2 for maximum quality?
 \end_layout
 
+
 \end_inset
 </cell>
 <cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
@@ -996,6 +1069,7 @@ Minimum markup2 for maximum quality?
 \begin_layout Plain Layout
 Yes
 \end_layout
+
 
 \end_inset
 </cell>
@@ -1006,12 +1080,14 @@ Yes
 No
 \end_layout
 
+
 \end_inset
 </cell>
 </row>
 </lyxtabular>
 \end_inset
 \end_layout
+
 \begin_layout Standard
 \begin_inset Tabular
 <lyxtabular version="3" rows="3" columns="2">
@@ -1059,6 +1135,7 @@ name "tab:captiononly"
 Col 1
 \end_layout
 
+
 \end_inset
 </cell>
 <cell alignment="left" valignment="top" topline="true" usebox="none">
@@ -1067,6 +1144,7 @@ Col 1
 \begin_layout Plain Layout
 Col 2
 \end_layout
+
 
 \end_inset
 </cell>
@@ -1079,6 +1157,7 @@ Col 2
 One
 \end_layout
 
+
 \end_inset
 </cell>
 <cell alignment="left" valignment="top" topline="true" bottomline="true" usebox="none">
@@ -1088,12 +1167,14 @@ One
 Two 
 \end_layout
 
+
 \end_inset
 </cell>
 </row>
 </lyxtabular>
 \end_inset
 \end_layout
+
 \begin_layout Standard
 \begin_inset Tabular
 <lyxtabular version="3" rows="6" columns="3">
@@ -1151,6 +1232,7 @@ name "tab:linewrappingtest"
 Long Cell
 \end_layout
 
+
 \end_inset
 </cell>
 <cell alignment="center" valignment="top" topline="true" usebox="none">
@@ -1160,6 +1242,7 @@ Long Cell
 MultiMarkdown
 \end_layout
 
+
 \end_inset
 </cell>
 <cell alignment="center" valignment="top" topline="true" usebox="none">
@@ -1168,6 +1251,7 @@ MultiMarkdown
 \begin_layout Plain Layout
 Crayons
 \end_layout
+
 
 \end_inset
 </cell>
@@ -1180,6 +1264,7 @@ Crayons
 Melts in warm places
 \end_layout
 
+
 \end_inset
 </cell>
 <cell alignment="center" valignment="top" topline="true" usebox="none">
@@ -1189,6 +1274,7 @@ Melts in warm places
 No
 \end_layout
 
+
 \end_inset
 </cell>
 <cell alignment="center" valignment="top" topline="true" usebox="none">
@@ -1197,6 +1283,7 @@ No
 \begin_layout Plain Layout
 Yes
 \end_layout
+
 
 \end_inset
 </cell>
@@ -1209,6 +1296,7 @@ Yes
 Mistakes can be easily fixed
 \end_layout
 
+
 \end_inset
 </cell>
 <cell alignment="center" valignment="top" usebox="none">
@@ -1218,6 +1306,7 @@ Mistakes can be easily fixed
 Yes
 \end_layout
 
+
 \end_inset
 </cell>
 <cell alignment="center" valignment="top" usebox="none">
@@ -1226,6 +1315,7 @@ Yes
 \begin_layout Plain Layout
 No
 \end_layout
+
 
 \end_inset
 </cell>
@@ -1238,6 +1328,7 @@ No
 Easy to copy documents for friends with some extra words to try and force a line break in every output format to test the wrapping feature
 \end_layout
 
+
 \end_inset
 </cell>
 <cell alignment="center" valignment="top" usebox="none">
@@ -1247,6 +1338,7 @@ Easy to copy documents for friends with some extra words to try and force a line
 Yes
 \end_layout
 
+
 \end_inset
 </cell>
 <cell alignment="center" valignment="top" usebox="none">
@@ -1255,6 +1347,7 @@ Yes
 \begin_layout Plain Layout
 No
 \end_layout
+
 
 \end_inset
 </cell>
@@ -1267,6 +1360,7 @@ No
 Fun at parties
 \end_layout
 
+
 \end_inset
 </cell>
 <cell alignment="center" valignment="top" bottomline="true" usebox="none">
@@ -1275,6 +1369,7 @@ Fun at parties
 \begin_layout Plain Layout
 No
 \end_layout
+
 
 \end_inset
 </cell>
@@ -1285,12 +1380,14 @@ No
 Why not?
 \end_layout
 
+
 \end_inset
 </cell>
 </row>
 </lyxtabular>
 \end_inset
 \end_layout
+
 \begin_layout Standard
 \begin_inset Tabular
 <lyxtabular version="3" rows="7" columns="3">
@@ -1359,6 +1456,7 @@ name "tab:prototypetable"
 
 \end_layout
 
+
 \end_inset
 </cell>
 <cell multicolumn="1" alignment="center" valignment="top" topline="true" usebox="none">
@@ -1368,6 +1466,7 @@ name "tab:prototypetable"
 Grouping
 \end_layout
 
+
 \end_inset
 </cell>
 <cell multicolumn="2" alignment="center" valignment="top" topline="true" usebox="none">
@@ -1376,6 +1475,7 @@ Grouping
 \begin_layout Plain Layout
 Grouping
 \end_layout
+
 
 \end_inset
 </cell>
@@ -1388,6 +1488,7 @@ Grouping
 First Header
 \end_layout
 
+
 \end_inset
 </cell>
 <cell alignment="center" valignment="top" usebox="none">
@@ -1397,6 +1498,7 @@ First Header
 Second Header
 \end_layout
 
+
 \end_inset
 </cell>
 <cell alignment="right" valignment="top" usebox="none">
@@ -1405,6 +1507,7 @@ Second Header
 \begin_layout Plain Layout
 Third Header
 \end_layout
+
 
 \end_inset
 </cell>
@@ -1416,6 +1519,7 @@ Third Header
 \begin_layout Plain Layout
 Content
 \end_layout
+
 
 \end_inset
 </cell>
@@ -1430,6 +1534,7 @@ Long Cell
 
 \end_layout
 
+
 \end_inset
 </cell>
 <cell multicolumn="2" alignment="center" valignment="top" topline="true" usebox="none">
@@ -1443,6 +1548,7 @@ Long Cell
 
 \end_layout
 
+
 \end_inset
 </cell>
 </row>
@@ -1453,6 +1559,7 @@ Long Cell
 \begin_layout Plain Layout
 Content
 \end_layout
+
 
 \end_inset
 </cell>
@@ -1467,6 +1574,7 @@ Cell
 
 \end_layout
 
+
 \end_inset
 </cell>
 <cell alignment="right" valignment="top" usebox="none">
@@ -1475,6 +1583,7 @@ Cell
 \begin_layout Plain Layout
 Cell
 \end_layout
+
 
 \end_inset
 </cell>
@@ -1487,6 +1596,7 @@ Cell
 New section
 \end_layout
 
+
 \end_inset
 </cell>
 <cell alignment="center" valignment="top" topline="true" usebox="none">
@@ -1496,6 +1606,7 @@ New section
 More
 \end_layout
 
+
 \end_inset
 </cell>
 <cell alignment="right" valignment="top" topline="true" usebox="none">
@@ -1504,6 +1615,7 @@ More
 \begin_layout Plain Layout
 Data
 \end_layout
+
 
 \end_inset
 </cell>
@@ -1515,6 +1627,7 @@ Data
 \begin_layout Plain Layout
 And more
 \end_layout
+
 
 \end_inset
 </cell>
@@ -1531,6 +1644,7 @@ With an escaped
 
 \end_layout
 
+
 \end_inset
 </cell>
 <cell multicolumn="2" alignment="center" valignment="top" bottomline="true" usebox="none">
@@ -1546,12 +1660,14 @@ With an escaped
 
 \end_layout
 
+
 \end_inset
 </cell>
 </row>
 </lyxtabular>
 \end_inset
 \end_layout
+
 \begin_layout Standard
 Table with headers in first column
 \end_layout
@@ -1571,6 +1687,7 @@ Table with headers in first column
 
 \end_layout
 
+
 \end_inset
 </cell>
 <cell multicolumn="1" alignment="left" valignment="top" topline="true" usebox="none">
@@ -1580,6 +1697,7 @@ Table with headers in first column
 Grouping
 \end_layout
 
+
 \end_inset
 </cell>
 <cell multicolumn="2" alignment="left" valignment="top" topline="true" usebox="none">
@@ -1588,6 +1706,7 @@ Grouping
 \begin_layout Plain Layout
 Grouping
 \end_layout
+
 
 \end_inset
 </cell>
@@ -1600,6 +1719,7 @@ Grouping
 First Header
 \end_layout
 
+
 \end_inset
 </cell>
 <cell alignment="left" valignment="top" usebox="none">
@@ -1609,6 +1729,7 @@ First Header
 Second Header
 \end_layout
 
+
 \end_inset
 </cell>
 <cell alignment="center" valignment="top" usebox="none">
@@ -1617,6 +1738,7 @@ Second Header
 \begin_layout Plain Layout
 Third Header
 \end_layout
+
 
 \end_inset
 </cell>
@@ -1628,6 +1750,7 @@ Third Header
 \begin_layout Plain Layout
 Content
 \end_layout
+
 
 \end_inset
 </cell>
@@ -1642,6 +1765,7 @@ Long Cell
 
 \end_layout
 
+
 \end_inset
 </cell>
 <cell multicolumn="2" alignment="left" valignment="top" topline="true" usebox="none">
@@ -1655,6 +1779,7 @@ Long Cell
 
 \end_layout
 
+
 \end_inset
 </cell>
 </row>
@@ -1665,6 +1790,7 @@ Long Cell
 \begin_layout Plain Layout
 Content
 \end_layout
+
 
 \end_inset
 </cell>
@@ -1679,6 +1805,7 @@ Cell
 
 \end_layout
 
+
 \end_inset
 </cell>
 <cell alignment="center" valignment="top" usebox="none">
@@ -1687,6 +1814,7 @@ Cell
 \begin_layout Plain Layout
 Cell
 \end_layout
+
 
 \end_inset
 </cell>
@@ -1699,6 +1827,7 @@ Cell
 New section
 \end_layout
 
+
 \end_inset
 </cell>
 <cell alignment="left" valignment="top" topline="true" usebox="none">
@@ -1708,6 +1837,7 @@ New section
 More
 \end_layout
 
+
 \end_inset
 </cell>
 <cell alignment="center" valignment="top" topline="true" usebox="none">
@@ -1716,6 +1846,7 @@ More
 \begin_layout Plain Layout
 Data
 \end_layout
+
 
 \end_inset
 </cell>
@@ -1727,6 +1858,7 @@ Data
 \begin_layout Plain Layout
 And more
 \end_layout
+
 
 \end_inset
 </cell>
@@ -1743,6 +1875,7 @@ With an escaped
 
 \end_layout
 
+
 \end_inset
 </cell>
 <cell multicolumn="2" alignment="left" valignment="top" bottomline="true" usebox="none">
@@ -1758,12 +1891,14 @@ With an escaped
 
 \end_layout
 
+
 \end_inset
 </cell>
 </row>
 </lyxtabular>
 \end_inset
 \end_layout
+
 \end_body
 \end_document
 

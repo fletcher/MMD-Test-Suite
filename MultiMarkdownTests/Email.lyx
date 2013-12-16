@@ -95,7 +95,7 @@ Auto-links should not occur here:
 \end_layout
 \begin_layout Standard
 \begin_inset listings
-lstparams "basicstyle={\footnotesize\ttfamily}="
+lstparams "basicstyle={\footnotesize\ttfamily}"
 inline false
 status collapsed
 
@@ -164,7 +164,7 @@ Auto-links should not occur here:
 \end_layout
 \begin_layout Standard
 \begin_inset listings
-lstparams "basicstyle={\footnotesize\ttfamily}="
+lstparams "basicstyle={\footnotesize\ttfamily}"
 inline false
 status collapsed
 

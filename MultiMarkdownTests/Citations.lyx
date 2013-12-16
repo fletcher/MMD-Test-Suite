@@ -237,6 +237,7 @@ A Totally Fake Book
 \emph default
 . Vanity Press, 2006.
 \end_layout
+
 \begin_layout Bibliography
 \begin_inset CommandInset bibitem
 LatexCommand bibitem
@@ -250,6 +251,7 @@ Another Totally Fake Book
 \emph default
 . Vanity Press, 2008.
 \end_layout
+
 \begin_layout Bibliography
 \begin_inset CommandInset bibitem
 LatexCommand bibitem
@@ -263,6 +265,7 @@ Yet Another Fake Book
 \emph default
 . Vanity Press, 2010.
 \end_layout
+
 \begin_layout Standart
 
 \begin_inset CommandInset bibtex

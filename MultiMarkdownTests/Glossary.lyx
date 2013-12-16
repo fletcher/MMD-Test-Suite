@@ -83,7 +83,7 @@ ampersand
 \end_layout
 \begin_layout Standard
 \begin_inset listings
-lstparams "basicstyle={\footnotesize\ttfamily}="
+lstparams "basicstyle={\footnotesize\ttfamily}"
 inline false
 status collapsed
 

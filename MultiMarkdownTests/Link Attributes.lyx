@@ -91,12 +91,14 @@ status collapsed
 
 
 \end_layout
+
 \begin_layout Plain Layout
 \begin_inset Caption
 
 \begin_layout Plain Layout
 image2
 \end_layout
+
 \end_inset
 
 \begin_inset CommandInset label
@@ -105,9 +107,11 @@ LatexCommand label
 name "fig:image2"
 \end_inset
 \end_layout
+
 \end_inset
 
 \end_layout
+
 \begin_layout Standard
 \begin_inset Float figure
 wide false
@@ -123,12 +127,14 @@ status collapsed
 
 
 \end_layout
+
 \begin_layout Plain Layout
 \begin_inset Caption
 
 \begin_layout Plain Layout
 image3
 \end_layout
+
 \end_inset
 
 \begin_inset CommandInset label
@@ -137,9 +143,11 @@ LatexCommand label
 name "fig:image3"
 \end_inset
 \end_layout
+
 \end_inset
 
 \end_layout
+
 \begin_layout Standard
 \begin_inset Float figure
 wide false
@@ -154,12 +162,14 @@ status collapsed
 
 
 \end_layout
+
 \begin_layout Plain Layout
 \begin_inset Caption
 
 \begin_layout Plain Layout
 image4
 \end_layout
+
 \end_inset
 
 \begin_inset CommandInset label
@@ -168,9 +178,11 @@ LatexCommand label
 name "fig:image4"
 \end_inset
 \end_layout
+
 \end_inset
 
 \end_layout
+
 \begin_layout Standard
 And 
 \begin_inset CommandInset href
