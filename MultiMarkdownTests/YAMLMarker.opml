@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<opml version="1.0">
+<body>
+---  &#10;latex input:    mmd-article-header  &#10;Title:  Sample MultiMarkdown Document  &#10;Base Header Level:  2  &#10;latex mode: memoir  &#10;Keywords:   MultiMarkdown, Markdown, XML, XHTML, XSLT, PDF   &#10;copyright:  2011 Fletcher T. Penney.  &#10;    This work is licensed under a Creative Commons License.  &#10;    http://creativecommons.org/licenses/by-nc-sa/3.0/  &#10;htmlheader: &lt;script type=&quot;text/javascript&quot; src=&quot;http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML&quot;&gt;&lt;/script&gt;&#10;latex input:    mmd-natbib-plain&#10;latex input:    mmd-article-begin-doc  &#10;latex footer:   mmd-memoir-footer  &#10;---  &#10;&#10;MMD does not support actual YAML, but will ignore the markers around metadata if it is valid MMD metadata.&#10;</body>
+</opml>
