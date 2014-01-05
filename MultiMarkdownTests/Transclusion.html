@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<meta name="latexinput" content="mmd-article-header"/>
+	<title>MultiMarkdown Transclusion Test</title>
+	<meta name="latexinput" content="mmd-article-begin-doc"/>
+	<meta name="latexfooter" content="mmd-memoir-footer"/>
+</head>
+<body>
+
+<h1 id="validtransclusion">Valid Transclusion</h1>
+
+<p>This text is included in <code>foo.txt</code>.</p>
+
+<p>This should not be transcluded to avoid an infinite loop &#8211; {{foo.txt}}</p>
+
+<p>This text is included in <code>bar.txt</code>.</p>
+
+<p>This can be transcluded without causing an infinite loop &#8211; </p>
+
+<p>This text is included in <code>foo.txt</code> inside the <code>transclusion</code> directory.</p>
+
+<p>This should not be transcluded to avoid an infinite loop &#8211; {{foo.txt}}</p>
+
+</body>
+</html>
