@@ -63,11 +63,7 @@ bar.txt
 \end_layout
 
 \begin_layout Standard
-This can be transcluded without causing an infinite loop -- 
-\end_layout
-
-\begin_layout Standard
-This text is included in 
+This can be transcluded without causing an infinite loop -- This text is included in 
 \family typewriter
 foo.txt
 \family default
