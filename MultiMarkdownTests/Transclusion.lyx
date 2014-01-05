@@ -1,0 +1,87 @@
+#LyX File created by multimarkdown
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass memoir
+\begin_preamble
+\usepackage{listings}
+\usepackage{natbib}
+\usepackage{nomencl}
+\usepackage{booktabs}
+\usepackage{refstyle}
+\usepackage{varioref}
+\bibpunct{(}{)}{,}{a}{,}{,}
+\newref{part}{refcmd={Part \ref{#1} \vpageref{#1}}}
+\newref{chapt}{refcmd={Chapter \ref{#1} \vpageref{#1}}}
+\newref{secti}{refcmd={Section \ref{#1} \vpageref{#1}}}
+\newref{subse}{refcmd={Subsection \ref{#1} \vpageref{#1}}}
+\newref{subsu}{refcmd={Subsubsection \ref{#1} \vpageref{#1}}}
+\newref{parag}{refcmd={Paragraph \ref{#1} \vpageref{#1}}}
+\newref{subpa}{refcmd={Subparagraph \ref{#1} \vpageref{#1}}}
+\newref{tab}{refcmd={Table \ref{#1} \vpageref{#1}}}
+\newref{fig}{refcmd={Figure \ref{#1} \vpageref{#1}}}
+\end_preamble
+\options refpage
+\begin_modules
+\end_modules
+\bibtex_command default
+\cite_engine natbib_authoryear
+\end_header
+\begin_body
+
+\begin_layout Title
+MultiMarkdown Transclusion Test
+\end_layout
+
+\begin_layout Part
+Valid Transclusion
+\begin_inset CommandInset label
+LatexCommand label
+name "part:validtransclusion"
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+This text is included in 
+\family typewriter
+foo.txt
+\family default
+.
+\end_layout
+
+\begin_layout Standard
+This should not be transcluded to avoid an infinite loop -- {{foo.txt}}
+\end_layout
+
+\begin_layout Standard
+This text is included in 
+\family typewriter
+bar.txt
+\family default
+.
+\end_layout
+
+\begin_layout Standard
+This can be transcluded without causing an infinite loop -- 
+\end_layout
+
+\begin_layout Standard
+This text is included in 
+\family typewriter
+foo.txt
+\family default
+ inside the 
+\family typewriter
+transclusion
+\family default
+ directory.
+\end_layout
+
+\begin_layout Standard
+This should not be transcluded to avoid an infinite loop -- {{foo.txt}}
+\end_layout
+
+\end_body
+\end_document
+
