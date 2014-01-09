@@ -19,3 +19,13 @@ latex footer:	mmd-memoir-footer
 
 
 <div markdown = " 1 " >This *is* Markdown **encoded**.</div>
+
+# Test Edge Cases #
+
+<pre>
+*a*
+</pre>
+
+<pre markdown="1">
+*a*
+</pre>
