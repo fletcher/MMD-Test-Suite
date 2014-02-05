@@ -61,6 +61,11 @@ New paragraph.
 Second line in same paragraph with linebreak at end. 
 \end_layout
 
+\begin_layout Standard
+New paragraph./
+ Second line in same paragraph if (escaped-line-breaks) enabled.
+\end_layout
+
 \end_body
 \end_document
 
