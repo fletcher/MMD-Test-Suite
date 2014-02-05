@@ -63,7 +63,7 @@ Second line in same paragraph with linebreak at end.
 
 \begin_layout Standard
 New paragraph.
-Second line in same paragraph if (escaped-line-breaks) enabled.
+ Second line in same paragraph if (escaped-line-breaks) enabled.
 \end_layout
 
 \end_body
