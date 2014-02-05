@@ -14,5 +14,5 @@ Second line in same paragraph.
 New paragraph.  
 Second line in same paragraph with linebreak at end.  
 
-New paragraph./
+New paragraph.\
 Second line in same paragraph if (escaped-line-breaks) enabled.
