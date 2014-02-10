@@ -102,6 +102,25 @@ encoded
 .
 \end_layout
 
+\begin_layout Chapter
+Test Edge Cases
+\begin_inset CommandInset label
+LatexCommand label
+name "chapt:testedgecases"
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+
+ 
+\emph on
+a
+\emph default
+
+ 
+\end_layout
+
 \end_body
 \end_document
 
