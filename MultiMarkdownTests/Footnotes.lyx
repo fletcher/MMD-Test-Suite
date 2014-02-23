@@ -184,6 +184,45 @@ Second paragraph
 
 \end_layout
 
+\begin_layout Standard
+Here is some text containing a more complicated inline footnote.
+\begin_inset Foot
+status collapsed
+
+
+\begin_layout Standard
+Footnote Text and
+ a link to 
+\begin_inset CommandInset href
+LatexCommand href
+target "http://google.com"
+name "Google"
+
+\end_inset
+
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+
+\begin_inset CommandInset href
+LatexCommand href
+
+name "http://google.com"
+target "http://google.com"
+
+\end_inset
+\end_layout
+
+\end_inset
+.
+\end_layout
+
+
+\end_inset
+
+\end_layout
+
 \end_body
 \end_document
 
