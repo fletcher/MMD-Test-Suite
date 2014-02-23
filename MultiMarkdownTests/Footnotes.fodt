@@ -306,6 +306,13 @@
 </text:note-body>
 </text:note>
 </text:p>
+
+<text:p text:style-name="Standard">Here is some text containing a more complicated inline footnote.<text:note text:id="" text:note-class="footnote"><text:note-body>
+<text:p text:style-name="Footnote">Footnote Text and
+a link to <text:a xlink:type="simple" xlink:href="http://google.com">Google</text:a>.</text:p>
+</text:note-body>
+</text:note>
+</text:p>
 </office:text>
 </office:body>
 </office:document>
