@@ -4,6 +4,7 @@
 <body>
 <outline text="Strong and Emph" _note="The ***quick*** brown ***fox*** jumped&#10;&#10;The ***quick*** brown fox jumped&#10;&#10;The ***quick** brown fox* jumped&#10;&#10;The ***quick* brown fox** jumped&#10;&#10;The ***quick* brown *fox*** jumped&#10;&#10;The ***quick** brown **fox*** jumped&#10;&#10;This *should* be parsed --  fo***o&#10;"></outline>
 <outline text="Can fail to process quickly" _note="*a&#10;*a&#10;*a&#10;*a&#10;*a&#10;*a&#10;*a&#10;*a&#10;*a&#10;*a&#10;*a&#10;*a&#10;*a&#10;*a&#10;*a&#10;*a&#10;*a&#10;*a&#10;*a&#10;*a&#10;*a&#10;aaaaa&#10;"></outline>
+<outline text="Citations within Footnotes" _note="Test[][#Citekey;]. Test2 [#Citekey;]. Test3.[^cf1] Test4.[^cf2]&#10;&#10;[^cf1]: [#Citekey;]. A&#10;&#10;[^cf2]: [][#Citekey;]. B&#10;&#10;[#Citekey;]:    This is an article&#10;"></outline>
 <outline text="Metadata">
 <outline text="latex input" _note="mmd-article-header  "/><outline text="Title" _note="Edge Cases  "/><outline text="latex input" _note="mmd-article-begin-doc  "/><outline text="latex footer" _note="mmd-memoir-footer  "/></outline></body>
 </opml>
