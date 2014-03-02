@@ -216,6 +216,75 @@ a
  aaaaa
 \end_layout
 
+\begin_layout Part
+Citations within Footnotes
+\begin_inset CommandInset label
+LatexCommand label
+name "part:citationswithinfootnotes"
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+Test
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Citekey;"
+
+\end_inset
+. Test2 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Citekey;"
+
+\end_inset
+. Test3.
+\begin_inset Foot
+status collapsed
+
+
+\begin_layout Standard
+
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Citekey;"
+
+\end_inset
+. A
+\end_layout
+
+
+\end_inset
+ Test4.
+\begin_inset Foot
+status collapsed
+
+
+\begin_layout Standard
+
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Citekey;"
+
+\end_inset
+. B
+\end_layout
+
+
+\end_inset
+
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "Citekey;"
+label "Citekey;"
+
+\end_inset
+This is an article
+\end_layout
+
 \end_body
 \end_document
 
