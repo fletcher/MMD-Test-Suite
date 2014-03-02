@@ -37,3 +37,8 @@ This is a footnote with 2 paragraphs.[^double]
 [^double]: First paragraph
 
 	Second paragraph
+
+
+Here is some text containing a more complicated inline footnote.[^Footnote Text and
+a link to [Google](http://google.com).]
+
