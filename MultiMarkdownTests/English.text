@@ -17,3 +17,7 @@ this is an em --- dash
 this is an en -- dash
 
 and an ellipsis...
+
+This isn't an en dash `--`.
+
+This isn't an em dash `---`.

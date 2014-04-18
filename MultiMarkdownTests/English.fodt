@@ -273,6 +273,10 @@
 <text:p text:style-name="Standard">this is an en &#8211; dash</text:p>
 
 <text:p text:style-name="Standard">and an ellipsis&#8230;</text:p>
+
+<text:p text:style-name="Standard">This isn&#8217;t an en dash <text:span text:style-name="Source_20_Text">--</text:span>.</text:p>
+
+<text:p text:style-name="Standard">This isn&#8217;t an em dash <text:span text:style-name="Source_20_Text">---</text:span>.</text:p>
 </office:text>
 </office:body>
 </office:document>
