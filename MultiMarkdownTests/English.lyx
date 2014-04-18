@@ -80,6 +80,22 @@ and an ellipsis
 
 \end_layout
 
+\begin_layout Standard
+This isn't an en dash 
+\family typewriter
+--
+\family default
+.
+\end_layout
+
+\begin_layout Standard
+This isn't an em dash 
+\family typewriter
+---
+\family default
+.
+\end_layout
+
 \end_body
 \end_document
 

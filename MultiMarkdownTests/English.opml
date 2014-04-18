@@ -2,7 +2,7 @@
 <opml version="1.0">
 <head><title>MultiMarkdown English Test</title></head>
 <body>
-<outline text="English" _note="'this is a single quote'&#10;&#10;&quot;this is a double quote&quot;&#10;&#10;this isn't an apostrophe.&#10;&#10;this is an em --- dash&#10;&#10;this is an en -- dash&#10;&#10;and an ellipsis...&#10;"></outline>
+<outline text="English" _note="'this is a single quote'&#10;&#10;&quot;this is a double quote&quot;&#10;&#10;this isn't an apostrophe.&#10;&#10;this is an em --- dash&#10;&#10;this is an en -- dash&#10;&#10;and an ellipsis...&#10;&#10;This isn't an en dash `--`.&#10;&#10;This isn't an em dash `---`.&#10;"></outline>
 <outline text="Metadata">
 <outline text="latex input" _note="mmd-article-header  "/><outline text="Title" _note="MultiMarkdown English Test  "/><outline text="quoteslanguage" _note="english  "/><outline text="latex input" _note="mmd-article-begin-doc  "/><outline text="latex footer" _note="mmd-memoir-footer  "/></outline></body>
 </opml>
