@@ -260,6 +260,8 @@
 </office:meta>
 <office:body>
 <office:text>
+<text:p text:style-name="Standard">(Adapted from Michel Fortin&#8217;s test suite for PHP Markdown Extra)</text:p>
+
 <text:p text:style-name="Standard">Some text about HTML, SGML and HTML4.</text:p>
 
 <text:p text:style-name="Standard">Let&#8217;s talk about the U.S.A., (É.U. or É.-U. d&#8217;A. in French).</text:p>
