@@ -3,6 +3,8 @@ Title:	Abbreviations
 latex input:	mmd-article-begin-doc  
 latex footer:	mmd-memoir-footer  
 
+(Adapted from Michel Fortin's test suite for PHP Markdown Extra)
+
 Some text about HTML, SGML and HTML4.
 
 Let's talk about the U.S.A., (É.U. or É.-U. d'A. in French).
