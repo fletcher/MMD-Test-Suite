@@ -1,0 +1,172 @@
+#LyX File created by multimarkdown
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass memoir
+\begin_preamble
+\usepackage{listings}
+\usepackage{natbib}
+\usepackage{nomencl}
+\usepackage{booktabs}
+\usepackage{refstyle}
+\usepackage{varioref}
+\bibpunct{(}{)}{,}{a}{,}{,}
+\newref{part}{refcmd={Part \ref{#1} \vpageref{#1}}}
+\newref{chapt}{refcmd={Chapter \ref{#1} \vpageref{#1}}}
+\newref{secti}{refcmd={Section \ref{#1} \vpageref{#1}}}
+\newref{subse}{refcmd={Subsection \ref{#1} \vpageref{#1}}}
+\newref{subsu}{refcmd={Subsubsection \ref{#1} \vpageref{#1}}}
+\newref{parag}{refcmd={Paragraph \ref{#1} \vpageref{#1}}}
+\newref{subpa}{refcmd={Subparagraph \ref{#1} \vpageref{#1}}}
+\newref{tab}{refcmd={Table \ref{#1} \vpageref{#1}}}
+\newref{fig}{refcmd={Figure \ref{#1} \vpageref{#1}}}
+\end_preamble
+\options refpage
+\begin_modules
+\end_modules
+\bibtex_command default
+\cite_engine natbib_authoryear
+\end_header
+\begin_body
+
+\begin_layout Title
+MultiMarkdown Autoreference Test
+\end_layout
+
+\begin_layout Chapter
+109&^*&#^() Must Start With Alpha
+\begin_inset CommandInset label
+LatexCommand label
+name "chapt:109muststartwithalpha"
+\end_inset
+
+\end_layout
+
+\begin_layout Chapter
+Strip out &^% characters ^&*^
+\begin_inset CommandInset label
+LatexCommand label
+name "chapt:stripoutcharacters"
+\end_inset
+
+\end_layout
+
+\begin_layout Chapter
+Special Cross Reference Cases
+\begin_inset CommandInset label
+LatexCommand label
+name "chapt:specialcrossreferencecases"
+\end_inset
+
+\end_layout
+
+\begin_layout Section
+1 Cross-References: Special Characters!@#$%^&*()<>
+\begin_inset CommandInset label
+LatexCommand label
+name "secti:1cross-references:specialcharacters"
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+And now, link to 1 Cross-References: Special Characters!@#$%^&*()<> (
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "secti:1cross-references:specialcharacters"
+
+\end_inset
+)
+\end_layout
+
+\begin_layout Chapter
+Setext 1
+\begin_inset CommandInset label
+LatexCommand label
+name "chapt:setext1"
+\end_inset
+
+\end_layout
+
+\begin_layout Section
+Setext 2
+\begin_inset CommandInset label
+LatexCommand label
+name "secti:setext2"
+\end_inset
+
+\end_layout
+
+\begin_layout Chapter
+Atx 1
+\begin_inset CommandInset label
+LatexCommand label
+name "chapt:atx1"
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+Link to Setext 1 (
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "chapt:setext1"
+
+\end_inset
+).
+\end_layout
+
+\begin_layout Standard
+And Setext 2 (
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "secti:setext2"
+
+\end_inset
+).
+\end_layout
+
+\begin_layout Standard
+And Atx 1 (
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "chapt:atx1"
+
+\end_inset
+).
+\end_layout
+
+\begin_layout Standard
+And [Atx 2] should fail.
+\end_layout
+
+\begin_layout Chapter
+Manual Header
+\begin_inset CommandInset label
+LatexCommand label
+name "chapt:label"
+\end_inset
+
+\end_layout
+
+\begin_layout Chapter
+Manual Header 2
+\begin_inset CommandInset label
+LatexCommand label
+name "chapt:label2"
+\end_inset
+
+\end_layout
+
+\begin_layout Section
+Manual Header 3
+\begin_inset CommandInset label
+LatexCommand label
+name "secti:label3"
+\end_inset
+
+\end_layout
+
+\end_body
+\end_document
+

@@ -2,7 +2,7 @@
 \lyxformat 413
 \begin_document
 \begin_header
-\textclass beamer
+\textclass memoir
 \begin_preamble
 \usepackage{listings}
 \usepackage{natbib}
@@ -10,8 +10,6 @@
 \usepackage{booktabs}
 \usepackage{refstyle}
 \usepackage{varioref}
-\usetheme{keynote-gradient}
-\setbeamercovered{transparent}
 \bibpunct{(}{)}{,}{a}{,}{,}
 \newref{part}{refcmd={Part \ref{#1} \vpageref{#1}}}
 \newref{chapt}{refcmd={Chapter \ref{#1} \vpageref{#1}}}
@@ -31,62 +29,140 @@
 \end_header
 \begin_body
 
-\begin_layout Title
-Test
+\begin_layout Part
+test heading foo-test
+\begin_inset CommandInset label
+LatexCommand label
+name "part:testheadingfoo"
+\end_inset
+
 \end_layout
 
-\begin_layout Frame
-\begin_inset Argument 4
-status open
+\begin_layout Part
+test heading
+\begin_inset CommandInset label
+LatexCommand label
+name "part:foo"
+\end_inset
 
-\begin_layout Plain Layout
+\end_layout
+
+\begin_layout Part
 Tables
 \begin_inset CommandInset label
 LatexCommand label
-name "frame:tables"
+name "part:tables"
 \end_inset
 
 \end_layout
-
-\end_inset
-
-\end_layout
-
-\begin_deeper
 
 \begin_layout Standard
 \begin_inset Tabular
-<lyxtabular version="3" rows="6" columns="3">
+<lyxtabular version="3" rows="7" columns="3">
 <features booktabs="true" tabularvalignment="middle" islongtable="true" longtabularalignment="center">
 <column alignment="left" valignment="top" width="33col%">
 <column alignment="center" valignment="top" width="33col%">
-<column alignment="center" valignment="top" width="33col%">
+<column alignment="right" valignment="top" width="33col%">
+<row caption="true">
+<cell multicolumn="1" alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Prototype table caption foo-test
+\end_layout
+
+\end_inset
+
+\begin_inset CommandInset label
+LatexCommand label
+
+name "tab:prototypetablecaptionfoo"
+\end_inset
+\end_layout
+
+\end_inset
+
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
 <row endhead="true" endfirsthead="true">
 <cell alignment="left" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-Features
+
 \end_layout
 
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-MultiMarkdown
+Grouping
 \end_layout
 
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-Crayons
+Grouping
+\end_layout
+
+
+\end_inset
+</cell>
+</row>
+<row endhead="true" endfirsthead="true">
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+First Header
+\end_layout
+
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Second Header
+\end_layout
+
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Third Header
 \end_layout
 
 
@@ -98,7 +174,83 @@ Crayons
 \begin_inset Text
 
 \begin_layout Plain Layout
-Melts in warm places
+Content
+\end_layout
+
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+Long Cell
+\emph default
+
+\end_layout
+
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+Long Cell
+\emph default
+
+\end_layout
+
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Content
+\end_layout
+
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Cell
+\series default
+
+\end_layout
+
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Cell
+\end_layout
+
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+New section
 \end_layout
 
 
@@ -108,49 +260,17 @@ Melts in warm places
 \begin_inset Text
 
 \begin_layout Plain Layout
-No
+More
 \end_layout
 
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
+<cell alignment="right" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-Yes
-\end_layout
-
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Mistakes can be easily fixed
-\end_layout
-
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Yes
-\end_layout
-
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-No
+Data
 \end_layout
 
 
@@ -158,95 +278,43 @@ No
 </cell>
 </row>
 <row>
-<cell alignment="left" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-Easy to copy documents for friends
+And more
 \end_layout
 
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell multicolumn="1" alignment="center" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-Yes
+With an escaped 
+\begin_inset Quotes els
+\end_inset
+|
+\begin_inset Quotes ers
+\end_inset
+
 \end_layout
 
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
+<cell multicolumn="2" alignment="center" valignment="top" bottomline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-No
-\end_layout
-
-
+With an escaped 
+\begin_inset Quotes els
 \end_inset
-</cell>
-</row>
-<row>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Fun at parties
-\end_layout
-
-
+|
+\begin_inset Quotes ers
 \end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
 
-\begin_layout Plain Layout
-No
-\end_layout
-
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Why not?
-\end_layout
-
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Minimum markup for maximum quality?
-\end_layout
-
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Yes
-\end_layout
-
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-No
 \end_layout
 
 
@@ -257,106 +325,6 @@ No
 \end_inset
 \end_layout
 
-\end_deeper
-\begin_layout Separator
-\end_layout
-\begin_layout FragileFrame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-The old way was complicated
-\begin_inset CommandInset label
-LatexCommand label
-name "frame:theoldwaywascomplicated"
-\end_inset
-
-\end_layout
-
-\end_inset
-
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-\begin_inset listings
-lstparams "basicstyle={\footnotesize\ttfamily}"
-inline false
-status collapsed
-
-\begin_layout Plain Layout
-
-<p>In order to create valid 
-\end_layout
-
-\begin_layout Plain Layout
-
-<a href="http://en.wikipedia.org/wiki/HTML">HTML</a>, you 
-\end_layout
-
-\begin_layout Plain Layout
-
-need properly coded syntax that can be cumbersome for 
-\end_layout
-
-\begin_layout Plain Layout
-
-&#8220;non-programmers&#8221; to write. Sometimes, you
-\end_layout
-
-\begin_layout Plain Layout
-
-just want to easily make certain words <strong>bold
-\end_layout
-
-\begin_layout Plain Layout
-
-</strong>, and certain words <em>italicized</em> without
-\end_layout
-
-\begin_layout Plain Layout
-
-having to remember the syntax. Additionally, for example,
-\end_layout
-
-\begin_layout Plain Layout
-
-creating lists:</p>
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\end_layout
-
-\begin_layout Plain Layout
-
-<ul>
-\end_layout
-
-\begin_layout Plain Layout
-
-<li>should be easy</li>
-\end_layout
-
-\begin_layout Plain Layout
-
-<li>should not involve programming</li>
-\end_layout
-
-\begin_layout Plain Layout
-
-</ul>
-\end_layout
-
-\end_inset
-\end_layout
-
-\end_deeper
-\begin_layout Separator
-\end_layout
-\begin_layout EndFrame
-\end_layout
 \end_body
 \end_document
 

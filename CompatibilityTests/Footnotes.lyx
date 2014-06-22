@@ -1,0 +1,138 @@
+#LyX File created by multimarkdown
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass memoir
+\begin_preamble
+\usepackage{listings}
+\usepackage{natbib}
+\usepackage{nomencl}
+\usepackage{booktabs}
+\usepackage{refstyle}
+\usepackage{varioref}
+\bibpunct{(}{)}{,}{a}{,}{,}
+\newref{part}{refcmd={Part \ref{#1} \vpageref{#1}}}
+\newref{chapt}{refcmd={Chapter \ref{#1} \vpageref{#1}}}
+\newref{secti}{refcmd={Section \ref{#1} \vpageref{#1}}}
+\newref{subse}{refcmd={Subsection \ref{#1} \vpageref{#1}}}
+\newref{subsu}{refcmd={Subsubsection \ref{#1} \vpageref{#1}}}
+\newref{parag}{refcmd={Paragraph \ref{#1} \vpageref{#1}}}
+\newref{subpa}{refcmd={Subparagraph \ref{#1} \vpageref{#1}}}
+\newref{tab}{refcmd={Table \ref{#1} \vpageref{#1}}}
+\newref{fig}{refcmd={Figure \ref{#1} \vpageref{#1}}}
+\end_preamble
+\options refpage
+\begin_modules
+\end_modules
+\bibtex_command default
+\cite_engine natbib_authoryear
+\end_header
+\begin_body
+
+\begin_layout Title
+MultiMarkdown Footer Test
+\end_layout
+
+\begin_layout Standard
+Here is some text containing a footnote.
+\begin_inset Foot
+status collapsed
+
+
+\begin_layout Standard
+Here is the text of the footnote itself. It also has a 
+\begin_inset CommandInset href
+LatexCommand href
+target "http://somelink.com"
+name "link"
+
+\end_inset
+
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+
+\begin_inset CommandInset href
+LatexCommand href
+
+name "http://somelink.com"
+target "http://somelink.com"
+
+\end_inset
+\end_layout
+
+\end_inset
+.
+\end_layout
+
+
+\end_inset
+
+\end_layout
+
+\begin_layout Quote
+And here is a footnote within a blockquote, should be labelled #2.
+\begin_inset Foot
+status collapsed
+
+
+\begin_layout Standard
+Note # 2.
+\end_layout
+
+
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+And this is a codeblock, that should not be a footnote:
+\end_layout
+\begin_layout Standard
+\begin_inset listings
+lstparams "basicstyle={\footnotesize\ttfamily}"
+inline false
+status collapsed
+
+\begin_layout Plain Layout
+
+This is code.[^somesamplefootnote]
+\end_layout
+
+\end_inset
+\end_layout
+
+\begin_layout Standard
+And this is a short footnote for testing.
+\begin_inset Foot
+status collapsed
+
+
+\begin_layout Standard
+Finis
+\end_layout
+
+
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+And now, reuse a footnote.
+\begin_inset Foot
+status collapsed
+
+
+\begin_layout Standard
+Finis
+\end_layout
+
+
+\end_inset
+
+\end_layout
+
+\end_body
+\end_document
+

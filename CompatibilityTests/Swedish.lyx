@@ -30,47 +30,35 @@
 \begin_body
 
 \begin_layout Title
-MultiMarkdown BibTeX Test
+MultiMarkdown Swedish Test
 \end_layout
 
-\begin_layout Part
-BibTeX
-\begin_inset CommandInset label
-LatexCommand label
-name "part:bibtex"
+\begin_layout Standard
+'this is a single quote
+\begin_inset Quotes ers
 \end_inset
 
 \end_layout
 
 \begin_layout Standard
-This is a test of BibTeX Support.
-\begin_inset CommandInset citation
-LatexCommand cite
-key "Knuth:1968"
-
-\end_inset
-
+''this is a double quote''
 \end_layout
 
 \begin_layout Standard
-And a locator.
-\begin_inset CommandInset citation
-LatexCommand cite
-after "p. 123"
-key "Knuth:1981"
-
-\end_inset
-
+this isn't an apostrophe.
 \end_layout
 
 \begin_layout Standard
+this is an em --- dash
+\end_layout
 
-\begin_inset CommandInset bibtex
-LatexCommand bibtex
-bibfiles "bibtex"
-options "plainnat"
+\begin_layout Standard
+this is an en -- dash
+\end_layout
 
-\end_inset
+\begin_layout Standard
+and an ellipsis
+\SpecialChar \ldots{}
 
 \end_layout
 

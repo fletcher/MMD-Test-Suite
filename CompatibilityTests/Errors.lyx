@@ -30,48 +30,22 @@
 \begin_body
 
 \begin_layout Title
-MultiMarkdown BibTeX Test
-\end_layout
-
-\begin_layout Part
-BibTeX
-\begin_inset CommandInset label
-LatexCommand label
-name "part:bibtex"
-\end_inset
-
+MultiMarkdown Error Test
 \end_layout
 
 \begin_layout Standard
-This is a test of BibTeX Support.
-\begin_inset CommandInset citation
-LatexCommand cite
-key "Knuth:1968"
-
+This document contains 
+\begin_inset Quotes eld
 \end_inset
-
+errors
+\begin_inset Quotes erd
+\end_inset
+ - the output shouldn't match what was
+ intended, but it shouldn't crash MMD.
 \end_layout
 
 \begin_layout Standard
-And a locator.
-\begin_inset CommandInset citation
-LatexCommand cite
-after "p. 123"
-key "Knuth:1981"
-
-\end_inset
-
-\end_layout
-
-\begin_layout Standard
-
-\begin_inset CommandInset bibtex
-LatexCommand bibtex
-bibfiles "bibtex"
-options "plainnat"
-
-\end_inset
-
+This is a missing link reference [some text][missing] and ![missing image][missing2].
 \end_layout
 
 \end_body

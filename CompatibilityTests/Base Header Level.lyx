@@ -30,46 +30,41 @@
 \begin_body
 
 \begin_layout Title
-MultiMarkdown BibTeX Test
+MultiMarkdown Base Header Level Test
 \end_layout
 
-\begin_layout Part
-BibTeX
+\begin_layout Chapter
+This should be h2
 \begin_inset CommandInset label
 LatexCommand label
-name "part:bibtex"
+name "chapt:thisshouldbeh2"
 \end_inset
 
 \end_layout
 
-\begin_layout Standard
-This is a test of BibTeX Support.
-\begin_inset CommandInset citation
-LatexCommand cite
-key "Knuth:1968"
-
+\begin_layout Section
+This should be h3
+\begin_inset CommandInset label
+LatexCommand label
+name "secti:thisshouldbeh3"
 \end_inset
 
 \end_layout
 
-\begin_layout Standard
-And a locator.
-\begin_inset CommandInset citation
-LatexCommand cite
-after "p. 123"
-key "Knuth:1981"
-
+\begin_layout Paragraph
+This should be h6
+\begin_inset CommandInset label
+LatexCommand label
+name "parag:thisshouldbeh6"
 \end_inset
 
 \end_layout
 
-\begin_layout Standard
-
-\begin_inset CommandInset bibtex
-LatexCommand bibtex
-bibfiles "bibtex"
-options "plainnat"
-
+\begin_layout Subparagraph
+This should be h6 in HTML h7 in LaTeX
+\begin_inset CommandInset label
+LatexCommand label
+name "subpa:thisshouldbeh6inhtmlh7inlatex"
 \end_inset
 
 \end_layout

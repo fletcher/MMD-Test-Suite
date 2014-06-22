@@ -33,15 +33,6 @@
 MultiMarkdown BibTeX Test
 \end_layout
 
-\begin_layout Part
-BibTeX
-\begin_inset CommandInset label
-LatexCommand label
-name "part:bibtex"
-\end_inset
-
-\end_layout
-
 \begin_layout Standard
 This is a test of BibTeX Support.
 \begin_inset CommandInset citation
