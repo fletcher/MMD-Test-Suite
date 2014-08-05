@@ -13,6 +13,7 @@
 <outline text="Reference link not label [label] [label1]" _note=""></outline>
 <outline text="Link [not label](http://example.net/)" _note="[label1]: http://example.com/&#10;&#10;And link to [label2] and [label1] and [label].&#10;"></outline>
 </outline>
+<outline text="Header with ümlaut" _note="link to [Header with ümlaut].&#10;"></outline>
 <outline text="Metadata">
 <outline text="latex input" _note="mmd-article-header  "/><outline text="Title" _note="MultiMarkdown Headers Test  "/><outline text="latex mode" _note="memoir  "/><outline text="Base Header Level" _note="2  "/><outline text="latex input" _note="mmd-article-begin-doc  "/><outline text="latex footer" _note="mmd-memoir-footer  "/></outline></body>
 </opml>

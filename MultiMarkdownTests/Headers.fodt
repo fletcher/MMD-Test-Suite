@@ -295,6 +295,10 @@
 <text:h text:outline-level="3"><text:bookmark text:name="linknotlabel"/>Link <text:a xlink:type="simple" xlink:href="http://example.net/">not label</text:a><text:bookmark-end text:name="linknotlabel"/></text:h>
 
 <text:p text:style-name="Standard">And link to [label2] and <text:a xlink:type="simple" xlink:href="http://example.com/">label1</text:a> and <text:a xlink:type="simple" xlink:href="#label">label</text:a>.</text:p>
+
+<text:h text:outline-level="2"><text:bookmark text:name="headerwithümlaut"/>Header with ümlaut<text:bookmark-end text:name="headerwithümlaut"/></text:h>
+
+<text:p text:style-name="Standard">link to <text:a xlink:type="simple" xlink:href="#headerwithümlaut">Header with ümlaut</text:a>.</text:p>
 </office:text>
 </office:body>
 </office:document>
