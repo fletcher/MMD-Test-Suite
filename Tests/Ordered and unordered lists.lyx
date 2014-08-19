@@ -1,0 +1,370 @@
+#LyX File created by multimarkdown
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass memoir
+\begin_preamble
+\usepackage{listings}
+\usepackage{natbib}
+\usepackage{nomencl}
+\usepackage{booktabs}
+\usepackage{refstyle}
+\usepackage{varioref}
+\bibpunct{(}{)}{,}{a}{,}{,}
+\newref{part}{refcmd={Part \ref{#1} \vpageref{#1}}}
+\newref{chapt}{refcmd={Chapter \ref{#1} \vpageref{#1}}}
+\newref{secti}{refcmd={Section \ref{#1} \vpageref{#1}}}
+\newref{subse}{refcmd={Subsection \ref{#1} \vpageref{#1}}}
+\newref{subsu}{refcmd={Subsubsection \ref{#1} \vpageref{#1}}}
+\newref{parag}{refcmd={Paragraph \ref{#1} \vpageref{#1}}}
+\newref{subpa}{refcmd={Subparagraph \ref{#1} \vpageref{#1}}}
+\newref{tab}{refcmd={Table \ref{#1} \vpageref{#1}}}
+\newref{fig}{refcmd={Figure \ref{#1} \vpageref{#1}}}
+\end_preamble
+\options refpage
+\begin_modules
+\end_modules
+\bibtex_command default
+\cite_engine natbib_authoryear
+\end_header
+\begin_body
+
+\begin_layout Chapter
+Unordered
+\begin_inset CommandInset label
+LatexCommand label
+name "chapt:unordered"
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+Asterisks tight:
+\end_layout
+
+\begin_layout Itemize
+asterisk 1
+\end_layout
+
+\begin_layout Itemize
+asterisk 2
+\end_layout
+
+\begin_layout Itemize
+asterisk 3
+\end_layout
+
+\begin_layout Standard
+Asterisks loose:
+\end_layout
+
+\begin_layout Itemize
+asterisk 1
+\end_layout
+
+\begin_layout Itemize
+asterisk 2
+\end_layout
+
+\begin_layout Itemize
+asterisk 3
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+Pluses tight:
+\end_layout
+
+\begin_layout Itemize
+Plus 1
+\end_layout
+
+\begin_layout Itemize
+Plus 2
+\end_layout
+
+\begin_layout Itemize
+Plus 3
+\end_layout
+
+\begin_layout Standard
+Pluses loose:
+\end_layout
+
+\begin_layout Itemize
+Plus 1
+\end_layout
+
+\begin_layout Itemize
+Plus 2
+\end_layout
+
+\begin_layout Itemize
+Plus 3
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+Minuses tight:
+\end_layout
+
+\begin_layout Itemize
+Minus 1
+\end_layout
+
+\begin_layout Itemize
+Minus 2
+\end_layout
+
+\begin_layout Itemize
+Minus 3
+\end_layout
+
+\begin_layout Standard
+Minuses loose:
+\end_layout
+
+\begin_layout Itemize
+Minus 1
+\end_layout
+
+\begin_layout Itemize
+Minus 2
+\end_layout
+
+\begin_layout Itemize
+Minus 3
+\end_layout
+
+\begin_layout Chapter
+Ordered
+\begin_inset CommandInset label
+LatexCommand label
+name "chapt:ordered"
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+Tight:
+\end_layout
+
+\begin_layout Enumerate
+First
+\end_layout
+
+\begin_layout Enumerate
+Second
+\end_layout
+
+\begin_layout Enumerate
+Third
+\end_layout
+
+\begin_layout Standard
+and:
+\end_layout
+
+\begin_layout Enumerate
+One
+\end_layout
+
+\begin_layout Enumerate
+Two
+\end_layout
+
+\begin_layout Enumerate
+Three
+\end_layout
+
+\begin_layout Standard
+Loose using tabs:
+\end_layout
+
+\begin_layout Enumerate
+First
+\end_layout
+
+\begin_layout Enumerate
+Second
+\end_layout
+
+\begin_layout Enumerate
+Third
+\end_layout
+
+\begin_layout Standard
+and using spaces:
+\end_layout
+
+\begin_layout Enumerate
+One
+\end_layout
+
+\begin_layout Enumerate
+Two
+\end_layout
+
+\begin_layout Enumerate
+Three
+\end_layout
+
+\begin_layout Standard
+Multiple paragraphs:
+\end_layout
+
+\begin_layout Enumerate
+Item 1, graf one.
+\end_layout
+
+\begin_deeper
+
+\begin_layout Standard
+Item 2. graf two. The quick brown fox jumped over the lazy dog's
+ back.
+\end_layout
+
+\end_deeper
+
+\begin_layout Enumerate
+Item 2.
+\end_layout
+
+\begin_layout Enumerate
+Item 3.
+\end_layout
+
+\begin_layout Chapter
+Nested
+\begin_inset CommandInset label
+LatexCommand label
+name "chapt:nested"
+\end_inset
+
+\end_layout
+
+\begin_layout Itemize
+Tab
+\end_layout
+
+\begin_deeper
+
+\begin_layout Itemize
+Tab
+\end_layout
+
+\begin_deeper
+
+\begin_layout Itemize
+Tab
+\end_layout
+
+\end_deeper
+
+\end_deeper
+
+\begin_layout Standard
+Here's another:
+\end_layout
+
+\begin_layout Enumerate
+First
+\end_layout
+
+\begin_layout Enumerate
+Second:
+\end_layout
+
+\begin_deeper
+
+\begin_layout Itemize
+Fee
+\end_layout
+
+\begin_layout Itemize
+Fie
+\end_layout
+
+\begin_layout Itemize
+Foe
+\end_layout
+
+\end_deeper
+
+\begin_layout Enumerate
+Third
+\end_layout
+
+\begin_layout Standard
+Same thing but with paragraphs:
+\end_layout
+
+\begin_layout Enumerate
+First
+\end_layout
+
+\begin_layout Enumerate
+Second:
+\end_layout
+
+\begin_deeper
+
+\begin_layout Itemize
+Fee
+\end_layout
+
+\begin_layout Itemize
+Fie
+\end_layout
+
+\begin_layout Itemize
+Foe
+\end_layout
+
+\end_deeper
+
+\begin_layout Enumerate
+Third
+\end_layout
+
+\begin_layout Standard
+This was an error in Markdown 1.0.1:
+\end_layout
+
+\begin_layout Itemize
+this
+\end_layout
+
+\begin_deeper
+
+\begin_layout Itemize
+sub
+\end_layout
+
+\end_deeper
+
+\end_body
+\end_document
+

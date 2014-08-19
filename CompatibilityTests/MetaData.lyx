@@ -30,44 +30,26 @@
 \begin_body
 
 \begin_layout Title
-MultiMarkdown BibTeX Test
+This should be a <title> element
 \end_layout
 
-\begin_layout Part
-BibTeX
-\begin_inset CommandInset label
-LatexCommand label
-name "part:bibtex"
-\end_inset
-
+\begin_layout Author
+This should be the author
 \end_layout
 
-\begin_layout Standard
-This is a test of BibTeX Support.
-\begin_inset CommandInset citation
-LatexCommand cite
-key "Knuth:1968"
-
-\end_inset
-
+\begin_layout Date
+January 1, 2011
 \end_layout
 
 \begin_layout Standard
-And a locator.
-\begin_inset CommandInset citation
-LatexCommand cite
-after "p. 123"
-key "Knuth:1981"
-
-\end_inset
-
+And this should be the main text.
 \end_layout
 
 \begin_layout Standard
 
 \begin_inset CommandInset bibtex
 LatexCommand bibtex
-bibfiles "bibtex"
+bibfiles "bibliographyfile"
 options "plainnat"
 
 \end_inset

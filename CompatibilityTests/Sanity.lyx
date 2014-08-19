@@ -120,6 +120,53 @@ target "www.com"
 \end_layout
 
 \begin_layout Standard
+B Reference to 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "part:section"
+
+\end_inset
+
+ B Citation
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Citation"
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+B Figure [][figure]
+
+\end_layout
+\end_inset
+
+ B Table 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "tab:table"
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+B Link [][link]
+
+\end_layout
+\end_inset
+
+ B Nowhere [][Nowhere]
+\end_layout
+
+\begin_layout Standard
 C Reference to Section (
 \begin_inset CommandInset ref
 LatexCommand formatted
@@ -190,53 +237,6 @@ target "www.com"
 \end_inset
 
  C Nowhere [Nowhere][]
-\end_layout
-
-\begin_layout Standard
-B Reference to 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "part:section"
-
-\end_inset
-
- B Citation
-\begin_inset CommandInset citation
-LatexCommand cite
-key "Citation"
-
-\end_inset
-
- 
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-B Figure [][figure]
-
-\end_layout
-\end_inset
-
- B Table 
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "tab:table"
-
-\end_inset
-
- 
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-B Link [][link]
-
-\end_layout
-\end_inset
-
- B Nowhere [][Nowhere]
 \end_layout
 
 \begin_layout Standard

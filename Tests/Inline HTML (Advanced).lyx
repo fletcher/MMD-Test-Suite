@@ -29,49 +29,12 @@
 \end_header
 \begin_body
 
-\begin_layout Title
-MultiMarkdown BibTeX Test
-\end_layout
-
-\begin_layout Part
-BibTeX
-\begin_inset CommandInset label
-LatexCommand label
-name "part:bibtex"
-\end_inset
-
+\begin_layout Standard
+Simple block on one line:
 \end_layout
 
 \begin_layout Standard
-This is a test of BibTeX Support.
-\begin_inset CommandInset citation
-LatexCommand cite
-key "Knuth:1968"
-
-\end_inset
-
-\end_layout
-
-\begin_layout Standard
-And a locator.
-\begin_inset CommandInset citation
-LatexCommand cite
-after "p. 123"
-key "Knuth:1981"
-
-\end_inset
-
-\end_layout
-
-\begin_layout Standard
-
-\begin_inset CommandInset bibtex
-LatexCommand bibtex
-bibfiles "bibtex"
-options "plainnat"
-
-\end_inset
-
+And nested without indentation:
 \end_layout
 
 \end_body
