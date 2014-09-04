@@ -224,25 +224,6 @@ reference "secti:label"
 ).
 \end_layout
 
-\begin_layout Chapter
-Header with ümlaut
-\begin_inset CommandInset label
-LatexCommand label
-name "chapt:headerwithümlaut"
-\end_inset
-
-\end_layout
-
-\begin_layout Standard
-link to Header with ümlaut (
-\begin_inset CommandInset ref
-LatexCommand formatted
-reference "chapt:headerwithümlaut"
-
-\end_inset
-).
-\end_layout
-
 \end_body
 \end_document
 

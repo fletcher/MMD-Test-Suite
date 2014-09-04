@@ -1,0 +1,200 @@
+#LyX File created by multimarkdown
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass memoir
+\begin_preamble
+\usepackage{listings}
+\usepackage{natbib}
+\usepackage{nomencl}
+\usepackage{booktabs}
+\usepackage{refstyle}
+\usepackage{varioref}
+\bibpunct{(}{)}{,}{a}{,}{,}
+\newref{part}{refcmd={Part \ref{#1} \vpageref{#1}}}
+\newref{chapt}{refcmd={Chapter \ref{#1} \vpageref{#1}}}
+\newref{secti}{refcmd={Section \ref{#1} \vpageref{#1}}}
+\newref{subse}{refcmd={Subsection \ref{#1} \vpageref{#1}}}
+\newref{subsu}{refcmd={Subsubsection \ref{#1} \vpageref{#1}}}
+\newref{parag}{refcmd={Paragraph \ref{#1} \vpageref{#1}}}
+\newref{subpa}{refcmd={Subparagraph \ref{#1} \vpageref{#1}}}
+\newref{tab}{refcmd={Table \ref{#1} \vpageref{#1}}}
+\newref{fig}{refcmd={Figure \ref{#1} \vpageref{#1}}}
+\end_preamble
+\options refpage
+\begin_modules
+\end_modules
+\bibtex_command default
+\cite_engine natbib_authoryear
+\end_header
+\begin_body
+
+\begin_layout Title
+Abbreviations
+\end_layout
+
+\begin_layout Standard
+(Adapted from Michel Fortin's test suite for PHP Markdown Extra)
+\end_layout
+
+\begin_layout Standard
+Some text about Hyper Text Markup Language (HTML)
+\begin_inset CommandInset nomenclature
+LatexCommand nomenclature
+symbol "HTML"
+description "Hyper Text Markup Language"
+\end_inset
+, Standard Generalized Markup Language (SGML)
+\begin_inset CommandInset nomenclature
+LatexCommand nomenclature
+symbol "SGML"
+description "Standard Generalized Markup Language"
+\end_inset
+ and Hyper Text Markup Language version 4 (HTML4)
+\begin_inset CommandInset nomenclature
+LatexCommand nomenclature
+symbol "HTML4"
+description "Hyper Text Markup Language version 4"
+\end_inset
+.
+\end_layout
+
+\begin_layout Standard
+Let's talk about the United States of America (U.S.A.)
+\begin_inset CommandInset nomenclature
+LatexCommand nomenclature
+symbol "U.S.A."
+description "United States of America"
+\end_inset
+, (États-Unis d'Amérique (É.U.)
+\begin_inset CommandInset nomenclature
+LatexCommand nomenclature
+symbol "É.U."
+description "États-Unis d'Amérique"
+\end_inset
+ or États-Unis d'Amérique (É.-U. dA.)
+\begin_inset CommandInset nomenclature
+LatexCommand nomenclature
+symbol "É.-U. dA."
+description "États-Unis d'Amérique"
+\end_inset
+ in French).
+\end_layout
+
+\begin_layout Standard
+And here we have a Compact Disk (CD)
+\begin_inset CommandInset nomenclature
+LatexCommand nomenclature
+symbol "CD"
+description "Compact Disk"
+\end_inset
+, some CDs, and some other CD's.
+\end_layout
+
+\begin_layout Standard
+Let's transfer documents through Transmission Control Protocol (TCP)
+\begin_inset CommandInset nomenclature
+LatexCommand nomenclature
+symbol "TCP"
+description "Transmission Control Protocol"
+\end_inset
+/Internet Protocol (IP)
+\begin_inset CommandInset nomenclature
+LatexCommand nomenclature
+symbol "IP"
+description "Internet Protocol"
+\end_inset
+, using TCP packets.
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+Bienvenue sur 
+\begin_inset CommandInset href
+LatexCommand href
+target "http://www.bidulecms.com"
+name "CMS"
+
+\end_inset
+
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+
+\begin_inset CommandInset href
+LatexCommand href
+
+name "http://www.bidulecms.com"
+target "http://www.bidulecms.com"
+
+\end_inset
+\end_layout
+
+\end_inset
+.
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+Abbreviation "Testing" Correct 'Character' < Escapes > (ATCCE)
+\begin_inset CommandInset nomenclature
+LatexCommand nomenclature
+symbol "ATCCE"
+description "Abbreviation \"Testing\" Correct 'Character' < Escapes >"
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+And let's use them again:
+\end_layout
+
+\begin_layout Standard
+HTML4
+ HTML
+ SGML
+ U.S.A.
+ CD
+ IP
+ TCP
+ CMS
+ ATCCE
+ É.U.
+ É.-U. dA.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset nomencl_print
+LatexCommand printnomenclature
+set_width "auto"
+
+\end_inset
+
+\end_layout
+
+\end_body
+\end_document
+

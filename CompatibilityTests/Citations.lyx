@@ -33,15 +33,6 @@
 MultiMarkdown Citation Test
 \end_layout
 
-\begin_layout Part
-Citations
-\begin_inset CommandInset label
-LatexCommand label
-name "part:citations"
-\end_inset
-
-\end_layout
-
 \begin_layout Standard
 This is a test of citations
 \begin_inset CommandInset citation

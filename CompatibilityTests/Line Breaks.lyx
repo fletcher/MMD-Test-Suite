@@ -30,48 +30,26 @@
 \begin_body
 
 \begin_layout Title
-MultiMarkdown BibTeX Test
-\end_layout
-
-\begin_layout Part
-BibTeX
-\begin_inset CommandInset label
-LatexCommand label
-name "part:bibtex"
-\end_inset
-
+Line Break Test
 \end_layout
 
 \begin_layout Standard
-This is a test of BibTeX Support.
-\begin_inset CommandInset citation
-LatexCommand cite
-key "Knuth:1968"
-
-\end_inset
-
+This is a paragraph.
+ This is the same paragraph.
 \end_layout
 
 \begin_layout Standard
-And a locator.
-\begin_inset CommandInset citation
-LatexCommand cite
-after "p. 123"
-key "Knuth:1981"
-
+New paragraph.
+\begin_inset Newline newline
 \end_inset
-
+Second line in same paragraph.
 \end_layout
 
 \begin_layout Standard
-
-\begin_inset CommandInset bibtex
-LatexCommand bibtex
-bibfiles "bibtex"
-options "plainnat"
-
+New paragraph.
+\begin_inset Newline newline
 \end_inset
-
+Second line in same paragraph with linebreak at end. 
 \end_layout
 
 \end_body

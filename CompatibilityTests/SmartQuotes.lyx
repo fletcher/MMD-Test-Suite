@@ -30,46 +30,71 @@
 \begin_body
 
 \begin_layout Title
-MultiMarkdown BibTeX Test
+SmartQuotes Test
 \end_layout
 
-\begin_layout Part
-BibTeX
-\begin_inset CommandInset label
-LatexCommand label
-name "part:bibtex"
+\begin_layout Standard
+Some rather complicated tests for smart quotes with non-ascii input.
+\end_layout
+
+\begin_layout Standard
+l'année l'année
+\end_layout
+
+\begin_layout Standard
+l'été l'année
+\end_layout
+
+\begin_layout Standard
+l'été l'été
+\end_layout
+
+\begin_layout Standard
+l'année l'été
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset Quotes eld
+\end_inset
+Smart
+\begin_inset Quotes erd
+\end_inset
+ 
+\begin_inset Quotes els
+\end_inset
+quote
+\begin_inset Quotes ers
 \end_inset
 
 \end_layout
 
 \begin_layout Standard
-This is a test of BibTeX Support.
-\begin_inset CommandInset citation
-LatexCommand cite
-key "Knuth:1968"
-
+An escaped 
+\begin_inset Quotes els
+\end_inset
+|
+\begin_inset Quotes ers
 \end_inset
 
 \end_layout
 
 \begin_layout Standard
-And a locator.
-\begin_inset CommandInset citation
-LatexCommand cite
-after "p. 123"
-key "Knuth:1981"
-
+Another test of smart 
+\begin_inset Quotes els
+\end_inset
+.quotes
+\begin_inset Quotes ers
 \end_inset
 
 \end_layout
 
 \begin_layout Standard
-
-\begin_inset CommandInset bibtex
-LatexCommand bibtex
-bibfiles "bibtex"
-options "plainnat"
-
+And again 
+\begin_inset Quotes eld
+\end_inset
+.quotes
+\begin_inset Quotes erd
 \end_inset
 
 \end_layout

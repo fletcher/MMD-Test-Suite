@@ -28,50 +28,74 @@
 \cite_engine natbib_authoryear
 \end_header
 \begin_body
+\begin_layout Standard
+\begin_inset listings
+lstparams "basicstyle={\footnotesize\ttfamily}"
+inline false
+status collapsed
 
-\begin_layout Title
-MultiMarkdown BibTeX Test
+\begin_layout Plain Layout
+
+code block on the first line
 \end_layout
 
-\begin_layout Part
-BibTeX
-\begin_inset CommandInset label
-LatexCommand label
-name "part:bibtex"
 \end_inset
-
 \end_layout
 
 \begin_layout Standard
-This is a test of BibTeX Support.
-\begin_inset CommandInset citation
-LatexCommand cite
-key "Knuth:1968"
+Regular text.
+\end_layout
+\begin_layout Standard
+\begin_inset listings
+lstparams "basicstyle={\footnotesize\ttfamily}"
+inline false
+status collapsed
+
+\begin_layout Plain Layout
+
+code block indented by spaces
+\end_layout
 
 \end_inset
-
 \end_layout
 
 \begin_layout Standard
-And a locator.
-\begin_inset CommandInset citation
-LatexCommand cite
-after "p. 123"
-key "Knuth:1981"
+Regular text.
+\end_layout
+\begin_layout Standard
+\begin_inset listings
+lstparams "basicstyle={\footnotesize\ttfamily}"
+inline false
+status collapsed
+
+\begin_layout Plain Layout
+
+the lines in this block  
+\end_layout
+
+\begin_layout Plain Layout
+
+all contain trailing spaces  
+\end_layout
 
 \end_inset
-
 \end_layout
 
 \begin_layout Standard
+Regular Text.
+\end_layout
+\begin_layout Standard
+\begin_inset listings
+lstparams "basicstyle={\footnotesize\ttfamily}"
+inline false
+status collapsed
 
-\begin_inset CommandInset bibtex
-LatexCommand bibtex
-bibfiles "bibtex"
-options "plainnat"
+\begin_layout Plain Layout
+
+code block on the last line
+\end_layout
 
 \end_inset
-
 \end_layout
 
 \end_body

@@ -49,3 +49,8 @@ The following should still be detected as headers:
 [label1]: http://example.com/
 
 And link to [label2] and [label1] and [label].
+
+
+# Header with ümlaut #
+
+link to [Header with ümlaut].

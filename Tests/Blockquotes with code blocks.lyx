@@ -29,50 +29,67 @@
 \end_header
 \begin_body
 
-\begin_layout Title
-MultiMarkdown BibTeX Test
+\begin_layout Quote
+Example:
 \end_layout
 
-\begin_layout Part
-BibTeX
-\begin_inset CommandInset label
-LatexCommand label
-name "part:bibtex"
-\end_inset
-
-\end_layout
-
+\begin_deeper
 \begin_layout Standard
-This is a test of BibTeX Support.
-\begin_inset CommandInset citation
-LatexCommand cite
-key "Knuth:1968"
+\begin_inset listings
+lstparams "basicstyle={\footnotesize\ttfamily}"
+inline false
+status collapsed
 
-\end_inset
+\begin_layout Plain Layout
 
+sub status {
 \end_layout
 
+\begin_layout Plain Layout
+
+    print "working";
+\end_layout
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+\end_layout
+
+\end_deeper
+
+\begin_layout Quote
+Or:
+\end_layout
+
+\begin_deeper
 \begin_layout Standard
-And a locator.
-\begin_inset CommandInset citation
-LatexCommand cite
-after "p. 123"
-key "Knuth:1981"
+\begin_inset listings
+lstparams "basicstyle={\footnotesize\ttfamily}"
+inline false
+status collapsed
 
-\end_inset
+\begin_layout Plain Layout
 
+sub status {
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
-\begin_inset CommandInset bibtex
-LatexCommand bibtex
-bibfiles "bibtex"
-options "plainnat"
+    return "working";
+\end_layout
+
+\begin_layout Plain Layout
+
+}
+\end_layout
 
 \end_inset
-
 \end_layout
+
+\end_deeper
 
 \end_body
 \end_document

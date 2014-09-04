@@ -29,49 +29,17 @@
 \end_header
 \begin_body
 
-\begin_layout Title
-MultiMarkdown BibTeX Test
-\end_layout
-
-\begin_layout Part
-BibTeX
-\begin_inset CommandInset label
-LatexCommand label
-name "part:bibtex"
-\end_inset
-
+\begin_layout Standard
+In Markdown 1.0.0 and earlier. Version
+ 8. This line turns into a list item.
+ Because a hard-wrapped line in the
+ middle of a paragraph looked like a
+ list item.
 \end_layout
 
 \begin_layout Standard
-This is a test of BibTeX Support.
-\begin_inset CommandInset citation
-LatexCommand cite
-key "Knuth:1968"
-
-\end_inset
-
-\end_layout
-
-\begin_layout Standard
-And a locator.
-\begin_inset CommandInset citation
-LatexCommand cite
-after "p. 123"
-key "Knuth:1981"
-
-\end_inset
-
-\end_layout
-
-\begin_layout Standard
-
-\begin_inset CommandInset bibtex
-LatexCommand bibtex
-bibfiles "bibtex"
-options "plainnat"
-
-\end_inset
-
+Here's one with a bullet.
+ * criminey.
 \end_layout
 
 \end_body

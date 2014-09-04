@@ -1,0 +1,550 @@
+#LyX File created by multimarkdown
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass memoir
+\begin_preamble
+\usepackage{listings}
+\usepackage{natbib}
+\usepackage{nomencl}
+\usepackage{booktabs}
+\usepackage{refstyle}
+\usepackage{varioref}
+\bibpunct{(}{)}{,}{a}{,}{,}
+\newref{part}{refcmd={Part \ref{#1} \vpageref{#1}}}
+\newref{chapt}{refcmd={Chapter \ref{#1} \vpageref{#1}}}
+\newref{secti}{refcmd={Section \ref{#1} \vpageref{#1}}}
+\newref{subse}{refcmd={Subsection \ref{#1} \vpageref{#1}}}
+\newref{subsu}{refcmd={Subsubsection \ref{#1} \vpageref{#1}}}
+\newref{parag}{refcmd={Paragraph \ref{#1} \vpageref{#1}}}
+\newref{subpa}{refcmd={Subparagraph \ref{#1} \vpageref{#1}}}
+\newref{tab}{refcmd={Table \ref{#1} \vpageref{#1}}}
+\newref{fig}{refcmd={Figure \ref{#1} \vpageref{#1}}}
+\end_preamble
+\options refpage
+\begin_modules
+\end_modules
+\bibtex_command default
+\cite_engine natbib_authoryear
+\end_header
+\begin_body
+
+\begin_layout Standard
+Foo 
+\begin_inset CommandInset href
+LatexCommand href
+target "/url/"
+name "bar"
+
+\end_inset
+
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+
+\begin_inset CommandInset href
+LatexCommand href
+
+name "/url/"
+target "/url/"
+
+\end_inset
+\end_layout
+
+\end_inset
+.
+\end_layout
+
+\begin_layout Standard
+Foo 
+\begin_inset CommandInset href
+LatexCommand href
+target "/url/"
+name "bar"
+
+\end_inset
+
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+
+\begin_inset CommandInset href
+LatexCommand href
+
+name "/url/"
+target "/url/"
+
+\end_inset
+\end_layout
+
+\end_inset
+.
+\end_layout
+
+\begin_layout Standard
+Foo 
+\begin_inset CommandInset href
+LatexCommand href
+target "/url/"
+name "bar"
+
+\end_inset
+
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+
+\begin_inset CommandInset href
+LatexCommand href
+
+name "/url/"
+target "/url/"
+
+\end_inset
+\end_layout
+
+\end_inset
+.
+\end_layout
+
+\begin_layout Standard
+With 
+\begin_inset CommandInset href
+LatexCommand href
+target "/url/"
+name "embedded brackets"
+
+\end_inset
+
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+
+\begin_inset CommandInset href
+LatexCommand href
+
+name "/url/"
+target "/url/"
+
+\end_inset
+\end_layout
+
+\end_inset
+.
+\end_layout
+
+\begin_layout Standard
+Indented 
+\begin_inset CommandInset href
+LatexCommand href
+target "/url"
+name "once"
+
+\end_inset
+
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+
+\begin_inset CommandInset href
+LatexCommand href
+
+name "/url"
+target "/url"
+
+\end_inset
+\end_layout
+
+\end_inset
+.
+\end_layout
+
+\begin_layout Standard
+Indented 
+\begin_inset CommandInset href
+LatexCommand href
+target "/url"
+name "twice"
+
+\end_inset
+
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+
+\begin_inset CommandInset href
+LatexCommand href
+
+name "/url"
+target "/url"
+
+\end_inset
+\end_layout
+
+\end_inset
+.
+\end_layout
+
+\begin_layout Standard
+Indented 
+\begin_inset CommandInset href
+LatexCommand href
+target "/url"
+name "thrice"
+
+\end_inset
+
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+
+\begin_inset CommandInset href
+LatexCommand href
+
+name "/url"
+target "/url"
+
+\end_inset
+\end_layout
+
+\end_inset
+.
+\end_layout
+
+\begin_layout Standard
+Indented [four][] times.
+\end_layout
+\begin_layout Standard
+\begin_inset listings
+lstparams "basicstyle={\footnotesize\ttfamily}"
+inline false
+status collapsed
+
+\begin_layout Plain Layout
+
+[four]: /url
+\end_layout
+
+\end_inset
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset CommandInset href
+LatexCommand href
+target "foo"
+name "this"
+
+\end_inset
+
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+
+\begin_inset CommandInset href
+LatexCommand href
+
+name "foo"
+target "foo"
+
+\end_inset
+\end_layout
+
+\end_inset
+ should work
+\end_layout
+
+\begin_layout Standard
+So should 
+\begin_inset CommandInset href
+LatexCommand href
+target "foo"
+name "this"
+
+\end_inset
+
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+
+\begin_inset CommandInset href
+LatexCommand href
+
+name "foo"
+target "foo"
+
+\end_inset
+\end_layout
+
+\end_inset
+.
+\end_layout
+
+\begin_layout Standard
+And 
+\begin_inset CommandInset href
+LatexCommand href
+target "foo"
+name "this"
+
+\end_inset
+
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+
+\begin_inset CommandInset href
+LatexCommand href
+
+name "foo"
+target "foo"
+
+\end_inset
+\end_layout
+
+\end_inset
+.
+\end_layout
+
+\begin_layout Standard
+And 
+\begin_inset CommandInset href
+LatexCommand href
+target "foo"
+name "this"
+
+\end_inset
+
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+
+\begin_inset CommandInset href
+LatexCommand href
+
+name "foo"
+target "foo"
+
+\end_inset
+\end_layout
+
+\end_inset
+.
+\end_layout
+
+\begin_layout Standard
+And 
+\begin_inset CommandInset href
+LatexCommand href
+target "foo"
+name "this"
+
+\end_inset
+
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+
+\begin_inset CommandInset href
+LatexCommand href
+
+name "foo"
+target "foo"
+
+\end_inset
+\end_layout
+
+\end_inset
+.
+\end_layout
+
+\begin_layout Standard
+But not [that] [].
+\end_layout
+
+\begin_layout Standard
+Nor [that][].
+\end_layout
+
+\begin_layout Standard
+Nor [that].
+\end_layout
+
+\begin_layout Standard
+[Something in brackets like 
+\begin_inset CommandInset href
+LatexCommand href
+target "foo"
+name "this"
+
+\end_inset
+
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+
+\begin_inset CommandInset href
+LatexCommand href
+
+name "foo"
+target "foo"
+
+\end_inset
+\end_layout
+
+\end_inset
+ should work]
+\end_layout
+
+\begin_layout Standard
+[Same with 
+\begin_inset CommandInset href
+LatexCommand href
+target "foo"
+name "this"
+
+\end_inset
+
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+
+\begin_inset CommandInset href
+LatexCommand href
+
+name "foo"
+target "foo"
+
+\end_inset
+\end_layout
+
+\end_inset
+.]
+\end_layout
+
+\begin_layout Standard
+In this case, 
+\begin_inset CommandInset href
+LatexCommand href
+target "/somethingelse/"
+name "this"
+
+\end_inset
+
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+
+\begin_inset CommandInset href
+LatexCommand href
+
+name "/somethingelse/"
+target "/somethingelse/"
+
+\end_inset
+\end_layout
+
+\end_inset
+ points to something else.
+\end_layout
+
+\begin_layout Standard
+Backslashing should suppress [this] and [this].
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+Here's one where the 
+\begin_inset CommandInset href
+LatexCommand href
+target "/url/"
+name "link breaks"
+
+\end_inset
+
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+
+\begin_inset CommandInset href
+LatexCommand href
+
+name "/url/"
+target "/url/"
+
+\end_inset
+\end_layout
+
+\end_inset
+ across lines.
+\end_layout
+
+\begin_layout Standard
+Here's another where the 
+\begin_inset CommandInset href
+LatexCommand href
+target "/url/"
+name "link breaks"
+
+\end_inset
+
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+
+\begin_inset CommandInset href
+LatexCommand href
+
+name "/url/"
+target "/url/"
+
+\end_inset
+\end_layout
+
+\end_inset
+ across lines, but with a line-ending space.
+\end_layout
+
+\end_body
+\end_document
+

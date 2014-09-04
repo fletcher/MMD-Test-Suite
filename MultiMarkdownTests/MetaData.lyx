@@ -54,7 +54,7 @@ name "part:metadata"
 And this should be the main text.
 \end_layout
 
-\begin_layout Standart
+\begin_layout Standard
 
 \begin_inset CommandInset bibtex
 LatexCommand bibtex
