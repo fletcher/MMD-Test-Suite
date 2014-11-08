@@ -291,6 +291,24 @@ CMS
 ATCCE
 É.U.
 É.-U. d&#8217;A.</text:p>
+
+<text:p text:style-name="Quotations">And HTML4 inside a blockquote</text:p>
+
+<text:list text:style-name="L1"><text:list-item>
+<text:p text:style-name="P1">And HTML4 inside a list</text:p>
+
+<text:list text:style-name="L1"><text:list-item>
+<text:p text:style-name="P1">TCP in a list</text:p></text:list-item>
+<text:list-item>
+<text:p text:style-name="P1">CMS in a list</text:p></text:list-item>
+</text:list></text:list-item>
+</text:list>
+
+<text:p text:style-name="Standard">And now inside a <text:note text:id="" text:note-class="footnote"><text:note-body>
+<text:p text:style-name="Footnote">HTML4 and TCP</text:p>
+</text:note-body>
+</text:note>
+.</text:p>
 </office:text>
 </office:body>
 </office:document>

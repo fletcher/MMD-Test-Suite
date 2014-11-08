@@ -186,6 +186,41 @@ HTML4
  É.-U. dA.
 \end_layout
 
+\begin_layout Quote
+And HTML4 inside a blockquote
+\end_layout
+
+\begin_layout Itemize
+And HTML4 inside a list
+\end_layout
+
+\begin_deeper
+
+\begin_layout Itemize
+TCP in a list
+\end_layout
+
+\begin_layout Itemize
+CMS in a list
+\end_layout
+
+\end_deeper
+
+\begin_layout Standard
+And now inside a 
+\begin_inset Foot
+status collapsed
+
+
+\begin_layout Standard
+HTML4 and TCP
+\end_layout
+
+
+\end_inset
+.
+\end_layout
+
 \begin_layout Standard
 \begin_inset CommandInset nomencl_print
 LatexCommand printnomenclature

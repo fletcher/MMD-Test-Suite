@@ -51,3 +51,16 @@ CMS
 ATCCE
 É.U.
 É.-U. d'A.
+
+
+
+> And HTML4 inside a blockquote
+
+* And HTML4 inside a list
+
+	* TCP in a list
+	* CMS in a list
+
+And now inside a [^footnote].
+
+[^footnote]: HTML4 and TCP
