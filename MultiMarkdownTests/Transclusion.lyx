@@ -77,6 +77,32 @@ transclusion
 \begin_layout Standard
 This should not be transcluded to avoid an infinite loop -- {{foo.txt}}
 \end_layout
+\begin_layout Standard
+\begin_inset listings
+lstparams "basicstyle={\footnotesize\ttfamily}"
+inline false
+status collapsed
+
+\begin_layout Plain Layout
+
+This is a file with no metadata.
+\end_layout
+
+\end_inset
+\end_layout
+\begin_layout Standard
+\begin_inset listings
+lstparams "basicstyle={\footnotesize\ttfamily}"
+inline false
+status collapsed
+
+\begin_layout Plain Layout
+
+This is a file with no metadata.
+\end_layout
+
+\end_inset
+\end_layout
 
 \end_body
 \end_document

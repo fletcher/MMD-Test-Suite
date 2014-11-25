@@ -271,6 +271,11 @@
 <text:p text:style-name="Standard">This can be transcluded without causing an infinite loop &#8211; This text is included in <text:span text:style-name="Source_20_Text">foo.txt</text:span> inside the <text:span text:style-name="Source_20_Text">transclusion</text:span> directory.</text:p>
 
 <text:p text:style-name="Standard">This should not be transcluded to avoid an infinite loop &#8211; {{foo.txt}}</text:p>
+
+<text:p text:style-name="Preformatted Text">This is a file with no metadata.<text:line-break/></text:p>
+
+
+<text:p text:style-name="Preformatted Text">This is a file with no metadata.<text:line-break/></text:p>
 </office:text>
 </office:body>
 </office:document>

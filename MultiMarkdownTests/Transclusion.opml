@@ -2,7 +2,7 @@
 <opml version="1.0">
 <head><title>MultiMarkdown Transclusion Test</title></head>
 <body>
-<outline text="Valid Transclusion" _note="This text is included in `foo.txt`.&#10;&#10;This should not be transcluded to avoid an infinite loop -- {{foo.txt}}&#10;&#10;This text is included in `bar.txt`.&#10;&#10;This can be transcluded without causing an infinite loop -- This text is included in `foo.txt` inside the `transclusion` directory.&#10;&#10;This should not be transcluded to avoid an infinite loop -- {{foo.txt}}&#10;"></outline>
+<outline text="Valid Transclusion" _note="This text is included in `foo.txt`.&#10;&#10;This should not be transcluded to avoid an infinite loop -- {{foo.txt}}&#10;&#10;This text is included in `bar.txt`.&#10;&#10;This can be transcluded without causing an infinite loop -- This text is included in `foo.txt` inside the `transclusion` directory.&#10;&#10;This should not be transcluded to avoid an infinite loop -- {{foo.txt}}&#10;&#10;```&#10;This is a file with no metadata.&#10;```&#10;&#10;```&#10;This is a file with no metadata.&#10;```&#10;"></outline>
 <outline text="Metadata">
 <outline text="latex input" _note="mmd-article-header  "/><outline text="Title" _note="MultiMarkdown Transclusion Test  "/><outline text="latex input" _note="mmd-article-begin-doc  "/><outline text="latex footer" _note="mmd-memoir-footer  "/></outline></body>
 </opml>
