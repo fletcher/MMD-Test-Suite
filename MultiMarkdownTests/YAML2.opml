@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<opml version="1.0">
+<head><title>test</title></head>
+<body>
+Single line of YAML metadata sometimes causes trouble.&#10;<outline text="Metadata">
+<outline text="title" _note="test "/></outline></body>
+</opml>
