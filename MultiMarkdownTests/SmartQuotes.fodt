@@ -283,6 +283,8 @@
 <text:p text:style-name="Standard">Not &quot;smart&quot;.</text:p>
 
 <text:p text:style-name="Standard">Not 'smart'.</text:p>
+
+<text:p text:style-name="Standard">What about &#8220;these&#8221;</text:p>
 </office:text>
 </office:body>
 </office:document>
