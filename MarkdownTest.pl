@@ -21,7 +21,7 @@ my $script  = "./Markdown.pl";
 my $use_tidy = 0;
 my ($flag_version);
 my $flags = "";
-my $file_ext = "\.html";
+my $file_ext = "html";
 my $trail = "";
 
 GetOptions (
@@ -55,9 +55,10 @@ foreach my $testfile (glob "$test_dir/*.text") {
 
 	# Look for a corresponding .html file for each .text file:
 	my $resultfile = $testfile;
-	$resultfile =~ s{\.text$}{$file_ext}i;
+	$resultfile =~ s{\.text$}{\.$file_ext}i;
 	unless (-f $resultfile) {
 		print "'$resultfile' does not exist.\n\n";
+		$tests_failed++;
 		next TEST;
 	}
 	
@@ -108,6 +109,7 @@ my $time_end = new Benchmark;
 my $time_diff = timediff($time_end, $time_start);
 print "Benchmark: ", timestr($time_diff), "\n";
 
+exit($tests_failed);
 
 __END__
 
