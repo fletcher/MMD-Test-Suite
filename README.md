@@ -13,6 +13,9 @@ The files in `Tests` are the original test suite. They require MultiMarkdown
 to be run in compatibility mode (`multimarkdown -c`) and verify that it can
 match the original Markdown output.
 
+The file in `Test` is the one original file that doesn't pass MMD.  See
+[peg-markdown] for more information about this test.
+
 The files in `MultiMarkdownTests` are designed to test XHTML and LaTeX output
 from MultiMarkdown.
 
@@ -56,3 +59,5 @@ Check out:
 * John Gruber's [Markdown](http://daringfireball.net/projects/markdown) page
 
 * My [MultiMarkdown](http://fletcherpenney.net/multimarkdown) page
+
+[peg-markdown]: https://github.com/jgm/peg-markdown
