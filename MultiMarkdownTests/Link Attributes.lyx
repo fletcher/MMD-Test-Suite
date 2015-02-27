@@ -494,6 +494,23 @@ target "http://foo.com/"
  with whitespace.
 \end_layout
 
+\begin_layout Part
+Broken Link and Image
+\begin_inset CommandInset label
+LatexCommand label
+name "part:brokenlinkandimage"
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+![&][x](foo bar.png)
+\end_layout
+
+\begin_layout Standard
+[&](foo bar)
+\end_layout
+
 \end_body
 \end_document
 

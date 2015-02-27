@@ -53,6 +53,13 @@ Test link and markup \includegraphics[keepaspectratio,width=\textwidth,height=0.
 
 An explicit \href{http://foo.com/}{link}\footnote{\href{http://foo.com/}{http:/\slash foo.com\slash }} with whitespace.
 
+\part{Broken Link and Image}
+\label{brokenlinkandimage}
+
+![\&][x](foo bar.png)
+
+[\&](foo bar)
+
 \input{mmd-memoir-footer}
 
 \end{document}

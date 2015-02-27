@@ -323,6 +323,12 @@ draw:z-index="0" draw:style-name="fr1" svg:width="95%"
 <text:h text:outline-level="1"><text:bookmark text:name="basiclinks"/>Basic Links<text:bookmark-end text:name="basiclinks"/></text:h>
 
 <text:p text:style-name="Standard">An explicit <text:a xlink:type="simple" xlink:href="http://foo.com/">link</text:a> with whitespace.</text:p>
+
+<text:h text:outline-level="1"><text:bookmark text:name="brokenlinkandimage"/>Broken Link and Image<text:bookmark-end text:name="brokenlinkandimage"/></text:h>
+
+<text:p text:style-name="Standard">![&amp;][x](foo bar.png)</text:p>
+
+<text:p text:style-name="Standard">[&amp;](foo bar)</text:p>
 </office:text>
 </office:body>
 </office:document>

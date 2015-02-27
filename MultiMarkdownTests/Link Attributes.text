@@ -56,3 +56,9 @@ Test link and markup ![and *this* but not **that**][image-attr]
 
 An explicit [link] 
  (http://foo.com/) with whitespace.
+
+# Broken Link and Image
+
+![&][x](foo bar.png)
+
+[&](foo bar)
