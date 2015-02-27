@@ -196,6 +196,25 @@ And more&\multicolumn{2}{c}{With an escaped `\textbar{}'}\\
 \end{minipage}
 \end{table}
 
+\begin{table}[htbp]
+\begin{minipage}{\linewidth}
+\setlength{\tymax}{0.5\linewidth}
+\centering
+\small
+\caption{Headless Table}
+\label{headlesstable}
+\begin{tabulary}{\textwidth}{@{}LCR@{}} \toprule
+Content&\multicolumn{2}{c}{\emph{Long Cell}}\\
+Content&\textbf{Cell}&Cell\\
+New section&More&Data\\
+And more&\multicolumn{2}{c}{And More}\\
+
+\bottomrule
+
+\end{tabulary}
+\end{minipage}
+\end{table}
+
 \input{mmd-memoir-footer}
 
 \end{document}

@@ -95,3 +95,12 @@ Content      |      **Cell**      |         Cell |
 
 New section  |        More        |         Data |  
 And more     | With an escaped '\|'             ||  
+
+
+| ------------ | :-----------: | -----------: |
+| Content      | *Long Cell*   ||
+| Content      | **Cell**      | Cell         |
+| New section  | More          | Data         |
+| And more     | And More      ||
+[Headless Table]
+

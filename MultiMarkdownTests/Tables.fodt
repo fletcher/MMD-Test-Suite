@@ -770,6 +770,48 @@
 </table:table-cell>
 </table:table-row>
 </table:table>
+
+<table:table>
+<table:table-row>
+<table:table-cell>
+<text:p text:style-name="MMD-Table">Content</text:p>
+</table:table-cell>
+<table:table-cell table:number-columns-spanned="2">
+<text:p text:style-name="MMD-Table-Center"><text:span text:style-name="MMD-Italic">Long Cell</text:span></text:p>
+</table:table-cell>
+</table:table-row>
+<table:table-row>
+<table:table-cell>
+<text:p text:style-name="MMD-Table">Content</text:p>
+</table:table-cell>
+<table:table-cell>
+<text:p text:style-name="MMD-Table-Center"><text:span text:style-name="MMD-Bold">Cell</text:span></text:p>
+</table:table-cell>
+<table:table-cell>
+<text:p text:style-name="MMD-Table-Right">Cell</text:p>
+</table:table-cell>
+</table:table-row>
+<table:table-row>
+<table:table-cell>
+<text:p text:style-name="MMD-Table">New section</text:p>
+</table:table-cell>
+<table:table-cell>
+<text:p text:style-name="MMD-Table-Center">More</text:p>
+</table:table-cell>
+<table:table-cell>
+<text:p text:style-name="MMD-Table-Right">Data</text:p>
+</table:table-cell>
+</table:table-row>
+<table:table-row>
+<table:table-cell>
+<text:p text:style-name="MMD-Table">And more</text:p>
+</table:table-cell>
+<table:table-cell table:number-columns-spanned="2">
+<text:p text:style-name="MMD-Table-Center">And More</text:p>
+</table:table-cell>
+</table:table-row>
+</table:table>
+<text:p><text:bookmark text:name="headlesstable"/>Table <text:sequence text:name="Table" text:formula="ooow:Table+1" style:num-format="1"> Update Fields to calculate numbers</text:sequence>:Headless Table<text:bookmark-end text:name="headlesstable"/></text:p>
 </office:text>
 </office:body>
 </office:document>
