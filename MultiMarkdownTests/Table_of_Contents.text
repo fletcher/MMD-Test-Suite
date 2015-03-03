@@ -1,0 +1,20 @@
+latex input:	mmd-article-header  
+Title:	Table of Contents Test  
+latex input:	mmd-article-begin-doc  
+latex footer:	mmd-memoir-footer  
+
+{{TOC}}
+
+## Second Level ##
+
+# First Level #
+
+## Second Level b ##
+
+### Third Level ###
+
+## Second Level c ##
+
+# First Level b #
+
+### Third Level b ###

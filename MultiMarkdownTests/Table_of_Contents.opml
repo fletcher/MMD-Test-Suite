@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<opml version="1.0">
+<head><title>Table of Contents Test</title></head>
+<body>
+{{TOC}}&#10;<outline text="Second Level" _note=""></outline>
+<outline text="First Level" _note=""><outline text="Second Level b" _note=""><outline text="Third Level" _note=""></outline>
+</outline>
+<outline text="Second Level c" _note=""></outline>
+</outline>
+<outline text="First Level b" _note=""></outline>
+<outline text="Metadata">
+<outline text="latex input" _note="mmd-article-header  "/><outline text="Title" _note="Table of Contents Test  "/><outline text="latex input" _note="mmd-article-begin-doc  "/><outline text="latex footer" _note="mmd-memoir-footer  "/></outline></body>
+</opml>

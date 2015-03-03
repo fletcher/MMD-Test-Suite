@@ -1,0 +1,49 @@
+\input{mmd-article-header}
+\def\mytitle{Table of Contents Test}
+\input{mmd-article-begin-doc}
+
+\begin{itemize}
+\item Second Level (\autoref{secondlevel})
+
+\item First Level (\autoref{firstlevel})
+
+\begin{itemize}
+\item Second Level b (\autoref{secondlevelb})
+
+\begin{itemize}
+\item Third Level (\autoref{thirdlevel})
+
+\end{itemize}
+
+\item Second Level c (\autoref{secondlevelc})
+
+\end{itemize}
+
+\item First Level b (\autoref{firstlevelb})
+
+\end{itemize}
+
+\chapter{Second Level}
+\label{secondlevel}
+
+\part{First Level}
+\label{firstlevel}
+
+\chapter{Second Level b}
+\label{secondlevelb}
+
+\section{Third Level}
+\label{thirdlevel}
+
+\chapter{Second Level c}
+\label{secondlevelc}
+
+\part{First Level b}
+\label{firstlevelb}
+
+\section{Third Level b}
+\label{thirdlevelb}
+
+\input{mmd-memoir-footer}
+
+\end{document}
