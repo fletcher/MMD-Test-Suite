@@ -22,6 +22,26 @@ The ***quick** brown **fox*** jumped
 This *should* be parsed --  fo***o
 
 
+# More Strong and Emph #
+
+This is ***another* test** of *italics* and **bold**.
+
+This is ***another* test** of **bold** and *italics*.
+
+This is ***another** test* of **bold** and *italics*.
+
+This is ***another** test* of *italics* and **bold**.
+
+
+This is ___another_ test__ of _italics_ and __bold__.
+
+This is ___another_ test__ of __bold__ and _italics_.
+
+This is ___another__ test_ of __bold__ and _italics_.
+
+This is ___another__ test_ of _italics_ and __bold__.
+
+
 # Can fail to process quickly #
 
 *a

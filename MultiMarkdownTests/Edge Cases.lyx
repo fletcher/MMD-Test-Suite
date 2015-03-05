@@ -135,11 +135,176 @@ This
 \emph on
 should
 \emph default
- be parsed -- fo
+ be parsed -- fo***o
+\end_layout
+
+\begin_layout Part
+More Strong and Emph
+\begin_inset CommandInset label
+LatexCommand label
+name "part:morestrongandemph"
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+This is 
+\series bold
+
 \emph on
-*
+another
 \emph default
-o
+ test
+\series default
+ of 
+\emph on
+italics
+\emph default
+ and 
+\series bold
+bold
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+This is 
+\series bold
+
+\emph on
+another
+\emph default
+ test
+\series default
+ of 
+\series bold
+bold
+\series default
+ and 
+\emph on
+italics
+\emph default
+.
+\end_layout
+
+\begin_layout Standard
+This is 
+\emph on
+
+\series bold
+another
+\series default
+ test
+\emph default
+ of 
+\series bold
+bold
+\series default
+ and 
+\emph on
+italics
+\emph default
+.
+\end_layout
+
+\begin_layout Standard
+This is 
+\emph on
+
+\series bold
+another
+\series default
+ test
+\emph default
+ of 
+\emph on
+italics
+\emph default
+ and 
+\series bold
+bold
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+This is 
+\series bold
+
+\emph on
+another
+\emph default
+ test
+\series default
+ of 
+\emph on
+italics
+\emph default
+ and 
+\series bold
+bold
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+This is 
+\series bold
+
+\emph on
+another
+\emph default
+ test
+\series default
+ of 
+\series bold
+bold
+\series default
+ and 
+\emph on
+italics
+\emph default
+.
+\end_layout
+
+\begin_layout Standard
+This is 
+\emph on
+
+\series bold
+another
+\series default
+ test
+\emph default
+ of 
+\series bold
+bold
+\series default
+ and 
+\emph on
+italics
+\emph default
+.
+\end_layout
+
+\begin_layout Standard
+This is 
+\emph on
+
+\series bold
+another
+\series default
+ test
+\emph default
+ of 
+\emph on
+italics
+\emph default
+ and 
+\series bold
+bold
+\series default
+.
 \end_layout
 
 \begin_layout Part

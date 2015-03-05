@@ -274,7 +274,25 @@
 
 <text:p text:style-name="Standard">The <text:span text:style-name="MMD-Italic"><text:span text:style-name="MMD-Bold">quick</text:span> brown <text:span text:style-name="MMD-Bold">fox</text:span></text:span> jumped</text:p>
 
-<text:p text:style-name="Standard">This <text:span text:style-name="MMD-Italic">should</text:span> be parsed &#8211; fo<text:span text:style-name="MMD-Italic">*</text:span>o</text:p>
+<text:p text:style-name="Standard">This <text:span text:style-name="MMD-Italic">should</text:span> be parsed &#8211; fo***o</text:p>
+
+<text:h text:outline-level="1"><text:bookmark text:name="morestrongandemph"/>More Strong and Emph<text:bookmark-end text:name="morestrongandemph"/></text:h>
+
+<text:p text:style-name="Standard">This is <text:span text:style-name="MMD-Bold"><text:span text:style-name="MMD-Italic">another</text:span> test</text:span> of <text:span text:style-name="MMD-Italic">italics</text:span> and <text:span text:style-name="MMD-Bold">bold</text:span>.</text:p>
+
+<text:p text:style-name="Standard">This is <text:span text:style-name="MMD-Bold"><text:span text:style-name="MMD-Italic">another</text:span> test</text:span> of <text:span text:style-name="MMD-Bold">bold</text:span> and <text:span text:style-name="MMD-Italic">italics</text:span>.</text:p>
+
+<text:p text:style-name="Standard">This is <text:span text:style-name="MMD-Italic"><text:span text:style-name="MMD-Bold">another</text:span> test</text:span> of <text:span text:style-name="MMD-Bold">bold</text:span> and <text:span text:style-name="MMD-Italic">italics</text:span>.</text:p>
+
+<text:p text:style-name="Standard">This is <text:span text:style-name="MMD-Italic"><text:span text:style-name="MMD-Bold">another</text:span> test</text:span> of <text:span text:style-name="MMD-Italic">italics</text:span> and <text:span text:style-name="MMD-Bold">bold</text:span>.</text:p>
+
+<text:p text:style-name="Standard">This is <text:span text:style-name="MMD-Bold"><text:span text:style-name="MMD-Italic">another</text:span> test</text:span> of <text:span text:style-name="MMD-Italic">italics</text:span> and <text:span text:style-name="MMD-Bold">bold</text:span>.</text:p>
+
+<text:p text:style-name="Standard">This is <text:span text:style-name="MMD-Bold"><text:span text:style-name="MMD-Italic">another</text:span> test</text:span> of <text:span text:style-name="MMD-Bold">bold</text:span> and <text:span text:style-name="MMD-Italic">italics</text:span>.</text:p>
+
+<text:p text:style-name="Standard">This is <text:span text:style-name="MMD-Italic"><text:span text:style-name="MMD-Bold">another</text:span> test</text:span> of <text:span text:style-name="MMD-Bold">bold</text:span> and <text:span text:style-name="MMD-Italic">italics</text:span>.</text:p>
+
+<text:p text:style-name="Standard">This is <text:span text:style-name="MMD-Italic"><text:span text:style-name="MMD-Bold">another</text:span> test</text:span> of <text:span text:style-name="MMD-Italic">italics</text:span> and <text:span text:style-name="MMD-Bold">bold</text:span>.</text:p>
 
 <text:h text:outline-level="1"><text:bookmark text:name="canfailtoprocessquickly"/>Can fail to process quickly<text:bookmark-end text:name="canfailtoprocessquickly"/></text:h>
 
