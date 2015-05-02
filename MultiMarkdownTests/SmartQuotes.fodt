@@ -285,6 +285,39 @@
 <text:p text:style-name="Standard">Not 'smart'.</text:p>
 
 <text:p text:style-name="Standard">What about &#8220;these&#8221;</text:p>
+
+<table:table>
+<table:table-column/>
+<table:table-column/>
+<table:table-row>
+<table:table-cell>
+<text:p text:style-name="Table_20_Heading">col1</text:p>
+</table:table-cell>
+<table:table-cell>
+<text:p text:style-name="Table_20_Heading">col2</text:p>
+</table:table-cell>
+</table:table-row>
+<table:table-row>
+<table:table-cell>
+<text:p text:style-name="MMD-Table">&#8220;&#8221;</text:p>
+</table:table-cell>
+<table:table-cell>
+<text:p text:style-name="MMD-Table">&#8220;&#8221;</text:p>
+</table:table-cell>
+</table:table-row>
+<table:table-row>
+<table:table-cell>
+<text:p text:style-name="MMD-Table">&#8216;&#8217;</text:p>
+</table:table-cell>
+<table:table-cell>
+<text:p text:style-name="MMD-Table">&#8216;&#8217;</text:p>
+</table:table-cell>
+</table:table-row>
+</table:table>
+
+<text:p text:style-name="Standard">What about &#8220;&#8221; or &#8220;&#8221;?</text:p>
+
+<text:p text:style-name="Standard">Or maybe &#8216;&#8217; or &#8216;&#8217;?</text:p>
 </office:text>
 </office:body>
 </office:document>
