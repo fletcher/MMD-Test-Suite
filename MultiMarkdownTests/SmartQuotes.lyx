@@ -132,6 +132,138 @@ these
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="2">
+<features booktabs="true" tabularvalignment="middle" islongtable="true" longtabularalignment="center">
+<column alignment="left" valignment="top" width="50col%">
+<column alignment="left" valignment="top" width="50col%">
+<row endhead="true" endfirsthead="true">
+<cell alignment="left" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+col1
+\end_layout
+
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+col2
+\end_layout
+
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\begin_inset Quotes eld
+\end_inset
+
+\begin_inset Quotes erd
+\end_inset
+
+\end_layout
+
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\begin_inset Quotes eld
+\end_inset
+
+\begin_inset Quotes erd
+\end_inset
+
+\end_layout
+
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\begin_inset Quotes els
+\end_inset
+
+\begin_inset Quotes ers
+\end_inset
+
+\end_layout
+
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\begin_inset Quotes els
+\end_inset
+
+\begin_inset Quotes ers
+\end_inset
+
+\end_layout
+
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+\end_inset
+\end_layout
+
+\begin_layout Standard
+What about 
+\begin_inset Quotes eld
+\end_inset
+
+\begin_inset Quotes erd
+\end_inset
+ or 
+\begin_inset Quotes eld
+\end_inset
+
+\begin_inset Quotes erd
+\end_inset
+?
+\end_layout
+
+\begin_layout Standard
+Or maybe 
+\begin_inset Quotes els
+\end_inset
+
+\begin_inset Quotes ers
+\end_inset
+ or 
+\begin_inset Quotes els
+\end_inset
+
+\begin_inset Quotes ers
+\end_inset
+?
+\end_layout
+
 \end_body
 \end_document
 

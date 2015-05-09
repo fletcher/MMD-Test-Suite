@@ -28,3 +28,15 @@ Not \"smart\".
 Not \'smart\'.
 
 What about ``these''
+
+
+| col1 | col2 |
+| ---- | ---- |
+| ""   | ""   |
+| ''   | ''   |
+
+
+What about "" or ""?
+
+
+Or maybe '' or ''?
