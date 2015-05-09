@@ -18,3 +18,9 @@ latex footer:	mmd-memoir-footer
 # First Level b #
 
 ### Third Level b ###
+
+```
+# Not a header
+
+# Also not a header 
+```

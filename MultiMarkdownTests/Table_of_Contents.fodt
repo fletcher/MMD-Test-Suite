@@ -290,6 +290,9 @@
 
 <text:h text:outline-level="1"><text:bookmark text:name="firstlevelb"/>First Level b<text:bookmark-end text:name="firstlevelb"/></text:h>
 
-<text:h text:outline-level="3"><text:bookmark text:name="thirdlevelb"/>Third Level b<text:bookmark-end text:name="thirdlevelb"/></text:h></office:text>
+<text:h text:outline-level="3"><text:bookmark text:name="thirdlevelb"/>Third Level b<text:bookmark-end text:name="thirdlevelb"/></text:h>
+
+<text:p text:style-name="Preformatted Text"># Not a header<text:line-break/><text:line-break/># Also not a header <text:line-break/></text:p>
+</office:text>
 </office:body>
 </office:document>

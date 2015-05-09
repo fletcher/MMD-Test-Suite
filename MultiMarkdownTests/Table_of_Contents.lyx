@@ -163,6 +163,29 @@ name "secti:thirdlevelb"
 \end_inset
 
 \end_layout
+\begin_layout Standard
+\begin_inset listings
+lstparams "basicstyle={\footnotesize\ttfamily}"
+inline false
+status collapsed
+
+\begin_layout Plain Layout
+
+# Not a header
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+# Also not a header 
+\end_layout
+
+\end_inset
+\end_layout
 
 \end_body
 \end_document

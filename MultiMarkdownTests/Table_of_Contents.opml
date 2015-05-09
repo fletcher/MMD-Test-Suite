@@ -8,6 +8,8 @@
 <outline text="Second Level c" _note=""></outline>
 </outline>
 <outline text="First Level b" _note=""></outline>
+<outline text="Not a header" _note=""></outline>
+<outline text="Also not a header" _note="```&#10;"></outline>
 <outline text="Metadata">
 <outline text="latex input" _note="mmd-article-header  "/><outline text="Title" _note="Table of Contents Test  "/><outline text="latex input" _note="mmd-article-begin-doc  "/><outline text="latex footer" _note="mmd-memoir-footer  "/></outline></body>
 </opml>
