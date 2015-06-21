@@ -89,6 +89,25 @@ first
 third
 \end_layout
 
+\begin_layout Standard
+And more:
+\end_layout
+
+\begin_deeper
+
+\begin_layout Itemize
+not a code block
+\end_layout
+
+\begin_layout Itemize
+\end_layout
+
+\begin_layout Itemize
+another list item
+\end_layout
+
+\end_deeper
+
 \end_body
 \end_document
 

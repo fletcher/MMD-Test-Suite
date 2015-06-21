@@ -279,9 +279,21 @@ The following blank line has 4 spaces.</text:p>
 <text:list text:style-name="L1"><text:list-item>
 <text:p text:style-name="P1">first</text:p></text:list-item>
 <text:list-item>
-</text:list-item>
+<text:p text:style-name="P1"/></text:list-item>
 <text:list-item>
 <text:p text:style-name="P1">third</text:p></text:list-item>
+</text:list>
+
+<text:p text:style-name="Standard">And more:</text:p>
+
+<text:list text:style-name="L1"><text:list-item>
+<text:p text:style-name="P1"></text:p><text:list text:style-name="L1"><text:list-item>
+<text:p text:style-name="P1">not a code block</text:p></text:list-item>
+<text:list-item>
+<text:p text:style-name="P1"/></text:list-item>
+<text:list-item>
+<text:p text:style-name="P1">another list item</text:p></text:list-item>
+</text:list></text:list-item>
 </text:list></office:text>
 </office:body>
 </office:document>

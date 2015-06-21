@@ -20,3 +20,10 @@ Paragraph following the list that shouldn't be part of the list item.
 * first
 * 
 * third
+
+And more:
+
+*	
+	*	not a code block
+	*
+	*	another list item
