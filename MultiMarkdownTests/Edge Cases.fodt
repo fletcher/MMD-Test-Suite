@@ -296,26 +296,26 @@
 
 <text:h text:outline-level="1"><text:bookmark text:name="canfailtoprocessquickly"/>Can fail to process quickly<text:bookmark-end text:name="canfailtoprocessquickly"/></text:h>
 
-<text:p text:style-name="Standard"><text:span text:style-name="MMD-Italic">a
-</text:span>a
-<text:span text:style-name="MMD-Italic">a
-</text:span>a
-<text:span text:style-name="MMD-Italic">a
-</text:span>a
-<text:span text:style-name="MMD-Italic">a
-</text:span>a
-<text:span text:style-name="MMD-Italic">a
-</text:span>a
-<text:span text:style-name="MMD-Italic">a
-</text:span>a
-<text:span text:style-name="MMD-Italic">a
-</text:span>a
-<text:span text:style-name="MMD-Italic">a
-</text:span>a
-<text:span text:style-name="MMD-Italic">a
-</text:span>a
-<text:span text:style-name="MMD-Italic">a
-</text:span>a
+<text:p text:style-name="Standard">*a
+*a
+*a
+*a
+*a
+*a
+*a
+*a
+*a
+*a
+*a
+*a
+*a
+*a
+*a
+*a
+*a
+*a
+*a
+*a
 *a
 aaaaa</text:p>
 

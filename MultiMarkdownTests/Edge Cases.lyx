@@ -317,66 +317,26 @@ name "part:canfailtoprocessquickly"
 \end_layout
 
 \begin_layout Standard
-
-\emph on
-a
- 
-\emph default
-a
- 
-\emph on
-a
- 
-\emph default
-a
- 
-\emph on
-a
- 
-\emph default
-a
- 
-\emph on
-a
- 
-\emph default
-a
- 
-\emph on
-a
- 
-\emph default
-a
- 
-\emph on
-a
- 
-\emph default
-a
- 
-\emph on
-a
- 
-\emph default
-a
- 
-\emph on
-a
- 
-\emph default
-a
- 
-\emph on
-a
- 
-\emph default
-a
- 
-\emph on
-a
- 
-\emph default
-a
+*a
+ *a
+ *a
+ *a
+ *a
+ *a
+ *a
+ *a
+ *a
+ *a
+ *a
+ *a
+ *a
+ *a
+ *a
+ *a
+ *a
+ *a
+ *a
+ *a
  *a
  aaaaa
 \end_layout
