@@ -1,0 +1,155 @@
+#LyX File created by multimarkdown
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass memoir
+\begin_preamble
+\usepackage{listings}
+\usepackage{natbib}
+\usepackage{nomencl}
+\usepackage{booktabs}
+\usepackage{refstyle}
+\usepackage{varioref}
+\bibpunct{(}{)}{,}{a}{,}{,}
+\newref{part}{refcmd={Part \ref{#1} \vpageref{#1}}}
+\newref{chapt}{refcmd={Chapter \ref{#1} \vpageref{#1}}}
+\newref{secti}{refcmd={Section \ref{#1} \vpageref{#1}}}
+\newref{subse}{refcmd={Subsection \ref{#1} \vpageref{#1}}}
+\newref{subsu}{refcmd={Subsubsection \ref{#1} \vpageref{#1}}}
+\newref{parag}{refcmd={Paragraph \ref{#1} \vpageref{#1}}}
+\newref{subpa}{refcmd={Subparagraph \ref{#1} \vpageref{#1}}}
+\newref{tab}{refcmd={Table \ref{#1} \vpageref{#1}}}
+\newref{fig}{refcmd={Figure \ref{#1} \vpageref{#1}}}
+\end_preamble
+\options refpage
+\begin_modules
+\end_modules
+\bibtex_command default
+\cite_engine natbib_authoryear
+\end_header
+\begin_body
+
+\begin_layout Title
+MultiMarkdown Admonition Test
+\end_layout
+
+\begin_layout Part
+Admonitions
+\begin_inset CommandInset label
+LatexCommand label
+name "part:admonitions"
+\end_inset
+
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+
+\series bold
+Notification
+\series default
+
+\begin_layout Standard
+Body of the note
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+
+\series bold
+Warning
+\series default
+
+\begin_layout Standard
+Body of warning
+ Another warning body
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+
+\series bold
+
+\series default
+
+\begin_layout Standard
+This is an error with two paragraphs. Lorem ipsum
+ dolor sit amet, consectetuer adipiscing elit. Aliquam
+ hendrerit mi posuere lectus.
+\end_layout
+
+\begin_layout Standard
+Vestibulum enim wisi, viverra nec, fringilla in, laoreet
+ vitae, risus.
+\end_layout
+
+\begin_layout Standard
+Second notification for error 1, also wrapped in a paragraph
+ because of the blank line preceding it.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+
+\series bold
+My
+\begin_inset space ~
+\end_inset
+example
+\begin_inset space ~
+\end_inset
+3
+\begin_inset space ~
+\end_inset
+to-do
+\series default
+
+\begin_layout Standard
+This admonition has a code block, a blockquote and a list.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset listings
+lstparams "basicstyle={\footnotesize\ttfamily}"
+inline false
+status collapsed
+
+\begin_layout Plain Layout
+
+code block.
+\end_layout
+
+\end_inset
+\end_layout
+
+\end_deeper
+
+\begin_deeper
+
+\begin_layout Quote
+block quote
+ on two lines.
+\end_layout
+
+\end_deeper
+
+\begin_deeper
+
+\begin_layout Enumerate
+first list item
+\end_layout
+
+\begin_layout Enumerate
+second list item
+\end_layout
+
+\end_deeper
+
+\begin_layout Standard
+And this is a regular paragraph.
+\end_layout
+
+\end_body
+\end_document
+
