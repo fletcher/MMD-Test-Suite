@@ -265,14 +265,12 @@
 <text:p text:style-name="Standard">Here is some text containing a footnote.<text:note text:id="" text:note-class="footnote"><text:note-body>
 <text:p text:style-name="Footnote">Here is the text of the footnote itself. It also has a <text:a xlink:type="simple" xlink:href="http://somelink.com">link</text:a>.</text:p>
 </text:note-body>
-</text:note>
-</text:p>
+</text:note></text:p>
 
 <text:p text:style-name="Quotations">And here is a footnote within a blockquote, should be labelled #2.<text:note text:id="" text:note-class="footnote"><text:note-body>
 <text:p text:style-name="Footnote">Note # 2.</text:p>
 </text:note-body>
-</text:note>
-</text:p>
+</text:note></text:p>
 
 <text:p text:style-name="Standard">And this is a codeblock, that should not be a footnote:</text:p>
 
@@ -282,37 +280,32 @@
 <text:p text:style-name="Standard">And this is a short footnote for testing.<text:note text:id="" text:note-class="footnote"><text:note-body>
 <text:p text:style-name="Footnote">Finis 2</text:p>
 </text:note-body>
-</text:note>
-</text:p>
+</text:note></text:p>
 
 <text:p text:style-name="Standard">And now, reuse a footnote.<text:note text:id="" text:note-class="footnote"><text:note-body>
 <text:p text:style-name="Footnote">Finis 2</text:p>
 </text:note-body>
-</text:note>
-</text:p>
+</text:note></text:p>
 
 <text:p text:style-name="Standard">Repeat previous footnote marker:</text:p>
 
 <text:p text:style-name="Standard">This is an inline footnote.<text:note text:id="" text:note-class="footnote"><text:note-body>
 <text:p text:style-name="Footnote">This is the <text:span text:style-name="MMD-Italic">actual</text:span> text of the footnote itself.</text:p>
 </text:note-body>
-</text:note>
-</text:p>
+</text:note></text:p>
 
 <text:p text:style-name="Standard">This is a footnote with 2 paragraphs.<text:note text:id="" text:note-class="footnote"><text:note-body>
 <text:p text:style-name="Footnote">First paragraph</text:p>
 
 <text:p text:style-name="Footnote">Second paragraph</text:p>
 </text:note-body>
-</text:note>
-</text:p>
+</text:note></text:p>
 
 <text:p text:style-name="Standard">Here is some text containing a more complicated inline footnote.<text:note text:id="" text:note-class="footnote"><text:note-body>
 <text:p text:style-name="Footnote">Footnote Text and
 a link to <text:a xlink:type="simple" xlink:href="http://google.com">Google</text:a>.</text:p>
 </text:note-body>
-</text:note>
-</text:p>
+</text:note></text:p>
 </office:text>
 </office:body>
 </office:document>

@@ -307,8 +307,7 @@ ATCCE
 <text:p text:style-name="Standard">And now inside a <text:note text:id="" text:note-class="footnote"><text:note-body>
 <text:p text:style-name="Footnote">HTML4 and TCP</text:p>
 </text:note-body>
-</text:note>
-.</text:p>
+</text:note>.</text:p>
 </office:text>
 </office:body>
 </office:document>

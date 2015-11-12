@@ -702,8 +702,7 @@
 <text:p><text:bookmark text:name="prototypetable"/>Table <text:sequence text:name="Table" text:formula="ooow:Table+1" style:num-format="1"> Update Fields to calculate numbers</text:sequence>:Caption with footnote <text:note text:id="" text:note-class="footnote"><text:note-body>
 <text:p text:style-name="Footnote">Test footnote.</text:p>
 </text:note-body>
-</text:note>
-<text:bookmark-end text:name="prototypetable"/></text:p>
+</text:note><text:bookmark-end text:name="prototypetable"/></text:p>
 
 <text:p text:style-name="Standard">Table with headers in first column</text:p>
 

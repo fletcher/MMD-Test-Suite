@@ -271,14 +271,12 @@ within LaTeX documents.</text:p>
 <text:p text:style-name="Glossary">Glossary :</text:p>
 <text:p text:style-name="Footnote">A section at the end &#8230;</text:p>
 </text:note-body>
-</text:note>
- And what about
+</text:note> And what about
 ampersands?<text:note text:id="" text:note-class="glossary"><text:note-body>
 <text:p text:style-name="Glossary">&amp; :</text:p>
 <text:p text:style-name="Footnote">A punctuation mark &#8230;</text:p>
 </text:note-body>
-</text:note>
-</text:p>
+</text:note></text:p>
 
 <text:p text:style-name="Standard">Since we want the ampersand entry to be sorted with the a&#8217;s, and not with
 symbols, we put in the optional sort key <text:span text:style-name="Source_20_Text">ampersand</text:span> to control sorting.</text:p>
