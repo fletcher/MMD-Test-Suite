@@ -24,3 +24,8 @@ latex footer:	mmd-memoir-footer
 
 # Also not a header 
 ```
+
+
+# [%title] #
+
+Test variable links with ToC

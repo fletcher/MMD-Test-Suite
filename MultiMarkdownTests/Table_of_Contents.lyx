@@ -101,6 +101,16 @@ reference "part:firstlevelb"
 )
 \end_layout
 
+\begin_layout Itemize
+Table of Contents Test (
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "part:title"
+
+\end_inset
+)
+\end_layout
+
 \begin_layout Chapter
 Second Level
 \begin_inset CommandInset label
@@ -185,6 +195,19 @@ status collapsed
 \end_layout
 
 \end_inset
+\end_layout
+
+\begin_layout Part
+Table of Contents Test
+\begin_inset CommandInset label
+LatexCommand label
+name "part:title"
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+Test variable links with ToC
 \end_layout
 
 \end_body

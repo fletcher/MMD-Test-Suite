@@ -276,6 +276,8 @@
 </text:list></text:list-item>
 <text:list-item>
 <text:p text:style-name="P1"><text:a xlink:type="simple" xlink:href="#firstlevelb">First Level b</text:a></text:p></text:list-item>
+<text:list-item>
+<text:p text:style-name="P1"><text:a xlink:type="simple" xlink:href="#title">Table of Contents Test</text:a></text:p></text:list-item>
 </text:list>
 
 <text:h text:outline-level="2"><text:bookmark text:name="secondlevel"/>Second Level<text:bookmark-end text:name="secondlevel"/></text:h>
@@ -293,6 +295,11 @@
 <text:h text:outline-level="3"><text:bookmark text:name="thirdlevelb"/>Third Level b<text:bookmark-end text:name="thirdlevelb"/></text:h>
 
 <text:p text:style-name="Preformatted Text"># Not a header<text:line-break/><text:line-break/># Also not a header <text:line-break/></text:p>
+
+
+<text:h text:outline-level="1"><text:bookmark text:name="title"/>Table of Contents Test<text:bookmark-end text:name="title"/></text:h>
+
+<text:p text:style-name="Standard">Test variable links with ToC</text:p>
 </office:text>
 </office:body>
 </office:document>
