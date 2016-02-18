@@ -341,6 +341,10 @@ name "part:canfailtoprocessquickly"
  aaaaa
 \end_layout
 
+\begin_layout Standard
+*a *a *a *a *a *a *a *a *a *a *a *a *a *a *a *a *a *a *a *a *a 
+\end_layout
+
 \begin_layout Part
 Citations within Footnotes
 \begin_inset CommandInset label

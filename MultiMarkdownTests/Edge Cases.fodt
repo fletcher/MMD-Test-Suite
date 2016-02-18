@@ -319,6 +319,8 @@
 *a
 aaaaa</text:p>
 
+<text:p text:style-name="Standard">*a *a *a *a *a *a *a *a *a *a *a *a *a *a *a *a *a *a *a *a *a </text:p>
+
 <text:h text:outline-level="1"><text:bookmark text:name="citationswithinfootnotes"/>Citations within Footnotes<text:bookmark-end text:name="citationswithinfootnotes"/></text:h>
 
 <text:p text:style-name="Standard">Test<text:note text:id="cite1" text:note-class="endnote"><text:note-body>
