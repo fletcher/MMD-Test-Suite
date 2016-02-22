@@ -80,3 +80,31 @@ Test[][#Citekey;]. Test2 [#Citekey;]. Test3.[^cf1] Test4.[^cf2]
 
 
 [#Citekey;]:	This is an article
+
+
+# Headers in lists
+
+The following is a list
+
+* List item
+
+
+* ## Header in a list item ##
+* 
+* Still
+* A 
+* 
+* List
+
+
+The following is a list
+
+* List item
+
+
+* Header in a list item ##
+* 
+* Still
+* A 
+* 
+* List

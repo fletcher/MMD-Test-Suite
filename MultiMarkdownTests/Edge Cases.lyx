@@ -404,6 +404,80 @@ key "Citekey;"
 
 \end_layout
 
+\begin_layout Part
+Headers in lists
+\begin_inset CommandInset label
+LatexCommand label
+name "part:headersinlists"
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+The following is a list
+\end_layout
+
+\begin_layout Itemize
+List item
+\end_layout
+
+\begin_layout Chapter
+Header in a list item
+\begin_inset CommandInset label
+LatexCommand label
+name "chapt:headerinalistitem"
+\end_inset
+
+\end_layout
+
+\begin_layout Itemize
+\end_layout
+
+\begin_layout Itemize
+Still
+\end_layout
+
+\begin_layout Itemize
+A 
+\end_layout
+
+\begin_layout Itemize
+\end_layout
+
+\begin_layout Itemize
+List
+\end_layout
+
+\begin_layout Standard
+The following is a list
+\end_layout
+
+\begin_layout Itemize
+List item
+\end_layout
+
+\begin_layout Itemize
+Header in a list item ##
+\end_layout
+
+\begin_layout Itemize
+\end_layout
+
+\begin_layout Itemize
+Still
+\end_layout
+
+\begin_layout Itemize
+A 
+\end_layout
+
+\begin_layout Itemize
+\end_layout
+
+\begin_layout Itemize
+List
+\end_layout
+
 \begin_layout Bibliography
 \begin_inset CommandInset bibitem
 LatexCommand bibitem
