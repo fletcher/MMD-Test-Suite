@@ -282,6 +282,305 @@ sqrt{{b}
 --4ac}}{2a}$$b
 \end_layout
 
+\begin_layout Part
+Additional Variations
+\begin_inset CommandInset label
+LatexCommand label
+name "part:additionalvariations"
+\end_inset
+
+\end_layout
+
+\begin_layout Chapter
+Single Dollar
+\begin_inset CommandInset label
+LatexCommand label
+name "chapt:singledollar"
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset Formula $\nabla \times \mathbf{E} = - \frac{\partial \mathbf{B}}{\partial t}$
+\end_inset
+
+\end_layout
+
+\begin_layout Chapter
+Double Dollar
+\begin_inset CommandInset label
+LatexCommand label
+name "chapt:doubledollar"
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset Formula $$\nabla \times \mathbf{E} = - \frac{\partial \mathbf{B}}{\partial t}$$
+\end_inset
+
+\end_layout
+
+\begin_layout Chapter
+Parenthesis
+\begin_inset CommandInset label
+LatexCommand label
+name "chapt:parenthesis"
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset Formula $\nabla \times \mathbf{E} = - \frac{\partial \mathbf{B}}{\partial t}$
+\end_inset
+
+\end_layout
+
+\begin_layout Chapter
+Bracket
+\begin_inset CommandInset label
+LatexCommand label
+name "chapt:bracket"
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\nabla \times \mathbf{E} = - \frac{\partial \mathbf{B}}{\partial t}
+\]
+\end_inset
+
+\end_layout
+
+\begin_layout Part
+Begin Equations
+\begin_inset CommandInset label
+LatexCommand label
+name "part:beginequations"
+\end_inset
+
+\end_layout
+
+\begin_layout Chapter
+Single Dollar
+\begin_inset CommandInset label
+LatexCommand label
+name "chapt:singledollar"
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset Formula \begin{equation}\nabla \times \mathbf{E} = - \frac{\partial \mathbf{B}}{\partial t}\end{equation}
+\end_inset
+
+\end_layout
+
+\begin_layout Chapter
+Double Dollar
+\begin_inset CommandInset label
+LatexCommand label
+name "chapt:doubledollar"
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset Formula $\begin{equation}\nabla \times \mathbf{E} = - \frac{\partial \mathbf{B}}{\partial t}\end{equation}
+\end_inset
+
+\end_layout
+
+\begin_layout Chapter
+Parenthesis
+\begin_inset CommandInset label
+LatexCommand label
+name "chapt:parenthesis"
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset Formula \begin{equation}\nabla \times \mathbf{E} = - \frac{\partial \mathbf{B}}{\partial t}\end{equation}
+\end_inset
+
+\end_layout
+
+\begin_layout Chapter
+Bracket
+\begin_inset CommandInset label
+LatexCommand label
+name "chapt:bracket"
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset Formula \begin{equation}\nabla \times \mathbf{E} = - \frac{\partial \mathbf{B}}{\partial t}\end{equation}
+\end_inset
+
+\end_layout
+
+\begin_layout Part
+In Comment
+\begin_inset CommandInset label
+LatexCommand label
+name "part:incomment"
+\end_inset
+
+\end_layout
+
+\begin_layout Chapter
+In Line
+\begin_inset CommandInset label
+LatexCommand label
+name "chapt:inline"
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+
+\backslash
+
+begin{equation}
+\backslash
+
+nabla 
+\backslash
+
+times 
+\backslash
+
+mathbf{E} = - 
+\backslash
+
+frac{
+\backslash
+
+partial 
+\backslash
+
+mathbf{B}}{
+\backslash
+
+partial t}
+\backslash
+
+end{equation}
+\family default
+
+\end_layout
+
+\begin_layout Chapter
+Fenced
+\begin_inset CommandInset label
+LatexCommand label
+name "chapt:fenced"
+\end_inset
+
+\end_layout
+\begin_layout Standard
+\begin_inset listings
+lstparams "basicstyle={\footnotesize\ttfamily}"
+inline false
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+begin{equation}
+\backslash
+
+nabla 
+\backslash
+
+times 
+\backslash
+
+mathbf{E} = - 
+\backslash
+
+frac{
+\backslash
+
+partial 
+\backslash
+
+mathbf{B}}{
+\backslash
+
+partial t}
+\backslash
+
+end{equation}
+\end_layout
+
+\end_inset
+\end_layout
+
+\begin_layout Chapter
+Fenced With Language
+\begin_inset CommandInset label
+LatexCommand label
+name "chapt:fencedwithlanguage"
+\end_inset
+
+\end_layout
+\begin_layout Standard
+\begin_inset listings
+lstparams "basicstyle={\footnotesize\ttfamily},language=latex"
+inline false
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+begin{equation}
+\backslash
+
+nabla 
+\backslash
+
+times 
+\backslash
+
+mathbf{E} = - 
+\backslash
+
+frac{
+\backslash
+
+partial 
+\backslash
+
+mathbf{B}}{
+\backslash
+
+partial t}
+\backslash
+
+end{equation}
+\end_layout
+
+\end_inset
+\end_layout
+
 \end_body
 \end_document
 

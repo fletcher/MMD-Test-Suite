@@ -57,3 +57,62 @@ enough.
 And an equation on it's own:
 
 $${x}_{1,2}=\frac{-b\pm \sqrt{{b}^{2}-4ac}}{2a}$$b
+
+
+
+
+
+# Additional Variations #
+
+## Single Dollar ##
+
+$\nabla \times \mathbf{E} = - \frac{\partial \mathbf{B}}{\partial t}$
+
+## Double Dollar ##
+
+$$\nabla \times \mathbf{E} = - \frac{\partial \mathbf{B}}{\partial t}$$
+
+## Parenthesis ##
+
+\\(\nabla \times \mathbf{E} = - \frac{\partial \mathbf{B}}{\partial t}\\)
+
+## Bracket ##
+
+\\[\nabla \times \mathbf{E} = - \frac{\partial \mathbf{B}}{\partial t}\\]
+
+# Begin Equations #
+
+## Single Dollar ##
+
+$\begin{equation}\nabla \times \mathbf{E} = - \frac{\partial \mathbf{B}}{\partial t}\end{equation}$
+
+## Double Dollar ##
+
+$$\begin{equation}\nabla \times \mathbf{E} = - \frac{\partial \mathbf{B}}{\partial t}\end{equation}$$
+
+## Parenthesis ##
+
+\\(\begin{equation}\nabla \times \mathbf{E} = - \frac{\partial \mathbf{B}}{\partial t}\end{equation}\\)
+
+## Bracket ##
+
+\\[\begin{equation}\nabla \times \mathbf{E} = - \frac{\partial \mathbf{B}}{\partial t}\end{equation}\\]
+
+# In Comment #
+
+## In Line
+
+`\begin{equation}\nabla \times \mathbf{E} = - \frac{\partial \mathbf{B}}{\partial t}\end{equation}`
+
+## Fenced ##
+
+
+```
+\begin{equation}\nabla \times \mathbf{E} = - \frac{\partial \mathbf{B}}{\partial t}\end{equation}
+```
+
+## Fenced With Language ##
+
+```latex
+\begin{equation}\nabla \times \mathbf{E} = - \frac{\partial \mathbf{B}}{\partial t}\end{equation}
+```

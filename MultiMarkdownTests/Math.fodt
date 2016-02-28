@@ -312,6 +312,57 @@ enough.</text:p>
 <text:p text:style-name="Standard">And an equation on it&#8217;s own:</text:p>
 
 <text:p text:style-name="Standard">$${x}_{1,2}=\frac{-b\pm \sqrt{{b}<text:span text:style-name="MMD-Superscript">{2}</text:span>&#8211;4ac}}{2a}$$b</text:p>
+
+<text:h text:outline-level="1"><text:bookmark text:name="additionalvariations"/>Additional Variations<text:bookmark-end text:name="additionalvariations"/></text:h>
+
+<text:h text:outline-level="2"><text:bookmark text:name="singledollar"/>Single Dollar<text:bookmark-end text:name="singledollar"/></text:h>
+
+<text:p text:style-name="Standard"><text:span text:style-name="math">$\nabla \times \mathbf{E} = - \frac{\partial \mathbf{B}}{\partial t}$</text:span></text:p>
+
+<text:h text:outline-level="2"><text:bookmark text:name="doubledollar"/>Double Dollar<text:bookmark-end text:name="doubledollar"/></text:h>
+
+<text:p text:style-name="Standard"><text:span text:style-name="math">$$\nabla \times \mathbf{E} = - \frac{\partial \mathbf{B}}{\partial t}$$</text:span></text:p>
+
+<text:h text:outline-level="2"><text:bookmark text:name="parenthesis"/>Parenthesis<text:bookmark-end text:name="parenthesis"/></text:h>
+
+<text:p text:style-name="Standard"><text:span text:style-name="math">\(\nabla \times \mathbf{E} = - \frac{\partial \mathbf{B}}{\partial t}\)</text:span></text:p>
+
+<text:h text:outline-level="2"><text:bookmark text:name="bracket"/>Bracket<text:bookmark-end text:name="bracket"/></text:h>
+
+<text:p text:style-name="Standard"><text:span text:style-name="math">\[\nabla \times \mathbf{E} = - \frac{\partial \mathbf{B}}{\partial t}\]</text:span></text:p>
+
+<text:h text:outline-level="1"><text:bookmark text:name="beginequations"/>Begin Equations<text:bookmark-end text:name="beginequations"/></text:h>
+
+<text:h text:outline-level="2"><text:bookmark text:name="singledollar"/>Single Dollar<text:bookmark-end text:name="singledollar"/></text:h>
+
+<text:p text:style-name="Standard"><text:span text:style-name="math">$\begin{equation}\nabla \times \mathbf{E} = - \frac{\partial \mathbf{B}}{\partial t}\end{equation}$</text:span></text:p>
+
+<text:h text:outline-level="2"><text:bookmark text:name="doubledollar"/>Double Dollar<text:bookmark-end text:name="doubledollar"/></text:h>
+
+<text:p text:style-name="Standard"><text:span text:style-name="math">$$\begin{equation}\nabla \times \mathbf{E} = - \frac{\partial \mathbf{B}}{\partial t}\end{equation}$$</text:span></text:p>
+
+<text:h text:outline-level="2"><text:bookmark text:name="parenthesis"/>Parenthesis<text:bookmark-end text:name="parenthesis"/></text:h>
+
+<text:p text:style-name="Standard"><text:span text:style-name="math">\(\begin{equation}\nabla \times \mathbf{E} = - \frac{\partial \mathbf{B}}{\partial t}\end{equation}\)</text:span></text:p>
+
+<text:h text:outline-level="2"><text:bookmark text:name="bracket"/>Bracket<text:bookmark-end text:name="bracket"/></text:h>
+
+<text:p text:style-name="Standard"><text:span text:style-name="math">\[\begin{equation}\nabla \times \mathbf{E} = - \frac{\partial \mathbf{B}}{\partial t}\end{equation}\]</text:span></text:p>
+
+<text:h text:outline-level="1"><text:bookmark text:name="incomment"/>In Comment<text:bookmark-end text:name="incomment"/></text:h>
+
+<text:h text:outline-level="2"><text:bookmark text:name="inline"/>In Line<text:bookmark-end text:name="inline"/></text:h>
+
+<text:p text:style-name="Standard"><text:span text:style-name="Source_20_Text">\begin{equation}\nabla \times \mathbf{E} = - \frac{\partial \mathbf{B}}{\partial t}\end{equation}</text:span></text:p>
+
+<text:h text:outline-level="2"><text:bookmark text:name="fenced"/>Fenced<text:bookmark-end text:name="fenced"/></text:h>
+
+<text:p text:style-name="Preformatted Text">\begin{equation}\nabla \times \mathbf{E} = - \frac{\partial \mathbf{B}}{\partial t}\end{equation}<text:line-break/></text:p>
+
+
+<text:h text:outline-level="2"><text:bookmark text:name="fencedwithlanguage"/>Fenced With Language<text:bookmark-end text:name="fencedwithlanguage"/></text:h>
+
+<text:p text:style-name="Preformatted Text">\begin{equation}\nabla \times \mathbf{E} = - \frac{\partial \mathbf{B}}{\partial t}\end{equation}<text:line-break/></text:p>
 </office:text>
 </office:body>
 </office:document>
