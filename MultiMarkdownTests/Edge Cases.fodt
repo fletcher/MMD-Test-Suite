@@ -294,6 +294,18 @@
 
 <text:p text:style-name="Standard">This is <text:span text:style-name="MMD-Italic"><text:span text:style-name="MMD-Bold">another</text:span> test</text:span> of <text:span text:style-name="MMD-Italic">italics</text:span> and <text:span text:style-name="MMD-Bold">bold</text:span>.</text:p>
 
+<text:p text:style-name="Standard"><text:span text:style-name="MMD-Italic">test this</text:span>thing</text:p>
+
+<text:p text:style-name="Standard">_test this_thing</text:p>
+
+<text:p text:style-name="Standard"><text:span text:style-name="MMD-Bold">test this</text:span>thing</text:p>
+
+<text:p text:style-name="Standard">__test this__thing</text:p>
+
+<text:p text:style-name="Standard"><text:span text:style-name="MMD-Bold"><text:span text:style-name="MMD-Italic">test this</text:span></text:span>thing</text:p>
+
+<text:p text:style-name="Standard">___test this___thing</text:p>
+
 <text:h text:outline-level="1"><text:bookmark text:name="canfailtoprocessquickly"/>Can fail to process quickly<text:bookmark-end text:name="canfailtoprocessquickly"/></text:h>
 
 <text:p text:style-name="Standard">*a

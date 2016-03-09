@@ -307,6 +307,46 @@ bold
 .
 \end_layout
 
+\begin_layout Standard
+
+\emph on
+test this
+\emph default
+thing
+\end_layout
+
+\begin_layout Standard
+_test this_thing
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+test this
+\series default
+thing
+\end_layout
+
+\begin_layout Standard
+__test this__thing
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+
+\emph on
+test this
+\emph default
+
+\series default
+thing
+\end_layout
+
+\begin_layout Standard
+___test this___thing
+\end_layout
+
 \begin_layout Part
 Can fail to process quickly
 \begin_inset CommandInset label
