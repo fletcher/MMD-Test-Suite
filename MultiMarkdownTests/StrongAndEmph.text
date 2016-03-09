@@ -1,0 +1,55 @@
+latex input:	mmd-article-header
+Title:	Strong and Emphasis
+latex input:	mmd-article-begin-doc
+latex footer:	mmd-memoir-footer
+
+(Adapted from <http://talk.commonmark.org/t/testing-nested-emphasis/2037>)
+
+## Asterisks ##
+
+- 1 in 1: *some text *emphasized* again*
+
+- 1 in 2: **some text *emphasized* again**
+
+- 1 in 3: ***some text *emphasized* again***
+
+- 2 in 1: *some text **emphasized** again*
+
+- 2 in 2: **some text **emphasized** again**
+
+- 2 in 3: ***some text **emphasized** again***
+
+- 3 in 1: *some text ***emphasized*** again*
+
+- 3 in 2: **some text ***emphasized*** again**
+
+- 3 in 3: ***some text ***emphasized*** again***
+
+
+## Underscores ##
+
+- 1 in 1: _some text _emphasized_ again_
+
+- 1 in 2: __some text _emphasized_ again__
+
+- 1 in 3: ___some text _emphasized_ again___
+
+- 2 in 1: _some text __emphasized__ again_
+
+- 2 in 2: __some text __emphasized__ again__
+
+- 2 in 3: ___some text __emphasized__ again___
+
+- 3 in 1: _some text ___emphasized___ again_
+
+- 3 in 2: __some text ___emphasized___ again__
+
+- 3 in 3: ___some text ___emphasized___ again___
+
+
+## Intraword ##
+
+Un*bel*ievable
+
+Un_bel_ievable
+

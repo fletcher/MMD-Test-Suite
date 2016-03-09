@@ -1,0 +1,64 @@
+\input{mmd-article-header}
+\def\mytitle{Strong and Emphasis}
+\input{mmd-article-begin-doc}
+
+(Adapted from \href{http://talk.commonmark.org/t/testing-nested-emphasis/2037}{http:/\slash talk.commonmark.org\slash t\slash testing-nested-emphasis\slash 2037})
+
+\chapter{Asterisks}
+\label{asterisks}
+
+\begin{itemize}
+\item 1 in 1: \emph{some text \emph{emphasized} again}
+
+\item 1 in 2: \textbf{some text \emph{emphasized} again}
+
+\item 1 in 3: \textbf{\emph{some text \emph{emphasized} again}}
+
+\item 2 in 1: \emph{some text \textbf{emphasized} again}
+
+\item 2 in 2: \textbf{some text \textbf{emphasized} again}
+
+\item 2 in 3: \textbf{\emph{some text \textbf{emphasized} again}}
+
+\item 3 in 1: \emph{some text \textbf{\emph{emphasized}} again}
+
+\item 3 in 2: \textbf{some text \textbf{\emph{emphasized}} again}
+
+\item 3 in 3: \textbf{\emph{some text \textbf{\emph{emphasized}} again}}
+
+\end{itemize}
+
+\chapter{Underscores}
+\label{underscores}
+
+\begin{itemize}
+\item 1 in 1: \emph{some text \emph{emphasized} again}
+
+\item 1 in 2: \textbf{some text \emph{emphasized} again}
+
+\item 1 in 3: \textbf{\emph{some text \emph{emphasized} again}}
+
+\item 2 in 1: \emph{some text \textbf{emphasized} again}
+
+\item 2 in 2: \textbf{some text \textbf{emphasized} again}
+
+\item 2 in 3: \textbf{\emph{some text \textbf{emphasized} again}}
+
+\item 3 in 1: \emph{some text \textbf{\emph{emphasized}} again}
+
+\item 3 in 2: \textbf{some text \textbf{\emph{emphasized}} again}
+
+\item 3 in 3: \textbf{\emph{some text \textbf{\emph{emphasized}} again}}
+
+\end{itemize}
+
+\chapter{Intraword}
+\label{intraword}
+
+Un\emph{bel}ievable
+
+Un\_bel\_ievable
+
+\input{mmd-memoir-footer}
+
+\end{document}

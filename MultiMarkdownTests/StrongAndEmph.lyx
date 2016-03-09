@@ -1,0 +1,352 @@
+#LyX File created by multimarkdown
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass memoir
+\begin_preamble
+\usepackage{listings}
+\usepackage{natbib}
+\usepackage{nomencl}
+\usepackage{booktabs}
+\usepackage{refstyle}
+\usepackage{varioref}
+\bibpunct{(}{)}{,}{a}{,}{,}
+\newref{part}{refcmd={Part \ref{#1} \vpageref{#1}}}
+\newref{chapt}{refcmd={Chapter \ref{#1} \vpageref{#1}}}
+\newref{secti}{refcmd={Section \ref{#1} \vpageref{#1}}}
+\newref{subse}{refcmd={Subsection \ref{#1} \vpageref{#1}}}
+\newref{subsu}{refcmd={Subsubsection \ref{#1} \vpageref{#1}}}
+\newref{parag}{refcmd={Paragraph \ref{#1} \vpageref{#1}}}
+\newref{subpa}{refcmd={Subparagraph \ref{#1} \vpageref{#1}}}
+\newref{tab}{refcmd={Table \ref{#1} \vpageref{#1}}}
+\newref{fig}{refcmd={Figure \ref{#1} \vpageref{#1}}}
+\end_preamble
+\options refpage
+\begin_modules
+\end_modules
+\bibtex_command default
+\cite_engine natbib_authoryear
+\end_header
+\begin_body
+
+\begin_layout Title
+Strong and Emphasis
+\end_layout
+
+\begin_layout Standard
+(Adapted from 
+\begin_inset CommandInset href
+LatexCommand href
+target "http://talk.commonmark.org/t/testing-nested-emphasis/2037"
+name "http://talk.commonmark.org/t/testing-nested-emphasis/2037"
+
+\end_inset
+)
+\end_layout
+
+\begin_layout Chapter
+Asterisks
+\begin_inset CommandInset label
+LatexCommand label
+name "chapt:asterisks"
+\end_inset
+
+\end_layout
+
+\begin_layout Itemize
+1 in 1: 
+\emph on
+some text 
+\emph on
+emphasized
+\emph default
+ again
+\emph default
+
+\end_layout
+
+\begin_layout Itemize
+1 in 2: 
+\series bold
+some text 
+\emph on
+emphasized
+\emph default
+ again
+\series default
+
+\end_layout
+
+\begin_layout Itemize
+1 in 3: 
+\series bold
+
+\emph on
+some text 
+\emph on
+emphasized
+\emph default
+ again
+\emph default
+
+\series default
+
+\end_layout
+
+\begin_layout Itemize
+2 in 1: 
+\emph on
+some text 
+\series bold
+emphasized
+\series default
+ again
+\emph default
+
+\end_layout
+
+\begin_layout Itemize
+2 in 2: 
+\series bold
+some text 
+\series bold
+emphasized
+\series default
+ again
+\series default
+
+\end_layout
+
+\begin_layout Itemize
+2 in 3: 
+\series bold
+
+\emph on
+some text 
+\series bold
+emphasized
+\series default
+ again
+\emph default
+
+\series default
+
+\end_layout
+
+\begin_layout Itemize
+3 in 1: 
+\emph on
+some text 
+\series bold
+
+\emph on
+emphasized
+\emph default
+
+\series default
+ again
+\emph default
+
+\end_layout
+
+\begin_layout Itemize
+3 in 2: 
+\series bold
+some text 
+\series bold
+
+\emph on
+emphasized
+\emph default
+
+\series default
+ again
+\series default
+
+\end_layout
+
+\begin_layout Itemize
+3 in 3: 
+\series bold
+
+\emph on
+some text 
+\series bold
+
+\emph on
+emphasized
+\emph default
+
+\series default
+ again
+\emph default
+
+\series default
+
+\end_layout
+
+\begin_layout Chapter
+Underscores
+\begin_inset CommandInset label
+LatexCommand label
+name "chapt:underscores"
+\end_inset
+
+\end_layout
+
+\begin_layout Itemize
+1 in 1: 
+\emph on
+some text 
+\emph on
+emphasized
+\emph default
+ again
+\emph default
+
+\end_layout
+
+\begin_layout Itemize
+1 in 2: 
+\series bold
+some text 
+\emph on
+emphasized
+\emph default
+ again
+\series default
+
+\end_layout
+
+\begin_layout Itemize
+1 in 3: 
+\series bold
+
+\emph on
+some text 
+\emph on
+emphasized
+\emph default
+ again
+\emph default
+
+\series default
+
+\end_layout
+
+\begin_layout Itemize
+2 in 1: 
+\emph on
+some text 
+\series bold
+emphasized
+\series default
+ again
+\emph default
+
+\end_layout
+
+\begin_layout Itemize
+2 in 2: 
+\series bold
+some text 
+\series bold
+emphasized
+\series default
+ again
+\series default
+
+\end_layout
+
+\begin_layout Itemize
+2 in 3: 
+\series bold
+
+\emph on
+some text 
+\series bold
+emphasized
+\series default
+ again
+\emph default
+
+\series default
+
+\end_layout
+
+\begin_layout Itemize
+3 in 1: 
+\emph on
+some text 
+\series bold
+
+\emph on
+emphasized
+\emph default
+
+\series default
+ again
+\emph default
+
+\end_layout
+
+\begin_layout Itemize
+3 in 2: 
+\series bold
+some text 
+\series bold
+
+\emph on
+emphasized
+\emph default
+
+\series default
+ again
+\series default
+
+\end_layout
+
+\begin_layout Itemize
+3 in 3: 
+\series bold
+
+\emph on
+some text 
+\series bold
+
+\emph on
+emphasized
+\emph default
+
+\series default
+ again
+\emph default
+
+\series default
+
+\end_layout
+
+\begin_layout Chapter
+Intraword
+\begin_inset CommandInset label
+LatexCommand label
+name "chapt:intraword"
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+Un
+\emph on
+bel
+\emph default
+ievable
+\end_layout
+
+\begin_layout Standard
+Un_bel_ievable
+\end_layout
+
+\end_body
+\end_document
+

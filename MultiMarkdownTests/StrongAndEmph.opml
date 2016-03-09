@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<opml version="1.0">
+<head><title>Strong and Emphasis</title></head>
+<body>
+(Adapted from &lt;http://talk.commonmark.org/t/testing-nested-emphasis/2037&gt;)&#10;<outline text="Asterisks" _note="- 1 in 1: *some text *emphasized* again*&#10;&#10;- 1 in 2: **some text *emphasized* again**&#10;&#10;- 1 in 3: ***some text *emphasized* again***&#10;&#10;- 2 in 1: *some text **emphasized** again*&#10;&#10;- 2 in 2: **some text **emphasized** again**&#10;&#10;- 2 in 3: ***some text **emphasized** again***&#10;&#10;- 3 in 1: *some text ***emphasized*** again*&#10;&#10;- 3 in 2: **some text ***emphasized*** again**&#10;&#10;- 3 in 3: ***some text ***emphasized*** again***&#10;"></outline>
+<outline text="Underscores" _note="- 1 in 1: _some text _emphasized_ again_&#10;&#10;- 1 in 2: __some text _emphasized_ again__&#10;&#10;- 1 in 3: ___some text _emphasized_ again___&#10;&#10;- 2 in 1: _some text __emphasized__ again_&#10;&#10;- 2 in 2: __some text __emphasized__ again__&#10;&#10;- 2 in 3: ___some text __emphasized__ again___&#10;&#10;- 3 in 1: _some text ___emphasized___ again_&#10;&#10;- 3 in 2: __some text ___emphasized___ again__&#10;&#10;- 3 in 3: ___some text ___emphasized___ again___&#10;"></outline>
+<outline text="Intraword" _note="Un*bel*ievable&#10;&#10;Un_bel_ievable&#10;"></outline>
+<outline text="Metadata">
+<outline text="latex input" _note="mmd-article-header"/><outline text="Title" _note="Strong and Emphasis"/><outline text="latex input" _note="mmd-article-begin-doc"/><outline text="latex footer" _note="mmd-memoir-footer"/></outline></body>
+</opml>
