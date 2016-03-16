@@ -393,7 +393,7 @@ name "chapt:doubledollar"
 
 \begin_layout Standard
 
-\begin_inset Formula $\begin{equation}\nabla \times \mathbf{E} = - \frac{\partial \mathbf{B}}{\partial t}\end{equation}
+\begin_inset Formula \begin{equation}\nabla \times \mathbf{E} = - \frac{\partial \mathbf{B}}{\partial t}\end{equation}
 \end_inset
 
 \end_layout
