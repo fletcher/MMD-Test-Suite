@@ -134,7 +134,7 @@
 <style:paragraph-properties fo:text-align="start" style:justify-single-word="false"/>
 </style:style>
 <style:style style:name="fr1" style:family="graphic" style:parent-style-name="Frame">
-   <style:graphic-properties style:print-content="false" style:vertical-pos="top"
+   <style:graphic-properties style:print-content="true" style:vertical-pos="top"
                              style:vertical-rel="baseline"
                              fo:padding="0in"
                              fo:border="none"
