@@ -1,0 +1,41 @@
+latex input:	mmd-article-header
+Title:	MultiMarkdown Admonition Test  
+latex input:	mmd-article-begin-doc
+latex footer:	mmd-memoir-footer
+
+# Admonitions #
+
+!!!note "Notification"
+    Body of the note
+
+!!!warning
+    Body of warning
+    Another warning body
+
+
+!!! error "" !!!
+
+    This is an error with two paragraphs. Lorem ipsum 
+    dolor sit amet, consectetuer adipiscing elit. Aliquam 
+    hendrerit mi posuere lectus.
+
+    Vestibulum enim wisi, viverra nec, fringilla in, laoreet
+    vitae, risus.
+
+    Second notification for error 1, also wrapped in a paragraph
+    because of the blank line preceding it.
+
+!!! my_example_3_to-do !!!
+
+    This admonition has a code block, a blockquote and a list.
+
+        code block.
+
+    > block quote
+    > on two lines.
+
+    1.  first list item
+    2.  second list item
+
+And this is a regular paragraph.
+

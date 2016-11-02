@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<opml version="1.0">
+<head><title>MultiMarkdown Admonition Test</title></head>
+<body>
+<outline text="Admonitions" _note="!!!note &quot;Notification&quot;&#10;    Body of the note&#10;&#10;!!!warning&#10;    Body of warning&#10;    Another warning body&#10;&#10;!!! error &quot;&quot; !!!&#10;&#10;    This is an error with two paragraphs. Lorem ipsum &#10;    dolor sit amet, consectetuer adipiscing elit. Aliquam &#10;    hendrerit mi posuere lectus.&#10;&#10;    Vestibulum enim wisi, viverra nec, fringilla in, laoreet&#10;    vitae, risus.&#10;&#10;    Second notification for error 1, also wrapped in a paragraph&#10;    because of the blank line preceding it.&#10;&#10;!!! my_example_3_to-do !!!&#10;&#10;    This admonition has a code block, a blockquote and a list.&#10;&#10;        code block.&#10;&#10;    &gt; block quote&#10;    &gt; on two lines.&#10;&#10;    1.  first list item&#10;    2.  second list item&#10;&#10;And this is a regular paragraph.&#10;"></outline>
+<outline text="Metadata">
+<outline text="latex input" _note="mmd-article-header"/><outline text="Title" _note="MultiMarkdown Admonition Test  "/><outline text="latex input" _note="mmd-article-begin-doc"/><outline text="latex footer" _note="mmd-memoir-footer"/></outline></body>
+</opml>

@@ -1,0 +1,66 @@
+\input{mmd-article-header}
+\def\mytitle{MultiMarkdown Admonition Test}
+\input{mmd-article-begin-doc}
+
+\part{Admonitions}
+\label{admonitions}
+
+\begin{description}
+
+\item[Notification]
+
+Body of the note
+\end{description}
+
+\begin{description}
+
+\item[Warning]
+
+Body of warning
+Another warning body
+\end{description}
+
+\begin{description}
+
+\item[]
+
+This is an error with two paragraphs. Lorem ipsum
+dolor sit amet, consectetuer adipiscing elit. Aliquam
+hendrerit mi posuere lectus.
+
+Vestibulum enim wisi, viverra nec, fringilla in, laoreet
+vitae, risus.
+
+Second notification for error 1, also wrapped in a paragraph
+because of the blank line preceding it.
+\end{description}
+
+\begin{description}
+
+\item[My example 3 to-do]
+
+This admonition has a code block, a blockquote and a list.
+
+\begin{verbatim}
+code block.
+\end{verbatim}
+
+\begin{quote}
+
+block quote
+on two lines.
+\end{quote}
+
+\begin{enumerate}
+\item first list item
+
+\item second list item
+
+\end{enumerate}
+\end{description}
+
+And this is a regular paragraph.
+
+\input{mmd-memoir-footer}
+
+\end{document}
